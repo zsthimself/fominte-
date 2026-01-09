@@ -1,0 +1,241 @@
+{
+    "version": "1.0",
+    "generated": "2025-12-30",
+    "categories": [
+        {
+            "id": "formal-wear",
+            "name": "礼服与正装类",
+            "scenarios": [
+                {
+                    "id": "evening-gown",
+                    "name_en": "Evening Gown",
+                    "name_cn": "晚宴长裙",
+                    "keywords": [
+                        "evening gown fabric",
+                        "formal dress fabric",
+                        "gala gown material"
+                    ],
+                    "title_suffix": "for Evening Gowns",
+                    "priority": 1
+                },
+                {
+                    "id": "cocktail-dress",
+                    "name_en": "Cocktail Dress",
+                    "name_cn": "鸡尾酒裙/派对短裙",
+                    "keywords": [
+                        "cocktail dress fabric",
+                        "prom dress fabric",
+                        "party dress material"
+                    ],
+                    "title_suffix": "for Cocktail & Prom Dresses",
+                    "priority": 2
+                },
+                {
+                    "id": "haute-couture",
+                    "name_en": "Haute Couture",
+                    "name_cn": "高定秀场款",
+                    "keywords": [
+                        "haute couture fabric",
+                        "runway fabric",
+                        "designer fabric"
+                    ],
+                    "title_suffix": "for Haute Couture",
+                    "priority": 3
+                }
+            ]
+        },
+        {
+            "id": "bridal",
+            "name": "婚庆与新娘类",
+            "scenarios": [
+                {
+                    "id": "wedding-dress",
+                    "name_en": "Wedding Dress",
+                    "name_cn": "主婚纱",
+                    "keywords": [
+                        "wedding dress fabric",
+                        "bridal gown fabric",
+                        "wedding overlay"
+                    ],
+                    "title_suffix": "for Wedding Dresses",
+                    "priority": 1
+                },
+                {
+                    "id": "reception-dress",
+                    "name_en": "Reception Dress",
+                    "name_cn": "彩纱/敬酒服",
+                    "keywords": [
+                        "reception dress fabric",
+                        "chinese wedding dress",
+                        "red bridal fabric"
+                    ],
+                    "title_suffix": "for Reception & Toast Dresses",
+                    "priority": 2
+                },
+                {
+                    "id": "bridesmaid-dress",
+                    "name_en": "Bridesmaid Dress",
+                    "name_cn": "伴娘服",
+                    "keywords": [
+                        "bridesmaid dress fabric",
+                        "bridesmaid material"
+                    ],
+                    "title_suffix": "for Bridesmaid Dresses",
+                    "priority": 3
+                },
+                {
+                    "id": "bridal-veil",
+                    "name_en": "Bridal Veil",
+                    "name_cn": "新娘头纱",
+                    "keywords": [
+                        "bridal veil fabric",
+                        "wedding veil lace",
+                        "veil material"
+                    ],
+                    "title_suffix": "for Bridal Veils",
+                    "priority": 4
+                },
+                {
+                    "id": "bridal-robe",
+                    "name_en": "Bridal Robe",
+                    "name_cn": "晨袍",
+                    "keywords": [
+                        "bridal robe fabric",
+                        "getting ready robe",
+                        "bridal morning robe"
+                    ],
+                    "title_suffix": "for Bridal Robes",
+                    "priority": 5
+                }
+            ]
+        },
+        {
+            "id": "ethnic-traditional",
+            "name": "民族与传统服饰类",
+            "scenarios": [
+                {
+                    "id": "abaya-kaftan",
+                    "name_en": "Abaya & Kaftan",
+                    "name_cn": "中东长袍",
+                    "keywords": [
+                        "abaya fabric",
+                        "kaftan fabric",
+                        "arabic dress material",
+                        "dubai fabric"
+                    ],
+                    "title_suffix": "for Abayas & Kaftans",
+                    "priority": 1
+                },
+                {
+                    "id": "saree-lehenga",
+                    "name_en": "Saree & Lehenga",
+                    "name_cn": "印度纱丽与楞哈裙",
+                    "keywords": [
+                        "saree fabric",
+                        "lehenga fabric",
+                        "indian bridal fabric",
+                        "choli fabric"
+                    ],
+                    "title_suffix": "for Sarees & Lehengas",
+                    "priority": 2
+                },
+                {
+                    "id": "kebaya-kurung",
+                    "name_en": "Kebaya & Baju Kurung",
+                    "name_cn": "马来西亚/印尼传统服",
+                    "keywords": [
+                        "kebaya fabric",
+                        "baju kurung fabric",
+                        "malaysian dress fabric"
+                    ],
+                    "title_suffix": "for Kebaya & Baju Kurung",
+                    "priority": 3
+                }
+            ]
+        },
+        {
+            "id": "performance",
+            "name": "舞台与表演服类",
+            "scenarios": [
+                {
+                    "id": "ballroom-latin",
+                    "name_en": "Ballroom & Latin Dance",
+                    "name_cn": "国标舞/拉丁舞裙",
+                    "keywords": [
+                        "ballroom dance dress fabric",
+                        "latin dance fabric",
+                        "competition dance fabric"
+                    ],
+                    "title_suffix": "for Ballroom & Latin Dance",
+                    "priority": 1
+                },
+                {
+                    "id": "figure-skating",
+                    "name_en": "Figure Skating & Gymnastics",
+                    "name_cn": "花样滑冰/体操服",
+                    "keywords": [
+                        "figure skating fabric",
+                        "gymnastics costume fabric",
+                        "skating dress material"
+                    ],
+                    "title_suffix": "for Figure Skating & Gymnastics",
+                    "priority": 2
+                },
+                {
+                    "id": "stage-costume",
+                    "name_en": "Stage Costume",
+                    "name_cn": "舞台戏服",
+                    "keywords": [
+                        "stage costume fabric",
+                        "opera costume fabric",
+                        "theater costume material"
+                    ],
+                    "title_suffix": "for Stage & Theater Costumes",
+                    "priority": 3
+                }
+            ]
+        },
+        {
+            "id": "children",
+            "name": "儿童礼服类",
+            "scenarios": [
+                {
+                    "id": "flower-girl",
+                    "name_en": "Flower Girl Dress",
+                    "name_cn": "花童裙",
+                    "keywords": [
+                        "flower girl dress fabric",
+                        "flower girl tutu fabric"
+                    ],
+                    "title_suffix": "for Flower Girl Dresses",
+                    "priority": 1
+                },
+                {
+                    "id": "pageant-dress",
+                    "name_en": "Pageant Dress",
+                    "name_cn": "儿童选美礼服",
+                    "keywords": [
+                        "pageant dress fabric",
+                        "pageant gown fabric",
+                        "glitz pageant material"
+                    ],
+                    "title_suffix": "for Pageant Dresses",
+                    "priority": 2
+                },
+                {
+                    "id": "christening-gown",
+                    "name_en": "Christening Gown",
+                    "name_cn": "受洗袍",
+                    "keywords": [
+                        "christening gown fabric",
+                        "baptism dress fabric",
+                        "christening lace"
+                    ],
+                    "title_suffix": "for Christening Gowns",
+                    "priority": 3
+                }
+            ]
+        }
+    ],
+    "total_scenarios": 17
+}

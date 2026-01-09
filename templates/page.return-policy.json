@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "176621503390612f5fa8": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* === 容器风格：限制宽度，居中，增加内边距 === */\r\n  .policy-container {\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: #333;\r\n    line-height: 1.8;\r\n    padding: 40px 20px;\r\n    text-align: left;\r\n  }\r\n\r\n  /* === 主标题风格 === */\r\n  .policy-section-title {\r\n    font-size: 18px;\r\n    font-weight: 600;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.1em;\r\n    border-bottom: 1px solid #e1e1e1;\r\n    padding-bottom: 15px;\r\n    margin-top: 50px;\r\n    margin-bottom: 25px;\r\n    color: #000;\r\n  }\r\n  \r\n  .policy-section-title:first-child {\r\n    margin-top: 0;\r\n  }\r\n\r\n  /* === 介绍段落 === */\r\n  .policy-intro {\r\n    font-size: 14px;\r\n    color: #666;\r\n    margin-bottom: 30px;\r\n    font-style: italic;\r\n  }\r\n\r\n  /* === 普通列表 (General List) === */\r\n  .policy-list {\r\n    list-style: none !important; /* 强制去点 */\r\n    padding: 0;\r\n    margin: 0;\r\n  }\r\n\r\n  .policy-item {\r\n    margin-bottom: 25px;\r\n    font-size: 14px;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .item-title {\r\n    font-weight: 700;\r\n    color: #000;\r\n    font-size: 14px;\r\n    margin-bottom: 8px;\r\n    display: block;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.05em;\r\n  }\r\n\r\n  .item-content {\r\n    color: #444;\r\n    font-size: 14px;\r\n  }\r\n\r\n  /* === 步骤列表 (带黑色圆圈的) === */\r\n  /* 使用 ul 配合 counter 避免出现双重数字 */\r\n  .process-steps {\r\n    counter-reset: step-counter;\r\n    list-style: none !important; /* 核心修复：强制隐藏默认数字 */\r\n    padding: 0;\r\n    margin-top: 20px;\r\n  }\r\n\r\n  .process-step {\r\n    position: relative;\r\n    padding-left: 40px;\r\n    margin-bottom: 20px;\r\n    font-size: 14px;\r\n    color: #444;\r\n  }\r\n\r\n  /* 黑色圆圈数字生成器 */\r\n  .process-step::before {\r\n    content: counter(step-counter);\r\n    counter-increment: step-counter;\r\n    position: absolute;\r\n    left: 0;\r\n    top: 2px;\r\n    width: 24px;\r\n    height: 24px;\r\n    background-color: #000;\r\n    color: #fff;\r\n    border-radius: 50%;\r\n    text-align: center;\r\n    line-height: 24px; /* 确保数字垂直居中 */\r\n    font-size: 12px;\r\n    font-weight: bold;\r\n    z-index: 1; /* 确保层级 */\r\n  }\r\n  \r\n  .process-step strong {\r\n    color: #000;\r\n  }\r\n\r\n  /* === 子列表 (Bullet Points) === */\r\n  .sub-list {\r\n    list-style-type: disc !important; /* 子列表保留圆点 */\r\n    padding-left: 20px;\r\n    margin-top: 10px;\r\n    color: #555;\r\n  }\r\n  .sub-list li {\r\n    margin-bottom: 5px;\r\n  }\r\n   \r\n  /* === 链接样式 === */\r\n  .policy-container a {\r\n    color: #000;\r\n    text-decoration: underline;\r\n    text-underline-offset: 3px;\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"policy-container\"\u003e\r\n\r\n  \u003cdiv class=\"policy-section-title\"\u003eReturn \u0026 Refund Policy\u003c/div\u003e\r\n  \r\n  \u003cp class=\"policy-intro\"\u003e\r\n    At Fominte, we are committed to providing textiles of the highest quality and craftsmanship. Our policy below outlines the procedures for returns and claims related to quality issues for our B2B partners.\r\n  \u003c/p\u003e\r\n   \r\n  \u003cul class=\"policy-list\"\u003e\r\n    \u003cli class=\"policy-item\"\u003e\r\n      \u003cspan class=\"item-title\"\u003eThe Importance of Samples\u003c/span\u003e\r\n      \u003cspan class=\"item-content\"\u003eWe strongly encourage all clients to \u003cstrong\u003erequest samples\u003c/strong\u003e before placing a bulk order. Samples allow you to verify the color, texture, weight, and overall quality of the fabric to ensure it meets your project requirements.\u003c/span\u003e\r\n    \u003c/li\u003e\r\n    \u003cli class=\"policy-item\"\u003e\r\n      \u003cspan class=\"item-title\"\u003eGeneral Policy\u003c/span\u003e\r\n      \u003cspan class=\"item-content\"\u003eAs is standard in the B2B textile industry, all fabric orders are considered final sale \u003cstrong\u003eonce they are cut and shipped\u003c/strong\u003e. We do not accept returns or exchanges for reasons of preference, change of mind, or surplus stock.\u003c/span\u003e\r\n    \u003c/li\u003e\r\n    \u003cli class=\"policy-item\"\u003e\r\n      \u003cspan class=\"item-title\"\u003eCustom \u0026 OEM Orders\u003c/span\u003e\r\n      \u003cspan class=\"item-content\"\u003ePlease note that all Custom and OEM/ODM orders are manufactured to your specific requirements and are strictly \u003cstrong\u003enon-refundable and non-exchangeable\u003c/strong\u003e, unless there is a functional manufacturing defect.\u003c/span\u003e\r\n    \u003c/li\u003e\r\n    \u003cli class=\"policy-item\"\u003e\r\n      \u003cspan class=\"item-title\"\u003eColor \u0026 Production Variances\u003c/span\u003e\r\n      \u003cspan class=\"item-content\"\u003eDue to the nature of textile manufacturing, slight variations in color (dye lots), texture, or weight may occur between sample swatches and bulk production. These are inherent to the industry and considered acceptable standards, not defects.\u003c/span\u003e\r\n    \u003c/li\u003e\r\n  \u003c/ul\u003e\r\n\r\n  \u003cdiv class=\"policy-section-title\"\u003eClaims Process for Quality Issues\u003c/div\u003e\r\n  \r\n  \u003cp class=\"policy-intro\"\u003e\r\n    In the unlikely event that you receive a product with a verifiable quality defect or a shipment error, please follow this procedure:\r\n  \u003c/p\u003e\r\n\r\n  \u003cul class=\"process-steps\"\u003e\r\n    \u003cli class=\"process-step\"\u003e\r\n      \u003cstrong\u003eNotification:\u003c/strong\u003e Notify your sales representative via email within \u003cstrong\u003e7 calendar days\u003c/strong\u003e of receipt. Late claims may not be accepted.\r\n    \u003c/li\u003e\r\n    \u003cli class=\"process-step\"\u003e\r\n      \u003cstrong\u003eEvidence:\u003c/strong\u003e Your notification must include your order/PI number, a detailed description of the issue, and clear photographic/video evidence showing the defect.\r\n    \u003c/li\u003e\r\n    \u003cli class=\"process-step\"\u003e\r\n      \u003cstrong\u003eResolution:\u003c/strong\u003e Upon verification, we will provide a replacement or credit.\r\n      \u003cbr\u003e\u003cem\u003eNote: Fominte covers shipping for defective goods; customers correspond for non-defect returns.\u003c/em\u003e\r\n    \u003c/li\u003e\r\n    \u003cli class=\"process-step\"\u003e\r\n      \u003cstrong\u003eShipping Costs:\u003c/strong\u003e\r\n      \u003cul class=\"sub-list\"\u003e\r\n        \u003cli\u003e\u003cstrong\u003eDefective/Incorrect Goods:\u003c/strong\u003e Fominte covers all shipping costs.\u003c/li\u003e\r\n        \u003cli\u003e\u003cstrong\u003eAuthorized Returns:\u003c/strong\u003e Customer is responsible for return shipping, duties, and taxes. Original shipping fees are non-refundable.\u003c/li\u003e\r\n      \u003c/ul\u003e\r\n    \u003c/li\u003e\r\n  \u003c/ul\u003e\r\n\r\n  \u003chr style=\"border: 0; border-top: 1px solid #eee; margin: 40px 0;\"\u003e\r\n   \r\n  \u003cp style=\"font-size: 13px; color: #888; text-align: center;\"\u003e\r\n    Questions? Contact your dedicated representative or visit our \u003ca href=\"https://fominte.com/pages/contact-us\"\u003eContact Us\u003c/a\u003e page.\r\n  \u003c/p\u003e\r\n\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "0px",
+            "padding-top": "0px"
+          },
+          "padding-bottom": "0px",
+          "padding-top": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "block_order": [],
+      "custom_css": [],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px",
+            "padding-inline-end": "0px",
+            "padding-inline-start": "0px"
+          },
+          "padding-block-end": "80px",
+          "padding-block-start": "80px",
+          "padding-inline-end": "210px",
+          "padding-inline-start": "210px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "176621503390612f5fa8"
+  ]
+}

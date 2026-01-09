@@ -1,0 +1,15 @@
+{
+  "name": "shopline-metafield-importer",
+  "version": "1.0.0",
+  "description": "批量导入 pSEO 元字段到 Shopline",
+  "type": "module",
+  "scripts": {
+    "import": "node import-metafields.js",
+    "test": "node test-complete-flow.js",
+    "create-products": "node create-products.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "node-fetch": "^3.3.0"
+  }
+}

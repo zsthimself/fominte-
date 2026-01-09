@@ -1,0 +1,64 @@
+{
+ "order": [
+  "main-article"
+ ],
+ "sections": {
+  "main-article": {
+   "block_order": [
+    "main-article__title",
+    "main-article__info",
+    "main-article__cover_image",
+    "main-article__content",
+    "main-article__share",
+    "main-article__button_back",
+    "main-article__comment"
+   ],
+   "blocks": {
+    "main-article__button_back": {
+     "blocks": {},
+     "settings": {},
+     "type": "$button_back"
+    },
+    "main-article__comment": {
+     "blocks": {},
+     "settings": {},
+     "type": "$comment"
+    },
+    "main-article__content": {
+     "blocks": {},
+     "settings": {},
+     "type": "$content"
+    },
+    "main-article__cover_image": {
+     "blocks": {},
+     "settings": {},
+     "type": "$cover_image"
+    },
+    "main-article__info": {
+     "blocks": {},
+     "settings": {},
+     "type": "$info"
+    },
+    "main-article__share": {
+     "blocks": {},
+     "settings": {},
+     "type": "$share"
+    },
+    "main-article__title": {
+     "blocks": {},
+     "settings": {},
+     "type": "$title"
+    }
+   },
+   "custom_css": [
+    ".blog-article__content,.article-template__content,.rte {max-width: 760px; margin-left: auto; margin-right: auto; padding: 0 20px;}",
+    "p,li,span {line-height: 1.8 !important; font-size: 16px; color: #333333; letter-spacing: 0.5px;}",
+    "h2,h3 {letter-spacing: 0.05em !important; margin-bottom: 25px !important; margin-top: 40px !important; line-height: 1.3 !important; color: #000000;}",
+    "h2 {font-size: 28px;}"
+   ],
+   "disabled": false,
+   "settings": {},
+   "type": "main-article"
+  }
+ }
+}

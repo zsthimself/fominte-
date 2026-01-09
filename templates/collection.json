@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "main-collection-cover": {
+      "type": "main-collection-cover",
+      "settings": {},
+      "disabled": false,
+      "blocks": {
+        "banner": {
+          "type": "$banner",
+          "settings": {},
+          "disabled": true,
+          "blocks": {
+            "banner_heading": {
+              "type": "$heading",
+              "settings": {},
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "banner_heading"
+          ]
+        },
+        "description": {
+          "type": "$description",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "banner",
+        "description"
+      ]
+    },
+    "main-collection-products": {
+      "type": "main-collection-products",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "desktop_columns": 4,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "filter_layout": "horizontal",
+        "mobile_columns": 2,
+        "page_size": 48
+      },
+      "disabled": false,
+      "blocks": {
+        "main-collection-products__card": {
+          "type": "product-list/card",
+          "settings": {
+            "layout": {
+              "@media (--mobile)": {
+                "column-gap": "8px",
+                "flex-direction": "row",
+                "flex-wrap": "wrap",
+                "row-gap": "8px"
+              },
+              "align-items": "center",
+              "column-gap": "2px",
+              "flex-direction": "column",
+              "flex-wrap": "wrap",
+              "justify-content": "space-between",
+              "row-gap": "15px"
+            }
+          },
+          "blocks": {
+            "main-collection-products__card__image": {
+              "type": "product-list/image",
+              "settings": {},
+              "blocks": {
+                "main-collection__product-list__card__image__layer-1": {
+                  "type": "product-list/layer",
+                  "settings": {
+                    "layout": {
+                      "justify-content": "flex-end"
+                    }
+                  },
+                  "disabled": true,
+                  "blocks": {
+                    "main-collection__product-list__card__image__layer__quick-add-to-cart": {
+                      "type": "product-list/quick_add",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "main-collection__product-list__card__image__layer__quick-add-to-cart"
+                  ]
+                },
+                "main-collection__product-list__card__image__layer-2": {
+                  "type": "product-list/layer",
+                  "settings": {},
+                  "disabled": false,
+                  "blocks": {
+                    "main-collection__product-list__card__image__layer__discount-tag": {
+                      "type": "product-list/discount_tag",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "main-collection__product-list__card__image__layer__discount-tag"
+                  ]
+                }
+              },
+              "block_order": [
+                "main-collection__product-list__card__image__layer-1",
+                "main-collection__product-list__card__image__layer-2"
+              ]
+            },
+            "main-collection-products__card__price": {
+              "type": "product-list/price",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            },
+            "main-collection-products__card__title": {
+              "type": "product-list/title",
+              "settings": {},
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "main-collection-products__card__image",
+            "main-collection-products__card__title",
+            "main-collection-products__card__price"
+          ]
+        }
+      },
+      "block_order": [
+        "main-collection-products__card"
+      ],
+      "custom_css": [
+        "product-item.listInquiry .b2b-list-inquiry{background:transparent;padding:0}",
+        "product-item.listInquiry .b2b-list-inquiry-btn{background:rgba(0,0,0,.4);border:1px solid #fff;color:#fff;border-radius:5px;font-weight:700;width:80%;padding:10px!important;margin:8px auto 0!important;display:flex!important;align-items:center!important;justify-content:center!important;transition:all .3s ease}",
+        "product-item.listInquiry .b2b-list-inquiry-btn:hover{background:#fff;color:#000;border-color:#fff}"
+      ]
+    }
+  },
+  "order": [
+    "main-collection-cover",
+    "main-collection-products"
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "sections": {
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n    .explore-collection-wrapper {\r\n        background-color: #000000;\r\n        color: #FFFFFF;\r\n        /* 修改了这里的padding值，将左右500px改回20px，这样内容就不会被过度挤压。\r\n      80px代表上下边距，20px代表左右边距，您可以根据需要调整这两个数值。\r\n    */\r\n        padding: 80px 20px;\r\n        text-align: center;\r\n    }\r\n\r\n    .explore-collection-wrapper h2 {\r\n        font-size: 2.5em;\r\n        margin-bottom: 40px;\r\n        /* 新增这行代码，强制标题不换行 */\r\n        white-space: nowrap;\r\n    }\r\n\r\n    .explore-collection-wrapper a {\r\n        color: #FFFFFF;\r\n        text-decoration: none;\r\n        display: block;\r\n        font-size: 1.2em;\r\n        margin-bottom: 20px;\r\n        transition: opacity 0.3s;\r\n    }\r\n\r\n    .explore-collection-wrapper a:hover {\r\n        opacity: 0.7;\r\n    }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"explore-collection-wrapper\"\u003e\r\n    \u003ch2\u003eExtra Info\u003c/h2\u003e\r\n    \u003ca href=\"https://fominte.com/pages/crochet-information-hub\"\u003eTech \u0026 Line\u003c/a\u003e\r\n    \u003ca href=\"https://fominte.com/pages/crochet-information-hub\"\u003eApplications\u003c/a\u003e\r\n    \u003ca href=\"#\"\u003eCare Instructions\u003c/a\u003e\r\n    \u003ca href=\"#\"\u003eFAQ\u003c/a\u003e\r\n    \u003ca href=\"#\"\u003eCustomization\u003c/a\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": false,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": {},
+            "link": "",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 21,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "A Commitment to Global Excellence: Our Certifications",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Helvetica",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 24,
+            "title_pc_font_size": 48,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": "https://cdn-files.myshopline.com/video/store/1754638002373/FOMINTE.mp4?w=1920\u0026h=1080\u0026d=2.745\u0026fromFileSelect=1\u0026poster=https%3A%2F%2Fimg-va.myshopline.com%2Fimage%2Fstore%2F1754638002373%2Ffa24a32e01124f179cd4636b673dbc2b.png%3Fw%3D1920%26h%3D1080"
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "1758193339455dbbcba1": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "1758193339455dbbcba1",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "1759485386690d01ef8e": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 40,
+        "title_pc_font_size": 60,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "17594853866915590505": {
+          "type": "$button",
+          "settings": {
+            "button_text": "Optional button",
+            "jump_link": ""
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "17594853866916103271": {
+          "type": "$title",
+          "settings": {
+            "title": "Rich text",
+            "title_tag_name": "h2"
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "17594853866918e1b04b": {
+          "type": "$text",
+          "settings": {
+            "description": "At Fominte, our commitment to excellence is woven into every fiber of our operation. We believe that true partnership is built on a foundation of trust and transparency. That is why we voluntarily subject our processes to the rigorous standards of the world’s leading authorities. These certifications are more than just credentials; they are our pledge to you—a guarantee of product quality, environmental stewardship, and ethical manufacturing."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17594853866916103271",
+        "17594853866918e1b04b",
+        "17594853866915590505"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "175948563166777899da": {
+      "type": "shopline://apps/高阶组件库/sections/text-columns-with-images/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "best_mobile_style": false,
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 14,
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#000000",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 14,
+        "btn_pc_font_size": 16,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "arrow-link",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1420,
+        "enable_pause": false,
+        "enable_scroll": false,
+        "image_ratio": "circle",
+        "image_width": "50%",
+        "mb_horizontal_spacing": 30,
+        "mb_scroll_interval": 5,
+        "mb_show": true,
+        "mb_vertical_spacing": 20,
+        "md_cols": 1,
+        "pc_cols": 3,
+        "pc_horizontal_spacing": 40,
+        "pc_scroll_interval": 12,
+        "pc_show": true,
+        "pc_vertical_spacing": 30,
+        "scroll_direction": "left_to_right",
+        "show_block_bg": false,
+        "show_touch": true,
+        "sub_title_font_color": "#000000",
+        "sub_title_font_family": "Helvetica",
+        "sub_title_letter_spacing": 0,
+        "sub_title_line_height": 1,
+        "sub_title_m_font_size": 18,
+        "sub_title_pc_font_size": 23,
+        "text_align": "left",
+        "title": "Certification Modules",
+        "title_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 24,
+        "title_pc_font_size": 32
+      },
+      "disabled": false,
+      "blocks": {
+        "17594856316671a5a3c3": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "Our use of the Higg Index demonstrates a commitment to data-driven sustainability. It allows us to measure, manage, and improve our environmental impact, providing you with transparent data and the assurance that you are partnering with a forward-thinking and responsible manufacturer.",
+            "image": "shopline://shop_images/088e04391c803c662ff7226ed2f26461.png",
+            "jump_link": "",
+            "title": "Higg Index"
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "17594856316673dbe874": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "This provides verifiable proof that our sustainable fabrics (like our Recycled Sherpa) are made with certified recycled materials. This certification allows you to make confident, transparent sustainability claims to your end consumers, a crucial advantage in today's conscious market.",
+            "image": "shopline://shop_images/0d0fd7a287e091f755b31fbedc0e0bc4.jpg",
+            "jump_link": "",
+            "title": "GRS: Global Recycled Standard"
+          },
+          "blocks": {}
+        },
+        "175948563166783943eb": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "This assures you that your products are manufactured in an ethical environment where workers' rights are respected, and workplace safety is paramount. Partnering with us aligns your brand with the principles of social responsibility, a value increasingly important to modern consumers.",
+            "image": "shopline://shop_images/5b3ee9d4424e645bdabb09e8a6d7a4dc.jpg",
+            "jump_link": "",
+            "title": "BSCI: Business Social Compliance Initiative"
+          },
+          "blocks": {}
+        },
+        "17594858934723e24a09": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "Our membership in Amfori demonstrates a deep, organizational commitment to \"trading with purpose.\" It signifies that we are part of a global network dedicated to enhancing sustainability and ethics, providing you with a partner who is proactive about responsible global trade.",
+            "image": "shopline://shop_images/5f283bb33e50240e68ade3540af880cf.png",
+            "title": "Amfori"
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "1759488488068c2a6f7e": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "Certification by Bureau Veritas provides another layer of independent assurance. It validates that our manufacturing processes and final products comply with international regulations, reinforcing our promise of delivering reliable, high-quality, and compliant textiles.",
+            "image": "shopline://shop_images/9fea2ed82eb6681588e75b957bcfb14f.png",
+            "jump_link": "",
+            "title": "Bureau Veritas"
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "1759488590140bd00439": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "Our membership in Cascale places us at the heart of the global conversation on sustainability. It demonstrates our commitment to industry-wide collaboration and the use of standardized tools like the Higg Index to drive transparent, measurable, and continuous improvement in our environmental and social impact.",
+            "image": "shopline://shop_images/587ef76c9e6383e2700cd4a3121dbafd.png",
+            "title": "Cascale"
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "17594856316671a5a3c3",
+        "175948563166783943eb",
+        "17594856316673dbe874",
+        "17594858934723e24a09",
+        "1759488488068c2a6f7e",
+        "1759488590140bd00439"
+      ],
+      "custom_css": [],
+      "name": "t:sections.text-columns-with-images.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "175799437238726f3419",
+    "17585048508830348227",
+    "1759485386690d01ef8e",
+    "175948563166777899da"
+  ]
+}

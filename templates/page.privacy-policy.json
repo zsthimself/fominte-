@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "175798659809935caf32": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "flex-start",
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "40px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "40px"
+        },
+        "size": {},
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "60px",
+          "padding-top": "60px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "175798659810126f41c4": {
+          "type": "heading-with-link/heading-with-link",
+          "settings": {
+            "link_text": "View more",
+            "text": "Shop by category",
+            "text_size": "title2"
+          },
+          "blocks": {}
+        },
+        "1757986598101c7e9b6a": {
+          "type": "$list",
+          "settings": {},
+          "blocks": {
+            "17579865981011780810": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "1757986598101357da6c": {
+                  "type": "collection/image",
+                  "settings": {},
+                  "blocks": {
+                    "1757986598101022bc81": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101022bc81"
+                  ]
+                },
+                "1757986598101e347e3c": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "1757986598101357da6c",
+                "1757986598101e347e3c"
+              ]
+            },
+            "1757986598101c55b090": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "17579865981015cd0fd7": {
+                  "type": "collection/image",
+                  "settings": {
+                    "aspect_ratio": "4/3"
+                  },
+                  "blocks": {
+                    "1757986598101a6d73f8": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101a6d73f8"
+                  ]
+                },
+                "17579865981019bd9b27": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "17579865981015cd0fd7",
+                "17579865981019bd9b27"
+              ]
+            }
+          },
+          "block_order": [
+            "1757986598101c55b090",
+            "17579865981011780810"
+          ]
+        }
+      },
+      "block_order": [
+        "175798659810126f41c4",
+        "1757986598101c7e9b6a"
+      ],
+      "name": "t:sections.collection_list.presets.presets_0.name"
+    },
+    "1757993662639ba1fd2d": {
+      "type": "shopline://apps/高阶组件库/sections/product-category-list/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text": "Optional Button",
+        "card_border_radius": 0,
+        "card_border_thickness": 0,
+        "card_color": "#fff",
+        "card_style": true,
+        "color_btn_text": "#ffffff",
+        "color_entry_line": "#EAECEC",
+        "color_image_background": "#ffffff",
+        "color_light_text": "#949494",
+        "color_page_background": "#FFFCFA",
+        "color_sale": "#171F2B",
+        "color_tag_background": "#C20000",
+        "color_tag_text": "#ffffff",
+        "color_text": "#29252C",
+        "container_bg_color": "#F4F7FB",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "right": 40,
+            "top": 20
+          }
+        },
+        "container_max_width": 1420,
+        "edges": "rounded",
+        "grid_horizontal_space": 20,
+        "horizontal_spacing": 40,
+        "image_ratio": "100",
+        "image_width": "50%",
+        "mb_layout": 4,
+        "mb_show": true,
+        "mobile_quick_add_btn_layout": "normal",
+        "mobile_quick_add_btn_style": "icon",
+        "pc_cols": 4,
+        "pc_show": true,
+        "product_add_to_cart": true,
+        "product_card_border_color": "#000000",
+        "product_card_border_opacity": 10,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 0,
+        "product_card_shadow_blur": 5,
+        "product_card_shadow_color": "#000000",
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 4,
+        "product_card_shadow_opacity": 0,
+        "product_discount": true,
+        "product_discount_position": "left_bottom",
+        "product_discount_radius": 2,
+        "product_discount_style": "number",
+        "product_fill_type": "contain",
+        "product_grid_image_margin": "0",
+        "product_hover_show_next": false,
+        "product_mobile_title_show": true,
+        "product_price_color": "#1A1C1E",
+        "product_price_letter_spacing": 0,
+        "product_price_m_font_family": "Poppins:500",
+        "product_price_m_font_size": 14,
+        "product_price_m_line_height": 1.6,
+        "product_price_pc_font_family": "Poppins:600",
+        "product_price_pc_font_size": 16,
+        "product_price_pc_line_height": 1.6,
+        "product_title_color": "#000000",
+        "product_title_font_family": "Poppins:400",
+        "product_title_letter_spacing": 0,
+        "product_title_m_font_size": 12,
+        "product_title_m_line_height": 1.6,
+        "product_title_pc_font_size": 14,
+        "product_title_pc_line_height": 1.6,
+        "product_title_show_type": "full_display",
+        "product_underlined_price_color": "#000000",
+        "product_underlined_price_letter_spacing": 0,
+        "product_underlined_price_m_font_family": "Poppins:500",
+        "product_underlined_price_m_font_size": 12,
+        "product_underlined_price_m_line_height": 1.6,
+        "product_underlined_price_pc_font_family": "Poppins:600",
+        "product_underlined_price_pc_font_size": 16,
+        "product_underlined_price_pc_line_height": 1.6,
+        "products_num": 4,
+        "quick_add_btn_background": "#000000",
+        "quick_add_btn_font_color": "#FFFFFF",
+        "show_touch": false,
+        "slice_in_pc": true,
+        "soldOut_color_tag_background": "#ffffff",
+        "soldOut_color_tag_text": "#000000",
+        "sticky": true,
+        "superscript_decimals": false,
+        "tab_button_bg_color": "#ffffff",
+        "tab_button_text_color": "#000000",
+        "tab_color": "#000000",
+        "tab_style": "underline",
+        "tab_text_align": "center",
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 19,
+        "title_pc_font_size": 22,
+        "vertical_spacing": 20
+      },
+      "disabled": true,
+      "blocks": {
+        "17579936626401ce8d5a": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Floral Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626401e38055": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Boho \u0026 Paisley Crochet"
+          },
+          "blocks": {}
+        },
+        "175799366264022249d5": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Modern \u0026 Abstract Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626405eb4efa": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Geometric Crochet"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17579936626401ce8d5a",
+        "17579936626405eb4efa",
+        "17579936626401e38055",
+        "175799366264022249d5"
+      ],
+      "name": "t:sections.product-category-list.presets_0.name"
+    },
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* === 容器风格：复用 B2B 风格 === */\r\n  .policy-container {\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n    color: #333;\r\n    line-height: 1.8;\r\n    padding: 40px 20px;\r\n    text-align: left;\r\n  }\r\n\r\n  /* === 页面主标题 === */\r\n  .main-page-title {\r\n    text-align: center;\r\n    font-size: 24px;\r\n    font-weight: 600;\r\n    margin-bottom: 50px;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    color: #000;\r\n  }\r\n\r\n  /* === 分节标题风格 === */\r\n  .policy-section-title {\r\n    font-size: 16px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.08em;\r\n    border-bottom: 1px solid #e1e1e1;\r\n    padding-bottom: 12px;\r\n    margin-top: 45px;\r\n    margin-bottom: 20px;\r\n    color: #000;\r\n  }\r\n\r\n  /* === 正文段落 === */\r\n  .policy-text {\r\n    font-size: 14px;\r\n    color: #444;\r\n    margin-bottom: 20px;\r\n    text-align: justify;\r\n    /* 两端对齐，看起来更整洁 */\r\n  }\r\n\r\n  /* === 列表风格 === */\r\n  .policy-list {\r\n    list-style-type: disc !important;\r\n    padding-left: 20px;\r\n    margin-bottom: 25px;\r\n    color: #444;\r\n  }\r\n\r\n  .policy-list li {\r\n    margin-bottom: 8px;\r\n    font-size: 14px;\r\n  }\r\n\r\n  .policy-list strong {\r\n    color: #000;\r\n    font-weight: 600;\r\n  }\r\n\r\n  /* === 链接样式 === */\r\n  .policy-container a {\r\n    color: #000;\r\n    text-decoration: underline;\r\n    text-underline-offset: 3px;\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"policy-container\"\u003e\r\n\r\n  \u003ch1 class=\"main-page-title\"\u003ePrivacy Policy\u003c/h1\u003e\r\n\r\n  \u003cp class=\"policy-text\"\u003e\r\n    This Privacy Policy explains how \"we\" collect, use, share and process your information as well as the rights and\r\n    choices you have associated with that information. This privacy policy applies to all personal information collected\r\n    during any written, electronic and oral communication, or personal information collected online or offline,\r\n    including: our website, and any other email.\r\n  \u003c/p\u003e\r\n\r\n  \u003cp class=\"policy-text\"\u003e\r\n    Please read our Terms and Conditions and this Policy before accessing or using our Services. If you cannot agree\r\n    with this Policy or the Terms and Conditions, please do not access or use our Services. If you are located in a\r\n    jurisdiction outside the European Economic Area, by using our Services, you accept the Terms and Conditions and\r\n    accept our privacy practices described in this Policy.\r\n  \u003c/p\u003e\r\n\r\n  \u003cp class=\"policy-text\"\u003e\r\n    We may modify this Policy at any time, without prior notice, and changes may apply to any Personal Information we\r\n    already hold about you, as well as any new Personal Information collected after the Policy is modified. If we make\r\n    changes, we will notify you by revising the date at the top of this Policy. We will provide you with advanced notice\r\n    if we make any material changes to how we collect, use or disclose your Personal Information that impact your rights\r\n    under this Policy.\r\n  \u003c/p\u003e\r\n\r\n  \u003cp class=\"policy-text\"\u003e\r\n    In addition, we may provide you with real time disclosures or additional information about the Personal Information\r\n    handling practices of specific parts of our Services. Such notices may supplement this Policy or provide you with\r\n    additional choices about how we process your Personal Information.\r\n  \u003c/p\u003e\r\n\r\n  \u003cdiv class=\"policy-section-title\"\u003ePersonal Information We Collect\u003c/div\u003e\r\n  \u003cp class=\"policy-text\"\u003e\r\n    We collect personal information when you use our Services, submit personal information when requested with the Site.\r\n    Personal information generally is any information that relates to you, identifies you personally or could be used to\r\n    identify you, such as your name, email address, phone number and address. The definition of personal information\r\n    varies by jurisdiction. Only the definition that applies to you based on your location applies to you under this\r\n    Privacy Policy. Personal information does not include data that has been irreversibly anonymized or aggregated so\r\n    that it can no longer enable us, whether in combination with other information or otherwise, to identify you.\r\n  \u003c/p\u003e\r\n\r\n  \u003cdiv class=\"policy-section-title\"\u003eTypes of Personal Information We Collect\u003c/div\u003e\r\n  \u003cp class=\"policy-text\"\u003e\r\n    \u003cstrong\u003eInformation You Directly and Voluntarily Provide to Us:\u003c/strong\u003e We collect your personal information you\r\n    give us when you use our Services. For example, if you visit our Site and place an order, we collect information\r\n    that you provide to us during the ordering process. This information will include:\r\n  \u003c/p\u003e\r\n\r\n  \u003cul class=\"policy-list\"\u003e\r\n    \u003cli\u003eLast Name \u0026 First Name\u003c/li\u003e\r\n    \u003cli\u003eMailing Address\u003c/li\u003e\r\n    \u003cli\u003eEmail Address\u003c/li\u003e\r\n    \u003cli\u003ePhone Number\u003c/li\u003e\r\n    \u003cli\u003eProducts Interested\u003c/li\u003e\r\n    \u003cli\u003eWhatsApp / Company Name / Country\u003c/li\u003e\r\n  \u003c/ul\u003e\r\n\r\n  \u003cp class=\"policy-text\"\u003e\r\n    We may also collect personal information when you communicate with any of our departments such as customer service,\r\n    or when you complete online forms or surveys provided on the Site. You may also choose to provide your email address\r\n    to us if you would like to receive information about the products and services that we offer.\r\n  \u003c/p\u003e\r\n\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": true,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": {},
+            "link": "",
+            "link_text": "Optional Button 1",
+            "link_text_2": "",
+            "overlay_opacity": 0,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70,
+            "top_subheading": "London, UK",
+            "url": "https://cdn-files.myshopline.com/video/store/1754638002373/9-18-.mp4?w=852\u0026h=480\u0026d=80.833333\u0026fromFileSelect=1\u0026poster=https%3A%2F%2Fimg-va.myshopline.com%2Fimage%2Fstore%2F1754638002373%2F68c900d5f9da41d892812be1e0b4c9f4.png%3Fw%3D852%26h%3D480"
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "1758193339455dbbcba1": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "1758193339455dbbcba1",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "175798659809935caf32",
+    "1757993662639ba1fd2d",
+    "175799437238726f3419",
+    "17585048508830348227"
+  ]
+}

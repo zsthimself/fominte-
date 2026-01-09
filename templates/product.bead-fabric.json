@@ -1,0 +1,515 @@
+{
+  "sections": {
+    "175947575810629f15cf": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cdiv class=\"product-commitment-module\"\u003e\r\n    \u003cdiv class=\"commitment-content-area\"\u003e\r\n        \u003ch2\u003eOur Commitment\u003c/h2\u003e\r\n        \u003cp\u003eOur promise is woven into every fiber we produce. We are committed to delivering unparalleled quality, innovative design, and a partnership you can trust through measurable standards.\u003c/p\u003e\r\n        \r\n        \u003cdiv class=\"accordion-item\"\u003e\r\n            \u003cdiv class=\"accordion-header\"\u003eCommitment to Speed \u0026amp; Efficiency\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n            \u003cdiv class=\"accordion-content\"\u003e\r\n                \u003cp\u003eWe understand that speed-to-market is critical for your success. Our streamlined process ensures your vision becomes a reality, fast.\u003c/p\u003e\r\n                \u003cul\u003e\r\n                    \u003cli\u003e\u003cstrong\u003eRapid Sampling:\u003c/strong\u003e We pledge to deliver satisfactory custom samples for your approval within \u003cstrong\u003e7 working days\u003c/strong\u003e.\u003c/li\u003e\r\n                    \u003cli\u003e\u003cstrong\u003eReliable Delivery:\u003c/strong\u003e Once approved, we guarantee that standard bulk orders will be ready for shipment within \u003cstrong\u003e30 days\u003c/strong\u003e. This predictability allows you to plan your collections with confidence.\u003c/li\u003e\r\n                \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"accordion-item\"\u003e\r\n            \u003cdiv class=\"accordion-header\"\u003eCommitment to Responsive Service\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n            \u003cdiv class=\"accordion-content\"\u003e\r\n                 \u003cp\u003eClear and timely communication is the foundation of a great partnership. Our dedicated team is always accessible, ensuring your questions are answered and your project never loses momentum.\u003c/p\u003e\r\n                 \u003cul\u003e\r\n                    \u003cli\u003e\u003cstrong\u003eOnline Inquiries:\u003c/strong\u003e For messages received via our online chat during business hours, we commit to a response time of under \u003cstrong\u003e2 hours\u003c/strong\u003e.\u003c/li\u003e\r\n                    \u003cli\u003e\u003cstrong\u003eEmail Correspondence:\u003c/strong\u003e All email inquiries will receive a comprehensive reply within \u003cstrong\u003e24 hours\u003c/strong\u003e.\u003c/li\u003e\r\n                 \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"accordion-item\"\u003e\r\n            \u003cdiv class=\"accordion-header\"\u003eCommitment to Quality \u0026amp; Partnership\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n            \u003cdiv class=\"accordion-content\"\u003e\r\n                \u003cp\u003eBeyond speed and service, our ultimate commitment is to the integrity of our product and the strength of our relationship. We stand behind every yard of fabric, ensuring it meets global standards and your highest expectations. We are more than a supplier; we are a dedicated partner in your success, committed to design confidentiality and ethical practices.\u003c/p\u003e\r\n            \u003c/div\u003e\r\n        \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1759480190117dc00e09": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": "shopline://shop_images/全球环保_7208686342053568479.png",
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "70px",
+          "padding-block-start": "100px",
+          "padding-inline-end": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "17594876860411b9fe4c": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {
+        "1759487686042d2eebeb": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Submit",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7200106930886416534.svg",
+            "image2": "shopline://shop_images/剪刀_7200106731455652933.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7200107591036314871.svg",
+            "image4": "shopline://shop_images/汇总统计_7200107735605582211.svg",
+            "inquiry_form_id": "7145979743782840053",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production\n\n",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.\n\n",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.\n\n",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expert Consultation\n\n",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1759487686042d2eebeb"
+      ]
+    },
+    "176042741074469f1433": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {
+        "176042741074405fb516": {
+          "type": "shopline://apps/商品推荐/blocks/recommend/2b21224b-ddbb-448c-8996-2dbbe3359b90",
+          "settings": {
+            "source": "1"
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "176042741074405fb516"
+      ],
+      "custom_css": [
+        ".recommend-product-item-button-warpper,.recommend-product-item-button-wrapper {display: none !important;}",
+        ".recommend-product-item-info .recommend-product-item-price {display: none !important;}",
+        ".recommend-product-item-info {padding-bottom: 10px;}"
+      ]
+    },
+    "main-product-info": {
+      "type": "main-product",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "flex-direction": "column",
+            "row-gap": "20px"
+          },
+          "column-gap": "60px",
+          "flex-direction": "row",
+          "flex-wrap": "nowrap",
+          "row-gap": "60px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "20px",
+            "padding-block-start": "20px"
+          },
+          "padding-block-end": "60px",
+          "padding-block-start": "60px"
+        }
+      },
+      "disabled": false,
+      "blocks": {
+        "info": {
+          "type": "$product-info",
+          "settings": {},
+          "blocks": {
+            "1764036485883226ca41": {
+              "type": "product/detail-additional",
+              "settings": {
+                "custom_page": "",
+                "description": "{{#metafield_tag product | get_metafield(\"my_fields\", \"selling_points\") /}}",
+                "enabled_fold": true,
+                "icon": "none",
+                "title": "Selling Points\n\n"
+              },
+              "disabled": true,
+              "blocks": {},
+              "block_order": []
+            },
+            "17640364880982c0639b": {
+              "type": "product/detail-additional",
+              "settings": {
+                "custom_page": "",
+                "description": "{{#metafield_tag product | get_metafield(\"my_fields\", \"Craftsmanship_Quality\") /}}",
+                "enabled_fold": true,
+                "icon": "none",
+                "title": "Craftsmanship \u0026 Quality\n\n"
+              },
+              "disabled": true,
+              "blocks": {},
+              "block_order": []
+            },
+            "17640364905627bc5711": {
+              "type": "product/detail-additional",
+              "settings": {
+                "custom_page": "",
+                "description": "{{#metafield_tag product | get_metafield(\"my_fields\", \"OEM\") /}}",
+                "enabled_fold": true,
+                "icon": "none",
+                "title": "OEM/ODM Customization Services\n\n"
+              },
+              "disabled": true,
+              "blocks": {},
+              "block_order": []
+            },
+            "1764036496739e01626b": {
+              "type": "product/detail-additional",
+              "settings": {
+                "custom_page": "",
+                "description": "{{#metafield_tag product | get_metafield(\"my_fields\", \"Our_Process\") /}}",
+                "enabled_fold": true,
+                "icon": "none",
+                "title": "Our Process\n\n"
+              },
+              "disabled": true,
+              "blocks": {},
+              "block_order": []
+            },
+            "additional": {
+              "type": "product/detail-additional",
+              "settings": {
+                "custom_page": "",
+                "description": "{{#metafield_tag product | get_metafield(\"my_fields\", \"key_info\") /}}",
+                "enabled_fold": true,
+                "icon": "none",
+                "title": "Key Information Box\n\n"
+              },
+              "disabled": true,
+              "blocks": {}
+            },
+            "buy-buttons": {
+              "type": "product/detail-buy-buttons",
+              "settings": {},
+              "disabled": false,
+              "blocks": {}
+            },
+            "description": {
+              "type": "product/detail-description",
+              "settings": {},
+              "blocks": {}
+            },
+            "price": {
+              "type": "product/detail-price",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            },
+            "quantity-selector": {
+              "type": "product/detail-quantity-selector",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            },
+            "sell-info": {
+              "type": "product/detail-sell-info",
+              "settings": {},
+              "blocks": {
+                "sell_info_1": {
+                  "type": "product/detail-sell-info-row",
+                  "settings": {
+                    "info_icon": "globe",
+                    "info_text": "Free worldwide shipping"
+                  },
+                  "blocks": {}
+                },
+                "sell_info_2": {
+                  "type": "product/detail-sell-info-row",
+                  "settings": {
+                    "info_icon": "checkmark",
+                    "info_text": "Free returns"
+                  },
+                  "blocks": {}
+                },
+                "sell_info_3": {
+                  "type": "product/detail-sell-info-row",
+                  "settings": {
+                    "info_icon": "leaf",
+                    "info_text": "Carbon neutral"
+                  },
+                  "blocks": {}
+                },
+                "sell_info_4": {
+                  "type": "product/detail-sell-info-row",
+                  "settings": {
+                    "info_icon": "lock",
+                    "info_text": "Secure payments"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "sell_info_1",
+                "sell_info_2",
+                "sell_info_3",
+                "sell_info_4"
+              ]
+            },
+            "share": {
+              "type": "product/detail-share",
+              "settings": {},
+              "blocks": {}
+            },
+            "title": {
+              "type": "product/detail-heading",
+              "settings": {
+                "text_size": "title4"
+              },
+              "blocks": {}
+            },
+            "variant-picker": {
+              "type": "product/detail-variant-picker",
+              "settings": {
+                "picker_type": "select"
+              },
+              "disabled": false,
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "title",
+            "price",
+            "sell-info",
+            "variant-picker",
+            "quantity-selector",
+            "buy-buttons",
+            "additional",
+            "1764036485883226ca41",
+            "17640364880982c0639b",
+            "17640364905627bc5711",
+            "1764036496739e01626b",
+            "description",
+            "share"
+          ]
+        },
+        "media-group": {
+          "type": "$product-media-group",
+          "settings": {},
+          "blocks": {
+            "media": {
+              "type": "$product-media",
+              "settings": {},
+              "blocks": {
+                "media-layer": {
+                  "type": "$product-media-layer",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "media-layer"
+              ]
+            }
+          },
+          "block_order": [
+            "media"
+          ]
+        }
+      },
+      "block_order": [
+        "media-group",
+        "info"
+      ],
+      "custom_css": [
+        "/* 隐藏“Add to cart”按钮 */button.button.button--fill.button--secondary,div[button] .button.button--fill.button--secondary {display: none !important;}",
+        " /* 隐藏“Buy Now”按钮 */button.btn.btn-primary.pay-button-common-item.pay-button-buy-now.button {display: none !important;}"
+      ]
+    },
+    "recommended-product": {
+      "type": "recommended-product",
+      "settings": {
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "column-gap": "40px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "row-gap": "40px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "20px",
+            "padding-block-start": "20px"
+          },
+          "padding-block-end": "30px",
+          "padding-block-start": "60px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "recommended-product__heading": {
+          "type": "heading",
+          "settings": {
+            "text": "You may also like",
+            "text_align": "center"
+          },
+          "blocks": {}
+        },
+        "recommended-product__product-list": {
+          "type": "product-list/list",
+          "settings": {
+            "desktop_columns": 4,
+            "desktop_enable_slider": true,
+            "mobile_columns": 2,
+            "mobile_enable_slider": true,
+            "page_size": 4
+          },
+          "blocks": {
+            "recommended-product__product-list__card": {
+              "type": "product-list/card",
+              "settings": {},
+              "blocks": {
+                "recommended-product__product-list__card__image": {
+                  "type": "product-list/image",
+                  "settings": {},
+                  "blocks": {
+                    "recommended-product__product-list__card__image__layer-1": {
+                      "type": "product-list/layer",
+                      "settings": {
+                        "layout": {
+                          "align-items": "flex-end"
+                        }
+                      },
+                      "blocks": {
+                        "recommended-product__product-list__card__image__layer__discount-tag": {
+                          "type": "product-list/discount_tag",
+                          "settings": {},
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "recommended-product__product-list__card__image__layer__discount-tag"
+                      ]
+                    },
+                    "recommended-product__product-list__card__image__layer-2": {
+                      "type": "product-list/layer",
+                      "settings": {
+                        "layout": {
+                          "justify-content": "flex-end"
+                        }
+                      },
+                      "blocks": {
+                        "recommended-product__product-list__card__image__layer__quick-add-to-cart": {
+                          "type": "product-list/quick_add",
+                          "settings": {},
+                          "blocks": {}
+                        }
+                      },
+                      "block_order": [
+                        "recommended-product__product-list__card__image__layer__quick-add-to-cart"
+                      ]
+                    }
+                  },
+                  "block_order": [
+                    "recommended-product__product-list__card__image__layer-1",
+                    "recommended-product__product-list__card__image__layer-2"
+                  ]
+                },
+                "recommended-product__product-list__card__price": {
+                  "type": "product-list/price",
+                  "settings": {},
+                  "blocks": {}
+                },
+                "recommended-product__product-list__card__title": {
+                  "type": "product-list/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "recommended-product__product-list__card__image",
+                "recommended-product__product-list__card__title",
+                "recommended-product__product-list__card__price"
+              ]
+            }
+          },
+          "block_order": [
+            "recommended-product__product-list__card"
+          ]
+        }
+      },
+      "block_order": [
+        "recommended-product__heading",
+        "recommended-product__product-list"
+      ],
+      "custom_css": [
+        ".product-price__item {display: none !important;}"
+      ]
+    }
+  },
+  "order": [
+    "main-product-info",
+    "1759480190117dc00e09",
+    "recommended-product",
+    "176042741074469f1433",
+    "175947575810629f15cf",
+    "17594876860411b9fe4c"
+  ]
+}

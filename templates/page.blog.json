@@ -1,0 +1,793 @@
+{
+ "order": [
+  "main-page",
+  "1759477868544eabaf09",
+  "1759478379952d1b6ddd",
+  "17594783838166ee826e",
+  "1763522718667e91ec64",
+  "1763522993007b5376cf",
+  "1763523015143edd6f3d"
+ ],
+ "sections": {
+  "1759477868544eabaf09": {
+   "block_order": [
+    "175947786854576a8d75",
+    "175947786854535d4d6c"
+   ],
+   "blocks": {
+    "175947786854535d4d6c": {
+     "block_order": [
+      "175947786854560901b6",
+      "17594778685457799a00",
+      "1759477868545cc9fcd7"
+     ],
+     "blocks": {
+      "175947786854560901b6": {
+       "block_order": [
+        "1759477868545ef469dd",
+        "17594778685450401a13",
+        "17594778685455f1b70c"
+       ],
+       "blocks": {
+        "17594778685450401a13": {
+         "blocks": {},
+         "settings": {
+          "title": "More Than Cool: The 3 Pillars of a Profitable Summer Cotton Collection for SS27"
+         },
+         "type": "$title"
+        },
+        "17594778685455f1b70c": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "1759477868545ef469dd": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/584b33bc41bb349371f095db42c88e97.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68bff0643ead3502ba12fb83/68c10e6168a9597b42ac90ab"
+       },
+       "type": "$card"
+      },
+      "17594778685457799a00": {
+       "block_order": [
+        "1759477868545fad7d34",
+        "17594778685455c7e2ec",
+        "17594778685452c94813"
+       ],
+       "blocks": {
+        "17594778685452c94813": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "17594778685455c7e2ec": {
+         "blocks": {},
+         "settings": {
+          "title": "The Buyer's Forecast: 5 Commercially Smart Fabrics for Your Spring/Summer 2026 Casualwear Collection"
+         },
+         "type": "$title"
+        },
+        "1759477868545fad7d34": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/8a8457774bcba0ab47f87a18c77641bd.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68bff0643ead3502ba12fb83/68c0ddfd68a9597b42ac74da"
+       },
+       "type": "$card"
+      },
+      "1759477868545cc9fcd7": {
+       "block_order": [
+        "1759477868545c960f2a",
+        "17594778685455b0062c",
+        "175947786854546fe720"
+       ],
+       "blocks": {
+        "175947786854546fe720": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "17594778685455b0062c": {
+         "blocks": {},
+         "settings": {
+          "title": "Stop Blaming Your Sewers: How Low-Quality Satin Is Hurting Your Production Line (And Your Profits)"
+         },
+         "type": "$title"
+        },
+        "1759477868545c960f2a": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/881c3f57ec21f2efcde9d77fbd6f4860.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68bff0643ead3502ba12fb83/68c004d1ca5523454d591925"
+       },
+       "type": "$card"
+      }
+     },
+     "settings": {},
+     "type": "$card-group"
+    },
+    "175947786854576a8d75": {
+     "blocks": {},
+     "settings": {
+      "font_size": "title4",
+      "link": "shopline://blogs/68bff0643ead3502ba12fb83",
+      "title": "The Fominte Source"
+     },
+     "type": "$heading"
+    }
+   },
+   "custom_css": [
+    "/* --- 优化博客文章标题的显示 --- */.text-columns-with-image__card-title.title5 {/* 1. 缩小字体 (这是我们之前设置的) */ font-size: calc(var(--font-size-title5) / 2); /* 2. 取消“全部大写” (这是我们之前设置的) */ text-transform: none; /* 3. 缩小字母间距 (这是我们之前设置的) */ letter-spacing: normal; /* 4. 【新增】取消斜体 */ font-style: normal;}",
+    "/* --- 【新增】缩小 \"Read More\" 链接 --- */.text-columns-with-image__card .button--link {/* 缩小字体大小 (这里设置为当前大小的85%) */ font-size: calc(var(--button-font-size, 1rem) * 0.85);}"
+   ],
+   "disabled": true,
+   "name": "t:sections.text_columns_with_image.presets.presets_0.name",
+   "settings": {
+    "color_scheme": "scheme-1",
+    "layout": {
+     "@media (--mobile)": {
+      "column-gap": "20px",
+      "row-gap": "20px"
+     },
+     "align-items": "center",
+     "column-gap": "30px",
+     "flex-direction": "column",
+     "flex-wrap": "nowrap",
+     "justify-content": "center",
+     "row-gap": "30px"
+    },
+    "size": {
+     "height": "auto",
+     "width": "100%"
+    },
+    "spacing": {
+     "@media (--mobile)": {
+      "padding-block-end": "24px",
+      "padding-block-start": "24px"
+     },
+     "padding-block-end": "80px",
+     "padding-block-start": "80px",
+     "padding-inline-end": "0px",
+     "padding-inline-start": "0px"
+    }
+   },
+   "type": "text-columns-with-image"
+  },
+  "1759478379952d1b6ddd": {
+   "block_order": [
+    "17594783799532a5ed0b",
+    "17594783799539199f90"
+   ],
+   "blocks": {
+    "17594783799532a5ed0b": {
+     "blocks": {},
+     "settings": {
+      "font_size": "title4",
+      "link": "shopline://blogs/68b112749ee8bc740ebbd127",
+      "title": "The Fominte Atelier"
+     },
+     "type": "$heading"
+    },
+    "17594783799539199f90": {
+     "block_order": [
+      "1759478379953cb1f7b4",
+      "1759478379953be76334",
+      "1759478379953a3e7f33"
+     ],
+     "blocks": {
+      "1759478379953a3e7f33": {
+       "block_order": [
+        "17594783799537849a07",
+        "17594783799537614030",
+        "17594783799531fea512"
+       ],
+       "blocks": {
+        "17594783799531fea512": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "17594783799537614030": {
+         "blocks": {},
+         "settings": {
+          "title": "Cotton vs. Poplin: Understanding Fiber vs. Weave"
+         },
+         "type": "$title"
+        },
+        "17594783799537849a07": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/4c8a1c683850a4315a0efcd56014379a.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68b112749ee8bc740ebbd127/68bf8e713ead3502ba1299db"
+       },
+       "type": "$card"
+      },
+      "1759478379953be76334": {
+       "block_order": [
+        "1759478379953f41f8eb",
+        "1759478379953858666a",
+        "1759478379953b0667ee"
+       ],
+       "blocks": {
+        "1759478379953858666a": {
+         "blocks": {},
+         "settings": {
+          "title": "Beyond the Basics: A Designer's Guide to Luxury Fabrics for Event Table Linens"
+         },
+         "type": "$title"
+        },
+        "1759478379953b0667ee": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "1759478379953f41f8eb": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/4f6eb07eb623c6d06d1eb9c5520ae7b3.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68b112749ee8bc740ebbd127/68bfc0cde3dc8d686e4ed225"
+       },
+       "type": "$card"
+      },
+      "1759478379953cb1f7b4": {
+       "block_order": [
+        "1759478379953cab1e0e",
+        "1759478379953087c48d",
+        "17594783799538a9d19b"
+       ],
+       "blocks": {
+        "1759478379953087c48d": {
+         "blocks": {},
+         "settings": {
+          "title": "Felt vs. Velvet: Understanding the Difference Between Craft and Couture Fabrics"
+         },
+         "type": "$title"
+        },
+        "17594783799538a9d19b": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "1759478379953cab1e0e": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/13a45323031e8c16d33b1fa90fd1b3c8.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68b112749ee8bc740ebbd127/68bfc8d1e3dc8d686e4ed869"
+       },
+       "type": "$card"
+      }
+     },
+     "settings": {},
+     "type": "$card-group"
+    }
+   },
+   "custom_css": [
+    "/* --- 优化博客文章标题的显示 --- */.text-columns-with-image__card-title.title5 {/* 1. 缩小字体 (这是我们之前设置的) */ font-size: calc(var(--font-size-title5) / 2); /* 2. 取消“全部大写” (这是我们之前设置的) */ text-transform: none; /* 3. 缩小字母间距 (这是我们之前设置的) */ letter-spacing: normal; /* 4. 【新增】取消斜体 */ font-style: normal;}",
+    "/* --- 【新增】缩小 \"Read More\" 链接 --- */.text-columns-with-image__card .button--link {/* 缩小字体大小 (这里设置为当前大小的85%) */ font-size: calc(var(--button-font-size, 1rem) * 0.85);}"
+   ],
+   "disabled": true,
+   "name": "t:sections.text_columns_with_image.presets.presets_0.name",
+   "settings": {
+    "color_scheme": "scheme-1",
+    "layout": {
+     "@media (--mobile)": {
+      "column-gap": "20px",
+      "row-gap": "20px"
+     },
+     "align-items": "center",
+     "column-gap": "30px",
+     "flex-direction": "column",
+     "flex-wrap": "nowrap",
+     "justify-content": "center",
+     "row-gap": "30px"
+    },
+    "size": {
+     "height": "auto",
+     "width": "100%"
+    },
+    "spacing": {
+     "@media (--mobile)": {
+      "padding-block-end": "24px",
+      "padding-block-start": "24px"
+     },
+     "padding-block-end": "80px",
+     "padding-block-start": "80px",
+     "padding-inline-end": "0",
+     "padding-inline-start": "0"
+    }
+   },
+   "type": "text-columns-with-image"
+  },
+  "17594783838166ee826e": {
+   "block_order": [
+    "175947838381681129a0",
+    "175947838381708e7e8f"
+   ],
+   "blocks": {
+    "175947838381681129a0": {
+     "blocks": {},
+     "settings": {
+      "font_size": "title2",
+      "link": "",
+      "title": "The Fominte Source"
+     },
+     "type": "$heading"
+    },
+    "175947838381708e7e8f": {
+     "block_order": [
+      "17594783838175957c8d",
+      "175947838381720a1314",
+      "17594783838175d0e373"
+     ],
+     "blocks": {
+      "175947838381720a1314": {
+       "block_order": [
+        "17594783838177a38805",
+        "175947838381713dc891",
+        "17594783838174bef030"
+       ],
+       "blocks": {
+        "175947838381713dc891": {
+         "blocks": {},
+         "settings": {
+          "title": "The Buyer's Forecast: 5 Commercially Smart Fabrics for Your Spring/Summer 2026 Casualwear Collection"
+         },
+         "type": "$title"
+        },
+        "17594783838174bef030": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "17594783838177a38805": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/8a8457774bcba0ab47f87a18c77641bd.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68bff0643ead3502ba12fb83/68c0ddfd68a9597b42ac74da"
+       },
+       "type": "$card"
+      },
+      "17594783838175957c8d": {
+       "block_order": [
+        "1759478383817fcd0719",
+        "1759478383817586d9a4",
+        "17594783838173b93bf3"
+       ],
+       "blocks": {
+        "17594783838173b93bf3": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "1759478383817586d9a4": {
+         "blocks": {},
+         "settings": {
+          "title": "More Than Cool: The 3 Pillars of a Profitable Summer Cotton Collection for SS27"
+         },
+         "type": "$title"
+        },
+        "1759478383817fcd0719": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/584b33bc41bb349371f095db42c88e97.png"
+         },
+         "type": "$image"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68bff0643ead3502ba12fb83/68c10e6168a9597b42ac90ab"
+       },
+       "type": "$card"
+      },
+      "17594783838175d0e373": {
+       "block_order": [
+        "175947838381778ffd2d",
+        "1759478383817d3733ae",
+        "175947838381757f756c"
+       ],
+       "blocks": {
+        "175947838381757f756c": {
+         "blocks": {},
+         "disabled": true,
+         "settings": {},
+         "type": "$text"
+        },
+        "175947838381778ffd2d": {
+         "blocks": {},
+         "settings": {
+          "image": "shopline://shop_images/881c3f57ec21f2efcde9d77fbd6f4860.png"
+         },
+         "type": "$image"
+        },
+        "1759478383817d3733ae": {
+         "blocks": {},
+         "settings": {
+          "title": "Stop Blaming Your Sewers: How Low-Quality Satin Is Hurting Your Production Line (And Your Profits)"
+         },
+         "type": "$title"
+        }
+       },
+       "settings": {
+        "button_text": "Read More",
+        "link": "shopline://blogs/68bff0643ead3502ba12fb83/68c004d1ca5523454d591925"
+       },
+       "type": "$card"
+      }
+     },
+     "settings": {},
+     "type": "$card-group"
+    }
+   },
+   "disabled": true,
+   "name": "t:sections.text_columns_with_image.presets.presets_0.name",
+   "settings": {
+    "color_scheme": "scheme-1",
+    "layout": {
+     "@media (--mobile)": {
+      "column-gap": "20px",
+      "row-gap": "20px"
+     },
+     "align-items": "center",
+     "column-gap": "30px",
+     "flex-direction": "column",
+     "flex-wrap": "nowrap",
+     "justify-content": "center",
+     "row-gap": "30px"
+    },
+    "size": {
+     "height": "auto",
+     "width": "100%"
+    },
+    "spacing": {
+     "@media (--mobile)": {
+      "padding-block-end": "24px",
+      "padding-block-start": "24px"
+     },
+     "padding-block-end": "80px",
+     "padding-block-start": "80px",
+     "padding-inline-end": "0",
+     "padding-inline-start": "0"
+    }
+   },
+   "type": "text-columns-with-image"
+  },
+  "1763522718667e91ec64": {
+   "block_order": [],
+   "blocks": {},
+   "custom_css": [],
+   "disabled": false,
+   "name": "t:sections.blog-article.presets_0.name",
+   "settings": {
+    "blog_num": 3,
+    "blogs": "68bff0643ead3502ba12fb83",
+    "body_font_color": "#000000",
+    "body_font_family": "Montserrat:400",
+    "body_letter_spacing": 0,
+    "body_line_height": 1.6,
+    "body_m_font_size": 14,
+    "body_pc_font_size": 14,
+    "btn_background": "#000000",
+    "btn_border_color": "#000000",
+    "btn_border_opacity": 100,
+    "btn_border_radius": 100,
+    "btn_border_thickness": 1,
+    "btn_font_color": "#FFFFFF",
+    "btn_font_family": "Montserrat:500",
+    "btn_hover_animation": 1,
+    "btn_letter_spacing": 0,
+    "btn_line_height": 1.6,
+    "btn_m_font_size": 14,
+    "btn_pc_font_size": 16,
+    "btn_shadow_blur": 5,
+    "btn_shadow_color": "#000000",
+    "btn_shadow_offset_x": 0,
+    "btn_shadow_offset_y": 4,
+    "btn_shadow_opacity": 0,
+    "btn_style": "primary",
+    "button_text": "View more",
+    "container_bg_color": "#ffffff",
+    "container_bg_color_gradient": "",
+    "container_config": {
+     "mobile": {
+      "bottom": 40,
+      "left": 20,
+      "right": 20,
+      "top": 40
+     },
+     "pc": {
+      "bottom": 60,
+      "left": 40,
+      "right": 40,
+      "top": 60
+     }
+    },
+    "container_margin_config": {
+     "mobile": {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+     },
+     "pc": {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+     }
+    },
+    "container_max_width": 1420,
+    "cover_size": "1.33",
+    "mb_slide": true,
+    "pc_cols": 3,
+    "show_abstract": true,
+    "show_author": true,
+    "show_date": true,
+    "sub_title_font_color": "#000000",
+    "sub_title_font_family": "Montserrat:700",
+    "sub_title_letter_spacing": 0,
+    "sub_title_line_height": 1.6,
+    "sub_title_m_font_size": 16,
+    "sub_title_pc_font_size": 18,
+    "text_align": "left",
+    "title": "The Fominte Source",
+    "title_font_color": "#000000",
+    "title_font_family": "Montserrat:700",
+    "title_letter_spacing": 0,
+    "title_line_height": 1.2,
+    "title_m_font_size": 24,
+    "title_pc_font_size": 32
+   },
+   "type": "shopline://apps/高阶组件库/sections/blog-article/01405986-ae6f-4fcc-adaa-2a21f14efc9f"
+  },
+  "1763522993007b5376cf": {
+   "block_order": [],
+   "blocks": {},
+   "custom_css": [],
+   "disabled": false,
+   "name": "t:sections.blog-article.presets_0.name",
+   "settings": {
+    "blog_num": 3,
+    "blogs": "68b112749ee8bc740ebbd127",
+    "body_font_color": "#000000",
+    "body_font_family": "Montserrat:400",
+    "body_letter_spacing": 0,
+    "body_line_height": 1.6,
+    "body_m_font_size": 14,
+    "body_pc_font_size": 14,
+    "btn_background": "#000000",
+    "btn_border_color": "#000000",
+    "btn_border_opacity": 100,
+    "btn_border_radius": 100,
+    "btn_border_thickness": 1,
+    "btn_font_color": "#FFFFFF",
+    "btn_font_family": "Montserrat:500",
+    "btn_hover_animation": 1,
+    "btn_letter_spacing": 0,
+    "btn_line_height": 1.6,
+    "btn_m_font_size": 14,
+    "btn_pc_font_size": 16,
+    "btn_shadow_blur": 5,
+    "btn_shadow_color": "#000000",
+    "btn_shadow_offset_x": 0,
+    "btn_shadow_offset_y": 4,
+    "btn_shadow_opacity": 0,
+    "btn_style": "primary",
+    "button_text": "View more",
+    "container_bg_color": "#ffffff",
+    "container_bg_color_gradient": "",
+    "container_config": {
+     "mobile": {
+      "bottom": 40,
+      "left": 20,
+      "right": 20,
+      "top": 40
+     },
+     "pc": {
+      "bottom": 60,
+      "left": 40,
+      "right": 40,
+      "top": 60
+     }
+    },
+    "container_margin_config": {
+     "mobile": {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+     },
+     "pc": {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+     }
+    },
+    "container_max_width": 1420,
+    "cover_size": "1.33",
+    "mb_slide": true,
+    "pc_cols": 3,
+    "show_abstract": true,
+    "show_author": true,
+    "show_date": true,
+    "sub_title_font_color": "#000000",
+    "sub_title_font_family": "Montserrat:700",
+    "sub_title_letter_spacing": 0,
+    "sub_title_line_height": 1.6,
+    "sub_title_m_font_size": 16,
+    "sub_title_pc_font_size": 18,
+    "text_align": "left",
+    "title": "The Fominte Atelier",
+    "title_font_color": "#000000",
+    "title_font_family": "Montserrat:700",
+    "title_letter_spacing": 0,
+    "title_line_height": 1.2,
+    "title_m_font_size": 24,
+    "title_pc_font_size": 32
+   },
+   "type": "shopline://apps/高阶组件库/sections/blog-article/01405986-ae6f-4fcc-adaa-2a21f14efc9f"
+  },
+  "1763523015143edd6f3d": {
+   "block_order": [],
+   "blocks": {},
+   "custom_css": [],
+   "disabled": true,
+   "name": "t:sections.blog-article.presets_0.name",
+   "settings": {
+    "blog_num": 3,
+    "blogs": "68b116c267e99d1f7443f447",
+    "body_font_color": "#000000",
+    "body_font_family": "Montserrat:400",
+    "body_letter_spacing": 0,
+    "body_line_height": 1.6,
+    "body_m_font_size": 14,
+    "body_pc_font_size": 14,
+    "btn_background": "#000000",
+    "btn_border_color": "#000000",
+    "btn_border_opacity": 100,
+    "btn_border_radius": 100,
+    "btn_border_thickness": 1,
+    "btn_font_color": "#FFFFFF",
+    "btn_font_family": "Montserrat:500",
+    "btn_hover_animation": 1,
+    "btn_letter_spacing": 0,
+    "btn_line_height": 1.6,
+    "btn_m_font_size": 14,
+    "btn_pc_font_size": 16,
+    "btn_shadow_blur": 5,
+    "btn_shadow_color": "#000000",
+    "btn_shadow_offset_x": 0,
+    "btn_shadow_offset_y": 4,
+    "btn_shadow_opacity": 0,
+    "btn_style": "primary",
+    "button_text": "View more",
+    "container_bg_color": "#ffffff",
+    "container_bg_color_gradient": "",
+    "container_config": {
+     "mobile": {
+      "bottom": 40,
+      "left": 20,
+      "right": 20,
+      "top": 40
+     },
+     "pc": {
+      "bottom": 60,
+      "left": 40,
+      "right": 40,
+      "top": 60
+     }
+    },
+    "container_margin_config": {
+     "mobile": {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+     },
+     "pc": {
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0
+     }
+    },
+    "container_max_width": 1420,
+    "cover_size": "1.33",
+    "mb_slide": true,
+    "pc_cols": 3,
+    "show_abstract": true,
+    "show_author": true,
+    "show_date": true,
+    "sub_title_font_color": "#000000",
+    "sub_title_font_family": "Montserrat:700",
+    "sub_title_letter_spacing": 0,
+    "sub_title_line_height": 1.6,
+    "sub_title_m_font_size": 16,
+    "sub_title_pc_font_size": 18,
+    "text_align": "left",
+    "title": "The Fominte Journal",
+    "title_font_color": "#000000",
+    "title_font_family": "Montserrat:700",
+    "title_letter_spacing": 0,
+    "title_line_height": 1.2,
+    "title_m_font_size": 24,
+    "title_pc_font_size": 32
+   },
+   "type": "shopline://apps/高阶组件库/sections/blog-article/01405986-ae6f-4fcc-adaa-2a21f14efc9f"
+  },
+  "main-page": {
+   "blocks": {},
+   "custom_css": [
+    ".main-page__title {display: none !important;}"
+   ],
+   "disabled": true,
+   "settings": {
+    "spacing": {
+     "@media (--mobile)": {
+      "padding-bottom": "40px",
+      "padding-left": "0",
+      "padding-right": "0",
+      "padding-top": "40px"
+     },
+     "padding-bottom": "80px",
+     "padding-left": "210px",
+     "padding-right": "210px",
+     "padding-top": "80px"
+    }
+   },
+   "type": "main-page"
+  }
+ }
+}

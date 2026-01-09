@@ -1,0 +1,451 @@
+{
+  "sections": {
+    "1758167109594d2a7347": {
+      "type": "shopline://apps/高阶组件库/sections/text-with-video/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "background_position": "left",
+        "body_font_color": "#ffffff",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_background": "#111111",
+        "btn_border_color": "#FFFFFF",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 8,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "secondary",
+        "container_bg_color": "#000000",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1420,
+        "content_bg_color": "#292929",
+        "content_bg_color_gradient": "",
+        "content_border_color": "#000000",
+        "content_border_opacity": 100,
+        "content_border_radius": 20,
+        "content_border_thickness": 0,
+        "content_shadow_blur": 5,
+        "content_shadow_color": "#000000",
+        "content_shadow_offset_x": 0,
+        "content_shadow_offset_y": 4,
+        "content_shadow_opacity": 0,
+        "cover": {},
+        "loop": false,
+        "mb_show": true,
+        "mb_text_align": "left",
+        "pc_show": true,
+        "pc_text_align": "left",
+        "quiet": true,
+        "ratio": "4:3",
+        "show_divider": false,
+        "sl_video": {},
+        "title_font_color": "#ffffff",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 24,
+        "title_pc_font_size": 36,
+        "video_border_color": "#000000",
+        "video_border_opacity": 100,
+        "video_border_radius": 20,
+        "video_border_thickness": 0,
+        "video_position": "right",
+        "video_shadow_blur": 5,
+        "video_shadow_color": "#000000",
+        "video_shadow_offset_x": 0,
+        "video_shadow_offset_y": 4,
+        "video_shadow_opacity": 0,
+        "video_url": ""
+      },
+      "disabled": true,
+      "blocks": {
+        "175816710959587ce21c": {
+          "type": "$button",
+          "settings": {
+            "button_text": "Optional button",
+            "jump_link": ""
+          },
+          "blocks": {}
+        },
+        "1758167109595b804533": {
+          "type": "$title",
+          "settings": {
+            "title": "Large image with text box"
+          },
+          "blocks": {}
+        },
+        "1758167109595c1761d0": {
+          "type": "$text",
+          "settings": {
+            "text": "Pair large text with a video to draw attention to an important detail of your brand or product line."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758167109595b804533",
+        "1758167109595c1761d0",
+        "175816710959587ce21c"
+      ],
+      "name": "t:sections.text-with-video.presets_0.name"
+    },
+    "175816713318878ce743": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {}
+    },
+    "1758167640689c320a93": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": false,
+      "blocks": {
+        "1758167640690ef9c0eb": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": "shopline://shop_images/8dbc090a68fc3ee1a9f043266f7b2a7b.webp",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 0,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758167640690ef9c0eb"
+      ],
+      "custom_css": [],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "175817578134369369b4": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758175781343e9dcc2e": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/large-inquiry-image-with-text-box/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "button_text": "Optional button",
+            "image": "shopline://shop_images/our story banner_7178089964323742978.webp",
+            "image_height": "natural",
+            "image_mobile": "",
+            "image_select": "center_center",
+            "inquiry_form_id": "",
+            "mobile_height": "auto",
+            "parallax": true,
+            "sub_title": "Impressive",
+            "text": "Pair large text with a full-width image to draw attention to an important detail of your brand or product line.",
+            "text_border": false,
+            "text_position": "left",
+            "title": "Large image with text box"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758175781343e9dcc2e"
+      ]
+    },
+    "1758175809503a1b51c9": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "17581758095034398de3": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-image-with-text/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "button_text": "Optional button",
+            "image_width": 500,
+            "inquiry_form_id": "",
+            "show_divider": false,
+            "sub_title": "Improved",
+            "text": "Pair large text with a full-width image to draw attention to an important detail of your brand or product line.",
+            "text_position": "left",
+            "title": "Image with text"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17581758095034398de3"
+      ]
+    },
+    "175817586686913d0d87": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {
+        "17581758668693e55387": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Submit",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7178176695215606353.svg",
+            "image2": "shopline://shop_images/剪刀.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7179845405185677232.svg",
+            "image4": "shopline://shop_images/汇总统计_7179845140978093110.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expert Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17581758668693e55387"
+      ]
+    },
+    "1758182371584281c490": {
+      "type": "image-banner",
+      "settings": {
+        "first_image": "shopline://shop_images/8dbc090a68fc3ee1a9f043266f7b2a7b.webp",
+        "image_height": "small",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "0px",
+            "flex-direction": "row",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "0px"
+          },
+          "align-items": "center",
+          "column-gap": "0px",
+          "flex-direction": "row",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "0px"
+        },
+        "match_height_to_first_image": false,
+        "overlay_opacity": 0,
+        "second_image": {},
+        "show_text_below_image": true,
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-inline-end": "30px",
+          "padding-inline-start": "30px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "1758182371585ebd0aa5": {
+          "type": "$container",
+          "settings": {},
+          "disabled": true,
+          "blocks": {
+            "175818237158505043cc": {
+              "type": "$button",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            },
+            "17581823715857f0073c": {
+              "type": "$subheading",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            },
+            "1758182371585b5a7b46": {
+              "type": "$description",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            },
+            "1758182371585e32d451": {
+              "type": "$heading",
+              "settings": {},
+              "disabled": true,
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "17581823715857f0073c",
+            "1758182371585e32d451",
+            "1758182371585b5a7b46",
+            "175818237158505043cc"
+          ]
+        }
+      },
+      "block_order": [
+        "1758182371585ebd0aa5"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image_banner.presets.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px",
+            "padding-inline-end": "0px",
+            "padding-inline-start": "0px"
+          },
+          "padding-block-end": "10px",
+          "padding-block-start": "40px",
+          "padding-inline-end": "210px",
+          "padding-inline-start": "210px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "1758182371584281c490",
+    "1758167640689c320a93",
+    "1758167109594d2a7347",
+    "175816713318878ce743",
+    "175817578134369369b4",
+    "1758175809503a1b51c9",
+    "175817586686913d0d87"
+  ]
+}

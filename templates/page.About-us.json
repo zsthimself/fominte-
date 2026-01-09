@@ -1,0 +1,547 @@
+{
+  "sections": {
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": false,
+      "blocks": {
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "top",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": "shopline://shop_images/about-ustextile-factory-panorama.png",
+            "link": "",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Weaving Excellence, Connecting Globally",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Helvetica",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 24,
+            "title_pc_font_size": 32,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": ""
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "1759479396600582e3a8": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": {},
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "50px",
+          "padding-block-start": "50px",
+          "padding-inline-end": "80px",
+          "padding-inline-start": "80px"
+        }
+      },
+      "disabled": false,
+      "blocks": {
+        "17594793966011f25400": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "text_align": "center",
+            "text_size": "title2"
+          },
+          "blocks": {}
+        },
+        "1759479396602e9b8fa7": {
+          "type": "rich-text",
+          "settings": {
+            "content": "\u003cp\u003e\u003cspan style=\"font-size: 16px;\"\u003eFominte is a vertically integrated modern textile enterprise headquartered in Suzhou, \u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan style=\"font-size: 16px;\"\u003ethe \"World Textile Capital,\" with R\u0026amp;D and design innovation based in Shenzhen and manufacturing \u003c/span\u003e\u003cspan style=\"font-size: 16px;\"\u003eoperations in Xuzhou.\u003c/span\u003e\u003c/p\u003e",
+            "spacing": {
+              "padding-block-end": "0px",
+              "padding-block-start": "0px",
+              "padding-inline-end": "10px",
+              "padding-inline-start": "10px"
+            }
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17594793966011f25400",
+        "1759479396602e9b8fa7"
+      ],
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "17594795712081472f76": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n    /* Main container for the banner */\r\n    .about-us-banner-container {\r\n        display: flex;\r\n        flex-wrap: wrap; /* Allows columns to stack on mobile */\r\n        max-width: 1200px;\r\n        margin: 40px auto; /* Centers the module on the page */\r\n        border-radius: 12px; /* Rounded corners for the whole container */\r\n        overflow: hidden; /* Ensures content respects the rounded corners */\r\n        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */\r\n    }\r\n\r\n    /* Left column for the text content */\r\n    .about-us-banner-text {\r\n        flex: 1; /* Takes up half the space */\r\n        min-width: 320px; /* Ensures it doesn't get too squeezed */\r\n        background-color: #2a414a; /* The dark teal background color from your image */\r\n        color: #ffffff; /* White text color */\r\n        padding: 50px 60px; /* Adds spacing inside the text column */\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: center;\r\n    }\r\n\r\n    /* Right column for the image */\r\n    .about-us-banner-image {\r\n        flex: 1.2; /* Makes the image column slightly wider */\r\n        min-width: 320px;\r\n        min-height: 400px;\r\n        background-image: url('https://img-va.myshopline.com/image/store/1754638002373/435827474630e35f6ff9ad48b1bfbba6.png?w=1500\u0026h=921'); /* \u003c\u003c\u003c YOUR IMAGE URL GOES HERE */\r\n        background-size: cover; /* Ensures the image covers the entire area */\r\n        background-position: center; /* Centers the image */\r\n    }\r\n\r\n    /* Styling for the main heading */\r\n    .about-us-banner-text h2 {\r\n        font-size: 28px;\r\n        font-weight: 500;\r\n        margin-bottom: 25px;\r\n        line-height: 1.2;\r\n    }\r\n\r\n    /* Styling for the paragraph text */\r\n    .about-us-banner-text p {\r\n        font-size: 15px;\r\n        line-height: 1.7;\r\n        margin-bottom: 20px;\r\n        opacity: 0.9; /* Makes the text slightly softer */\r\n    }\r\n\r\n    /* Responsive design for smaller screens (like mobile) */\r\n    @media (max-width: 768px) {\r\n        .about-us-banner-container {\r\n            flex-direction: column; /* Stacks the columns vertically */\r\n        }\r\n        .about-us-banner-text {\r\n            padding: 40px 30px;\r\n            text-align: center;\r\n        }\r\n        .about-us-banner-image {\r\n             /* Make image take less height on mobile to avoid excessive scrolling */\r\n            min-height: 250px;\r\n        }\r\n    }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"about-us-banner-container\"\u003e\r\n    \u003cdiv class=\"about-us-banner-text\"\u003e\r\n        \u003ch2\u003eWho we are?\u003c/h2\u003e\r\n        \u003cp\u003e\r\n            Our mission is to be the industry leader of innovative textiles, showcasing the quality and charm of China's intelligent\r\n            manufacturing to the world. We believe in building lasting partnerships by deeply understanding our clients' design\r\n            needs and providing a reliable, end-to-end production solution that brings their vision to life.\r\n        \u003c/p\u003e\r\n        \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"about-us-banner-image\"\u003e\r\n        \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1762421636714d2a9bef": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": {},
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "130px",
+          "padding-inline-end": "30px",
+          "padding-inline-start": "30px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "17624216367152574df0": {
+          "type": "rich-text",
+          "settings": {
+            "content": "\u003cdiv class=\"text top_text\"\u003e\n\u003cdiv class=\"top_details \"\u003e\n\u003csection\u003e\n\u003cp\u003eNo matter where you are, no matter what you need, Fominte is ready to deliver reliable fabric and exceptional garments with professionalism, integrity, and innovation.\u0026nbsp;\u003c/p\u003e\n\u003c/section\u003e\n\u003c/div\u003e\n\u003c/div\u003e",
+            "size": {
+              "height": "auto",
+              "width": "55%"
+            }
+          },
+          "blocks": {}
+        },
+        "1762421636715701b974": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Culture",
+            "text_align": "center",
+            "text_size": "title1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1762421636715701b974",
+        "17624216367152574df0"
+      ],
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "176249737855968f9d00": {
+      "type": "shopline://apps/高阶组件库/sections/splicing-image-with-text/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "background_position": "center",
+        "body_font_color": "#FFFFFF",
+        "body_font_family": "Helvetica",
+        "body_letter_spacing": 50,
+        "body_line_height": 1.8,
+        "body_m_font_size": 12,
+        "body_pc_font_size": 16,
+        "btn_background": "#111111",
+        "btn_border_color": "#FFFFFF",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:600",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "secondary",
+        "container_bg_color": "#ffffff",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1500,
+        "content_bg_color": "#000000",
+        "content_border_color": "#000000",
+        "content_border_opacity": 100,
+        "content_border_radius": 0,
+        "content_border_thickness": 0,
+        "content_shadow_blur": 5,
+        "content_shadow_color": "#000000",
+        "content_shadow_offset_x": 0,
+        "content_shadow_offset_y": 4,
+        "content_shadow_opacity": 0,
+        "cover": {},
+        "loop": false,
+        "mask_opacity": 100,
+        "mb_image": "shopline://shop_images/435827474630e35f6ff9ad48b1bfbba6.png",
+        "mb_show": true,
+        "mg_border_color": "#000000",
+        "mg_border_opacity": 100,
+        "mg_border_radius": 0,
+        "mg_border_thickness": 0,
+        "mg_shadow_blur": 5,
+        "mg_shadow_color": "#000000",
+        "mg_shadow_offset_x": 0,
+        "mg_shadow_offset_y": 4,
+        "mg_shadow_opacity": 0,
+        "pc_image": "shopline://shop_images/435827474630e35f6ff9ad48b1bfbba6.png",
+        "pc_show": true,
+        "quiet": true,
+        "ratio": "16:9",
+        "splicing_style": "pic_on_top",
+        "sub_title_font_color": "#FFFFFF",
+        "sub_title_font_family": "Montserrat:400",
+        "sub_title_letter_spacing": 30,
+        "sub_title_line_height": 1.6,
+        "sub_title_m_font_size": 14,
+        "sub_title_pc_font_size": 16,
+        "text_position": "right",
+        "title_font_color": "#FFFFFF",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 20,
+        "title_pc_font_size": 36,
+        "video_url": ""
+      },
+      "disabled": false,
+      "blocks": {
+        "176249737856039eaa53": {
+          "type": "$content",
+          "settings": {
+            "content": "\u003cp\u003eOur mission is to be the industry leader of innovative textiles, showcasing the quality and charm of China's intelligent manufacturing to the world. We believe in building lasting partnerships by deeply understanding our clients' design needs and providing a reliable, end-to-end production solution that brings their vision to life.\u003c/p\u003e"
+          },
+          "blocks": {}
+        },
+        "1762497378560ee92987": {
+          "type": "$button",
+          "settings": {
+            "button_text": "Optional button",
+            "link": ""
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1762497378560fdd9fcd": {
+          "type": "$title",
+          "settings": {
+            "title": "ABOUT US"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1762497378560fdd9fcd",
+        "176249737856039eaa53",
+        "1762497378560ee92987"
+      ],
+      "name": "t:sections.splicing-image-with-text.presets_0.name"
+    },
+    "17648338795881480f9e": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- 全局容器 --- */\r\n  .fom-infra-section {\r\n    background-color: #f9f9f9;\r\n    padding: 80px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #1a1a1a;\r\n  }\r\n\r\n  .fom-infra-wrapper {\r\n    max-width: 1400px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  /* --- 标题区域 --- */\r\n  .fom-infra-header {\r\n    text-align: center;\r\n    margin-bottom: 50px;\r\n    max-width: 800px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n\r\n  .fom-infra-title {\r\n    font-size: 36px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n    margin-bottom: 15px;\r\n    color: #000;\r\n  }\r\n\r\n  .fom-infra-subtitle {\r\n    font-size: 16px;\r\n    color: #555;\r\n    line-height: 1.6;\r\n  }\r\n\r\n  /* --- ✨ [修改] 静态证书展示区域 ✨ --- */\r\n  .fom-cert-container {\r\n    margin-bottom: 80px;\r\n    /* 增加底部间距，与数据区隔开 */\r\n    padding: 0 20px;\r\n  }\r\n\r\n  /* 静态 Flex 布局，居中对齐 */\r\n  .fom-cert-row {\r\n    display: flex;\r\n    justify-content: center;\r\n    /* 水平居中 */\r\n    align-items: center;\r\n    /* 垂直居中 */\r\n    gap: 60px;\r\n    /* 图片之间的间距，可根据需要调整 */\r\n    flex-wrap: wrap;\r\n    /* 允许换行，适配小屏幕 */\r\n  }\r\n\r\n  .fom-cert-item {\r\n    /* 移除固定宽度，让图片自然展示，但限制最大宽以防失控 */\r\n    max-width: 250px;\r\n    transition: transform 0.3s ease;\r\n    display: flex;\r\n    justify-content: center;\r\n  }\r\n\r\n  /* 悬停时的微动效：轻微上浮 */\r\n  .fom-cert-item:hover {\r\n    transform: translateY(-5px);\r\n  }\r\n\r\n  .fom-cert-img {\r\n    display: block;\r\n    width: auto;\r\n    /* ✨ [放大] 这里的 max-height 控制图片大小，从 80px 改为 130px */\r\n    max-height: 130px;\r\n    object-fit: contain;\r\n\r\n    /* 保持黑白到彩色的高级交互 */\r\n    filter: grayscale(100%);\r\n    opacity: 0.7;\r\n    transition: all 0.4s ease;\r\n  }\r\n\r\n  /* 悬停变彩 */\r\n  .fom-cert-item:hover .fom-cert-img {\r\n    filter: grayscale(0%);\r\n    opacity: 1;\r\n  }\r\n\r\n  /* --- 数据网格 --- */\r\n  .fom-infra-grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    gap: 30px;\r\n  }\r\n\r\n  .fom-infra-card {\r\n    background: #fff;\r\n    padding: 40px 30px;\r\n    border: 1px solid #eee;\r\n    text-align: left;\r\n    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);\r\n    position: relative;\r\n    overflow: hidden;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n  }\r\n\r\n  .fom-infra-card:hover {\r\n    transform: translateY(-8px);\r\n    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);\r\n    border-color: #000;\r\n  }\r\n\r\n  .fom-stat-row {\r\n    display: flex;\r\n    align-items: baseline;\r\n    margin-bottom: 10px;\r\n  }\r\n\r\n  .fom-stat-number {\r\n    font-size: 60px;\r\n    font-weight: 900;\r\n    line-height: 1;\r\n    color: #1a1a1a;\r\n    letter-spacing: -1px;\r\n    display: inline-block;\r\n    font-variant-numeric: tabular-nums;\r\n  }\r\n\r\n  .fom-stat-unit {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n    color: #5b87c1;\r\n    margin-left: 8px;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  .fom-stat-desc {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #888;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1.5px;\r\n    padding-top: 15px;\r\n    border-top: 1px solid #f0f0f0;\r\n    width: 100%;\r\n  }\r\n\r\n  /* --- 移动端适配 --- */\r\n  @media (max-width: 1024px) {\r\n    .fom-infra-grid {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n  }\r\n\r\n  @media (max-width: 600px) {\r\n\r\n    /* 数据卡片变单列 */\r\n    .fom-infra-grid {\r\n      grid-template-columns: 1fr;\r\n    }\r\n\r\n    .fom-stat-number {\r\n      font-size: 48px;\r\n    }\r\n\r\n    /* 证书区域适配：手机端变为 2列布局 */\r\n    .fom-cert-row {\r\n      gap: 30px;\r\n    }\r\n\r\n    .fom-cert-item {\r\n      width: 45%;\r\n      /* 强制一行两个 */\r\n    }\r\n\r\n    .fom-cert-img {\r\n      max-height: 80px;\r\n      /* 手机上稍微小一点，不然会撑破 */\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"fom-infra-section\" id=\"stats-section\"\u003e\r\n  \u003cdiv class=\"fom-infra-wrapper\"\u003e\r\n\r\n    \u003cdiv class=\"fom-infra-header\"\u003e\r\n      \u003cdiv class=\"fom-infra-title\"\u003eOur Manufacturing Infrastructure\u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-subtitle\"\u003e\r\n        Scalable production capabilities backing your global supply chain with speed and precision.\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fom-infra-grid\"\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"30\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Years\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eExperience Since 1990\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"120\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Countries\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eGlobal Reach\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"7\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003eDays\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eRapid Prototyping\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"112\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Lines\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eProduction Equipment\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"66700\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003eM²\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eSmart Manufacturing Facility\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"5000000\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Yards\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eAnnual Production Capacity\u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e\r\n\r\n\u003cscript\u003e\r\n  (function() {\r\n  document.addEventListener('DOMContentLoaded', function() {\r\n    \r\n    // --- 1. 数字滚动动画逻辑 (保留) ---\r\n    const statsSection = document.getElementById('stats-section');\r\n    const numbers = document.querySelectorAll('.fom-stat-number');\r\n    let hasAnimated = false; \r\n    const observer = new IntersectionObserver((entries, obs) =\u003e {\r\n      entries.forEach(entry =\u003e {\r\n        if (entry.isIntersecting \u0026\u0026 !hasAnimated) {\r\n          hasAnimated = true; \r\n          runAnimations();\r\n          obs.unobserve(entry.target); \r\n        }\r\n      });\r\n    }, { threshold: 0.2 });\r\n\r\n    if (statsSection) observer.observe(statsSection);\r\n\r\n    function runAnimations() {\r\n      numbers.forEach(num =\u003e {\r\n        const target = +num.getAttribute('data-target'); \r\n        const duration = 2000; \r\n        const frameRate = 16; \r\n        const totalFrames = Math.round(duration / frameRate);\r\n        let frame = 0;\r\n        const updateCount = () =\u003e {\r\n          frame++;\r\n          const progress = 1 - Math.pow(1 - frame / totalFrames, 4);\r\n          const currentVal = Math.round(target * progress);\r\n          num.innerText = currentVal.toLocaleString();\r\n          if (frame \u003c totalFrames) requestAnimationFrame(updateCount);\r\n          else num.innerText = target.toLocaleString(); \r\n        };\r\n        updateCount();\r\n      });\r\n    }\r\n\r\n    // ✨ [删除] 原有的轮播图 JS 逻辑已移除，确保图片静态展示 ✨\r\n  });\r\n})();\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "0px",
+            "padding-top": "0px"
+          },
+          "padding-bottom": "0px",
+          "padding-top": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "17648339300048d4fd14": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* 基础容器 */\r\n  #fominte-growth-module {\r\n    background-color: #ffffff;\r\n    padding: 80px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #1a1a1a;\r\n  }\r\n\r\n  .fg-container {\r\n    max-width: 1400px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  /* 顶部大标题样式 */\r\n  .fg-header {\r\n    text-align: center;\r\n    margin-bottom: 80px;\r\n  }\r\n\r\n  .fg-header h2 {\r\n    font-size: 36px;\r\n    letter-spacing: 1px;\r\n    text-transform: uppercase;\r\n    margin-bottom: 15px;\r\n    font-weight: 800;\r\n    color: #000;\r\n  }\r\n\r\n  .fg-header p {\r\n    color: #666;\r\n    font-size: 18px;\r\n    font-weight: 300;\r\n  }\r\n\r\n  /* --- 内容区块通用样式 --- */\r\n  .fg-content-section {\r\n    margin-bottom: 100px;\r\n  }\r\n\r\n  .fg-content-section:last-child {\r\n    margin-bottom: 0;\r\n  }\r\n\r\n  /* 区块小标题 */\r\n  .fg-section-title {\r\n    text-align: center;\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 2px;\r\n    display: table;\r\n    margin: 0 auto 40px auto;\r\n    color: #000;\r\n    position: relative;\r\n    padding-bottom: 15px;\r\n  }\r\n\r\n  /* 小标题下方的装饰线 */\r\n  .fg-section-title::after {\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    width: 100%;\r\n    left: 0;\r\n    transform: none;\r\n    height: 3px;\r\n    background-color: #5b87c1;\r\n    /* 蓝色点缀 */\r\n  }\r\n\r\n  /* 4列网格 (Core Capabilities) */\r\n  .fg-grid-4 {\r\n    display: grid;\r\n    grid-template-columns: repeat(4, 1fr);\r\n    gap: 30px;\r\n  }\r\n\r\n  /* 卡片样式 */\r\n  .fg-card {\r\n    background: #fff;\r\n    padding: 40px 30px 30px 30px;\r\n    border: 1px solid #f0f0f0;\r\n    display: flex;\r\n    flex-direction: column;\r\n    transition: box-shadow 0.3s ease, transform 0.3s ease;\r\n    height: 100%;\r\n  }\r\n\r\n  .fg-card:hover {\r\n    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);\r\n    transform: translateY(-5px);\r\n    border-color: #e0e0e0;\r\n  }\r\n\r\n  /* Icon 样式 */\r\n  .fg-icon {\r\n    width: 48px;\r\n    height: 48px;\r\n    margin-bottom: 25px;\r\n    color: #000;\r\n  }\r\n\r\n  .fg-card h3 {\r\n    font-size: 16px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    margin-bottom: 20px;\r\n    letter-spacing: 0.5px;\r\n    color: #000;\r\n  }\r\n\r\n  /* [修改] 列表样式 - 强制对齐修复 */\r\n  .fg-list {\r\n  /* 1. 重置默认样式，消除浏览器差异 */\r\n  margin: 0;\r\n  margin-bottom: 30px;\r\n  \r\n  /* 2. 关键：设置一个精确的 padding-left */\r\n  /* 20px 通常刚好能放下圆点，且视觉上和上方的 H3 标题近似对齐 */\r\n  padding-left: 20px;\r\n  \r\n  flex-grow: 1;\r\n  list-style-type: disc; /* 实心圆点 */\r\n  text-align: left; /* 内容左对齐 */\r\n  }\r\n  \r\n  .fg-list li {\r\n  font-size: 14px;\r\n  line-height: 1.8;\r\n  color: #555;\r\n  margin-bottom: 5px;\r\n  /* 3. 确保 li 内部没有额外的缩进 */\r\n  padding-left: 0;\r\n  }\r\n\r\n\r\n\r\n  /* 保留 Extended Service 卡片里的普通段落样式 */\r\n  .fg-card p {\r\n    font-size: 14px;\r\n    line-height: 1.6;\r\n    color: #555;\r\n    margin-bottom: 30px;\r\n    flex-grow: 1;\r\n  }\r\n\r\n  /* 底部 Trust Anchor */\r\n  .fg-card-footer {\r\n    border-top: 1px solid #eee;\r\n    padding-top: 15px;\r\n    font-size: 11px;\r\n    font-weight: bold;\r\n    color: #555;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.5px;\r\n  }\r\n\r\n  /* --- 流程样式 (Collaboration Process) --- */\r\n/* --- 流程样式 (图文卡片版) --- */\r\n.fg-process-wrapper {\r\ndisplay: flex;\r\njustify-content: space-between;\r\nflex-wrap: wrap; /* 允许换行，适应小屏幕 */\r\ngap: 20px;\r\npadding: 0; /* 移除内边距，让卡片自己撑开 */\r\nbackground-color: transparent; /* 移除灰色背景，让卡片更清爽 */\r\nmargin-top: 40px;\r\n}\r\n\r\n.fg-step-card {\r\nflex: 1;\r\nmin-width: 200px;\r\nbackground: #fff;\r\nborder: 1px solid #f0f0f0;\r\nborder-radius: 8px;\r\noverflow: hidden;\r\ntransition: all 0.3s ease;\r\nposition: relative;\r\ndisplay: flex;\r\nflex-direction: column;\r\n}\r\n\r\n/* 悬停效果：上浮 + 阴影 */\r\n.fg-step-card:hover {\r\ntransform: translateY(-5px);\r\nbox-shadow: 0 10px 25px rgba(0,0,0,0.08);\r\nborder-color: #e0e0e0;\r\n}\r\n\r\n/* 图片容器 */\r\n.fg-step-img-box {\r\nwidth: 100%;\r\nheight: 140px; /* 图片高度，可调整 */\r\noverflow: hidden;\r\nposition: relative;\r\nbackground-color: #f5f5f5; /* 图片加载前的占位色 */\r\n}\r\n\r\n.fg-step-img {\r\nwidth: 100%;\r\nheight: 100%;\r\nobject-fit: cover;\r\ntransition: transform 0.6s ease;\r\n}\r\n\r\n.fg-step-card:hover .fg-step-img {\r\ntransform: scale(1.05); /* 图片微放大 */\r\n}\r\n\r\n/* 内容区域 */\r\n.fg-step-content {\r\npadding: 25px 20px;\r\ntext-align: center;\r\nposition: relative;\r\nflex-grow: 1;\r\n}\r\n\r\n/* 数字样式 (叠加在图片和内容之间) */\r\n.fg-step-num {\r\nposition: absolute;\r\ntop: -25px; /* 让数字骑在分界线上 */\r\nleft: 50%;\r\ntransform: translateX(-50%);\r\nwidth: 50px;\r\nheight: 50px;\r\nbackground-color: #000;\r\ncolor: #fff;\r\nborder-radius: 50%;\r\ndisplay: flex;\r\nalign-items: center;\r\njustify-content: center;\r\nfont-size: 18px;\r\nfont-weight: 700;\r\nborder: 4px solid #fff; /* 白边增加层次 */\r\nbox-shadow: 0 4px 10px rgba(0,0,0,0.1);\r\nz-index: 2;\r\n}\r\n\r\n.fg-step-title {\r\nfont-size: 16px;\r\nfont-weight: 700;\r\nmargin-top: 25px; /* 给数字留出空间 */\r\nmargin-bottom: 8px;\r\ntext-transform: uppercase;\r\ncolor: #000;\r\n}\r\n\r\n.fg-step-desc {\r\nfont-size: 13px;\r\ncolor: #666;\r\nline-height: 1.5;\r\nmargin: 0;\r\n}\r\n\r\n/* 连接箭头 (仅在桌面端显示) */\r\n.fg-step-card:not(:last-child)::after {\r\ncontent: '→';\r\nposition: absolute;\r\nright: -25px; /* 放到卡片外面 */\r\ntop: 50%;\r\ntransform: translateY(-50%);\r\nfont-size: 24px;\r\ncolor: #ccc;\r\nz-index: 1;\r\ndisplay: none; /* 默认隐藏，因为卡片布局很难完美对齐箭头，建议去掉箭头或者只在特定宽度显示 */\r\n}\r\n\r\n/* --- Grid 3 (Extended Service) --- */\r\n\r\n.fg-grid-3 {\r\n\r\ndisplay: grid;\r\n\r\ngrid-template-columns: repeat(3, 1fr);\r\n\r\ngap: 30px;\r\n\r\n}\r\n\r\n\r\n\r\n.fg-card.simple {\r\n\r\ntext-align: left;\r\n\r\npadding: 40px 30px;\r\n\r\nbackground-color: #fcfcfc;\r\n\r\n}\r\n/* 如果实在想要箭头，可以加在 wrapper 上作为一个伪元素，但为了布局灵活，这里推荐去掉箭头，用卡片本身的排列暗示顺序 */\r\n\r\n  /* 移动端响应 */\r\n  @media (max-width: 900px) {\r\n\r\n    .fg-grid-4,\r\n    .fg-grid-3 {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n    .fg-step-card {\r\n    min-width: 45%; /* 平板一行两个 */\r\n    }\r\n  }\r\n\r\n  @media (max-width: 600px) {\r\n\r\n    .fg-grid-4,\r\n    .fg-grid-3 {\r\n      grid-template-columns: 1fr;\r\n    }\r\n\r\n    .fg-step-card {\r\n    min-width: 100%; /* 手机一行一个 */\r\n    flex-direction: row; /* 手机端改成左图右文，更省空间？或者保持上下 */\r\n    align-items: center;\r\n    text-align: left;\r\n    }\r\n    \r\n    /* 手机端样式调整：左图右文布局 (可选) */\r\n    .fg-step-img-box {\r\n    width: 100px;\r\n    height: 100px;\r\n    flex-shrink: 0;\r\n    }\r\n    \r\n    .fg-step-content {\r\n    padding: 15px;\r\n    text-align: left;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    }\r\n    \r\n    .fg-step-num {\r\n    position: static;\r\n    transform: none;\r\n    width: 24px;\r\n    height: 24px;\r\n    font-size: 12px;\r\n    margin-bottom: 5px;\r\n    border: none;\r\n    box-shadow: none;\r\n    background: transparent;\r\n    color: #5b87c1; /* 蓝色数字 */\r\n    justify-content: flex-start;\r\n    padding: 0;\r\n    }\r\n    \r\n    .fg-step-title {\r\n    margin-top: 0;\r\n    }\r\n\r\n    .fg-step::after {\r\n      content: '↓';\r\n      right: 50%;\r\n      top: auto;\r\n      bottom: -30px;\r\n      transform: translateX(50%);\r\n    }\r\n\r\n    .fg-process-wrapper {\r\n      flex-direction: column;\r\n      gap: 50px;\r\n      padding: 30px 20px;\r\n    }\r\n\r\n    .fg-content-section {\r\n      margin-bottom: 60px;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv id=\"fominte-growth-module\"\u003e\r\n  \u003cdiv class=\"fg-container\"\u003e\r\n\r\n    \r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eCORE advantages\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-grid-4\"\u003e\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M17 18h1\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M12 18h1\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M7 18h1\"\u003e\u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eDIRECT FACTORY \u0026 DESIGN\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eInnovate 150 Designs Every Month\u003c/li\u003e\r\n            \u003cli\u003e5000+ Original Patterns Library\u003c/li\u003e\r\n            \u003cli\u003e30+ Years Manufacturing Legacy\u003c/li\u003e\r\n            \u003cli\u003e24/7 Immediate Response\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eOEM/ODM Available • Factory Visit Welcome\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"m9 12 2 2 4-4\"\u003e\u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eCERTIFIED QUALITY\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eISO \u0026 BSCI Certified Factory\u003c/li\u003e\r\n            \u003cli\u003eHigg FEM Compliant Facility\u003c/li\u003e\r\n            \u003cli\u003e100% Pre-shipment Inspection\u003c/li\u003e\r\n            \u003cli\u003e6 Quality Inspection Procedures\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eISO/BSCI Certified\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003ccircle cx=\"12\" cy=\"12\" r=\"10\"\u003e\u003c/circle\u003e\r\n              \u003cpolyline points=\"12 6 12 12 16 14\"\u003e\u003c/polyline\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eStrong Supply Chain\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003e7-Day Rapid Prototyping\u003c/li\u003e\r\n            \u003cli\u003e3-Day In-Stock Dispatch\u003c/li\u003e\r\n            \u003cli\u003e20-Day Production (5k Units)\u003c/li\u003e\r\n            \u003cli\u003e30-45 Day Lead Time (10k-50k)\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003e7-Day Stock Dispatch • 30-Day Custom Lead Time\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"m11 17 2 2a1 1 0 1 0 3-3\"\u003e\u003c/path\u003e\r\n              \u003cpath\r\n                d=\"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-1.42-1.42l.88-.88a5 5 0 0 1 7.07 0l2.12 2.12a3 3 0 0 1 0 4.24l-2.5 2.5a3 3 0 0 1-4.24 0l-2.5-2.5a3 3 0 0 1 0-4.24l2.5-2.5a5 5 0 0 1 7.07 0\"\u003e\r\n              \u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eFLEXIBLE TRADING\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eFOB / EXW / DDU / DDP \u003c/li\u003e\r\n            \u003cli\u003eReturning Clients Free Sampling\u003c/li\u003e\r\n            \u003cli\u003eCustom Packing Private Labeling\u003c/li\u003e\r\n            \u003cli\u003eFull Invoicing Standard Service\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eDDP Support • Free Samples\u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003cdiv class=\"fg-content-section\"\u003e\r\n    \u003cdiv class=\"fg-section-title\"\u003eCustomization PROCESS\u003c/div\u003e\r\n  \r\n    \u003cdiv class=\"fg-process-wrapper\"\u003e\r\n  \r\n      \u003cdiv class=\"fg-step-card\"\u003e\r\n        \u003cdiv class=\"fg-step-img-box\"\u003e\r\n          \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/--48.webp?w=1264\u0026h=848\" alt=\"Inquiry\" class=\"fg-step-img\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-step-content\"\u003e\r\n          \u003cdiv class=\"fg-step-num\"\u003e01\u003c/div\u003e\r\n          \u003ch4 class=\"fg-step-title\"\u003eInquiry\u003c/h4\u003e\r\n          \u003cp class=\"fg-step-desc\"\u003eproposal within 24h.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n  \r\n      \u003cdiv class=\"fg-step-card\"\u003e\r\n        \u003cdiv class=\"fg-step-img-box\"\u003e\r\n          \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/3109c97af1e5cc4653c681f552d2afb2.webp?w=1024\u0026h=633\" alt=\"Sampling\" class=\"fg-step-img\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-step-content\"\u003e\r\n          \u003cdiv class=\"fg-step-num\"\u003e02\u003c/div\u003e\r\n          \u003ch4 class=\"fg-step-title\"\u003eSampling\u003c/h4\u003e\r\n          \u003cp class=\"fg-step-desc\"\u003e7-day rapid prototype.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n  \r\n      \u003cdiv class=\"fg-step-card\"\u003e\r\n        \u003cdiv class=\"fg-step-img-box\"\u003e\r\n          \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/Factory-Machinery-Real-Shot-Images.webp?w=1968\u0026h=1312\" alt=\"Production\" class=\"fg-step-img\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-step-content\"\u003e\r\n          \u003cdiv class=\"fg-step-num\"\u003e03\u003c/div\u003e\r\n          \u003ch4 class=\"fg-step-title\"\u003eProduction\u003c/h4\u003e\r\n          \u003cp class=\"fg-step-desc\"\u003eflexible MOQ \u0026 Real-time tracking.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n  \r\n      \u003cdiv class=\"fg-step-card\"\u003e\r\n        \u003cdiv class=\"fg-step-img-box\"\u003e\r\n          \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/2bba94754d608af502f47f936904ddfb.webp?w=1920\u0026h=1280\" alt=\"Inspection\" class=\"fg-step-img\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-step-content\"\u003e\r\n          \u003cdiv class=\"fg-step-num\"\u003e04\u003c/div\u003e\r\n          \u003ch4 class=\"fg-step-title\"\u003eInspection\u003c/h4\u003e\r\n          \u003cp class=\"fg-step-desc\"\u003eraw material to final product QC.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n  \r\n      \u003cdiv class=\"fg-step-card\"\u003e\r\n        \u003cdiv class=\"fg-step-img-box\"\u003e\r\n          \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fbd46c13e70e2a70bb32c3a23b30d1d6.webp?w=1554\u0026h=1036\" alt=\"Delivery\" class=\"fg-step-img\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-step-content\"\u003e\r\n          \u003cdiv class=\"fg-step-num\"\u003e05\u003c/div\u003e\r\n          \u003ch4 class=\"fg-step-title\"\u003eDelivery\u003c/h4\u003e\r\n          \u003cp class=\"fg-step-desc\"\u003eglobal shipping to 120+ countries.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n  \r\n    \u003c/div\u003e\r\n  \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003evalue-added SERVICE\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-grid-3\"\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eDESIGN \u0026 DEVELOPMENT\u003c/h3\u003e\r\n          \u003cp\u003eEmpower your collection with \u003cstrong\u003eglobal trend insights\u003c/strong\u003e. Our dedicated team offers designer\r\n            collaboration to translate your vision into exclusive, \u003cstrong\u003etailored customizations\u003c/strong\u003e. \u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eAccompanying factory inspection\u003c/h3\u003e\r\n          \u003cp\u003eYour personal account manager accompanies you on \u003cstrong\u003eevery factory audit—real-time answers\u003c/strong\u003e, on-the-spot decisions. \u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eSupply Chain\u003c/h3\u003e\r\n          \u003cp\u003eOur robust supply chain can meet any customized solutions, \u003cstrong\u003eexpand your profit margins\u003c/strong\u003e, and help you achieve greater\r\n          returns.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "0px",
+            "padding-top": "0px"
+          },
+          "padding-bottom": "0px",
+          "padding-top": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "custom_css": [
+        ".main-page__title {display: none !important;}"
+      ]
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "1759479396600582e3a8",
+    "176249737855968f9d00",
+    "17648338795881480f9e",
+    "17648339300048d4fd14",
+    "17594795712081472f76",
+    "1762421636714d2a9bef",
+    "17585048508830348227"
+  ]
+}

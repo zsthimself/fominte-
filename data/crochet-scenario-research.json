@@ -1,0 +1,324 @@
+{
+    "scenarios": {
+        "boho-resort": {
+            "keywords": [
+                "wholesale boho clothing",
+                "resort wear wholesale",
+                "crochet resort wear",
+                "bohemian knitwear supplier",
+                "handcrafted style apparel",
+                "boho maxi dresses wholesale",
+                "luxury resort wear wholesale",
+                "sustainable boho fashion",
+                "artisan style crochet wholesale"
+            ],
+            "pain_points": [
+                "Inconsistent quality in handmade items affecting brand reputation",
+                "Difficulty sourcing high-quality, durable yarn materials",
+                "Challenge of adapting to fast-changing resort wear trends",
+                "High Minimum Order Quantities (MOQs) from traditional manufacturers",
+                "Ethical concerns regarding artisan wages and working conditions"
+            ],
+            "faqs": [
+                {
+                    "question": "What is the minimum order quantity (MOQ) for boho resort wear?",
+                    "answer": "Our MOQ starts at 100 pieces per style, allowing boutiques to test new designs with reasonable inventory."
+                },
+                {
+                    "question": "Do you offer private label services for resort collections?",
+                    "answer": "Yes, we provide full private label services including custom tags, labels, and packaging to match your brand identity."
+                },
+                {
+                    "question": "Are your crochet materials sustainable?",
+                    "answer": "We prioritize eco-friendly materials like organic cotton and bamboo blends, perfect for conscious resort wear brands."
+                }
+            ],
+            "trust_badges": [
+                "Ethically Produced",
+                "Premium Cotton Blends",
+                "Low MOQ Available",
+                "Global Shipping"
+            ]
+        },
+        "festival-fashion": {
+            "keywords": [
+                "festival crochet apparel",
+                "wholesale crochet tops",
+                "rave crochet wear",
+                "boho chic festival outfits",
+                "crochet bralettes wholesale",
+                "music festival fashion wholesale",
+                "neon crochet clothing",
+                "granny square festival wear",
+                "crochet matching sets"
+            ],
+            "pain_points": [
+                "Finding unique, stand-out designs that aren't mass-produced",
+                "Ensuring durability for active festival environments",
+                "Sourcing breathable materials for hot summer events",
+                "Quick turnaround times for festival season restocks",
+                "Balancing competitive pricing with ethical labor practices"
+            ],
+            "faqs": [
+                {
+                    "question": "Are your crochet tops suitable for hot weather?",
+                    "answer": "Absolutely. We use breathable cotton and open-stitch designs specifically engineered for comfort in summer festival heat."
+                },
+                {
+                    "question": "Can I customize colors for specific festival themes?",
+                    "answer": "Yes, we offer a wide range of vibrant and neon colors, including UV-reactive yarns for rave collections."
+                },
+                {
+                    "question": "What are the popular styles for the upcoming festival season?",
+                    "answer": "Trending styles include halter tops, micro-minis, and bell-sleeve crop tops with fringe details."
+                }
+            ],
+            "trust_badges": [
+                "Festival Ready Durability",
+                "Vibrant Colorfast Yarns",
+                "Trend-Driven Designs",
+                "Fast Seasonal Restock"
+            ]
+        },
+        "beach-coverup": {
+            "keywords": [
+                "wholesale crochet beach coverups",
+                "bulk crochet cover ups",
+                "crochet beach dress wholesale",
+                "swimwear cover ups wholesale",
+                "boho beachwear supplier",
+                "crochet kaftans wholesale",
+                "handmade look tunics",
+                "luxury beach cover ups",
+                "quick dry crochet wear"
+            ],
+            "pain_points": [
+                "Fabrics that don't dry quickly or lose shape when wet",
+                "Limited size inclusivity in standard wholesale options",
+                "Lack of versatile designs that transition from beach to bar",
+                "Seasonal inventory management and lead times",
+                "Finding high-end, luxury look at wholesale prices"
+            ],
+            "faqs": [
+                {
+                    "question": "Do your cover-ups hold their shape when wet?",
+                    "answer": "We use premium acrylic-cotton blends that maintain shape and dry faster than traditional 100% cotton options."
+                },
+                {
+                    "question": "What sizes do you offer for beach cover-ups?",
+                    "answer": "We offer inclusive sizing from XS to 3XL to cater to a diverse range of body types."
+                },
+                {
+                    "question": "Can these be worn as casual wear beyond the beach?",
+                    "answer": "Yes, our designs are versatile enough to be styled as tunics or summer dresses for resort dining and casual outings."
+                }
+            ],
+            "trust_badges": [
+                "Quick-Dry Blends",
+                "Inclusive Sizing XS-3XL",
+                "Versatile Day-to-Night",
+                "Resort Quality"
+            ]
+        },
+        "cottagecore": {
+            "keywords": [
+                "cottagecore crochet wholesale",
+                "wholesale cottagecore clothing",
+                "fairycore aesthetic wholesale",
+                "floral crochet motifs",
+                "vintage revival crochet",
+                "rustic crochet cardigans",
+                "hand knit aesthetic wholesale",
+                "slow fashion crochet supplier",
+                "nature inspired crochet"
+            ],
+            "pain_points": [
+                "Authenticity of 'handmade' look in mass-produced items",
+                "Sourcing soft, natural fibers that fit the aesthetic",
+                "Finding intricate floral and nature-inspired patterns",
+                "Ensuring ethical production aligns with slow fashion values",
+                "Consistency in complex stitch patterns like lace and cables"
+            ],
+            "faqs": [
+                {
+                    "question": "Is your cottagecore collection truly handmade?",
+                    "answer": "Our pieces are high-quality imitation crochet that perfectly captures the authentic, rustic charm of handmade items while ensuring durability and consistency."
+                },
+                {
+                    "question": "What materials do you use for this collection?",
+                    "answer": "We focus on natural fibers like soft cotton, linen blends, and wool to perfectly match the cottagecore aesthetic."
+                },
+                {
+                    "question": "Do you offer custom floral embroidery?",
+                    "answer": "Yes, we can add custom 3D floral appliqués and embroidery to cardigans and tops."
+                }
+            ],
+            "trust_badges": [
+                "Authentic Handmade Look",
+                "Natural Fibers",
+                "Slow Fashion Ethos",
+                "Intricate Detailing"
+            ]
+        },
+        "y2k-revival": {
+            "keywords": [
+                "y2k crochet wholesale",
+                "granny square clothing wholesale",
+                "retro crochet fashion",
+                "wholesale crochet crop tops",
+                "90s fashion trends wholesale",
+                "crochet bucket hats bulk",
+                "colorful crochet cardigans",
+                "funky knitwear wholesale",
+                "gen z fashion supplier"
+            ],
+            "pain_points": [
+                "Capturing the specific 'retro-futuristic' Y2K vibe accurately",
+                "Quality of granny square joins (unraveling issues)",
+                "Sourcing bright, pop-culture relevant colors",
+                "Speed to market for viral TikTok trends",
+                "Balancing nostalgia with modern fit and comfort"
+            ],
+            "faqs": [
+                {
+                    "question": "Are your granny squares securely joined?",
+                    "answer": "We use a reinforced joining technique to ensure durability and prevent unraveling, even with active wear."
+                },
+                {
+                    "question": "Do you follow current TikTok fashion trends?",
+                    "answer": "Our design team actively monitors social media trends to release viral-ready styles like balaclavas and shrugs."
+                },
+                {
+                    "question": "Can I mix and match colors for a custom palette?",
+                    "answer": "Absolutely! The Y2K aesthetic is all about color. You can customize yarn color combinations for any design."
+                }
+            ],
+            "trust_badges": [
+                "Viral Trend Ready",
+                "Reinforced Stitching",
+                "Custom Color Palettes",
+                "Gen Z Approved"
+            ]
+        },
+        "boutique-stock": {
+            "keywords": [
+                "boutique wholesale clothing",
+                "unique fashion wholesale",
+                "small batch clothing manufacturer",
+                "curated wholesale apparel",
+                "high end crochet wholesale",
+                "boutique supplier usa",
+                "exclusive fashion designs",
+                "dropship boutique clothing",
+                "wholesale women's clothing distributors"
+            ],
+            "pain_points": [
+                "Competing with big-box retailers on price and design",
+                "Finding unique items that aren't on Amazon/Shein",
+                "Managing inventory risk with high MOQs",
+                "Lack of exclusivity in wholesale designs",
+                "Poor communication and reliability of overseas suppliers"
+            ],
+            "faqs": [
+                {
+                    "question": "Do you sell to Amazon sellers?",
+                    "answer": "No, we focus on partnering with independent boutiques to maintain brand exclusivity and value."
+                },
+                {
+                    "question": "Can I get exclusivity on certain designs for my area?",
+                    "answer": "We offer territory exclusivity for large volume orders to help your boutique stand out."
+                },
+                {
+                    "question": "What is your typical turnaround time for boutique orders?",
+                    "answer": "In-stock items ship within 48 hours. Custom small-batch orders typically take 2-3 weeks."
+                }
+            ],
+            "trust_badges": [
+                "Boutique Exclusive",
+                "No Amazon Sellers",
+                "Small Batch Production",
+                "Fast US Shipping"
+            ]
+        },
+        "private-label": {
+            "keywords": [
+                "private label clothing manufacturers",
+                "clothing manufacturers for startups",
+                "custom clothing manufacturers",
+                "oem clothing supplier",
+                "white label apparel",
+                "custom crochet manufacturing",
+                "garment manufacturing services",
+                "apparel production partners",
+                "brand development services"
+            ],
+            "pain_points": [
+                "High barrier to entry due to massive MOQs",
+                "Lack of control over quality and production process",
+                "Intellectual property theft and design copying",
+                "Communication barriers with offshore manufacturers",
+                "Hidden costs in sampling and shipping"
+            ],
+            "faqs": [
+                {
+                    "question": "What is your process for protecting my designs?",
+                    "answer": "We sign strict NDAs and have internal protocols to ensure your unique designs are never shared or reproduced."
+                },
+                {
+                    "question": "Do you provide samples before full production?",
+                    "answer": "Yes, we require sample approval for every order to ensure the fit, yarn, and quality meet your exact standards."
+                },
+                {
+                    "question": "Can you handle custom branding and packaging?",
+                    "answer": "We offer a full suite of branding services, including woven labels, hang tags, and custom poly mailers."
+                }
+            ],
+            "trust_badges": [
+                "Strict NDA Protection",
+                "Full Customization",
+                "Sample First Policy",
+                "End-to-End Branding"
+            ]
+        },
+        "summer-collection": {
+            "keywords": [
+                "summer wholesale clothing",
+                "summer 2025 fashion trends",
+                "lightweight knitwear wholesale",
+                "breathable summer fabrics",
+                "vacation wear wholesale",
+                "summer capsule wardrobe wholesale",
+                "crochet summer tops",
+                "beach to bar fashion",
+                "seasonal apparel supplier"
+            ],
+            "pain_points": [
+                "Stocking the right trends at the right time (timing is key)",
+                "Finding knitwear that isn't too hot for summer",
+                "Balancing trendiness with timeless summer staples",
+                "Supply chain delays causing missed seasonal windows",
+                "Inventory management for short summer seasons"
+            ],
+            "faqs": [
+                {
+                    "question": "When should I order for the Summer collection?",
+                    "answer": "We recommend placing orders by January/February to ensure delivery for the start of the season in April/May."
+                },
+                {
+                    "question": "Are your summer knits breathable?",
+                    "answer": "Yes, we specialize in loose-gauge crochet and cotton/linen blends designed specifically for maximum airflow."
+                },
+                {
+                    "question": "Do you offer restocks during the season?",
+                    "answer": "We keep a buffer stock of best-sellers for quick mid-season replenishment."
+                }
+            ],
+            "trust_badges": [
+                "Seasonal Trend Forecast",
+                "On-Time Delivery",
+                "Breathable Tech",
+                "Best-Seller Restocks"
+            ]
+        }
+    }
+}

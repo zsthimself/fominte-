@@ -1,0 +1,930 @@
+{
+  "sections": {
+    "175798659809935caf32": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "flex-start",
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "40px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "40px"
+        },
+        "size": {},
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "60px",
+          "padding-top": "60px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "175798659810126f41c4": {
+          "type": "heading-with-link/heading-with-link",
+          "settings": {
+            "link_text": "View more",
+            "text": "Shop by category",
+            "text_size": "title2"
+          },
+          "blocks": {}
+        },
+        "1757986598101c7e9b6a": {
+          "type": "$list",
+          "settings": {},
+          "blocks": {
+            "17579865981011780810": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "1757986598101357da6c": {
+                  "type": "collection/image",
+                  "settings": {},
+                  "blocks": {
+                    "1757986598101022bc81": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101022bc81"
+                  ]
+                },
+                "1757986598101e347e3c": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "1757986598101357da6c",
+                "1757986598101e347e3c"
+              ]
+            },
+            "1757986598101c55b090": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "17579865981015cd0fd7": {
+                  "type": "collection/image",
+                  "settings": {
+                    "aspect_ratio": "4/3"
+                  },
+                  "blocks": {
+                    "1757986598101a6d73f8": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101a6d73f8"
+                  ]
+                },
+                "17579865981019bd9b27": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "17579865981015cd0fd7",
+                "17579865981019bd9b27"
+              ]
+            }
+          },
+          "block_order": [
+            "1757986598101c55b090",
+            "17579865981011780810"
+          ]
+        }
+      },
+      "block_order": [
+        "175798659810126f41c4",
+        "1757986598101c7e9b6a"
+      ],
+      "name": "t:sections.collection_list.presets.presets_0.name"
+    },
+    "1757993662639ba1fd2d": {
+      "type": "shopline://apps/高阶组件库/sections/product-category-list/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text": "Optional Button",
+        "card_border_radius": 0,
+        "card_border_thickness": 0,
+        "card_color": "#fff",
+        "card_style": true,
+        "color_btn_text": "#ffffff",
+        "color_entry_line": "#EAECEC",
+        "color_image_background": "#ffffff",
+        "color_light_text": "#949494",
+        "color_page_background": "#FFFCFA",
+        "color_sale": "#171F2B",
+        "color_tag_background": "#C20000",
+        "color_tag_text": "#ffffff",
+        "color_text": "#29252C",
+        "container_bg_color": "#F4F7FB",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "right": 40,
+            "top": 20
+          }
+        },
+        "container_max_width": 1420,
+        "edges": "rounded",
+        "grid_horizontal_space": 20,
+        "horizontal_spacing": 40,
+        "image_ratio": "100",
+        "image_width": "50%",
+        "mb_layout": 4,
+        "mb_show": true,
+        "mobile_quick_add_btn_layout": "normal",
+        "mobile_quick_add_btn_style": "icon",
+        "pc_cols": 4,
+        "pc_show": true,
+        "product_add_to_cart": true,
+        "product_card_border_color": "#000000",
+        "product_card_border_opacity": 10,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 0,
+        "product_card_shadow_blur": 5,
+        "product_card_shadow_color": "#000000",
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 4,
+        "product_card_shadow_opacity": 0,
+        "product_discount": true,
+        "product_discount_position": "left_bottom",
+        "product_discount_radius": 2,
+        "product_discount_style": "number",
+        "product_fill_type": "contain",
+        "product_grid_image_margin": "0",
+        "product_hover_show_next": false,
+        "product_mobile_title_show": true,
+        "product_price_color": "#1A1C1E",
+        "product_price_letter_spacing": 0,
+        "product_price_m_font_family": "Poppins:500",
+        "product_price_m_font_size": 14,
+        "product_price_m_line_height": 1.6,
+        "product_price_pc_font_family": "Poppins:600",
+        "product_price_pc_font_size": 16,
+        "product_price_pc_line_height": 1.6,
+        "product_title_color": "#000000",
+        "product_title_font_family": "Poppins:400",
+        "product_title_letter_spacing": 0,
+        "product_title_m_font_size": 12,
+        "product_title_m_line_height": 1.6,
+        "product_title_pc_font_size": 14,
+        "product_title_pc_line_height": 1.6,
+        "product_title_show_type": "full_display",
+        "product_underlined_price_color": "#000000",
+        "product_underlined_price_letter_spacing": 0,
+        "product_underlined_price_m_font_family": "Poppins:500",
+        "product_underlined_price_m_font_size": 12,
+        "product_underlined_price_m_line_height": 1.6,
+        "product_underlined_price_pc_font_family": "Poppins:600",
+        "product_underlined_price_pc_font_size": 16,
+        "product_underlined_price_pc_line_height": 1.6,
+        "products_num": 4,
+        "quick_add_btn_background": "#000000",
+        "quick_add_btn_font_color": "#FFFFFF",
+        "show_touch": false,
+        "slice_in_pc": true,
+        "soldOut_color_tag_background": "#ffffff",
+        "soldOut_color_tag_text": "#000000",
+        "sticky": true,
+        "superscript_decimals": false,
+        "tab_button_bg_color": "#ffffff",
+        "tab_button_text_color": "#000000",
+        "tab_color": "#000000",
+        "tab_style": "underline",
+        "tab_text_align": "center",
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 19,
+        "title_pc_font_size": 22,
+        "vertical_spacing": 20
+      },
+      "disabled": true,
+      "blocks": {
+        "17579936626401ce8d5a": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Floral Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626401e38055": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Boho \u0026 Paisley Crochet"
+          },
+          "blocks": {}
+        },
+        "175799366264022249d5": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Modern \u0026 Abstract Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626405eb4efa": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Geometric Crochet"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17579936626401ce8d5a",
+        "17579936626405eb4efa",
+        "17579936626401e38055",
+        "175799366264022249d5"
+      ],
+      "name": "t:sections.product-category-list.presets_0.name"
+    },
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n    .explore-collection-wrapper {\r\n        background-color: #000000;\r\n        color: #FFFFFF;\r\n        /* 修改了这里的padding值，将左右500px改回20px，这样内容就不会被过度挤压。\r\n      80px代表上下边距，20px代表左右边距，您可以根据需要调整这两个数值。\r\n    */\r\n        padding: 80px 20px;\r\n        text-align: center;\r\n    }\r\n\r\n    .explore-collection-wrapper h2 {\r\n        font-size: 2.5em;\r\n        margin-bottom: 40px;\r\n        /* 新增这行代码，强制标题不换行 */\r\n        white-space: nowrap;\r\n    }\r\n\r\n    .explore-collection-wrapper a {\r\n        color: #FFFFFF;\r\n        text-decoration: none;\r\n        display: block;\r\n        font-size: 1.2em;\r\n        margin-bottom: 20px;\r\n        transition: opacity 0.3s;\r\n    }\r\n\r\n    .explore-collection-wrapper a:hover {\r\n        opacity: 0.7;\r\n    }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"explore-collection-wrapper\"\u003e\r\n    \u003ch2\u003eExtra Info\u003c/h2\u003e\r\n    \u003ca href=\"https://fominte.com/pages/crochet-information-hub\"\u003eTech \u0026 Line\u003c/a\u003e\r\n    \u003ca href=\"https://fominte.com/pages/crochet-information-hub\"\u003eApplications\u003c/a\u003e\r\n    \u003ca href=\"#\"\u003eCare Instructions\u003c/a\u003e\r\n    \u003ca href=\"#\"\u003eFAQ\u003c/a\u003e\r\n    \u003ca href=\"#\"\u003eCustomization\u003c/a\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 760,
+        "style": "bars"
+      },
+      "disabled": true,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Helvetica",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 14,
+            "body_pc_font_size": 15,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": {},
+            "link": "",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 21,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "We turn complex designs into production-ready reality subhead: specialized in high-end beaded, crochet, and faux fur textile engineering for global fashion houses.",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Fominte Custom Studio\n",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Helvetica",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 24,
+            "title_pc_font_size": 40,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": "https://cdn-files.myshopline.com/video/store/1754638002373/FOMINTE.mp4?w=1920\u0026h=1080\u0026d=2.745\u0026fromFileSelect=1\u0026poster=https%3A%2F%2Fimg-va.myshopline.com%2Fimage%2Fstore%2F1754638002373%2Ffa24a32e01124f179cd4636b673dbc2b.png%3Fw%3D1920%26h%3D1080"
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "1758193339455dbbcba1": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "1758193339455dbbcba1",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "17617047970068f0005a": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003clink rel=\"preconnect\" href=\"https://fonts.googleapis.com\"\u003e\r\n\u003clink rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin\u003e\r\n\u003clink href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700\u0026display=swap\" rel=\"stylesheet\"\u003e\r\n\r\n\u003cstyle\u003e\r\n  /* --- Shopline 隔离规则 (最终修正版) --- */\r\n  #fominte-custom-studio-wrapper {\r\n    /* 变量定义 */\r\n    --color-text: #222222;\r\n    --color-background: #FFFFFF;\r\n    --color-background-alt: #F5F5F5;\r\n    --color-primary: #D4AF37;\r\n    /* Luxury Gold */\r\n    --font-family-base: 'Montserrat', sans-serif;\r\n\r\n    /* 基础样式 */\r\n    font-family: var(--font-family-base);\r\n    background-color: var(--color-background);\r\n    color: var(--color-text);\r\n    line-height: 1.6;\r\n\r\n    /* 确保它表现为一个标准块级元素 */\r\n    width: 100%;\r\n    display: block;\r\n  }\r\n\r\n  /* --- CSS Reset (已上锁) --- */\r\n  #fominte-custom-studio-wrapper *,\r\n  #fominte-custom-studio-wrapper *::before,\r\n  #fominte-custom-studio-wrapper *::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n  }\r\n\r\n  /* --- 全局例外 (未上锁) --- */\r\n  html {\r\n    scroll-behavior: smooth;\r\n  }\r\n\r\n  body.modal-open {\r\n    overflow: hidden;\r\n  }\r\n\r\n  /* --- Utility Classes (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .container {\r\n    width: 100%;\r\n    max-width: 1280px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    padding-left: 1.5rem;\r\n    padding-right: 1.5rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .section {\r\n    padding-top: 4rem;\r\n    padding-bottom: 4rem;\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .section {\r\n      padding-top: 6rem;\r\n      padding-bottom: 6rem;\r\n    }\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .section-title {\r\n    font-size: 1.875rem;\r\n    font-weight: 600;\r\n    margin-bottom: 0.5rem;\r\n    text-align: center;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .section-subtitle {\r\n    font-size: 1.125rem;\r\n    color: #6B7280;\r\n    text-align: center;\r\n    margin-bottom: 3rem;\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .section-title {\r\n      font-size: 2.25rem;\r\n    }\r\n\r\n    #fominte-custom-studio-wrapper .section-subtitle {\r\n      margin-bottom: 4rem;\r\n    }\r\n  }\r\n\r\n\r\n  /* --- Block 1: Hero Section (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .hero {\r\n    height: 100vh;\r\n    width: 100%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    text-align: center;\r\n    color: white;\r\n    background-image: url('https://picsum.photos/id/1074/1920/1080');\r\n    background-size: cover;\r\n    background-position: center;\r\n    position: relative;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .hero::before {\r\n    content: '';\r\n    position: absolute;\r\n    inset: 0;\r\n    background-color: rgba(0, 0, 0, 0.5);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .hero-content {\r\n    position: relative;\r\n    z-index: 10;\r\n    padding: 2rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .hero h1 {\r\n    font-size: 2.25rem;\r\n    font-weight: 700;\r\n    letter-spacing: -0.025em;\r\n    margin-bottom: 1rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .hero h2 {\r\n    font-size: 1.25rem;\r\n    font-weight: 300;\r\n    margin-bottom: 2rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .ghost-button {\r\n    padding: 0.75rem 2rem;\r\n    border: 1px solid white;\r\n    color: white;\r\n    background-color: transparent;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.1em;\r\n    font-size: 0.875rem;\r\n    font-weight: 600;\r\n    cursor: pointer;\r\n    transition: all 0.3s ease;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .ghost-button:hover {\r\n    background-color: var(--color-primary);\r\n    border-color: var(--color-primary);\r\n    color: var(--color-text);\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .hero h1 {\r\n      font-size: 3.75rem;\r\n    }\r\n\r\n    #fominte-custom-studio-wrapper .hero h2 {\r\n      font-size: 1rem;\r\n    }\r\n  }\r\n\r\n\r\n  /* --- Block 2: Philosophy Section (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .philosophy {\r\n    background-color: var(--color-background);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .philosophy .container {\r\n    max-width: 896px;\r\n    text-align: center;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .philosophy h3 {\r\n    font-size: 1.875rem;\r\n    font-weight: 600;\r\n    margin-bottom: 1rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .philosophy p {\r\n    font-size: 1.125rem;\r\n    color: #4B5563;\r\n    line-height: 1.75;\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .philosophy h3 {\r\n      font-size: 2rem;\r\n    }\r\n  }\r\n\r\n\r\n  /* --- Block 3: The Five Studios (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .studios {\r\n    background-color: var(--color-background-alt);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .studios-grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(1, 1fr);\r\n    gap: 2rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .studio-card {\r\n    background-color: white;\r\n    padding: 2rem;\r\n    text-align: center;\r\n    border-radius: 0.5rem;\r\n    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);\r\n    transition: all 0.3s ease;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .studio-card:hover {\r\n    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);\r\n    transform: translateY(-0.5rem);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .studio-card svg {\r\n    height: 3rem;\r\n    width: 3rem;\r\n    color: var(--color-primary);\r\n    margin-bottom: 1rem;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .studio-card h4 {\r\n    font-size: 1.125rem;\r\n    font-weight: 600;\r\n    margin-bottom: 0.5rem;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.05em;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .studio-card p {\r\n    color: #6B7280;\r\n    font-size: 0.875rem;\r\n  }\r\n\r\n  @media (min-width: 640px) {\r\n    #fominte-custom-studio-wrapper .studios-grid {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n  }\r\n\r\n  @media (min-width: 1024px) {\r\n    #fominte-custom-studio-wrapper .studios-grid {\r\n      grid-template-columns: repeat(5, 1fr);\r\n    }\r\n  }\r\n\r\n\r\n  /* --- Block 4: The Customization Journey (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .journey {\r\n    background-color: var(--color-background);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .journey .container {\r\n    max-width: 1152px;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .journey-stepper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    position: relative;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .journey-step {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    text-align: center;\r\n    width: 100%;\r\n    margin-bottom: 3rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .journey-step:last-child {\r\n    margin-bottom: 0;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .step-number {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 4rem;\r\n    height: 4rem;\r\n    border-radius: 9999px;\r\n    background-color: var(--color-primary);\r\n    color: white;\r\n    font-size: 1.5rem;\r\n    font-weight: 700;\r\n    margin-bottom: 1rem;\r\n    border: 4px solid var(--color-background-alt);\r\n    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);\r\n    z-index: 10;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .step-title {\r\n    font-weight: 600;\r\n    font-size: 1.125rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .mobile-connector {\r\n    width: 2px;\r\n    height: 4rem;\r\n    background-color: #E5E7EB;\r\n    margin-top: 1rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .journey-step:last-child .mobile-connector {\r\n    display: none;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .desktop-connector {\r\n    display: none;\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .journey-stepper {\r\n      flex-direction: row;\r\n      justify-content: space-between;\r\n    }\r\n\r\n    #fominte-custom-studio-wrapper .journey-step {\r\n      width: 25%;\r\n      margin-bottom: 0;\r\n    }\r\n\r\n    #fominte-custom-studio-wrapper .mobile-connector {\r\n      display: none;\r\n    }\r\n\r\n    #fominte-custom-studio-wrapper .desktop-connector {\r\n      display: block;\r\n      position: absolute;\r\n      top: 2rem;\r\n      /* Half of step-number height */\r\n      left: 0;\r\n      width: 100%;\r\n      height: 2px;\r\n      background-color: #E5E7EB;\r\n      transform: translateY(-50%);\r\n      z-index: 1;\r\n    }\r\n  }\r\n\r\n  /* --- Block 5: Inspiration Gallery (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .gallery {\r\n    background-color: var(--color-background-alt);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .gallery-grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(1, 1fr);\r\n    gap: 1rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .gallery-item {\r\n    position: relative;\r\n    overflow: hidden;\r\n    border-radius: 0.5rem;\r\n    cursor: pointer;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .gallery-item img {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n    transition: transform 0.3s ease;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .gallery-item:hover img {\r\n    transform: scale(1.1);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .gallery-item .overlay {\r\n    position: absolute;\r\n    inset: 0;\r\n    background-color: rgba(0, 0, 0, 0.2);\r\n    transition: background-color 0.3s ease;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .gallery-item:hover .overlay {\r\n    background-color: rgba(0, 0, 0, 0.4);\r\n  }\r\n\r\n  @media (min-width: 640px) {\r\n    #fominte-custom-studio-wrapper .gallery-grid {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n  }\r\n\r\n  @media (min-width: 1024px) {\r\n    #fominte-custom-studio-wrapper .gallery-grid {\r\n      grid-template-columns: repeat(3, 1fr);\r\n    }\r\n  }\r\n\r\n  /* --- Block 6: CTA Section (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .cta {\r\n    background-color: var(--color-text);\r\n    color: white;\r\n    text-align: center;\r\n    padding-top: 4rem;\r\n    padding-bottom: 5rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .cta h3 {\r\n    font-size: 1.875rem;\r\n    font-weight: 600;\r\n    margin-bottom: 1.5rem;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .cta-button {\r\n    padding: 1rem 2.5rem;\r\n    background-color: var(--color-primary);\r\n    color: var(--color-text);\r\n    border: none;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.1em;\r\n    font-size: 0.875rem;\r\n    font-weight: 700;\r\n    cursor: pointer;\r\n    transition: transform 0.3s ease;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .cta-button:hover {\r\n    transform: scale(1.05);\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .cta h3 {\r\n      font-size: 2.25rem;\r\n    }\r\n  }\r\n\r\n  /* --- Gallery Modal (已上锁) --- */\r\n  #fominte-custom-studio-wrapper .modal {\r\n    position: fixed;\r\n    inset: 0;\r\n    background-color: rgba(0, 0, 0, 0.9);\r\n    z-index: 50;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding: 1rem;\r\n    opacity: 0;\r\n    visibility: hidden;\r\n    transition: opacity 0.3s ease, visibility 0.3s ease;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal.active {\r\n    opacity: 1;\r\n    visibility: visible;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-content {\r\n    position: relative;\r\n    max-width: 1024px;\r\n    max-height: 90vh;\r\n    width: 100%;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-image {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: contain;\r\n    max-height: 90vh;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-button {\r\n    position: absolute;\r\n    color: white;\r\n    font-size: 2.5rem;\r\n    background: none;\r\n    border: none;\r\n    cursor: pointer;\r\n    transition: color 0.3s ease;\r\n    padding: 0.5rem;\r\n    -webkit-user-select: none;\r\n    -ms-user-select: none;\r\n    user-select: none;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-button:hover {\r\n    color: #D1D5DB;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-close {\r\n    top: 0;\r\n    right: 0;\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-prev {\r\n    left: 0.5rem;\r\n    top: 50%;\r\n    transform: translateY(-50%);\r\n  }\r\n\r\n  #fominte-custom-studio-wrapper .modal-next {\r\n    right: 0.5rem;\r\n    top: 50%;\r\n    transform: translateY(-50%);\r\n  }\r\n\r\n  @media (min-width: 768px) {\r\n    #fominte-custom-studio-wrapper .modal-prev {\r\n      left: 2rem;\r\n    }\r\n\r\n    #fominte-custom-studio-wrapper .modal-next {\r\n      right: 2rem;\r\n    }\r\n  }\r\n\r\n  /* ---\r\n  ↓↓↓ 粘贴这段新代码：全宽破局规则 ↓↓↓\r\n  --- */\r\n  \r\n  #fominte-custom-studio-wrapper .hero,\r\n  #fominte-custom-studio-wrapper .section,\r\n  #fominte-custom-studio-wrapper .cta {\r\n  width: 100vw;\r\n  position: relative;\r\n  left: 50%;\r\n  transform: translateX(-50%);\r\n  }\r\n  \r\n  /* ---\r\n  ↑↑↑ 粘贴这段新代码：全宽破局规则 ↑↑↑\r\n  --- */\r\n\u003c/style\u003e\r\n    \u003c!-- Block 1: Hero Section --\u003e\r\n    \u003cdiv id=\"fominte-custom-studio-wrapper\"\u003e\r\n    \u003cheader class=\"hero\"\u003e\r\n      \u003cdiv class=\"hero-content\"\u003e\r\n        \u003ch1\u003eFominte Custom Studio\u003c/h1\u003e\r\n        \u003ch2\u003eWE TURN COMPLEX DESIGNS INTO PRODUCTION-READY REALITY SUBHEAD: Specialized in high-end beaded, crochet, and faux fur\r\n        textile engineering for global fashion houses.\u003c/h2\u003e\r\n        \u003cbutton class=\"ghost-button\" id=\"explore-btn\"\u003eExplore Our Capabilities\u003c/button\u003e\r\n      \u003c/div\u003e\r\n    \u003c/header\u003e\r\n    \r\n    \u003cmain\u003e\r\n      \u003c!-- Block 2: Philosophy Section --\u003e\r\n      \u003csection class=\"section philosophy\"\u003e\r\n        \u003cdiv class=\"container\"\u003e\r\n          \u003ch3\u003eBeyond Manufacturing, Building Brands\u003c/h3\u003e\r\n          \u003cp\u003eAt Fominte, we see ourselves as more than just a supplier. We are a creative workshop, a partner in innovation,\r\n            and an extension of your team. Our mission is to translate your unique brand vision into tangible, high-quality\r\n            products that resonate with your audience.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/section\u003e\r\n    \r\n      \u003c!-- Block 3: The Five Studios --\u003e\r\n      \u003csection class=\"section studios\" id=\"studios-section\"\u003e\r\n        \u003cdiv class=\"container\"\u003e\r\n          \u003ch3 class=\"section-title\"\u003eThe Five Studios\u003c/h3\u003e\r\n          \u003cp class=\"section-subtitle\"\u003eOur comprehensive capabilities, unified under one roof.\u003c/p\u003e\r\n          \u003cdiv class=\"studios-grid\"\u003e\r\n            \u003c!-- Studio Card 1 --\u003e\r\n            \u003cdiv class=\"studio-card\"\u003e\r\n              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"\r\n                stroke-width=\"1\"\u003e\r\n                \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\"\r\n                  d=\"M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\" /\u003e\r\n              \u003c/svg\u003e\r\n              \u003ch4\u003eBEADED \u0026 EMBROIDERED FABRIC\u003c/h4\u003e\r\n              \u003cul style=\"text-align: left; padding-left: 20px; margin-top: 10px;\"\u003e\r\n                \u003cli\u003eHandles multi-layered embellishments (sequins + beads + thread).\u003c/li\u003e\r\n                \u003cli\u003eCompatible with delicate base fabrics like silk and tulle without puckering.\u003c/li\u003e\r\n              \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Studio Card 2 --\u003e\r\n            \u003cdiv class=\"studio-card\"\u003e\r\n              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"\r\n                stroke-width=\"1\"\u003e\r\n                \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\"\r\n                  d=\"M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\" /\u003e\r\n              \u003c/svg\u003e\r\n              \u003ch4\u003eMODERN CROCHET\u003c/h4\u003e\r\n              \u003cul style=\"text-align: left; padding-left: 20px; margin-top: 10px;\"\u003e\r\n                \u003cli\u003eMachine-crochet with a hand-made look for scalability.\u003c/li\u003e\r\n                \u003cli\u003eCustomizable gauge and yarn blends (cotton, wool, metallic).\u003c/li\u003e\r\n              \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Studio Card 3 --\u003e\r\n            \u003cdiv class=\"studio-card\"\u003e\r\n              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"\r\n                stroke-width=\"1\"\u003e\r\n                \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\"\r\n                  d=\"M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\" /\u003e\r\n              \u003c/svg\u003e\r\n              \u003ch4\u003eFASHION FABRICS\u003c/h4\u003e\r\n              \u003cul style=\"text-align: left; padding-left: 20px; margin-top: 10px;\"\u003e\r\n                \u003cli\u003eVast library of trend-driven textiles, updated seasonally.\u003c/li\u003e\r\n                \u003cli\u003eRapid customization of colors and finishes based on current collections.\u003c/li\u003e\r\n              \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Studio Card 4 --\u003e\r\n            \u003cdiv class=\"studio-card\"\u003e\r\n              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"\r\n                stroke-width=\"1\"\u003e\r\n                \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\"\r\n                  d=\"M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\" /\u003e\r\n              \u003c/svg\u003e\r\n              \u003ch4\u003ePOLAR FLEECE INNOVATION\u003c/h4\u003e\r\n              \u003cul style=\"text-align: left; padding-left: 20px; margin-top: 10px;\"\u003e\r\n                \u003cli\u003eEngineered for high-performance: anti-pilling, moisture-wicking, and thermal regulation.\u003c/li\u003e\r\n                \u003cli\u003eSustainable options available using recycled polyester fibers.\u003c/li\u003e\r\n              \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Studio Card 5 --\u003e\r\n            \u003cdiv class=\"studio-card\"\u003e\r\n              \u003csvg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"\r\n                stroke-width=\"1\"\u003e\r\n                \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\"\r\n                  d=\"M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\" /\u003e\r\n              \u003c/svg\u003e\r\n              \u003ch4\u003eECO-FUR DESIGN\u003c/h4\u003e\r\n              \u003cul style=\"text-align: left; padding-left: 20px; margin-top: 10px;\"\u003e\r\n                \u003cli\u003eAchieves varied pile heights (from 15mm to over 100mm).\u003c/li\u003e\r\n                \u003cli\u003eAdvanced tipping and printing techniques for realistic animal patterns.\u003c/li\u003e\r\n              \u003c/ul\u003e\r\n            \u003c/div\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/section\u003e\r\n    \r\n      \u003c!-- Block 4: The Customization Journey --\u003e\r\n      \u003csection class=\"section journey\"\u003e\r\n        \u003cdiv class=\"container\"\u003e\r\n          \u003ch3 class=\"section-title\"\u003eThe Customization Journey\u003c/h3\u003e\r\n          \u003cp class=\"section-subtitle\"\u003eA transparent and collaborative process from start to finish.\u003c/p\u003e\r\n          \u003cdiv class=\"journey-stepper\"\u003e\r\n            \u003cdiv class=\"desktop-connector\"\u003e\u003c/div\u003e\r\n            \u003c!-- Step 1 --\u003e\r\n            \u003cdiv class=\"journey-step\"\u003e\r\n              \u003cdiv class=\"step-number\"\u003e1\u003c/div\u003e\r\n              \u003ch4 class=\"step-title\"\u003eConsult \u0026 Concept\u003c/h4\u003e\r\n              \u003cdiv class=\"mobile-connector\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Step 2 --\u003e\r\n            \u003cdiv class=\"journey-step\"\u003e\r\n              \u003cdiv class=\"step-number\"\u003e2\u003c/div\u003e\r\n              \u003ch4 class=\"step-title\"\u003eMaterial R\u0026D \u0026 Prototyping\u003c/h4\u003e\r\n              \u003cdiv class=\"mobile-connector\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Step 3 --\u003e\r\n            \u003cdiv class=\"journey-step\"\u003e\r\n              \u003cdiv class=\"step-number\"\u003e3\u003c/div\u003e\r\n              \u003ch4 class=\"step-title\"\u003ePrecision Production\u003c/h4\u003e\r\n              \u003cdiv class=\"mobile-connector\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003c!-- Step 4 --\u003e\r\n            \u003cdiv class=\"journey-step\"\u003e\r\n              \u003cdiv class=\"step-number\"\u003e4\u003c/div\u003e\r\n              \u003ch4 class=\"step-title\"\u003eQA \u0026 Global Delivery\u003c/h4\u003e\r\n              \u003cdiv class=\"mobile-connector\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/section\u003e\r\n    \r\n      \u003c!-- Block 5: Inspiration Gallery --\u003e\r\n      \u003csection class=\"section gallery\"\u003e\r\n        \u003cdiv class=\"container\"\u003e\r\n          \u003ch3 class=\"section-title\"\u003eInspiration Gallery\u003c/h3\u003e\r\n          \u003cp class=\"section-subtitle\"\u003eVisual stories of craftsmanship and design.\u003c/p\u003e\r\n          \u003cdiv class=\"gallery-grid\"\u003e\r\n            \u003cdiv class=\"gallery-item\" data-index=\"0\"\u003e\r\n              \u003cimg src=\"https://picsum.photos/id/1060/800/1200\" alt=\"Fabric texture detail\"\u003e\r\n              \u003cdiv class=\"overlay\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"gallery-item\" data-index=\"1\"\u003e\r\n              \u003cimg src=\"https://picsum.photos/id/22/800/1200\" alt=\"Garment on a mannequin\"\u003e\r\n              \u003cdiv class=\"overlay\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"gallery-item\" data-index=\"2\"\u003e\r\n              \u003cimg src=\"https://picsum.photos/id/103/800/1200\" alt=\"Close-up of embroidery\"\u003e\r\n              \u003cdiv class=\"overlay\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"gallery-item\" data-index=\"3\"\u003e\r\n              \u003cimg src=\"https://picsum.photos/id/431/800/1200\" alt=\"Fashion model wearing a custom piece\"\u003e\r\n              \u003cdiv class=\"overlay\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"gallery-item\" data-index=\"4\"\u003e\r\n              \u003cimg src=\"https://picsum.photos/id/349/800/1200\" alt=\"Eco-fur material sample\"\u003e\r\n              \u003cdiv class=\"overlay\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"gallery-item\" data-index=\"5\"\u003e\r\n              \u003cimg src=\"https://picsum.photos/id/357/800/1200\" alt=\"Designer sketching concept\"\u003e\r\n              \u003cdiv class=\"overlay\"\u003e\u003c/div\u003e\r\n            \u003c/div\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/section\u003e\r\n    \r\n      \u003c!-- Block 6: CTA Section --\u003e\r\n      \u003csection class=\"cta\"\u003e\r\n        \u003cdiv class=\"container\"\u003e\r\n          \u003ch3\u003eReady to bring your vision to life?\u003c/h3\u003e\r\n          \u003cbutton class=\"cta-button\"\u003eBook a Consultation\u003c/button\u003e\r\n        \u003c/div\u003e\r\n      \u003c/section\u003e\r\n    \u003c/main\u003e\r\n    \r\n    \u003c!-- Gallery Modal --\u003e\r\n    \u003cdiv class=\"modal\" id=\"gallery-modal\"\u003e\r\n      \u003cdiv class=\"modal-content\"\u003e\r\n        \u003cimg src=\"\" alt=\"Enlarged view\" class=\"modal-image\" id=\"modal-image-element\"\u003e\r\n      \u003c/div\u003e\r\n      \u003cbutton class=\"modal-button modal-close\" id=\"modal-close-btn\" aria-label=\"Close\"\u003e\u0026times;\u003c/button\u003e\r\n      \u003cbutton class=\"modal-button modal-prev\" id=\"modal-prev-btn\" aria-label=\"Previous image\"\u003e\u0026#10094;\u003c/button\u003e\r\n      \u003cbutton class=\"modal-button modal-next\" id=\"modal-next-btn\" aria-label=\"Next image\"\u003e\u0026#10095;\u003c/button\u003e\r\n    \u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cscript\u003e\r\n      // --- All JavaScript logic is contained within this script tag ---\r\n    \r\n          document.addEventListener('DOMContentLoaded', () =\u003e {\r\n    \r\n            // --- Smooth Scroll for Hero Button ---\r\n            const exploreBtn = document.getElementById('explore-btn');\r\n            const studiosSection = document.getElementById('studios-section');\r\n    \r\n            if (exploreBtn \u0026\u0026 studiosSection) {\r\n              exploreBtn.addEventListener('click', () =\u003e {\r\n                studiosSection.scrollIntoView({ behavior: 'smooth' });\r\n              });\r\n            }\r\n    \r\n    \r\n            // --- Gallery Modal Logic ---\r\n            const galleryImagesData = [\r\n              { src: \"https://picsum.photos/id/1060/800/1200\", alt: \"Fabric texture detail\" },\r\n              { src: \"https://picsum.photos/id/22/800/1200\", alt: \"Garment on a mannequin\" },\r\n              { src: \"https://picsum.photos/id/103/800/1200\", alt: \"Close-up of embroidery\" },\r\n              { src: \"https://picsum.photos/id/431/800/1200\", alt: \"Fashion model wearing a custom piece\" },\r\n              { src: \"https://picsum.photos/id/349/800/1200\", alt: \"Eco-fur material sample\" },\r\n              { src: \"https://picsum.photos/id/357/800/1200\", alt: \"Designer sketching concept\" },\r\n            ];\r\n    \r\n            const galleryItems = document.querySelectorAll('.gallery-item');\r\n            const modal = document.getElementById('gallery-modal');\r\n            const modalImage = document.getElementById('modal-image-element');\r\n            const closeModalBtn = document.getElementById('modal-close-btn');\r\n            const prevBtn = document.getElementById('modal-prev-btn');\r\n            const nextBtn = document.getElementById('modal-next-btn');\r\n            \r\n            let currentIndex = 0;\r\n    \r\n            // Function to open the modal\r\n            const openModal = (index) =\u003e {\r\n              currentIndex = index;\r\n              updateModalImage();\r\n              modal.classList.add('active');\r\n              document.body.classList.add('modal-open');\r\n            };\r\n    \r\n            // Function to close the modal\r\n            const closeModal = () =\u003e {\r\n              modal.classList.remove('active');\r\n              document.body.classList.remove('modal-open');\r\n            };\r\n    \r\n            // Function to update the image in the modal\r\n            const updateModalImage = () =\u003e {\r\n              const imageData = galleryImagesData[currentIndex];\r\n              modalImage.src = imageData.src;\r\n              modalImage.alt = imageData.alt;\r\n            };\r\n    \r\n            // Function to show the next image\r\n            const showNextImage = () =\u003e {\r\n              currentIndex = (currentIndex + 1) % galleryImagesData.length;\r\n              updateModalImage();\r\n            };\r\n    \r\n            // Function to show the previous image\r\n            const showPrevImage = () =\u003e {\r\n              currentIndex = (currentIndex - 1 + galleryImagesData.length) % galleryImagesData.length;\r\n              updateModalImage();\r\n            };\r\n    \r\n            // Add click event listeners to gallery items\r\n            galleryItems.forEach(item =\u003e {\r\n              item.addEventListener('click', () =\u003e {\r\n                const index = parseInt(item.dataset.index, 10);\r\n                openModal(index);\r\n              });\r\n            });\r\n    \r\n            // Add event listeners for modal controls\r\n            if (modal) modal.addEventListener('click', closeModal);\r\n            if (closeModalBtn) closeModalBtn.addEventListener('click', closeModal);\r\n            if (nextBtn) nextBtn.addEventListener('click', (e) =\u003e {\r\n                e.stopPropagation();\r\n                showNextImage();\r\n            });\r\n            if (prevBtn) prevBtn.addEventListener('click', (e) =\u003e {\r\n                e.stopPropagation();\r\n                showPrevImage();\r\n            });\r\n            \r\n            // Prevent modal from closing when clicking on the image itself\r\n            if (modalImage) {\r\n                modalImage.parentElement.addEventListener('click', (e) =\u003e e.stopPropagation());\r\n            }\r\n    \r\n            // Keyboard navigation\r\n            document.addEventListener('keydown', (e) =\u003e {\r\n              if (modal.classList.contains('active')) {\r\n                if (e.key === 'Escape') closeModal();\r\n                if (e.key === 'ArrowRight') showNextImage();\r\n                if (e.key === 'ArrowLeft') showPrevImage();\r\n              }\r\n            });\r\n          });\r\n    \u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1762422707280bbf2730": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": "shopline://shop_images/资源 6@wcu.png",
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "100px",
+          "padding-inline-end": "30px",
+          "padding-inline-start": "30px"
+        }
+      },
+      "disabled": false,
+      "blocks": {
+        "1762422707281396ee9d": {
+          "type": "heading",
+          "settings": {
+            "text": "OEM SERVICE",
+            "text_align": "center",
+            "text_size": "title1"
+          },
+          "blocks": {}
+        },
+        "1762423571362798bdcc": {
+          "type": "rich-text",
+          "settings": {
+            "content": "whether you already have a designed fabric or want to design a new one,we can provide custom fashion fabric services.",
+            "size": {
+              "height": "auto",
+              "width": "100%"
+            },
+            "spacing": {
+              "padding-bottom": "0px",
+              "padding-left": "0px",
+              "padding-right": "0px",
+              "padding-top": "0px"
+            },
+            "text_align": "center"
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "1762422707281396ee9d",
+        "1762423571362798bdcc"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "17624227240609f9c0a5": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 440,
+        "style": "bars"
+      },
+      "disabled": false,
+      "blocks": {
+        "176242277453741828e7": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "focal_point": "center center",
+            "image": "shopline://shop_images/OEM排版_画板 1 副本_7250549174982157910.jpg",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 0,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "176242277453741828e7"
+      ],
+      "custom_css": [],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17624229015445362fe5": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": "shopline://shop_images/资源 6@wcu.png",
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-left": "20px",
+            "padding-right": "20px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "100px",
+          "padding-left": "30px",
+          "padding-right": "30px",
+          "padding-top": "100px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "17624229015447146667": {
+          "type": "rich-text",
+          "settings": {
+            "content": "\u003cstrong\u003eOEM Fashion Fabric Service\u003c/strong\u003e"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17624229015447146667"
+      ],
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "17630894658847962e88": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": {},
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-left": "20px",
+            "padding-right": "20px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "100px",
+          "padding-left": "30px",
+          "padding-right": "30px",
+          "padding-top": "100px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "17630894658853941448": {
+          "type": "heading",
+          "settings": {
+            "text": "Beyond Manufacturing, Building Brands\n",
+            "text_align": "center",
+            "text_size": "title3"
+          },
+          "blocks": {}
+        },
+        "176308946588559975ff": {
+          "type": "rich-text",
+          "settings": {
+            "content": "\u003csection class=\"section philosophy\"\u003e\n\u003cdiv class=\"container\"\u003e\n\u003cp\u003eAt Fominte, we see ourselves as more than just a supplier. We are a creative workshop, a partner in innovation, and an extension of your team. Our mission is to translate your unique brand vision into tangible, high-quality products that resonate with your audience.\u003c/p\u003e\n\u003c/div\u003e\n\u003c/section\u003e\n\u003csection id=\"studios-section\" class=\"section studios\"\u003e\n\u003cdiv class=\"container\"\u003e\u0026nbsp;\u003c/div\u003e\n\u003c/section\u003e",
+            "text_align": "center"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17630894658853941448",
+        "176308946588559975ff"
+      ],
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px",
+            "padding-inline-end": "0px",
+            "padding-inline-start": "0px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-end": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "17630894658847962e88",
+    "175798659809935caf32",
+    "1757993662639ba1fd2d",
+    "175799437238726f3419",
+    "17585048508830348227",
+    "17617047970068f0005a",
+    "1762422707280bbf2730",
+    "17624227240609f9c0a5",
+    "17624229015445362fe5"
+  ]
+}

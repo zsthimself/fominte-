@@ -1,0 +1,17 @@
+{
+    "name": "pseo-content-generator",
+    "version": "1.0.0",
+    "description": "pSEO 批量内容生成工具",
+    "type": "module",
+    "scripts": {
+        "generate-matrix": "node generate-matrix.js",
+        "export-csv": "node export-new-products.js",
+        "update-content": "node update-generated-content.js",
+        "generate-crochet-matrix": "node --no-warnings generate-crochet-matrix.js",
+        "export-crochet-csv": "node --no-warnings export-crochet-products.js"
+    },
+    "dependencies": {
+        "csv-parse": "^5.5.0",
+        "csv-stringify": "^6.4.0"
+    }
+}

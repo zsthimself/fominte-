@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "175798659809935caf32": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "flex-start",
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "40px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "40px"
+        },
+        "size": {},
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "60px",
+          "padding-top": "60px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "175798659810126f41c4": {
+          "type": "heading-with-link/heading-with-link",
+          "settings": {
+            "link_text": "View more",
+            "text": "Shop by category",
+            "text_size": "title2"
+          },
+          "blocks": {}
+        },
+        "1757986598101c7e9b6a": {
+          "type": "$list",
+          "settings": {},
+          "blocks": {
+            "17579865981011780810": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "1757986598101357da6c": {
+                  "type": "collection/image",
+                  "settings": {},
+                  "blocks": {
+                    "1757986598101022bc81": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101022bc81"
+                  ]
+                },
+                "1757986598101e347e3c": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "1757986598101357da6c",
+                "1757986598101e347e3c"
+              ]
+            },
+            "1757986598101c55b090": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "17579865981015cd0fd7": {
+                  "type": "collection/image",
+                  "settings": {
+                    "aspect_ratio": "4/3"
+                  },
+                  "blocks": {
+                    "1757986598101a6d73f8": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101a6d73f8"
+                  ]
+                },
+                "17579865981019bd9b27": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "17579865981015cd0fd7",
+                "17579865981019bd9b27"
+              ]
+            }
+          },
+          "block_order": [
+            "1757986598101c55b090",
+            "17579865981011780810"
+          ]
+        }
+      },
+      "block_order": [
+        "175798659810126f41c4",
+        "1757986598101c7e9b6a"
+      ],
+      "name": "t:sections.collection_list.presets.presets_0.name"
+    },
+    "1757993662639ba1fd2d": {
+      "type": "shopline://apps/高阶组件库/sections/product-category-list/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text": "Optional Button",
+        "card_border_radius": 0,
+        "card_border_thickness": 0,
+        "card_color": "#fff",
+        "card_style": true,
+        "color_btn_text": "#ffffff",
+        "color_entry_line": "#EAECEC",
+        "color_image_background": "#ffffff",
+        "color_light_text": "#949494",
+        "color_page_background": "#FFFCFA",
+        "color_sale": "#171F2B",
+        "color_tag_background": "#C20000",
+        "color_tag_text": "#ffffff",
+        "color_text": "#29252C",
+        "container_bg_color": "#F4F7FB",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "right": 40,
+            "top": 20
+          }
+        },
+        "container_max_width": 1420,
+        "edges": "rounded",
+        "grid_horizontal_space": 20,
+        "horizontal_spacing": 40,
+        "image_ratio": "100",
+        "image_width": "50%",
+        "mb_layout": 4,
+        "mb_show": true,
+        "mobile_quick_add_btn_layout": "normal",
+        "mobile_quick_add_btn_style": "icon",
+        "pc_cols": 4,
+        "pc_show": true,
+        "product_add_to_cart": true,
+        "product_card_border_color": "#000000",
+        "product_card_border_opacity": 10,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 0,
+        "product_card_shadow_blur": 5,
+        "product_card_shadow_color": "#000000",
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 4,
+        "product_card_shadow_opacity": 0,
+        "product_discount": true,
+        "product_discount_position": "left_bottom",
+        "product_discount_radius": 2,
+        "product_discount_style": "number",
+        "product_fill_type": "contain",
+        "product_grid_image_margin": "0",
+        "product_hover_show_next": false,
+        "product_mobile_title_show": true,
+        "product_price_color": "#1A1C1E",
+        "product_price_letter_spacing": 0,
+        "product_price_m_font_family": "Poppins:500",
+        "product_price_m_font_size": 14,
+        "product_price_m_line_height": 1.6,
+        "product_price_pc_font_family": "Poppins:600",
+        "product_price_pc_font_size": 16,
+        "product_price_pc_line_height": 1.6,
+        "product_title_color": "#000000",
+        "product_title_font_family": "Poppins:400",
+        "product_title_letter_spacing": 0,
+        "product_title_m_font_size": 12,
+        "product_title_m_line_height": 1.6,
+        "product_title_pc_font_size": 14,
+        "product_title_pc_line_height": 1.6,
+        "product_title_show_type": "full_display",
+        "product_underlined_price_color": "#000000",
+        "product_underlined_price_letter_spacing": 0,
+        "product_underlined_price_m_font_family": "Poppins:500",
+        "product_underlined_price_m_font_size": 12,
+        "product_underlined_price_m_line_height": 1.6,
+        "product_underlined_price_pc_font_family": "Poppins:600",
+        "product_underlined_price_pc_font_size": 16,
+        "product_underlined_price_pc_line_height": 1.6,
+        "products_num": 4,
+        "quick_add_btn_background": "#000000",
+        "quick_add_btn_font_color": "#FFFFFF",
+        "show_touch": false,
+        "slice_in_pc": true,
+        "soldOut_color_tag_background": "#ffffff",
+        "soldOut_color_tag_text": "#000000",
+        "sticky": true,
+        "superscript_decimals": false,
+        "tab_button_bg_color": "#ffffff",
+        "tab_button_text_color": "#000000",
+        "tab_color": "#000000",
+        "tab_style": "underline",
+        "tab_text_align": "center",
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 19,
+        "title_pc_font_size": 22,
+        "vertical_spacing": 20
+      },
+      "disabled": true,
+      "blocks": {
+        "17579936626401ce8d5a": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Floral Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626401e38055": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Boho \u0026 Paisley Crochet"
+          },
+          "blocks": {}
+        },
+        "175799366264022249d5": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Modern \u0026 Abstract Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626405eb4efa": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Geometric Crochet"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17579936626401ce8d5a",
+        "17579936626405eb4efa",
+        "17579936626401e38055",
+        "175799366264022249d5"
+      ],
+      "name": "t:sections.product-category-list.presets_0.name"
+    },
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003csection class=\"apparel-category-page\"\u003e\r\n\r\n    \u003cdiv class=\"apparel-hero fade-up\"\u003e\r\n        \u003cdiv class=\"apparel-hero-content\"\u003e\r\n            \u003cspan class=\"apparel-subtitle\"\u003eOEM \u0026 ODM READY-TO-WEAR SOLUTIONS\u003c/span\u003e\r\n            \u003ch1 class=\"apparel-title\"\u003eApparel Manufacturing\u003c/h1\u003e\r\n            \u003cp class=\"apparel-desc\"\u003eFrom premium fabrics to finished garments.\u003cbr\u003eWe provide end-to-end production services for global fashion brands.\r\n            \u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"apparel-hero-bg-overlay\"\u003e\u003c/div\u003e\r\n        \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/6ea4e730fea111cdc5def2a59b197562.webp?w=4000\u0026h=2250\" class=\"apparel-hero-img\" alt=\"Apparel Manufacturing Background\"\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"apparel-collections-container\"\u003e\r\n\r\n        \u003ca href=\"https://fominte.com/pages/crochet-home\" class=\"apparel-card fade-up delay-1\"\u003e\r\n            \u003cdiv class=\"apparel-card-image\"\u003e\r\n                \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/--31.webp?w=1279\u0026h=1706\" alt=\"Crochet Clothing\"\u003e\r\n                \u003cdiv class=\"apparel-card-overlay\"\u003e\r\n                    \u003cspan class=\"btn-text\"\u003eView Collection\u003c/span\u003e\r\n                \u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"apparel-card-info\"\u003e\r\n                \u003ch3\u003eCrochet Clothing\u003c/h3\u003e\r\n                \u003cp\u003eHand-crafted aesthetics meet scalable production. Ideal for resort wear and boho-chic summer\r\n                    collections.\u003c/p\u003e\r\n            \u003c/div\u003e\r\n        \u003c/a\u003e\r\n\r\n        \u003ca href=\"https://fominte.com/pages/wholesale-faux-fur-clothing\" class=\"apparel-card fade-up delay-2\"\u003e\r\n            \u003cdiv class=\"apparel-card-image\"\u003e\r\n                \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/-.webp?w=1279\u0026h=1706\" alt=\"Faux Fur Outerwear\"\u003e\r\n                \u003cdiv class=\"apparel-card-overlay\"\u003e\r\n                    \u003cspan class=\"btn-text\"\u003eView Collection\u003c/span\u003e\r\n                \u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"apparel-card-info\"\u003e\r\n                \u003ch3\u003eFaux Fur Outerwear\u003c/h3\u003e\r\n                \u003cp\u003eCruelty-free luxury coats and jackets. Realistic textures with superior warmth and ethical sourcing.\r\n                \u003c/p\u003e\r\n            \u003c/div\u003e\r\n        \u003c/a\u003e\r\n\r\n        \u003ca href=\"https://fominte.com/pages/fleece-home\" class=\"apparel-card fade-up delay-3\"\u003e\r\n            \u003cdiv class=\"apparel-card-image\"\u003e\r\n                \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/--30.webp?w=1279\u0026h=1706\" alt=\"Fleece Outerwear\"\u003e\r\n                \u003cdiv class=\"apparel-card-overlay\"\u003e\r\n                    \u003cspan class=\"btn-text\"\u003eView Collection\u003c/span\u003e\r\n                \u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"apparel-card-info\"\u003e\r\n                \u003ch3\u003eFleece Outerwear\u003c/h3\u003e\r\n                \u003cp\u003eHigh-performance insulating layers. From bonded fleece jackets to casual streetwear hoodies.\u003c/p\u003e\r\n            \u003c/div\u003e\r\n        \u003c/a\u003e\r\n\r\n        \u003ca href=\"https://fominte.com/pages/fashion-fabrics\" class=\"apparel-card fade-up delay-4\"\u003e\r\n            \u003cdiv class=\"apparel-card-image\"\u003e\r\n                \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/--32.webp?w=1279\u0026h=1706\" alt=\"Occasion \u0026 Party Wear\"\u003e\r\n                \u003cdiv class=\"apparel-card-overlay\"\u003e\r\n                    \u003cspan class=\"btn-text\"\u003eView Collection\u003c/span\u003e\r\n                \u003c/div\u003e\r\n            \u003c/div\u003e\r\n            \u003cdiv class=\"apparel-card-info\"\u003e\r\n                \u003ch3\u003eOccasion \u0026 Party Wear\u003c/h3\u003e\r\n                \u003cp\u003eSophisticated designs for evening events. Featuring intricate embroidery, sequins, and premium\r\n                    tailoring.\u003c/p\u003e\r\n            \u003c/div\u003e\r\n        \u003c/a\u003e\r\n\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"apparel-trust-bar fade-up\"\u003e\r\n        \u003cdiv class=\"trust-item\"\u003e\r\n            \u003cspan class=\"trust-icon\"\u003e✦\u003c/span\u003e\r\n            \u003cspan class=\"trust-text\"\u003e7-Day Rapid Prototyping\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"trust-item\"\u003e\r\n            \u003cspan class=\"trust-icon\"\u003e✦\u003c/span\u003e\r\n            \u003cspan class=\"trust-text\"\u003eFlexible MOQ Support\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"trust-item\"\u003e\r\n            \u003cspan class=\"trust-icon\"\u003e✦\u003c/span\u003e\r\n            \u003cspan class=\"trust-text\"\u003eBSCI \u0026 ISO Certified Factory\u003c/span\u003e\r\n        \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n\u003c/section\u003e\r\n\r\n\u003cstyle\u003e\r\n    /* --- Styles for Apparel Page --- */\r\n    .apparel-category-page {\r\n        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n        background-color: #fff;\r\n        padding-bottom: 80px;\r\n    }\r\n\r\n    /* Hero Section */\r\n    .apparel-hero {\r\n        position: relative;\r\n        height: 60vh;\r\n        min-height: 400px;\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        text-align: center;\r\n        color: #fff;\r\n        overflow: hidden;\r\n        margin-bottom: 60px;\r\n    }\r\n\r\n    .apparel-hero-img {\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 100%;\r\n        object-fit: cover;\r\n        z-index: 0;\r\n        transition: transform 10s ease;\r\n    }\r\n\r\n    .apparel-hero:hover .apparel-hero-img {\r\n        transform: scale(1.05);\r\n    }\r\n\r\n    .apparel-hero-bg-overlay {\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 100%;\r\n        background: rgba(0, 0, 0, 0.4);\r\n        z-index: 1;\r\n    }\r\n\r\n    .apparel-hero-content {\r\n        position: relative;\r\n        z-index: 2;\r\n        max-width: 800px;\r\n        padding: 0 20px;\r\n    }\r\n\r\n    .apparel-subtitle {\r\n        display: block;\r\n        font-size: 0.9rem;\r\n        letter-spacing: 3px;\r\n        text-transform: uppercase;\r\n        margin-bottom: 15px;\r\n        color: #ddd;\r\n    }\r\n\r\n    .apparel-title {\r\n        font-size: 3.5rem;\r\n        font-weight: 300;\r\n        margin: 0 0 20px 0;\r\n        letter-spacing: 1px;\r\n    }\r\n\r\n    .apparel-desc {\r\n        font-size: 1.1rem;\r\n        line-height: 1.6;\r\n        color: #eee;\r\n    }\r\n\r\n    /* Collections Grid - 针对4个产品做了优化 */\r\n    .apparel-collections-container {\r\n        max-width: 1600px;\r\n        /* 加宽一点以容纳4列 */\r\n        margin: 0 auto;\r\n        padding: 0 40px;\r\n        display: grid;\r\n        /* Desktop: 默认4列 */\r\n        grid-template-columns: repeat(4, 1fr);\r\n        gap: 20px;\r\n    }\r\n\r\n    .apparel-card {\r\n        text-decoration: none;\r\n        display: block;\r\n        group: all;\r\n    }\r\n\r\n    .apparel-card-image {\r\n        position: relative;\r\n        width: 100%;\r\n        padding-top: 133%;\r\n        /* 3:4 比例 */\r\n        overflow: hidden;\r\n        margin-bottom: 25px;\r\n        background-color: #f5f5f5;\r\n    }\r\n\r\n    .apparel-card-image img {\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 100%;\r\n        object-fit: cover;\r\n        transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);\r\n    }\r\n\r\n    .apparel-card:hover .apparel-card-image img {\r\n        transform: scale(1.1);\r\n    }\r\n\r\n    .apparel-card-overlay {\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 100%;\r\n        background: rgba(0, 0, 0, 0.1);\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: center;\r\n        opacity: 0;\r\n        transition: opacity 0.4s ease;\r\n    }\r\n\r\n    .apparel-card:hover .apparel-card-overlay {\r\n        opacity: 1;\r\n    }\r\n\r\n    .btn-text {\r\n        color: #fff;\r\n        border: 1px solid #fff;\r\n        padding: 12px 25px;\r\n        text-transform: uppercase;\r\n        letter-spacing: 1px;\r\n        font-size: 0.8rem;\r\n        background: rgba(255, 255, 255, 0.1);\r\n        backdrop-filter: blur(5px);\r\n    }\r\n\r\n    .apparel-card-info {\r\n        text-align: center;\r\n    }\r\n\r\n    .apparel-card-info h3 {\r\n        color: #222;\r\n        font-size: 1.3rem;\r\n        /* 稍微调小一点以防标题太长换行 */\r\n        margin: 0 0 10px 0;\r\n        font-weight: 400;\r\n        font-family: 'Times New Roman', Times, serif;\r\n    }\r\n\r\n    .apparel-card-info p {\r\n        color: #666;\r\n        font-size: 0.9rem;\r\n        line-height: 1.5;\r\n        max-width: 95%;\r\n        margin: 0 auto;\r\n    }\r\n\r\n    /* Trust Bar */\r\n    .apparel-trust-bar {\r\n        margin-top: 80px;\r\n        border-top: 1px solid #eee;\r\n        border-bottom: 1px solid #eee;\r\n        padding: 25px 0;\r\n        display: flex;\r\n        justify-content: center;\r\n        gap: 60px;\r\n    }\r\n\r\n    .trust-item {\r\n        color: #333;\r\n        font-size: 0.9rem;\r\n        text-transform: uppercase;\r\n        letter-spacing: 1px;\r\n        font-weight: 600;\r\n        display: flex;\r\n        align-items: center;\r\n        gap: 10px;\r\n    }\r\n\r\n    .trust-icon {\r\n        color: #c5a059;\r\n        font-size: 1.2rem;\r\n    }\r\n\r\n    /* Animations */\r\n    .fade-up {\r\n        opacity: 0;\r\n        transform: translateY(30px);\r\n        transition: all 0.8s ease;\r\n    }\r\n\r\n    .fade-up.visible {\r\n        opacity: 1;\r\n        transform: translateY(0);\r\n    }\r\n\r\n    .delay-1 {\r\n        transition-delay: 0.1s;\r\n    }\r\n\r\n    .delay-2 {\r\n        transition-delay: 0.2s;\r\n    }\r\n\r\n    .delay-3 {\r\n        transition-delay: 0.3s;\r\n    }\r\n\r\n    .delay-4 {\r\n        transition-delay: 0.4s;\r\n    }\r\n\r\n    /* Responsive */\r\n\r\n    /* Laptop: 变成2行2列，防止4个挤在一起太小 */\r\n    @media (max-width: 1200px) {\r\n        .apparel-collections-container {\r\n            grid-template-columns: repeat(2, 1fr);\r\n            padding: 0 30px;\r\n            max-width: 800px;\r\n            /* 限制宽度，让2列看起来更精致 */\r\n        }\r\n    }\r\n\r\n    @media (max-width: 1024px) {\r\n        .apparel-hero {\r\n            height: 50vh;\r\n        }\r\n\r\n        .apparel-title {\r\n            font-size: 2.5rem;\r\n        }\r\n    }\r\n\r\n    @media (max-width: 768px) {\r\n        .apparel-hero-content {\r\n            padding-top: 40px;\r\n        }\r\n\r\n        .apparel-title {\r\n            font-size: 2rem;\r\n        }\r\n\r\n        .apparel-collections-container {\r\n            grid-template-columns: 1fr;\r\n            /* 手机端单列 */\r\n            gap: 50px;\r\n        }\r\n\r\n        .apparel-card-image {\r\n            padding-top: 100%;\r\n        }\r\n\r\n        .apparel-trust-bar {\r\n            flex-direction: column;\r\n            gap: 20px;\r\n            align-items: center;\r\n            text-align: center;\r\n        }\r\n    }\r\n\u003c/style\u003e\r\n\r\n\u003cscript\u003e\r\n    (function() {\r\n        document.addEventListener('DOMContentLoaded', function() {\r\n            const observer = new IntersectionObserver((entries) =\u003e {\r\n                entries.forEach(entry =\u003e {\r\n                    if (entry.isIntersecting) {\r\n                        entry.target.classList.add('visible');\r\n                    }\r\n                });\r\n            }, { threshold: 0.1 });\r\n\r\n            // 注意：这里同时兼容了 emb 和 apparel 两种页面的动画类名\r\n            document.querySelectorAll('.apparel-category-page .fade-up, .emb-category-page .fade-up').forEach(el =\u003e {\r\n                observer.observe(el);\r\n            });\r\n        });\r\n    })();\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": true,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": {},
+            "link": "",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 21,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "OUR CERTIFICATIONS",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": "https://cdn-files.myshopline.com/video/store/1754638002373/FOMINTE.mp4?w=1920\u0026h=1080\u0026d=2.745\u0026fromFileSelect=1\u0026poster=https%3A%2F%2Fimg-va.myshopline.com%2Fimage%2Fstore%2F1754638002373%2Ffa24a32e01124f179cd4636b673dbc2b.png%3Fw%3D1920%26h%3D1080"
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "1758193339455dbbcba1": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "1758193339455dbbcba1",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "175798659809935caf32",
+    "1757993662639ba1fd2d",
+    "175799437238726f3419",
+    "17585048508830348227"
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "id": null,
+  "current": "Default",
+  "presets": {
+    "Default": {
+      "theme": {
+        "article_card_border_opacity": 10,
+        "article_card_border_radius": 0,
+        "article_card_border_thickness": 0,
+        "article_card_image_padding": 0,
+        "article_card_shadow_blur": 0,
+        "article_card_shadow_offset_x": 0,
+        "article_card_shadow_offset_y": 0,
+        "article_card_shadow_opacity": 0,
+        "article_card_style": "normal",
+        "button_border_opacity": 40,
+        "button_border_radius": 4,
+        "button_border_thickness": 0,
+        "button_shadow_blur": 0,
+        "button_shadow_offset_x": 0,
+        "button_shadow_offset_y": 0,
+        "button_shadow_opacity": 15,
+        "color_cart_bubble": "#EE4700",
+        "color_cart_bubble_text": "#FFFFFF",
+        "color_discount": "#EE4700",
+        "color_image_background": "#F8F8F8",
+        "color_image_loading_background": "#E1E4E8",
+        "color_mask": "#000000",
+        "color_page_background": "#ffffff",
+        "color_sale": "#3D3819",
+        "color_schemes": {
+          "scheme-1": {
+            "settings": {
+              "color_background": "#ffffff",
+              "color_button_background": "#000000",
+              "color_button_secondary_background": "#F3F2E0",
+              "color_button_secondary_border": "#726C4A",
+              "color_button_secondary_text": "#3D3819",
+              "color_button_text": "#F3F2E0",
+              "color_button_text_link": "#3D3819",
+              "color_entry_line": "#CBCBCB",
+              "color_light_text": "#726C4A",
+              "color_text": "#2c2c2c"
+            }
+          },
+          "scheme-2": {
+            "settings": {
+              "color_background": "#ffffff",
+              "color_button_background": "#F3F2E0",
+              "color_button_secondary_background": "#A7A92F",
+              "color_button_secondary_border": "#F3F2E0",
+              "color_button_secondary_text": "#F3F2E0",
+              "color_button_text": "#87891E",
+              "color_button_text_link": "#000000",
+              "color_entry_line": "#FFFFFB",
+              "color_light_text": "#FFFFFB",
+              "color_text": "#2c2c2c"
+            }
+          },
+          "scheme-3": {
+            "settings": {
+              "color_background": "#ffffff",
+              "color_button_background": "#AF7D3E",
+              "color_button_secondary_background": "#DA9E52",
+              "color_button_secondary_border": "#3D3820",
+              "color_button_secondary_text": "#3D3819",
+              "color_button_text": "#DA9E52",
+              "color_button_text_link": "#3D3821",
+              "color_entry_line": "#000000",
+              "color_light_text": "#514E3B",
+              "color_text": "#3D3819"
+            }
+          },
+          "scheme-4": {
+            "settings": {
+              "color_background": "#1E1E1E",
+              "color_button_background": "#FFFFFF",
+              "color_button_secondary_background": "rgba(0,0,0,0)",
+              "color_button_secondary_border": "#FFFFFF",
+              "color_button_secondary_text": "#FFFFFF",
+              "color_button_text": "#1E1E1E",
+              "color_button_text_link": "#FFFFFF",
+              "color_entry_line": "#FFFFFF",
+              "color_light_text": "#9A9A9A",
+              "color_text": "#FFFFFF"
+            }
+          },
+          "scheme-5": {
+            "settings": {
+              "color_background": "#f9f9f9",
+              "color_button_background": "#3D3819",
+              "color_button_secondary_background": "#F3F2E0",
+              "color_button_secondary_border": "#726C4A",
+              "color_button_secondary_text": "#3D3819",
+              "color_button_text": "#F3F2E0",
+              "color_button_text_link": "#3D3819",
+              "color_entry_line": "#CBCBCB",
+              "color_light_text": "#726C4A",
+              "color_text": "#554c19"
+            }
+          },
+          "scheme-6": {
+            "settings": {
+              "color_background": "#ffffff",
+              "color_button_background": "#000000",
+              "color_button_secondary_background": "#F3F2E0",
+              "color_button_secondary_border": "#726C4A",
+              "color_button_secondary_text": "#3D3819",
+              "color_button_text": "#F3F2E0",
+              "color_button_text_link": "#3D3819",
+              "color_entry_line": "#CBCBCB",
+              "color_light_text": "#726C4A",
+              "color_text": "#cfb723"
+            }
+          }
+        },
+        "color_shadow": "#000000",
+        "color_tag_background": "#EE4700",
+        "color_tag_text": "#FFFFFF",
+        "drawer_border_opacity": 10,
+        "drawer_border_thickness": 1,
+        "drawer_shadow_blur": 5,
+        "drawer_shadow_offset_x": 0,
+        "drawer_shadow_offset_y": 4,
+        "drawer_shadow_opacity": 0,
+        "favicon_image": "https://img-va.myshopline.com/image/store/1754638002373/fominte--0.png?w=32\u0026h=32",
+        "grid_horizontal_spacing": 0,
+        "grid_vertical_spacing": 0,
+        "input_border_opacity": 100,
+        "input_border_radius": 0,
+        "input_border_thickness": 1,
+        "input_shadow_blur": 0,
+        "input_shadow_offset_x": 0,
+        "input_shadow_offset_y": 0,
+        "input_shadow_opacity": 0,
+        "page_width": 1900,
+        "product_card_border_opacity": 20,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 1,
+        "product_card_image_padding": 0,
+        "product_card_shadow_blur": 0,
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 0,
+        "product_card_shadow_opacity": 0,
+        "product_card_style": "normal",
+        "product_desktop_title_show": true,
+        "product_discount_radius": 0,
+        "product_mobile_title_show": true,
+        "product_quick_add": true,
+        "product_title_display_type": "all",
+        "section_vertical_spacing": 0,
+        "social_media_facebook_link": "https://www.facebook.com/FOMINTE/",
+        "social_media_instagram_link": "https://www.instagram.com/fominte_official/",
+        "social_media_line_link": "",
+        "social_media_linkedin_link": "https://www.linkedin.com/company/108161701/admin/dashboard/",
+        "social_media_pinterest_link": "",
+        "social_media_snapchat_link": "",
+        "social_media_tiktok_link": "https://www.tiktok.com/@fominte_official",
+        "social_media_tumblr_link": "",
+        "social_media_twitter_link": "https://x.com/Fominte_offical",
+        "social_media_vimeo_link": "",
+        "social_media_youtube_link": "https://www.youtube.com/@FOMINTE-official",
+        "sort_body_font": "Helvetica",
+        "sort_body_letter_spacing": 25,
+        "sort_body_line_height": 1,
+        "sort_body_size": 12,
+        "sort_title_font": "Helvetica",
+        "sort_title_letter_spacing": 50,
+        "sort_title_line_height": 1.2,
+        "sort_title_size": 22,
+        "sort_title_uppercase": true,
+        "variant_selector_border_opacity": 20,
+        "variant_selector_border_radius": 0,
+        "variant_selector_border_thickness": 1,
+        "variant_selector_shadow_blur": 0,
+        "variant_selector_shadow_offset_x": 0,
+        "variant_selector_shadow_offset_y": 0,
+        "variant_selector_shadow_opacity": 0
+      },
+      "sections": {},
+      "blocks": {
+        "1759226634724106652c": {
+          "type": "shopline://apps/商品评价/blocks/app_embed_block/bd4a09d9-7542-4e11-931c-19fe441576aa",
+          "settings": {
+            "comment_html": ""
+          },
+          "disabled": true
+        },
+        "17592266347241690dfd": {
+          "type": "shopline://apps/高阶组件库/blocks/footer-tab/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+          "settings": {
+            "background_opacity": 100,
+            "color_background": "#ffffff",
+            "color_icon": "#000000",
+            "color_title": "#000000",
+            "icon_1": "home",
+            "icon_2": "category",
+            "icon_3": "cart",
+            "icon_4": "user",
+            "icon_5": "none",
+            "padding_height": 6,
+            "show_pages": {
+              "customPages": [],
+              "showType": "all"
+            },
+            "tab_1": "Home",
+            "tab_2": "Category",
+            "tab_3": "Cart",
+            "tab_4": "User",
+            "tab_radius": 0,
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1.6,
+            "title_m_font_size": 12
+          },
+          "disabled": true
+        },
+        "17592266347241ddca8b": {
+          "type": "shopline://apps/EasyRank SEO All-in-one/blocks/app_embed_block/61323553-618d-4754-80da-829c681c52ab",
+          "settings": {},
+          "disabled": false
+        },
+        "175922663472447133ef": {
+          "type": "shopline://apps/店铺转化提升/blocks/payment-security/e4a69c52-27bd-4ec9-86c8-1d5b4d867769",
+          "settings": {
+            "afterSaleGuaranteeDesc": "",
+            "paymentSecurityDesc": ""
+          },
+          "disabled": true
+        },
+        "17592266347244f21085": {
+          "type": "shopline://apps/商品评价/blocks/comment-structure/bd4a09d9-7542-4e11-931c-19fe441576aa",
+          "settings": {},
+          "disabled": true
+        },
+        "17592266347245a2bcd1": {
+          "type": "shopline://apps/店铺转化提升/blocks/click-block/e4a69c52-27bd-4ec9-86c8-1d5b4d867769",
+          "settings": {},
+          "disabled": true
+        },
+        "1759226634724711b47a": {
+          "type": "shopline://apps/店铺转化提升/blocks/count-down-of-cart/e4a69c52-27bd-4ec9-86c8-1d5b4d867769",
+          "settings": {
+            "finalWords": "",
+            "prefix": "",
+            "suffix": ""
+          },
+          "disabled": true
+        },
+        "175922663472472cbe1c": {
+          "type": "shopline://apps/店铺转化提升/blocks/ship-calculate/e4a69c52-27bd-4ec9-86c8-1d5b4d867769",
+          "settings": {
+            "calculateButtonTitle": "",
+            "city": "",
+            "country": "",
+            "province": "",
+            "title": "",
+            "zipCode": ""
+          },
+          "disabled": true
+        },
+        "175922663472480a0677": {
+          "type": "shopline://apps/高阶组件库/blocks/back-to-top/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+          "settings": {
+            "background_opacity": 100,
+            "color_background": "#ffffff",
+            "color_icon": "#000000",
+            "icon_name": "arrow1",
+            "mb_position_bottom": 72,
+            "mb_position_right": 20,
+            "pc_position_bottom": 180,
+            "pc_position_right": 40,
+            "radius": 40
+          },
+          "disabled": true
+        },
+        "17592266347249cd4ea6": {
+          "type": "shopline://apps/EasyRank SEO All-in-one/blocks/easyrank_404_monitor/61323553-618d-4754-80da-829c681c52ab",
+          "settings": {},
+          "disabled": false
+        },
+        "1759226634724b3b4816": {
+          "type": "shopline://apps/商品评价/blocks/comment-pop/bd4a09d9-7542-4e11-931c-19fe441576aa",
+          "settings": {},
+          "disabled": true
+        },
+        "1759226634724dbc8d32": {
+          "type": "shopline://apps/超级菜单生成器/blocks/app-embed-block/5d07331b-9f5b-48fa-a671-83a0e57deb7d",
+          "settings": {
+            "hide_theme_menu": false
+          },
+          "disabled": false
+        },
+        "1759226634724e175aeb": {
+          "type": "shopline://apps/GDPR-隐私弹窗/blocks/gdpr-embeded-app-block/99b5bc7b-5971-4b60-8372-dc63df1cde73",
+          "settings": {
+            "banner_color": "#FFFFFF",
+            "button_bg_color": "#000000",
+            "button_border_color": "#FFFFFF",
+            "button_radius": 0,
+            "button_size": 12,
+            "button_text_color": "#FFFFFF",
+            "color_type": "0",
+            "description_color": "#000000",
+            "description_size": 14,
+            "modal_radius": 0,
+            "radius_type": "0",
+            "secondary_button_bg_color": "#FFFFFF",
+            "secondary_button_border_color": "#000000",
+            "secondary_button_size": 12,
+            "secondary_button_text_color": "#000000",
+            "size_type": "0",
+            "tip_text_color": "#7A8499",
+            "title_color": "#000000",
+            "title_size": 16
+          },
+          "disabled": false
+        },
+        "1759226634724ef80934": {
+          "type": "shopline://apps/店铺转化提升/blocks/discount-modal-block/e4a69c52-27bd-4ec9-86c8-1d5b4d867769",
+          "settings": {
+            "msgContent": "",
+            "titleContent": "",
+            "toCheckOutContent": "",
+            "toShoppingContent": ""
+          },
+          "disabled": true
+        },
+        "1759226634724ff218f2": {
+          "type": "shopline://apps/店铺转化提升/blocks/product-promotion-label/e4a69c52-27bd-4ec9-86c8-1d5b4d867769",
+          "settings": {},
+          "disabled": true
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".is-layout-right-link-inquiry-form {background-color: #486699; color: #fff; padding: 40px;}",
+      ".is-layout-right-link-inquiry-form h2 {color: #fff;}",
+      ".recommend-product-item-price {display: none;}",
+      ".span\\.sale-price {display: none;}"
+    ]
+  }
+}

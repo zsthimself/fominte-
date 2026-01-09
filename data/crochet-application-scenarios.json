@@ -1,0 +1,164 @@
+{
+    "version": "1.0",
+    "generated": "2025-12-31",
+    "product_type": "crochet-clothing",
+    "categories": [
+        {
+            "id": "lifestyle",
+            "name": "Lifestyle Scenarios",
+            "scenarios": [
+                {
+                    "id": "boho-resort",
+                    "name_en": "Boho Resort Wear",
+                    "name_cn": "波西米亚度假风",
+                    "keywords": [
+                        "boho crochet wholesale",
+                        "resort crochet clothing",
+                        "bohemian knitwear supplier"
+                    ],
+                    "title_suffix": "for Boho Resort Collections",
+                    "priority": 1,
+                    "matching_tags": [
+                        "Bohemian",
+                        "Boho",
+                        "Resort",
+                        "Paisley"
+                    ]
+                },
+                {
+                    "id": "festival-fashion",
+                    "name_en": "Festival Fashion",
+                    "name_cn": "音乐节时尚",
+                    "keywords": [
+                        "festival crochet clothing",
+                        "coachella style wholesale",
+                        "music festival knitwear"
+                    ],
+                    "title_suffix": "for Festival Fashion",
+                    "priority": 2,
+                    "matching_tags": [
+                        "Festival",
+                        "Y2K",
+                        "Pop Art",
+                        "Retro"
+                    ]
+                },
+                {
+                    "id": "beach-coverup",
+                    "name_en": "Beach & Pool Coverups",
+                    "name_cn": "海滩泳池罩衫",
+                    "keywords": [
+                        "crochet cover up wholesale",
+                        "beach coverup manufacturer",
+                        "swim coverup supplier"
+                    ],
+                    "title_suffix": "for Beach & Pool Coverups",
+                    "priority": 3,
+                    "matching_tags": [
+                        "Beachwear",
+                        "Coverup",
+                        "Open Knit",
+                        "Swimwear"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "aesthetic",
+            "name": "Aesthetic Styles",
+            "scenarios": [
+                {
+                    "id": "cottagecore",
+                    "name_en": "Cottagecore Collection",
+                    "name_cn": "田园风系列",
+                    "keywords": [
+                        "cottagecore knitwear wholesale",
+                        "romantic crochet clothing",
+                        "vintage lace knitwear supplier"
+                    ],
+                    "title_suffix": "for Cottagecore Collections",
+                    "priority": 1,
+                    "matching_tags": [
+                        "Cottagecore",
+                        "Floral",
+                        "Vintage",
+                        "Romantic"
+                    ]
+                },
+                {
+                    "id": "y2k-revival",
+                    "name_en": "Y2K Revival",
+                    "name_cn": "Y2K复古风",
+                    "keywords": [
+                        "y2k crochet top wholesale",
+                        "granny square clothing supplier",
+                        "retro knitwear manufacturer"
+                    ],
+                    "title_suffix": "for Y2K Revival Collections",
+                    "priority": 2,
+                    "matching_tags": [
+                        "Y2K",
+                        "Granny Square",
+                        "Patchwork",
+                        "Pop"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "business",
+            "name": "B2B Business Scenarios",
+            "scenarios": [
+                {
+                    "id": "boutique-stock",
+                    "name_en": "Boutique Stock",
+                    "name_cn": "精品店铺货",
+                    "keywords": [
+                        "crochet clothing boutique wholesale",
+                        "artisan knitwear bulk",
+                        "handmade crochet supplier"
+                    ],
+                    "title_suffix": "for Boutique Retailers",
+                    "priority": 1,
+                    "matching_tags": [
+                        "crochet clothing"
+                    ]
+                },
+                {
+                    "id": "private-label",
+                    "name_en": "Private Label OEM",
+                    "name_cn": "OEM贴牌代工",
+                    "keywords": [
+                        "crochet garment manufacturer",
+                        "private label knitwear",
+                        "custom crochet clothing OEM"
+                    ],
+                    "title_suffix": "for Private Label Brands",
+                    "priority": 2,
+                    "matching_tags": [
+                        "crochet clothing"
+                    ]
+                },
+                {
+                    "id": "summer-collection",
+                    "name_en": "Summer Collection",
+                    "name_cn": "夏季系列采购",
+                    "keywords": [
+                        "wholesale summer knitwear",
+                        "summer crochet tops bulk",
+                        "lightweight knitwear supplier"
+                    ],
+                    "title_suffix": "for Summer Collections",
+                    "priority": 3,
+                    "matching_tags": [
+                        "Summer",
+                        "Sleeveless",
+                        "Crop",
+                        "Cami"
+                    ]
+                }
+            ]
+        }
+    ],
+    "total_scenarios": 8
+}

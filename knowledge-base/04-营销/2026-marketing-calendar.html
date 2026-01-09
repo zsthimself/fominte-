@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fominte 2026 内容营销日历</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #f59e0b;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --info: #3b82f6;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 1rem;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+        
+        /* Key Insight Card */
+        .insight-card {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(239, 68, 68, 0.1));
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .insight-card h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .insight-card .highlight {
+            background: rgba(245, 158, 11, 0.2);
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+            color: #fcd34d;
+        }
+        
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .tab {
+            padding: 0.75rem 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: var(--gray);
+        }
+        
+        .tab:hover {
+            background: rgba(99, 102, 241, 0.2);
+            border-color: var(--primary);
+        }
+        
+        .tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        /* Calendar Grid */
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .month-cell {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+            position: relative;
+        }
+        
+        .month-cell:hover {
+            transform: translateY(-2px);
+            background: rgba(99, 102, 241, 0.2);
+        }
+        
+        .month-cell.highlight-q3 {
+            border-color: var(--danger);
+            background: rgba(239, 68, 68, 0.1);
+        }
+        
+        .month-cell.current {
+            border-color: var(--success);
+            background: rgba(16, 185, 129, 0.1);
+        }
+        
+        .month-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .month-label {
+            font-size: 0.7rem;
+            color: var(--gray);
+            margin-top: 0.25rem;
+        }
+        
+        .month-indicator {
+            position: absolute;
+            top: 0.25rem;
+            right: 0.25rem;
+            font-size: 0.7rem;
+        }
+        
+        /* Timeline Section */
+        .timeline-section {
+            display: none;
+        }
+        
+        .timeline-section.active {
+            display: block;
+        }
+        
+        /* Product Timeline */
+        .product-timeline {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .timeline-row {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .product-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+        
+        .timeline-bar {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2px;
+            height: 40px;
+        }
+        
+        .bar-segment {
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .bar-segment.active {
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+        }
+        
+        .bar-segment.peak {
+            background: linear-gradient(135deg, var(--danger), #f87171);
+        }
+        
+        .bar-segment.inactive {
+            background: rgba(255, 255, 255, 0.03);
+        }
+        
+        /* Holiday Cards */
+        .holiday-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .holiday-card {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .holiday-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
+        
+        .holiday-card h4 {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .holiday-card .volume {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--success);
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.8rem;
+            margin-left: auto;
+        }
+        
+        .holiday-card .volume.high {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+        }
+        
+        .holiday-timeline {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .timeline-phase {
+            flex: 1;
+            text-align: center;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            font-size: 0.75rem;
+        }
+        
+        .timeline-phase.start {
+            background: rgba(59, 130, 246, 0.2);
+            color: var(--info);
+        }
+        
+        .timeline-phase.accel {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--secondary);
+        }
+        
+        .timeline-phase.peak {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+        }
+        
+        /* Country Market Section */
+        .country-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .country-card {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .country-card h4 {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .country-card .flag {
+            font-size: 1.5rem;
+        }
+        
+        .peak-month {
+            display: inline-block;
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-weight: 600;
+            margin-left: auto;
+        }
+        
+        .country-strategy {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Monthly Detail */
+        .month-detail {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .month-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .month-number {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            border-radius: 1rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .month-title h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .month-title .phase-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .phase-tag {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 0.25rem;
+        }
+        
+        .phase-tag.peak {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+        }
+        
+        .phase-tag.accel {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--secondary);
+        }
+        
+        .phase-tag.start {
+            background: rgba(59, 130, 246, 0.2);
+            color: var(--info);
+        }
+        
+        .content-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        
+        .content-table th,
+        .content-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .content-table th {
+            color: var(--gray);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+        
+        .content-table td {
+            font-size: 0.9rem;
+        }
+        
+        .type-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .type-badge.blog {
+            background: rgba(99, 102, 241, 0.2);
+            color: var(--primary-light);
+        }
+        
+        .type-badge.pseo {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--success);
+        }
+        
+        .type-badge.edm {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--secondary);
+        }
+        
+        .type-badge.social {
+            background: rgba(236, 72, 153, 0.2);
+            color: #f472b6;
+        }
+        
+        .type-badge.ads {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--danger);
+        }
+        
+        .priority {
+            color: #fcd34d;
+        }
+        
+        /* Budget Section */
+        .budget-section {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .budget-bars {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            height: 200px;
+            align-items: flex-end;
+        }
+        
+        .budget-bar {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .bar-fill {
+            width: 100%;
+            border-radius: 0.5rem 0.5rem 0 0;
+            transition: all 0.5s ease;
+        }
+        
+        .bar-fill.q1 {
+            height: 30%;
+            background: linear-gradient(180deg, var(--info), #1d4ed8);
+        }
+        
+        .bar-fill.q2 {
+            height: 40%;
+            background: linear-gradient(180deg, var(--secondary), #d97706);
+        }
+        
+        .bar-fill.q3 {
+            height: 90%;
+            background: linear-gradient(180deg, var(--danger), #b91c1c);
+        }
+        
+        .bar-fill.q4 {
+            height: 40%;
+            background: linear-gradient(180deg, var(--success), #047857);
+        }
+        
+        .bar-label {
+            font-weight: 600;
+        }
+        
+        .bar-percent {
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .calendar-grid {
+                grid-template-columns: repeat(6, 1fr);
+            }
+            
+            .timeline-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .tabs {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🗓️ Fominte 2026 内容营销日历</h1>
+            <p>基于 Faire 全球搜索数据的工厂端营销布局</p>
+        </header>
+        
+        <!-- Key Insight -->
+        <div class="insight-card">
+            <h3>💡 核心洞察</h3>
+            <p>批发需求比销售时刻<span class="highlight">早数月开始</span>，而最激烈的竞争发生在<span class="highlight">加速期</span>，而非峰值期。</p>
+            <p style="margin-top: 0.5rem;">年度最大机会：<strong style="color: var(--danger);">圣诞节 (294K搜索量)</strong> - 是其他节日的3-5倍！</p>
+        </div>
+        
+        <!-- Tabs -->
+        <div class="tabs">
+            <div class="tab active" onclick="showSection('overview')">📊 年度概览</div>
+            <div class="tab" onclick="showSection('holidays')">🎉 节日周期</div>
+            <div class="tab" onclick="showSection('countries')">🌍 各国市场</div>
+            <div class="tab" onclick="showSection('monthly')">📅 逐月详情</div>
+            <div class="tab" onclick="showSection('budget')">💰 预算分配</div>
+        </div>
+        
+        <!-- Overview Section -->
+        <div id="overview" class="timeline-section active">
+            <h2 style="margin-bottom: 1.5rem;">📊 年度概览</h2>
+            
+            <!-- Calendar Grid -->
+            <h3 style="margin-bottom: 1rem; color: var(--gray);">月度重要性</h3>
+            <div class="calendar-grid">
+                <div class="month-cell current">
+                    <span class="month-indicator">📍</span>
+                    <span class="month-name">1月</span>
+                    <span class="month-label">情人节峰值</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">2月</span>
+                    <span class="month-label">春季峰值</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">3月</span>
+                    <span class="month-label">复活节峰值</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">4月</span>
+                    <span class="month-label">母亲节加速</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-indicator">⚡</span>
+                    <span class="month-name">5月</span>
+                    <span class="month-label">转折点</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">6月</span>
+                    <span class="month-label">秋季开始</span>
+                </div>
+                <div class="month-cell highlight-q3">
+                    <span class="month-indicator">🔥</span>
+                    <span class="month-name">7月</span>
+                    <span class="month-label">Q3决战</span>
+                </div>
+                <div class="month-cell highlight-q3">
+                    <span class="month-indicator">🔥</span>
+                    <span class="month-name">8月</span>
+                    <span class="month-label">秋季峰值</span>
+                </div>
+                <div class="month-cell highlight-q3">
+                    <span class="month-indicator">🔥</span>
+                    <span class="month-name">9月</span>
+                    <span class="month-label">万圣节峰值</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">10月</span>
+                    <span class="month-label">🇬🇧🇨🇦峰值</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">11月</span>
+                    <span class="month-label">🌍圣诞峰值</span>
+                </div>
+                <div class="month-cell">
+                    <span class="month-name">12月</span>
+                    <span class="month-label">情人节加速</span>
+                </div>
+            </div>
+            
+            <!-- Product Timeline -->
+            <h3 style="margin-bottom: 1rem; margin-top: 2rem; color: var(--gray);">产品线营销窗口</h3>
+            <div class="product-timeline">
+                <div class="timeline-row">
+                    <div class="product-name">亮片/3D绣花面料</div>
+                    <div class="timeline-bar">
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                    </div>
+                </div>
+                <div class="timeline-row">
+                    <div class="product-name">仿皮草成衣</div>
+                    <div class="timeline-bar">
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                    </div>
+                </div>
+                <div class="timeline-row">
+                    <div class="product-name">仿手钩成衣</div>
+                    <div class="timeline-bar">
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment active"></div>
+                    </div>
+                </div>
+                <div class="timeline-row">
+                    <div class="product-name">网布绣花面料</div>
+                    <div class="timeline-bar">
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                    </div>
+                </div>
+                <div class="timeline-row">
+                    <div class="product-name">摇粒绒成衣</div>
+                    <div class="timeline-bar">
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment active"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment peak"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                        <div class="bar-segment inactive"></div>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--gray); margin-top: 0.5rem;">
+                <span style="display: inline-block; width: 12px; height: 12px; background: var(--primary); border-radius: 2px; margin-right: 0.25rem;"></span> 营销窗口 &nbsp;
+                <span style="display: inline-block; width: 12px; height: 12px; background: var(--danger); border-radius: 2px; margin-right: 0.25rem;"></span> 峰值期
+            </p>
+        </div>
+        
+        <!-- Holidays Section -->
+        <div id="holidays" class="timeline-section">
+            <h2 style="margin-bottom: 1.5rem;">🎉 节日采购周期</h2>
+            <div class="holiday-grid">
+                <div class="holiday-card">
+                    <h4>🎄 圣诞节 <span class="volume high">294K</span></h4>
+                    <p>年度最大采购机会，搜索量是其他节日的3-5倍</p>
+                    <div class="holiday-timeline">
+                        <div class="timeline-phase start">开始：5月</div>
+                        <div class="timeline-phase accel">加速：8-11月</div>
+                        <div class="timeline-phase peak">峰值：11月</div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">
+                        匹配产品：亮片/3D绣花、仿皮草成衣、定制礼服
+                    </p>
+                </div>
+                
+                <div class="holiday-card">
+                    <h4>🍂 秋季 <span class="volume">130K</span></h4>
+                    <p>第二大采购季，秋冬产品的核心窗口</p>
+                    <div class="holiday-timeline">
+                        <div class="timeline-phase start">开始：5月</div>
+                        <div class="timeline-phase accel">加速：6-8月</div>
+                        <div class="timeline-phase peak">峰值：8月</div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">
+                        匹配产品：仿皮草成衣、摇粒绒成衣
+                    </p>
+                </div>
+                
+                <div class="holiday-card">
+                    <h4>💕 情人节 <span class="volume">88K</span></h4>
+                    <p>需求在年底急剧攀升，12月搜索量暴增7倍</p>
+                    <div class="holiday-timeline">
+                        <div class="timeline-phase start">开始：10月</div>
+                        <div class="timeline-phase accel">加速：11-1月</div>
+                        <div class="timeline-phase peak">峰值：1月</div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">
+                        匹配产品：红色/粉色蕾丝面料、浪漫系礼服面料
+                    </p>
+                </div>
+                
+                <div class="holiday-card">
+                    <h4>🎃 万圣节 <span class="volume">88K</span></h4>
+                    <p>7月搜索量暴增3倍，夏季是关键布局期</p>
+                    <div class="holiday-timeline">
+                        <div class="timeline-phase start">开始：5月</div>
+                        <div class="timeline-phase accel">加速：7-9月</div>
+                        <div class="timeline-phase peak">峰值：9月</div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">
+                        匹配产品：主题色面料、派对装面料
+                    </p>
+                </div>
+                
+                <div class="holiday-card">
+                    <h4>☀️ 夏季 <span class="volume">84K</span></h4>
+                    <p>需求从1月开始逐步攀升，5月达峰值</p>
+                    <div class="holiday-timeline">
+                        <div class="timeline-phase start">开始：1月</div>
+                        <div class="timeline-phase accel">加速：2-5月</div>
+                        <div class="timeline-phase peak">峰值：5月</div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">
+                        匹配产品：仿手钩成衣、轻薄面料、度假装
+                    </p>
+                </div>
+                
+                <div class="holiday-card">
+                    <h4>🐣 复活节 <span class="volume">72K</span></h4>
+                    <p>与春季重叠，Q1是核心采购期</p>
+                    <div class="holiday-timeline">
+                        <div class="timeline-phase start">开始：12月</div>
+                        <div class="timeline-phase accel">加速：1-3月</div>
+                        <div class="timeline-phase peak">峰值：3月</div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);">
+                        匹配产品：钩针绣花面料、春季色系面料
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Countries Section -->
+        <div id="countries" class="timeline-section">
+            <h2 style="margin-bottom: 1.5rem;">🌍 各国市场差异</h2>
+            <div class="insight-card" style="background: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.3);">
+                <h3 style="color: var(--danger);">⚠️ 关键差异</h3>
+                <p>不同国家的圣诞采购峰值时间差异可达<span class="highlight" style="background: rgba(239, 68, 68, 0.2);">2个月</span>，需针对性布局！</p>
+            </div>
+            
+            <div class="country-grid">
+                <div class="country-card">
+                    <h4><span class="flag">🇩🇪</span> 德国 <span class="peak-month">9月峰值</span></h4>
+                    <p>采购窗口最短，零售商提前决策</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+                        <li>圣诞采购：5月开始，<strong>9月峰值</strong></li>
+                        <li>搜索量：5K</li>
+                    </ul>
+                    <div class="country-strategy">
+                        <strong>策略：</strong>圣诞内容4月准备，7-8月重点投放，考虑德语内容
+                    </div>
+                </div>
+                
+                <div class="country-card">
+                    <h4><span class="flag">🇬🇧</span> 英国 <span class="peak-month">10月峰值</span></h4>
+                    <p>需求从6月开始，9-10月最激烈</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+                        <li>圣诞采购：6月开始，<strong>10月峰值</strong></li>
+                        <li>搜索量：24K</li>
+                    </ul>
+                    <div class="country-strategy">
+                        <strong>策略：</strong>圣诞内容5月上线，8-9月集中投放 Google Ads (UK)
+                    </div>
+                </div>
+                
+                <div class="country-card">
+                    <h4><span class="flag">🇨🇦</span> 加拿大 <span class="peak-month">10月峰值</span></h4>
+                    <p>类似美国，需求集中在短窗口</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+                        <li>圣诞采购：6月开始，<strong>10月峰值</strong></li>
+                        <li>搜索量：10K</li>
+                    </ul>
+                    <div class="country-strategy">
+                        <strong>策略：</strong>可与美国市场策略合并，注意Thanksgiving时间差
+                    </div>
+                </div>
+                
+                <div class="country-card">
+                    <h4><span class="flag">🇫🇷</span> 法国 <span class="peak-month">11月峰值</span></h4>
+                    <p>需求更渐进，采购窗口更长</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+                        <li>圣诞采购：6月开始，<strong>11月峰值</strong></li>
+                        <li>搜索量：5K</li>
+                    </ul>
+                    <div class="country-strategy">
+                        <strong>策略：</strong>可比英国稍晚布局，10月前完成主要内容
+                    </div>
+                </div>
+                
+                <div class="country-card">
+                    <h4><span class="flag">🌍</span> 全球/美国 <span class="peak-month">11月峰值</span></h4>
+                    <p>最大市场，标准节奏</p>
+                    <ul style="margin-top: 1rem; padding-left: 1.5rem; font-size: 0.9rem;">
+                        <li>圣诞采购：5月开始，<strong>11月峰值</strong></li>
+                        <li>搜索量：294K (全球)</li>
+                    </ul>
+                    <div class="country-strategy">
+                        <strong>策略：</strong>主要市场，Q3集中投放，占60%资源
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Monthly Section -->
+        <div id="monthly" class="timeline-section">
+            <h2 style="margin-bottom: 1.5rem;">📅 逐月详情</h2>
+            
+            <!-- Q1 -->
+            <h3 style="margin-bottom: 1rem; color: var(--info);">Q1: 1-3月 | 情人节加速期 + 春季/复活节启动</h3>
+            
+            <!-- January -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number">1</div>
+                    <div class="month-title">
+                        <h3>一月 - 情人节峰值 + 春季加速 📍当前</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">情人节：峰值</span>
+                            <span class="phase-tag accel">春季：加速期</span>
+                            <span class="phase-tag start">母亲节：开始</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Valentine's Day Fabric Guide: Red Lace & Romantic Embroidery</td><td>网布/钩针面料</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>2026 Spring Wedding Dress Fabric Trends</td><td>网布绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Easter Collection Fabric Ideas for Boutiques</td><td>钩针绣花</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>补充情人节/春季婚纱场景页</td><td>全产品</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>Valentine's Day Last Call (针对延迟采购商)</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>红色/粉色面料展示 + 婚纱面料预览</td><td>-</td><td class="priority">⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- February -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number">2</div>
+                    <div class="month-title">
+                        <h3>二月 - 春季峰值 + 复活节/母亲节加速</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">春季：峰值</span>
+                            <span class="phase-tag accel">复活节：加速期</span>
+                            <span class="phase-tag accel">母亲节：加速期</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Spring 2026 Fashion Embroidery: Top Trends for Retailers</td><td>时尚绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Mother's Day Collection: Elegant Lace Fabric Ideas</td><td>网布/钩针面料</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Crochet Clothing Wholesale: 2026 Buying Guide</td><td>仿手钩成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>补充母亲节/夏季度假场景页</td><td>成衣</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>春季面料目录 + 母亲节提前采购提醒</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>展示春季面料工艺、钩针成衣新品</td><td>-</td><td class="priority">⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- March -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number">3</div>
+                    <div class="month-title">
+                        <h3>三月 - 复活节峰值 + 夏季加速</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">复活节：峰值</span>
+                            <span class="phase-tag accel">夏季：加速期</span>
+                            <span class="phase-tag accel">母亲节：加速期</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Summer Fabric Sourcing Guide for Retailers</td><td>轻薄面料</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Beach Vacation Clothing Wholesale: Crochet & Boho Styles</td><td>仿手钩成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Easter Lace Fabric: Last Minute Sourcing Tips</td><td>钩针绣花</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>大量补充夏季度假场景页</td><td>成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>展示夏季轻薄面料工艺、沙滩装展示</td><td>-</td><td class="priority">⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Q2 -->
+            <h3 style="margin-bottom: 1rem; margin-top: 2rem; color: var(--secondary);">Q2: 4-6月 | 母亲节峰值 + 夏季峰值 + 秋季/圣诞开始 ⚡</h3>
+            
+            <!-- April -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number">4</div>
+                    <div class="month-title">
+                        <h3>四月 - 母亲节加速 + 夏季加速 + 地球日</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag accel">母亲节：加速期</span>
+                            <span class="phase-tag accel">夏季：加速期</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Mother's Day Last Minute Sourcing: Elegant Dress Fabrics</td><td>网布绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Sustainable Lace Fabric: Eco-Friendly Wholesale Options (地球日)</td><td>全产品</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Summer Vacation Clothing: Crochet & Boho Wholesale Guide</td><td>仿手钩成衣</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>继续补充夏季场景页</td><td>成衣</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>地球日主题：展示环保工艺</td><td>-</td><td class="priority">⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- May -->
+            <div class="month-detail" style="border-color: var(--secondary); background: rgba(245, 158, 11, 0.03);">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--secondary), #fbbf24);">5</div>
+                    <div class="month-title">
+                        <h3>五月 ⚡ 年度关键转折点</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">夏季：峰值</span>
+                            <span class="phase-tag start">秋季：开始</span>
+                            <span class="phase-tag start">万圣节：开始</span>
+                            <span class="phase-tag start">圣诞：开始</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 1rem; background: rgba(245, 158, 11, 0.1); border-radius: 0.5rem; margin-bottom: 1rem;">
+                    <p style="font-weight: 600; color: var(--secondary);">⚡ 战略转折点：从这个月开始同时准备两条线！</p>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem;">1. 夏季产品：峰值月最后冲刺<br>2. 秋冬/节日产品：内容开始上线</p>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Fall/Winter 2026 Fabric Preview: What Retailers Should Stock</td><td>时尚绣花/皮草</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Faux Fur Coat Wholesale: Early Bird Advantage</td><td>仿皮草成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Holiday Season Fabric: Order Now for Q4 Success</td><td>亮片绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Summer Crochet Clothing: Final Buying Window</td><td>仿手钩成衣</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>大量生成秋季/圣诞场景页 (100+)</td><td>皮草/绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>秋冬产品早鸟预览 + 夏季最后机会</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- June -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number">6</div>
+                    <div class="month-title">
+                        <h3>六月 - 秋季加速开始 + 圣诞升温</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag start">秋季：加速期开始</span>
+                            <span class="phase-tag accel">圣诞：持续上升</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Sequin & 3D Embroidery Fabric for Party Season</td><td>时尚绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Fleece Jacket Wholesale: Complete Sourcing Guide</td><td>摇粒绒成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Halloween Fabric Ideas for Retailers</td><td>全产品</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>持续生成节日场景页</td><td>绣花/成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>Atlanta Market 夏季展配合 + 节日产品推广</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>节日面料展示、工厂生产能力</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Q3 -->
+            <h3 style="margin-bottom: 1rem; margin-top: 2rem; color: var(--danger);">Q3: 7-9月 ⭐⭐⭐ 年度最关键营销期 | 预算占比 45%</h3>
+            
+            <!-- July -->
+            <div class="month-detail" style="border-color: var(--danger); background: rgba(239, 68, 68, 0.03);">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--danger), #f87171);">7</div>
+                    <div class="month-title">
+                        <h3>七月 🔥 万圣节加速 + 秋季加速 + 圣诞升温</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag accel">万圣节：高速加速(3倍)</span>
+                            <span class="phase-tag accel">秋季：加速期</span>
+                            <span class="phase-tag start">圣诞：加速期开始</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Christmas Collection Fabric: Red, Gold & Green Trends</td><td>时尚绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Faux Fur Jacket Wholesale: Complete Sourcing Guide</td><td>仿皮草成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Halloween & Fall Party Fabric: Wholesale Guide</td><td>全产品</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>持续生成圣诞/万圣节场景页</td><td>绣花/成衣</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>节日季产品目录（面料+成衣）</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge ads">Ads</span></td><td>加大 Google Ads 投放 (节日关键词)</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top: 1rem; padding: 0.75rem; background: rgba(239, 68, 68, 0.1); border-radius: 0.5rem; font-size: 0.85rem;">
+                    <strong>各国差异：</strong>🇩🇪 德国 8月是核心订单期，7月需全力冲刺
+                </div>
+            </div>
+            
+            <!-- August -->
+            <div class="month-detail" style="border-color: var(--danger); background: rgba(239, 68, 68, 0.03);">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--danger), #f87171);">8</div>
+                    <div class="month-title">
+                        <h3>八月 🔥 秋季峰值 + 圣诞核心加速期</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">秋季：峰值(130K)</span>
+                            <span class="phase-tag accel">圣诞：加速期高峰</span>
+                            <span class="phase-tag accel">万圣节：加速期</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Last Chance: In-Stock Fabrics for Holiday Rush</td><td>全产品</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Fast Lead Time Clothing Manufacturer in China</td><td>OEM服务</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>New Year's Eve Party Dress Fabric: Sequin & Sparkle</td><td>亮片绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Faux Fur Coat: Last Ordering Window for Fall Delivery</td><td>仿皮草成衣</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>紧急提醒：节日季最后下单窗口</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>展示生产能力和交期优势、工厂实拍</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge ads">Ads</span></td><td>维持高投放 + 增加"quick ship"关键词</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top: 1rem; padding: 0.75rem; background: rgba(239, 68, 68, 0.1); border-radius: 0.5rem; font-size: 0.85rem;">
+                    <strong>各国差异：</strong>🇩🇪 德国圣诞峰值在即(9月)，最后冲刺！突出 "Ready to Ship" 信息
+                </div>
+            </div>
+            
+            <!-- September -->
+            <div class="month-detail" style="border-color: var(--danger); background: rgba(239, 68, 68, 0.03);">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--danger), #f87171);">9</div>
+                    <div class="month-title">
+                        <h3>九月 🔥 万圣节峰值 + 德国圣诞峰值</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">万圣节：峰值(88K)</span>
+                            <span class="phase-tag peak">🇩🇪 德国圣诞：峰值</span>
+                            <span class="phase-tag accel">🇬🇧🇨🇦 圣诞：加速高峰</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Winter Wedding Dress Fabric Ideas</td><td>网布绣花</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>2027 Spring Fashion Preview: Fabric Trends</td><td>时尚绣花</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Halloween Costume Fabric: Rush Order Tips</td><td>全产品</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>节日季补单提醒 + 2027春季早鸟预览</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge ads">Ads</span></td><td>开始降低节日词投放，增加春季词</td><td>-</td><td class="priority">⭐⭐</td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top: 1rem; padding: 0.75rem; background: rgba(239, 68, 68, 0.1); border-radius: 0.5rem; font-size: 0.85rem;">
+                    <strong>各国差异：</strong>🇩🇪 德国圣诞峰值月，全力服务已有询盘 | 🇬🇧 英国10月峰值在即，持续推送
+                </div>
+            </div>
+            
+            <!-- Q4 -->
+            <h3 style="margin-bottom: 1rem; margin-top: 2rem; color: var(--success);">Q4: 10-12月 | 圣诞峰值收尾 + 2027年布局</h3>
+            
+            <!-- October -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--success), #34d399);">10</div>
+                    <div class="month-title">
+                        <h3>十月 - 英国/加拿大圣诞峰值 + 情人节开始</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">🇬🇧🇨🇦 圣诞：峰值</span>
+                            <span class="phase-tag accel">🌍 圣诞：接近峰值</span>
+                            <span class="phase-tag start">情人节：开始</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>2027 Wholesale Fabric Trends: What Brands Should Know</td><td>全产品</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>How to Choose a Reliable Fabric Supplier in China</td><td>OEM服务</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Valentine's Day 2027: Early Fabric Sourcing Guide</td><td>网布/钩针面料</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>开始生成2027情人节/春季场景页</td><td>面料</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>2027春季早鸟预览 + 圣诞最后机会</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge social">社媒</span></td><td>工厂/团队展示，建立信任</td><td>-</td><td class="priority">⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- November -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--success), #34d399);">11</div>
+                    <div class="month-title">
+                        <h3>十一月 - 全球圣诞峰值 + 情人节加速</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag peak">🌍🇫🇷 圣诞：峰值(294K)</span>
+                            <span class="phase-tag accel">情人节：加速期开始</span>
+                            <span class="phase-tag start">春季：开始</span>
+                        </div>
+                    </div>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Spring 2027 Collection Preview: Early Access for Partners</td><td>时尚绣花</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Crochet Clothing Trends for 2027</td><td>仿手钩成衣</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Quick Ship Holiday Fabrics: Last Minute Orders</td><td>全产品</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>继续生成2027春季/情人节场景页</td><td>全产品</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>春季新品提前预览 + 早鸟折扣</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- December -->
+            <div class="month-detail">
+                <div class="month-header">
+                    <div class="month-number" style="background: linear-gradient(135deg, var(--success), #34d399);">12</div>
+                    <div class="month-title">
+                        <h3>十二月 - 情人节加速 + 年度收尾</h3>
+                        <div class="phase-tags">
+                            <span class="phase-tag accel">情人节：加速高峰(7倍增长)</span>
+                            <span class="phase-tag start">复活节：开始</span>
+                            <span class="phase-tag start">春季：加速期开始</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding: 1rem; background: rgba(16, 185, 129, 0.1); border-radius: 0.5rem; margin-bottom: 1rem;">
+                    <p style="font-weight: 600; color: var(--success);">💡 情人节关键月：Faire数据显示12月搜索量从3,614暴增至25,567 (7倍)！</p>
+                </div>
+                <table class="content-table">
+                    <thead>
+                        <tr><th>类型</th><th>内容主题</th><th>产品线</th><th>优先级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Year in Review: Top Fabric Trends of 2026</td><td>全产品</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>Valentine's Day Fabric: Order Now for February Success</td><td>网布/钩针面料</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge blog">Blog</span></td><td>New Year, New Collection: Partner with Fominte in 2027</td><td>全产品</td><td class="priority">⭐⭐</td></tr>
+                        <tr><td><span class="type-badge pseo">pSEO</span></td><td>大量生成情人节场景页</td><td>面料</td><td class="priority">⭐⭐⭐</td></tr>
+                        <tr><td><span class="type-badge edm">EDM</span></td><td>新年祝福 + 情人节采购提醒 + 早鸟优惠</td><td>-</td><td class="priority">⭐⭐⭐</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Budget Section -->
+        <div id="budget" class="timeline-section">
+            <h2 style="margin-bottom: 1.5rem;">💰 年度预算分配</h2>
+            <div class="budget-section">
+                <h3>季度预算占比建议</h3>
+                <div class="budget-bars">
+                    <div class="budget-bar">
+                        <div class="bar-fill q1"></div>
+                        <span class="bar-label">Q1</span>
+                        <span class="bar-percent">15%</span>
+                    </div>
+                    <div class="budget-bar">
+                        <div class="bar-fill q2"></div>
+                        <span class="bar-label">Q2</span>
+                        <span class="bar-percent">20%</span>
+                    </div>
+                    <div class="budget-bar">
+                        <div class="bar-fill q3"></div>
+                        <span class="bar-label">Q3 ⭐</span>
+                        <span class="bar-percent">45%</span>
+                    </div>
+                    <div class="budget-bar">
+                        <div class="bar-fill q4"></div>
+                        <span class="bar-label">Q4</span>
+                        <span class="bar-percent">20%</span>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <h4 style="margin-bottom: 1rem;">重点投放方向</h4>
+                    <table class="content-table">
+                        <thead>
+                            <tr>
+                                <th>季度</th>
+                                <th>预算占比</th>
+                                <th>重点投放</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Q1</td>
+                                <td>15%</td>
+                                <td>情人节、春季、婚纱面料</td>
+                            </tr>
+                            <tr>
+                                <td>Q2</td>
+                                <td>20%</td>
+                                <td>夏季、母亲节、秋季预热</td>
+                            </tr>
+                            <tr style="background: rgba(239, 68, 68, 0.1);">
+                                <td><strong>Q3 ⭐</strong></td>
+                                <td><strong>45%</strong></td>
+                                <td><strong>圣诞、秋季、万圣节 (年度决战期)</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Q4</td>
+                                <td>20%</td>
+                                <td>圣诞收尾、2027年启动</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="budget-section">
+                <h3>年度内容输出目标</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(99, 102, 241, 0.1); border-radius: 0.5rem;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--primary-light);">36-48</div>
+                        <div style="color: var(--gray);">Blog 文章</div>
+                    </div>
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(16, 185, 129, 0.1); border-radius: 0.5rem;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--success);">500+</div>
+                        <div style="color: var(--gray);">pSEO 页面</div>
+                    </div>
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(245, 158, 11, 0.1); border-radius: 0.5rem;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--secondary);">24-36</div>
+                        <div style="color: var(--gray);">EDM 邮件</div>
+                    </div>
+                    <div style="text-align: center; padding: 1.5rem; background: rgba(236, 72, 153, 0.1); border-radius: 0.5rem;">
+                        <div style="font-size: 2rem; font-weight: 700; color: #f472b6;">120+</div>
+                        <div style="color: var(--gray);">社媒内容</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>基于 Faire 2025年全球搜索数据 | Fominte 2026 营销规划</p>
+            <p style="margin-top: 0.5rem;">更新时间：2026-01-09</p>
+        </footer>
+    </div>
+    
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.timeline-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active from all tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Activate clicked tab
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

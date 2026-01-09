@@ -1,0 +1,763 @@
+{
+  "sections": {
+    "175798659809935caf32": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "flex-start",
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "40px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "40px"
+        },
+        "size": {},
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "60px",
+          "padding-top": "60px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "175798659810126f41c4": {
+          "type": "heading-with-link/heading-with-link",
+          "settings": {
+            "link_text": "View more",
+            "text": "Shop by category",
+            "text_size": "title2"
+          },
+          "blocks": {}
+        },
+        "1757986598101c7e9b6a": {
+          "type": "$list",
+          "settings": {},
+          "blocks": {
+            "17579865981011780810": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "1757986598101357da6c": {
+                  "type": "collection/image",
+                  "settings": {},
+                  "blocks": {
+                    "1757986598101022bc81": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101022bc81"
+                  ]
+                },
+                "1757986598101e347e3c": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "1757986598101357da6c",
+                "1757986598101e347e3c"
+              ]
+            },
+            "1757986598101c55b090": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "17579865981015cd0fd7": {
+                  "type": "collection/image",
+                  "settings": {
+                    "aspect_ratio": "4/3"
+                  },
+                  "blocks": {
+                    "1757986598101a6d73f8": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101a6d73f8"
+                  ]
+                },
+                "17579865981019bd9b27": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "17579865981015cd0fd7",
+                "17579865981019bd9b27"
+              ]
+            }
+          },
+          "block_order": [
+            "1757986598101c55b090",
+            "17579865981011780810"
+          ]
+        }
+      },
+      "block_order": [
+        "175798659810126f41c4",
+        "1757986598101c7e9b6a"
+      ],
+      "name": "t:sections.collection_list.presets.presets_0.name"
+    },
+    "1757993662639ba1fd2d": {
+      "type": "shopline://apps/高阶组件库/sections/product-category-list/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text": "Optional Button",
+        "card_border_radius": 0,
+        "card_border_thickness": 0,
+        "card_color": "#fff",
+        "card_style": true,
+        "color_btn_text": "#ffffff",
+        "color_entry_line": "#EAECEC",
+        "color_image_background": "#ffffff",
+        "color_light_text": "#949494",
+        "color_page_background": "#FFFCFA",
+        "color_sale": "#171F2B",
+        "color_tag_background": "#C20000",
+        "color_tag_text": "#ffffff",
+        "color_text": "#29252C",
+        "container_bg_color": "#F4F7FB",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "right": 40,
+            "top": 20
+          }
+        },
+        "container_max_width": 1420,
+        "edges": "rounded",
+        "grid_horizontal_space": 20,
+        "horizontal_spacing": 40,
+        "image_ratio": "100",
+        "image_width": "50%",
+        "mb_layout": 4,
+        "mb_show": true,
+        "mobile_quick_add_btn_layout": "normal",
+        "mobile_quick_add_btn_style": "icon",
+        "pc_cols": 4,
+        "pc_show": true,
+        "product_add_to_cart": true,
+        "product_card_border_color": "#000000",
+        "product_card_border_opacity": 10,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 0,
+        "product_card_shadow_blur": 5,
+        "product_card_shadow_color": "#000000",
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 4,
+        "product_card_shadow_opacity": 0,
+        "product_discount": true,
+        "product_discount_position": "left_bottom",
+        "product_discount_radius": 2,
+        "product_discount_style": "number",
+        "product_fill_type": "contain",
+        "product_grid_image_margin": "0",
+        "product_hover_show_next": false,
+        "product_mobile_title_show": true,
+        "product_price_color": "#1A1C1E",
+        "product_price_letter_spacing": 0,
+        "product_price_m_font_family": "Poppins:500",
+        "product_price_m_font_size": 14,
+        "product_price_m_line_height": 1.6,
+        "product_price_pc_font_family": "Poppins:600",
+        "product_price_pc_font_size": 16,
+        "product_price_pc_line_height": 1.6,
+        "product_title_color": "#000000",
+        "product_title_font_family": "Poppins:400",
+        "product_title_letter_spacing": 0,
+        "product_title_m_font_size": 12,
+        "product_title_m_line_height": 1.6,
+        "product_title_pc_font_size": 14,
+        "product_title_pc_line_height": 1.6,
+        "product_title_show_type": "full_display",
+        "product_underlined_price_color": "#000000",
+        "product_underlined_price_letter_spacing": 0,
+        "product_underlined_price_m_font_family": "Poppins:500",
+        "product_underlined_price_m_font_size": 12,
+        "product_underlined_price_m_line_height": 1.6,
+        "product_underlined_price_pc_font_family": "Poppins:600",
+        "product_underlined_price_pc_font_size": 16,
+        "product_underlined_price_pc_line_height": 1.6,
+        "products_num": 4,
+        "quick_add_btn_background": "#000000",
+        "quick_add_btn_font_color": "#FFFFFF",
+        "show_touch": false,
+        "slice_in_pc": true,
+        "soldOut_color_tag_background": "#ffffff",
+        "soldOut_color_tag_text": "#000000",
+        "sticky": true,
+        "superscript_decimals": false,
+        "tab_button_bg_color": "#ffffff",
+        "tab_button_text_color": "#000000",
+        "tab_color": "#000000",
+        "tab_style": "underline",
+        "tab_text_align": "center",
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 19,
+        "title_pc_font_size": 22,
+        "vertical_spacing": 20
+      },
+      "disabled": true,
+      "blocks": {
+        "17579936626401ce8d5a": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Floral Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626401e38055": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Boho \u0026 Paisley Crochet"
+          },
+          "blocks": {}
+        },
+        "175799366264022249d5": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Modern \u0026 Abstract Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626405eb4efa": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Geometric Crochet"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17579936626401ce8d5a",
+        "17579936626405eb4efa",
+        "17579936626401e38055",
+        "175799366264022249d5"
+      ],
+      "name": "t:sections.product-category-list.presets_0.name"
+    },
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n    /* ==========================================================================\r\n      CUSTOM BRAND COLORS - PLEASE EDIT THESE VALUES TO MATCH YOUR THEME\r\n      ==========================================================================\r\n    */\r\n    :root {\r\n        --color-brand-blue: #2a4365;\r\n        /* Example: A deep blue for titles and buttons */\r\n        --color-brand-gold: #d69e2e;\r\n        /* Example: An accent gold for icons and links */\r\n        --color-light-gray: #f7fafc;\r\n        /* Example: A very light gray for section backgrounds */\r\n        --color-white: #ffffff;\r\n        --color-gray-500: #a0aec0;\r\n        --color-gray-600: #718096;\r\n        --color-text-default: #1a202c;\r\n    }\r\n\r\n    /* ==========================================================================\r\n      GENERATED STYLES (Do not edit below unless you know what you are doing)\r\n      ==========================================================================\r\n    */\r\n\r\n    /* Base \u0026 Layout */\r\n    .container {\r\n        width: 100%;\r\n        margin-left: auto;\r\n        margin-right: auto;\r\n        padding-left: 1.5rem;\r\n        padding-right: 1.5rem;\r\n    }\r\n\r\n    @media (min-width: 640px) {\r\n        .container {\r\n            max-width: 640px;\r\n        }\r\n    }\r\n\r\n    @media (min-width: 768px) {\r\n        .container {\r\n            max-width: 768px;\r\n        }\r\n    }\r\n\r\n    @media (min-width: 1024px) {\r\n        .container {\r\n            max-width: 1024px;\r\n        }\r\n    }\r\n\r\n    @media (min-width: 1280px) {\r\n        .container {\r\n            max-width: 1280px;\r\n        }\r\n    }\r\n\r\n    .mx-auto {\r\n        margin-left: auto;\r\n        margin-right: auto;\r\n    }\r\n\r\n    .px-6 {\r\n        padding-left: 1.5rem;\r\n        padding-right: 1.5rem;\r\n    }\r\n\r\n    .py-20 {\r\n        padding-top: 5rem;\r\n        padding-bottom: 5rem;\r\n    }\r\n\r\n    .p-8 {\r\n        padding: 2rem;\r\n    }\r\n\r\n    .mb-2 {\r\n        margin-bottom: 0.5rem;\r\n    }\r\n\r\n    .mb-3 {\r\n        margin-bottom: 0.75rem;\r\n    }\r\n\r\n    .mb-4 {\r\n        margin-bottom: 1rem;\r\n    }\r\n\r\n    .mb-8 {\r\n        margin-bottom: 2rem;\r\n    }\r\n\r\n    .mb-12 {\r\n        margin-bottom: 3rem;\r\n    }\r\n\r\n    .mt-12 {\r\n        margin-top: 3rem;\r\n    }\r\n\r\n    .mr-2 {\r\n        margin-right: 0.5rem;\r\n    }\r\n\r\n    /* Flex \u0026 Grid */\r\n    .flex {\r\n        display: flex;\r\n    }\r\n\r\n    .inline-block {\r\n        display: inline-block;\r\n    }\r\n\r\n    .grid {\r\n        display: grid;\r\n    }\r\n\r\n    .grid-cols-3 {\r\n        grid-template-columns: repeat(3, minmax(0, 1fr));\r\n    }\r\n\r\n    .gap-1 {\r\n        gap: 0.25rem;\r\n    }\r\n\r\n    .items-center {\r\n        align-items: center;\r\n    }\r\n\r\n    .justify-around {\r\n        justify-content: space-around;\r\n    }\r\n\r\n    .justify-center {\r\n        justify-content: center;\r\n    }\r\n\r\n    /* Sizing */\r\n    .w-5 {\r\n        width: 1.25rem;\r\n    }\r\n\r\n    .h-5 {\r\n        height: 1.25rem;\r\n    }\r\n\r\n    .w-full {\r\n        width: 100%;\r\n    }\r\n\r\n    .h-full {\r\n        height: 100%;\r\n    }\r\n\r\n    .max-w-2xl {\r\n        max-width: 42rem;\r\n    }\r\n\r\n    .max-w-4xl {\r\n        max-width: 56rem;\r\n    }\r\n\r\n    /* Typography */\r\n    .text-center {\r\n        text-align: center;\r\n    }\r\n\r\n    .text-lg {\r\n        font-size: 1.125rem;\r\n        line-height: 1.75rem;\r\n    }\r\n\r\n    .text-2xl {\r\n        font-size: 1.5rem;\r\n        line-height: 2rem;\r\n    }\r\n\r\n    .text-3xl {\r\n        font-size: 1.875rem;\r\n        line-height: 2.25rem;\r\n    }\r\n\r\n    .font-bold {\r\n        font-weight: 700;\r\n    }\r\n\r\n    .leading-relaxed {\r\n        line-height: 1.625;\r\n    }\r\n\r\n    .text-brand-blue {\r\n        color: var(--color-brand-blue);\r\n    }\r\n\r\n    .text-brand-gold {\r\n        color: var(--color-brand-gold);\r\n    }\r\n\r\n    .text-gray-500 {\r\n        color: var(--color-gray-500);\r\n    }\r\n\r\n    .text-gray-600 {\r\n        color: var(--color-gray-600);\r\n    }\r\n\r\n    .text-white {\r\n        color: var(--color-white);\r\n    }\r\n\r\n    a.text-brand-gold:hover {\r\n        text-decoration: underline;\r\n    }\r\n\r\n\r\n    /* Backgrounds \u0026 Borders */\r\n    .bg-light-gray {\r\n        background-color: var(--color-light-gray);\r\n    }\r\n\r\n    .bg-white {\r\n        background-color: var(--color-white);\r\n    }\r\n\r\n    .bg-brand-blue {\r\n        background-color: var(--color-brand-blue);\r\n    }\r\n\r\n    /* --- MODIFICATION 1: Added class for gold button --- */\r\n    .bg-brand-gold {\r\n        background-color: var(--color-brand-gold);\r\n    }\r\n\r\n    .rounded-lg {\r\n        border-radius: 0.5rem;\r\n    }\r\n\r\n    .rounded-full {\r\n        border-radius: 9999px;\r\n    }\r\n\r\n    .overflow-hidden {\r\n        overflow: hidden;\r\n    }\r\n\r\n    /* Effects */\r\n    .shadow-xl {\r\n        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\r\n    }\r\n\r\n    .bg-brand-blue.hover\\:bg-opacity-90:hover {\r\n        background-color: rgba(42, 67, 101, 0.9);\r\n    }\r\n\r\n    /* --- MODIFICATION 2: Added class for gold button hover --- */\r\n    .hover\\:opacity-90:hover {\r\n        opacity: 0.9;\r\n    }\r\n\r\n    /* Adjust alpha based on var(--color-brand-blue) */\r\n\r\n    /* Transitions \u0026 Transforms */\r\n    .transition-all {\r\n        transition-property: all;\r\n        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\r\n        transition-duration: 300ms;\r\n    }\r\n\r\n    .transition-transform {\r\n        transition-property: transform;\r\n    }\r\n\r\n    .duration-300 {\r\n        transition-duration: 300ms;\r\n    }\r\n\r\n    .duration-500 {\r\n        transition-duration: 500ms;\r\n    }\r\n\r\n    .transform {\r\n        transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);\r\n    }\r\n\r\n    .hover\\:scale-105:hover {\r\n        transform: scale(1.05);\r\n    }\r\n\r\n    .hover\\:scale-110:hover {\r\n        transform: scale(1.1);\r\n    }\r\n\r\n    /* SVG */\r\n    .fill-none {\r\n        fill: none;\r\n    }\r\n\r\n    .stroke-currentColor {\r\n        stroke: currentColor;\r\n    }\r\n\r\n    /* Misc */\r\n    .object-cover {\r\n        object-fit: cover;\r\n    }\r\n\r\n    .space-y-8\u003e :not([hidden])~ :not([hidden]) {\r\n        margin-top: 2rem;\r\n    }\r\n\r\n    /* Responsive Styles */\r\n    @media (min-width: 768px) {\r\n        .md\\:flex {\r\n            display: flex;\r\n        }\r\n\r\n        .md\\:w-1\\/2 {\r\n            width: 50%;\r\n        }\r\n\r\n        .md\\:text-3xl {\r\n            font-size: 1.875rem;\r\n            line-height: 2.25rem;\r\n        }\r\n\r\n        .md\\:text-4xl {\r\n            font-size: 2.25rem;\r\n            line-height: 2.5rem;\r\n        }\r\n\r\n        .md\\:justify-around {\r\n            justify-content: space-around;\r\n        }\r\n\r\n        .md\\:items-center {\r\n            align-items: center;\r\n        }\r\n\r\n        .md\\:space-y-0\u003e :not([hidden])~ :not([hidden]) {\r\n            margin-top: 0;\r\n        }\r\n    }\r\n\r\n    /* Custom Animation Classes */\r\n    .animate-on-scroll {\r\n        opacity: 0;\r\n        transform: translateY(20px);\r\n        transition: opacity 0.8s ease-out, transform 0.8s ease-out;\r\n    }\r\n\r\n    .animate-on-scroll.is-visible {\r\n        opacity: 1;\r\n        transform: translateY(0);\r\n    }\r\n\u003c/style\u003e\r\n\r\n\u003cmain\u003e\r\n    \u003csection id=\"exhibitions\" class=\"py-20 bg-light-gray\"\u003e\r\n        \u003cdiv class=\"container mx-auto px-6\"\u003e\r\n            \u003ch1 class=\"text-2xl font-bold text-center text-brand-blue mb-12 animate-on-scroll\"\u003e\r\n                Our Footprint - Past Exhibition Highlights\r\n            \u003c/h1\u003e\r\n            \u003cdiv id=\"exhibitions-container\"\u003e\r\n            \u003c/div\u003e\r\n        \u003c/div\u003e\r\n    \u003c/section\u003e\r\n\r\n    \u003csection id=\"contact\" class=\"py-20 bg-white\"\u003e\r\n        \u003cdiv class=\"container mx-auto px-6 text-center animate-on-scroll\"\u003e\r\n            \u003ch2 class=\"text-2xl font-bold text-brand-blue mb-4\"\u003e\r\n                Let's Build a Partnership\r\n            \u003c/h2\u003e\r\n            \u003cp class=\"text-gray-600 max-w-2xl mx-auto mb-8\"\u003e\r\n                We are dedicated to providing the best products and services to our global clients. If you have any\r\n                inquiries, please don't hesitate to contact us. Our professional team is ready to assist you.\r\n            \u003c/p\u003e\r\n            \u003cdiv class=\"max-w-4xl mx-auto md:flex justify-around items-start space-y-8 md:space-y-0\"\u003e\r\n                \u003cdiv\u003e\r\n                    \u003ch3 class=\"font-bold text-brand-blue text-lg\"\u003eEmail\u003c/h3\u003e\r\n                    \u003cp class=\"text-gray-600\"\u003eDerek@fominte.com\u003c/p\u003e\r\n                \u003c/div\u003e\r\n                \u003cdiv\u003e\r\n                    \u003ch3 class=\"font-bold text-brand-blue text-lg\"\u003ePhone\u003c/h3\u003e\r\n                    \u003cp class=\"text-gray-600\"\u003e+86 181 1451 7898\u003c/p\u003e\r\n                \u003c/div\u003e\r\n                \u003cdiv\u003e\r\n                    \u003ch3 class=\"font-bold text-brand-blue text-lg\"\u003eAddress\u003c/h3\u003e\r\n                    \u003cp class=\"text-gray-600\"\u003e830 No. Tongjing N Rd Suzhou 215000,China\u003c/p\u003e\r\n                \u003c/div\u003e\r\n            \u003c/div\u003e\r\n\r\n            \u003ca href=\"https://fominte.com/pages/contact-us\"\r\n                class=\"mt-12 text-brand-gold font-bold hover:underline transition-all duration-300 inline-block\"\u003e\r\n                Send Us an Email\r\n            \u003c/a\u003e\r\n        \u003c/div\u003e\r\n    \u003c/section\u003e\r\n\u003c/main\u003e\r\n\r\n\u003cscript\u003e\r\n    // Self-executing function to avoid polluting the global scope\r\n    (() =\u003e {\r\n        // --- Exhibition Data ---\r\n        const exhibitionsData = [\r\n            {\r\n                id: 1,\r\n                title: 'Spring Fair UK',\r\n                location: 'Birmingham, UK',\r\n                date: 'September 2025',\r\n                // 【修正】这里从单引号 '...' 改为了反引号 `...`\r\n                description: `At the UK's largest gathering of retail professionals, we showcased our innovative\r\n     giftware and home products, successfully securing orders from major British and Irish retailers.`,\r\n                images: [\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/a50b2ac76e2ce50e2ce9a5194c0509d0.png?w=1500\u0026h=1125',\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/77a9bdaf6280c9d01968caba511cf185.png?w=1400\u0026h=1050',\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/33234ac2f1669b55b4a3da05b511ac42.png?w=1400\u0026h=1050',\r\n                ],\r\n            },\r\n            {\r\n                id: 2,\r\n                title: 'Maison\u0026Objet Paris',\r\n                location: 'Paris, France',\r\n                date: 'September 2025',\r\n                // 【修正】这里也从单引号 '...' 改为了反引号 `...`\r\n                description: `We presented our latest collection of home decor and lifestyle products at this premier design event,\r\n     forging new connections with European distributors and designers.`,\r\n                images: [\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/9e001f839ecf0138855c8a6f0d133b3f.jpg?w=1400\u0026h=1050',\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/06466d0e8b5a1eb65f3e84f21c5c4c1c.jpg?w=1400\u0026h=1050',\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/dc28358df2c319e6e802ce4f70348436.jpg?w=1400\u0026h=1050',\r\n                ],\r\n            },\r\n            {\r\n                id: 3,\r\n                title: 'China International Import Expo (CIIE)',\r\n                location: 'Shanghai, China',\r\n                date: 'November 2023',\r\n                // 这行没有换行，用单引号 '...' 是正确的\r\n                description: 'Participating in CIIE allowed us to introduce our high-end product lines to the vast Chinese market, establishing key partnerships and gaining invaluable market insights.',\r\n                images: [\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/d9d7c2e7449653fb9a4d262ab529ed58.jpg?w=1440\u0026h=960',\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/1cec4d2e79dd24f7d15266384edaab11.jpg?w=1400\u0026h=933',\r\n                    'https://img-va.myshopline.com/image/store/1754638002373/75b2ad1e3d3c4b2a857c0a4ee4cfca6d.jpg?w=1400\u0026h=933',\r\n                ],\r\n            },\r\n        ];\r\n\r\n        // --- Render Exhibition Cards ---\r\n        const container = document.getElementById('exhibitions-container');\r\n        if (container) {\r\n            // Clear container in case of re-rendering in a dynamic environment\r\n            container.innerHTML = ''; \r\n            exhibitionsData.forEach(exhibition =\u003e {\r\n                const card = document.createElement('div');\r\n                card.className = 'bg-white rounded-lg shadow-xl overflow-hidden mb-12 animate-on-scroll';\r\n                card.innerHTML = `\r\n                        \u003cdiv class=\"md:flex\"\u003e\r\n                            \u003cdiv class=\"md:w-1/2 p-8\"\u003e\r\n                                \u003ch3 class=\"text-2xl font-bold text-brand-blue mb-3\"\u003e${exhibition.title}\u003c/h3\u003e\r\n                                \u003cdiv class=\"flex items-center text-gray-500 mb-2\"\u003e\r\n                                    \u003csvg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5 mr-2 text-brand-gold\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" style=\"stroke-width: 2;\"\u003e\r\n                                        \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z\" /\u003e\r\n                                        \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 11a3 3 0 11-6 0 3 3 0 016 0z\" /\u003e\r\n                                    \u003c/svg\u003e\r\n                                    \u003cspan\u003e${exhibition.location}\u003c/span\u003e\r\n                                \u003c/div\u003e\r\n                                \u003cdiv class=\"flex items-center text-gray-500 mb-4\"\u003e\r\n                                    \u003csvg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-5 h-5 mr-2 text-brand-gold\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" style=\"stroke-width: 2;\"\u003e\r\n                                        \u003cpath stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z\" /\u003e\r\n                                    \u003c/svg\u003e\r\n                                    \u003cspan\u003e${exhibition.date}\u003c/span\u003e\r\n                                \u003c/div\u003e\r\n                                \u003cp class=\"text-gray-600 leading-relaxed\"\u003e${exhibition.description}\u003c/p\u003e\r\n                            \u003c/div\u003e\r\n                            \u003cdiv class=\"md:w-1/2 grid grid-cols-3 gap-1\"\u003e\r\n                                ${exhibition.images.map((img, index) =\u003e `\r\n                                    \u003cdiv class=\"overflow-hidden h-full\"\u003e\r\n                                        \u003cimg src=\"${img}\" alt=\"${exhibition.title} photo ${index + 1}\" class=\"w-full h-full object-cover transform transition-transform duration-500 hover:scale-110\" loading=\"lazy\" /\u003e\r\n                                    \u003c/div\u003e\r\n                                `).join('')}\r\n                            \u003c/div\u003e\r\n                        \u003c/div\u003e\r\n                    `;\r\n                container.appendChild(card);\r\n            });\r\n        }\r\n\r\n        // --- Scroll Animation Logic ---\r\n        // A check to ensure we only attach listeners once, even if the script is run multiple times by the platform.\r\n        if (!window.exhibitionsModuleLoaded) {\r\n            const animatedElements = document.querySelectorAll('.animate-on-scroll');\r\n            \r\n            const observer = new IntersectionObserver((entries) =\u003e {\r\n                entries.forEach(entry =\u003e {\r\n                    if (entry.isIntersecting) {\r\n                        entry.target.classList.add('is-visible');\r\n                        observer.unobserve(entry.target);\r\n                    }\r\n                });\r\n            }, {\r\n                threshold: 0.1,\r\n            });\r\n\r\n            animatedElements.forEach(element =\u003e {\r\n                observer.observe(element);\r\n            });\r\n            window.exhibitionsModuleLoaded = true;\r\n        }\r\n    })();\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": false,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": "shopline://shop_images/b5a8b4a8c68deb7066ace263d02beda3.png",
+            "link": "",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 0,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": ""
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "1758193339455dbbcba1": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "1758193339455dbbcba1",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "17594813315338faed6d": {
+      "type": "shopline://apps/高阶组件库/sections/image-with-text/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 3,
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 15,
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text1": "",
+        "button_text2": "",
+        "container_bg_color": "#FFFFFF",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1420,
+        "jump_link1": "",
+        "jump_link2": "",
+        "mb_show": true,
+        "pc_image_width": "medium",
+        "pc_show": true,
+        "product_sales_layout": "list",
+        "product_sales_point_1": "Date: 1.13 ~ 1.15  January 2026",
+        "product_sales_point_1_icon": "checkmark",
+        "product_sales_point_2": "Venue: Hammersmith Road Kensington W14 8UX",
+        "product_sales_point_2_icon": "checkmark",
+        "product_sales_point_3": "",
+        "product_sales_point_3_icon": "checkmark",
+        "product_sales_point_4": "",
+        "product_sales_point_4_icon": "lock",
+        "show_divider": false,
+        "sub_title": "Join Us in London",
+        "sub_title_font_color": "#000000",
+        "sub_title_font_family": "Poppins:400",
+        "sub_title_letter_spacing": 300,
+        "sub_title_line_height": 1.6,
+        "sub_title_m_font_size": 14,
+        "sub_title_pc_font_size": 15,
+        "text": "Fominte is excited to showcase our latest collection. Visit us to experience our innovative designs and premium quality firsthand.",
+        "text_position": "right",
+        "title": "The London Source Fashion 2026",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 26,
+        "title_tag_name": "h2"
+      },
+      "disabled": false,
+      "blocks": {
+        "17594813315347996cb5": {
+          "type": "$image",
+          "settings": {
+            "image": "shopline://shop_images/71b5fa31c4421456401da2382d39c5b4.jpg"
+          },
+          "blocks": {}
+        },
+        "1759481331534d1eec35": {
+          "type": "$image",
+          "settings": {
+            "image": {}
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1759481331534d823cb5": {
+          "type": "$image",
+          "settings": {
+            "image": "shopline://shop_images/d929c34723d36743af2bf11c400cbcd5.png"
+          },
+          "blocks": {}
+        },
+        "1759481331534eb1e1d8": {
+          "type": "$image",
+          "settings": {
+            "image": {}
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17594813315347996cb5",
+        "1759481331534d823cb5",
+        "1759481331534d1eec35",
+        "1759481331534eb1e1d8"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-with-text.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "custom_css": [
+        ".main-page__title {display: none !important;}"
+      ]
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "175798659809935caf32",
+    "1757993662639ba1fd2d",
+    "17594813315338faed6d",
+    "175799437238726f3419",
+    "17585048508830348227"
+  ]
+}

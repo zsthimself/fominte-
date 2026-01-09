@@ -1,0 +1,783 @@
+{
+  "sections": {
+    "17625084523112d02d53": {
+      "type": "shopline://apps/高阶组件库/sections/image-with-text-new/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "#f9f9f9",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1420,
+        "content_bg_color": "",
+        "content_bg_color_gradient": "",
+        "content_border_color": "#000000",
+        "content_border_opacity": 100,
+        "content_border_radius": 0,
+        "content_border_thickness": 0,
+        "content_shadow_blur": 5,
+        "content_shadow_color": "#000000",
+        "content_shadow_offset_x": 0,
+        "content_shadow_offset_y": 4,
+        "content_shadow_opacity": 0,
+        "image": "shopline://shop_images/1fe1c278760203d36cc5c55277dc222f.webp",
+        "image_border_color": "#000000",
+        "image_border_opacity": 100,
+        "image_border_radius": 0,
+        "image_border_thickness": 1,
+        "image_shadow_blur": 5,
+        "image_shadow_color": "#000000",
+        "image_shadow_offset_x": 0,
+        "image_shadow_offset_y": 4,
+        "image_shadow_opacity": 0,
+        "mb_content_vertical_align": "left",
+        "mb_gap": 15,
+        "mb_image": "shopline://shop_images/1fe1c278760203d36cc5c55277dc222f_7298662707657448656.webp",
+        "mb_image_ratio": "auto",
+        "mb_show": true,
+        "pc_conten_horizontal_align": "left",
+        "pc_content_vertical_align": "center",
+        "pc_gap": 60,
+        "pc_image_postion": "right",
+        "pc_image_width": "medium",
+        "pc_show": true,
+        "sub_title_font_color": "#000000",
+        "sub_title_font_family": "Poppins:400",
+        "sub_title_letter_spacing": 300,
+        "sub_title_line_height": 1.6,
+        "sub_title_m_font_size": 14,
+        "sub_title_pc_font_size": 16,
+        "title_font_color": "#000000",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 24,
+        "title_pc_font_size": 32
+      },
+      "disabled": false,
+      "blocks": {
+        "1762508452313a40e8b7": {
+          "type": "$title",
+          "settings": {
+            "title": "Première Vision Montréal Canada 2026",
+            "title_tag_name": "h2"
+          },
+          "blocks": {}
+        },
+        "1762508452313c3265af": {
+          "type": "$sub-title",
+          "settings": {
+            "sub_title": ""
+          },
+          "blocks": {}
+        },
+        "1762508452313ff2abad": {
+          "type": "$content",
+          "settings": {
+            "description": "\u003cp\u003eFominte is excited to showcase our latest collection. Visit us to experience our innovative designs and premium quality firsthand.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eDate\u003cbr\u003e21~22, April, 21-22, 2026\u003c/p\u003e\n\u003cp\u003eVenue\u003cbr\u003eGrand Quay, Montréal, Canada\u003c/p\u003e"
+          },
+          "blocks": {}
+        },
+        "17639674046477b745a9": {
+          "type": "$button",
+          "settings": {
+            "button_mobile_style": "button",
+            "button_text": "BOOK AN APPOINTMENT",
+            "jump_link": "shopline://pages/7141616004581323275"
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "1762508452313c3265af",
+        "1762508452313a40e8b7",
+        "1762508452313ff2abad",
+        "17639674046477b745a9"
+      ],
+      "name": "t:sections.image-with-text-new.presets_0.name"
+    },
+    "1763696868021abcb338": {
+      "type": "shopline://apps/高阶组件库/sections/featured-carousel/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mb_image_height": "500",
+        "mobile_pagination_type": "touch",
+        "pagination_type": "left_right_arrow",
+        "pc_image_height": "auto",
+        "scroll_parallax": false,
+        "transition_effect": "dynamic_switch"
+      },
+      "disabled": false,
+      "blocks": {
+        "17636968680223d8ed93": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Helvetica",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 12,
+            "body_pc_font_size": 14,
+            "btn_background1": "rgba(0,0,0,0)",
+            "btn_background2": "rgba(0,0,0,0)",
+            "btn_border_color1": "#000000",
+            "btn_border_color2": "#000000",
+            "btn_border_opacity": 95,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 0,
+            "btn_font_color1": "#ffffff",
+            "btn_font_color2": "#ffffff",
+            "btn_font_family": "Helvetica",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 50,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 15,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#302a25",
+            "btn_shadow_offset_x": 4,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 15,
+            "btn_style1": "primary",
+            "btn_style2": "primary",
+            "button_text1": "",
+            "button_text2": "",
+            "jump_link1": "",
+            "jump_link2": "",
+            "mb_body": "",
+            "mb_image": "shopline://shop_images/86cac56eb403861116fe3df7e64389bb.webp",
+            "mb_image_area": "center",
+            "mb_mask": 0,
+            "mb_sub_title": "",
+            "mb_text_position": "bottom",
+            "mb_title": "",
+            "mb_title_tag_name": "h2",
+            "pc_body": "",
+            "pc_image": "shopline://shop_images/未标题-2_画板 1_7310216319403563169.png",
+            "pc_image_area": "center",
+            "pc_mask": 0,
+            "pc_sub_title": "",
+            "pc_text_position": "bottom",
+            "pc_title": "",
+            "pc_title_tag_name": "h2",
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "title_font_color": "#ffffff",
+            "title_font_family": "Helvetica",
+            "title_letter_spacing": 25,
+            "title_line_height": 1.5,
+            "title_m_font_size": 16,
+            "title_pc_font_size": 26
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17636968680223d8ed93"
+      ],
+      "name": "t:sections.featured-carousel.presets_0.name"
+    },
+    "17637830570888c494df": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {
+        "1763783057089df4fb78": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Submit",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expert Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1763783057089df4fb78"
+      ]
+    },
+    "1763954925888988458a": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cdiv class=\"sl-custom-carousel\" id=\"slCarousel\"\u003e\r\n\r\n  \u003cdiv class=\"sl-carousel-track\"\u003e\r\n\r\n    \u003ca href=\"https://fominte.com/pages/beaded-fabrics\" class=\"sl-slide\"\u003e\r\n      \u003cimg id=\"firstImage\" src=\"https://img-va.myshopline.com/image/store/1754638002373/bead-fabric-banner.jpg?w=2700\u0026h=1519\" alt=\"Beaded Fabrics\"\u003e\r\n      \u003cdiv class=\"sl-content\"\u003e\r\n        \u003ch2 class=\"sl-title\"\u003eBEADED \u0026 EMBROIDERY\u003c/h2\u003e\r\n        \u003cp class=\"sl-desc\"\u003eEvery piece embodies the designer's imaginative ideas.\u003c/p\u003e\r\n        \u003cspan class=\"sl-btn\"\u003eDISCOVER\u003c/span\u003e\r\n      \u003c/div\u003e\r\n    \u003c/a\u003e\r\n\r\n    \u003ca href=\"https://fominte.com/pages/fleece-home\" class=\"sl-slide\"\u003e\r\n      \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fleece-clothing-banner.webp?w=4096\u0026h=2293\" alt=\"Fleece\"\u003e\r\n      \u003cdiv class=\"sl-content\"\u003e\r\n        \u003ch2 class=\"sl-title\"\u003eFLEECE\u003c/h2\u003e\r\n        \u003cp class=\"sl-desc\"\u003eCloud-like textures and lightweight warmth.\u003c/p\u003e\r\n        \u003cspan class=\"sl-btn\"\u003eDISCOVER\u003c/span\u003e\r\n      \u003c/div\u003e\r\n    \u003c/a\u003e\r\n\r\n    \u003ca href=\"https://fominte.com/pages/faux-fur-home\" class=\"sl-slide\"\u003e\r\n      \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/faux-fur-banner-(2).webp?w=2253\u0026h=1502\" alt=\"Faux Fur\"\u003e\r\n      \u003cdiv class=\"sl-content\"\u003e\r\n        \u003ch2 class=\"sl-title\"\u003eFAUX FUR\u003c/h2\u003e\r\n        \u003cp class=\"sl-desc\"\u003eA new form of glamour, born from a respect for life.\u003c/p\u003e\r\n        \u003cspan class=\"sl-btn\"\u003eDISCOVER\u003c/span\u003e\r\n      \u003c/div\u003e\r\n    \u003c/a\u003e\r\n\r\n    \u003ca href=\"https://fominte.com/pages/crochet-home\" class=\"sl-slide\"\u003e\r\n      \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/crochet-clothing-banner.webp?w=3400\u0026h=1913\" alt=\"Crochet\"\u003e\r\n      \u003cdiv class=\"sl-content\"\u003e\r\n        \u003ch2 class=\"sl-title\"\u003eCROCHET WHOLESALE\u003c/h2\u003e\r\n        \u003cp class=\"sl-desc\"\u003eSoft geometries and enveloping weaves.\u003c/p\u003e\r\n        \u003cspan class=\"sl-btn\"\u003eDISCOVER\u003c/span\u003e\r\n      \u003c/div\u003e\r\n    \u003c/a\u003e\r\n\r\n    \u003ca href=\"https://fominte.com/pages/fashion-fabrics\" class=\"sl-slide\"\u003e\r\n      \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fashion-clothing-banner.webp?w=1300\u0026h=731\" alt=\"Fashion Fabrics\"\u003e\r\n      \u003cdiv class=\"sl-content\"\u003e\r\n        \u003ch2 class=\"sl-title\"\u003eFASHION FABRICS\u003c/h2\u003e\r\n        \u003cp class=\"sl-desc\"\u003eUnexpected harmonies of material and craft.\u003c/p\u003e\r\n        \u003cspan class=\"sl-btn\"\u003eDISCOVER\u003c/span\u003e\r\n      \u003c/div\u003e\r\n    \u003c/a\u003e\r\n\r\n    \u003ca href=\"https://fominte.com/pages/about-us\" class=\"sl-slide\"\u003e\r\n      \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/about-us.png?w=1500\u0026h=844\" alt=\"About Us\"\u003e\r\n      \u003cdiv class=\"sl-content\"\u003e\r\n        \u003ch2 class=\"sl-title\"\u003eWEAVING EXCELLENCE\u003c/h2\u003e\r\n        \u003cp class=\"sl-desc\"\u003eVertically integrated modern textile enterprise.\u003c/p\u003e\r\n        \u003cspan class=\"sl-btn\"\u003eABOUT US\u003c/span\u003e\r\n      \u003c/div\u003e\r\n    \u003c/a\u003e\r\n\r\n  \u003c/div\u003e\r\n\r\n  \u003cbutton class=\"sl-arrow sl-prev\" aria-label=\"Previous\"\u003e\u0026#10094;\u003c/button\u003e\r\n  \u003cbutton class=\"sl-arrow sl-next\" aria-label=\"Next\"\u003e\u0026#10095;\u003c/button\u003e\r\n\r\n  \u003cdiv class=\"sl-dots\"\u003e\u003c/div\u003e\r\n\r\n\u003c/div\u003e\r\n\r\n\u003cstyle\u003e\r\n  /* --- 容器设定 --- */\r\n  /* 容器设定 */\r\n  .sl-custom-carousel {\r\n  position: relative;\r\n  /* 强制全屏宽 */\r\n  width: 100vw;\r\n  left: 50%;\r\n  margin-left: -50vw;\r\n  margin-right: -50vw;\r\n  max-width: 100vw;\r\n  \r\n  /* 高度由JS控制，但我们加一个封顶限制 */\r\n  height: auto;\r\n  \r\n  /* 🔥 核心修改在这里：限制最大高度 🔥 */\r\n  /* 85vh 意思是不超过屏幕高度的 85%，这样用户永远能看到底下的内容 */\r\n  max-height: 95vh;\r\n  \r\n  min-height: 400px; /* 防止在极小的屏幕上太扁 */\r\n  \r\n  overflow: hidden;\r\n  background-color: #000;\r\n  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n  transition: height 0.3s ease;\r\n  }\r\n\r\n  .sl-carousel-track {\r\n    display: flex;\r\n    height: 100%;\r\n    transition: transform 0.5s ease-in-out;\r\n    width: 100%;\r\n  }\r\n\r\n  /* --- 幻灯片样式 --- */\r\n  .sl-slide {\r\n    min-width: 100%;\r\n    height: 100%;\r\n    position: relative;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    text-decoration: none;\r\n    overflow: hidden;\r\n  }\r\n\r\n  .sl-slide img {\r\n    width: 100%;\r\n    height: 100%;\r\n\r\n    /* 核心逻辑：\r\n       1. cover: 保证填满容器\r\n       2. top center: 永远对齐顶部，防止切头\r\n    */\r\n    object-fit: cover;\r\n    object-position: top center;\r\n\r\n    display: block;\r\n    margin: 0;\r\n    padding: 0;\r\n    border: none;\r\n  }\r\n\r\n  /* --- 内容区域 (适配各种高度) --- */\r\n  .sl-content {\r\n    position: absolute;\r\n    /* 改用百分比定位，这样无论图片多高，文字都在相对合适的位置 */\r\n    bottom: 10%;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    text-align: center;\r\n    color: #fff;\r\n    z-index: 2;\r\n    width: 90%;\r\n    max-width: 800px;\r\n    padding: 20px;\r\n    background: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 70%);\r\n  }\r\n\r\n  .sl-title {\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n    margin-bottom: 10px;\r\n    letter-spacing: 2px;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);\r\n  }\r\n\r\n  .sl-desc {\r\n    font-size: 15px;\r\n    font-weight: 400;\r\n    margin-bottom: 25px;\r\n    line-height: 1.5;\r\n    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);\r\n  }\r\n\r\n  .sl-btn {\r\n    display: inline-block;\r\n    background-color: #FFFFFF;\r\n    color: #000000;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n    padding: 12px 35px;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n    border-radius: 2px;\r\n    transition: all 0.3s ease;\r\n    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);\r\n  }\r\n\r\n  .sl-slide:hover .sl-btn {\r\n    background-color: #000;\r\n    color: #fff;\r\n  }\r\n\r\n  /* --- 导航箭头 --- */\r\n  .sl-arrow {\r\n    position: absolute;\r\n    top: 50%;\r\n    transform: translateY(-50%);\r\n    background: rgba(0, 0, 0, 0.2);\r\n    border: none;\r\n    color: #fff;\r\n    font-size: 28px;\r\n    cursor: pointer;\r\n    z-index: 3;\r\n    padding: 12px 16px;\r\n    transition: all 0.3s;\r\n    border-radius: 4px;\r\n  }\r\n\r\n  .sl-arrow:hover {\r\n    background: rgba(0, 0, 0, 0.7);\r\n  }\r\n\r\n  .sl-prev {\r\n    left: 20px;\r\n  }\r\n\r\n  .sl-next {\r\n    right: 20px;\r\n  }\r\n\r\n  /* --- 底部圆点 --- */\r\n  .sl-dots {\r\n    position: absolute;\r\n    bottom: 20px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    display: flex;\r\n    gap: 12px;\r\n    z-index: 3;\r\n  }\r\n\r\n  .sl-dot {\r\n    width: 10px;\r\n    height: 10px;\r\n    background-color: rgba(255, 255, 255, 0.4);\r\n    border: 1px solid rgba(0, 0, 0, 0.1);\r\n    border-radius: 50%;\r\n    cursor: pointer;\r\n    transition: all 0.3s;\r\n  }\r\n\r\n  .sl-dot.active {\r\n    background-color: #fff;\r\n    transform: scale(1.3);\r\n  }\r\n\r\n  /* --- 移动端适配 --- */\r\n  @media (max-width: 768px) {\r\n    .sl-title {\r\n      font-size: 20px;\r\n      margin-bottom: 5px;\r\n    }\r\n\r\n    .sl-desc {\r\n      font-size: 12px;\r\n      margin-bottom: 15px;\r\n      display: -webkit-box;\r\n      -webkit-line-clamp: 2;\r\n      -webkit-box-orient: vertical;\r\n      overflow: hidden;\r\n    }\r\n\r\n    /* 限制描述文字行数防止挡住图片 */\r\n    .sl-btn {\r\n      padding: 8px 20px;\r\n      font-size: 12px;\r\n    }\r\n\r\n    .sl-content {\r\n      bottom: 5%;\r\n      width: 95%;\r\n      padding: 10px;\r\n    }\r\n\r\n    .sl-arrow {\r\n      display: none;\r\n    }\r\n  }\r\n\r\n  body {\r\n    overflow-x: hidden;\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cscript\u003e\r\n  (function() {\r\n    const track = document.querySelector('.sl-carousel-track');\r\n    const container = document.querySelector('.sl-custom-carousel');\r\n    const firstImg = document.getElementById('firstImage'); // 获取第一张图\r\n    const slides = Array.from(track.children);\r\n    const nextButton = document.querySelector('.sl-next');\r\n    const prevButton = document.querySelector('.sl-prev');\r\n    const dotsContainer = document.querySelector('.sl-dots');\r\n    \r\n    let currentIndex = 0;\r\n    const autoPlayTime = 3000;\r\n\r\n    // --- 核心功能：自适应第一张图片高度 ---\r\n    function adjustHeight() {\r\n      if (firstImg \u0026\u0026 firstImg.complete) {\r\n        // 计算第一张图的 宽高比\r\n        const ratio = firstImg.naturalWidth / firstImg.naturalHeight;\r\n        // 获取当前屏幕宽度 (因为我们是全屏宽 100vw)\r\n        const screenWidth = window.innerWidth;\r\n        // 计算应该展示的高度 = 宽度 / 比例\r\n        const newHeight = screenWidth / ratio;\r\n        \r\n        // 设置给容器\r\n        container.style.height = newHeight + 'px';\r\n      }\r\n    }\r\n\r\n    // 监听图片加载和窗口大小变化\r\n    if (firstImg) {\r\n        firstImg.onload = adjustHeight;\r\n        // 立即尝试运行一次（防止缓存导致的onload不触发）\r\n        if (firstImg.complete) adjustHeight();\r\n    }\r\n    window.addEventListener('resize', adjustHeight);\r\n    // ----------------------------------------\r\n\r\n    // 生成圆点\r\n    slides.forEach((_, index) =\u003e {\r\n      const dot = document.createElement('div');\r\n      dot.classList.add('sl-dot');\r\n      if (index === 0) dot.classList.add('active');\r\n      dot.addEventListener('click', (e) =\u003e {\r\n        e.preventDefault(); e.stopPropagation();\r\n        goToSlide(index);\r\n        resetTimer();\r\n      });\r\n      dotsContainer.appendChild(dot);\r\n    });\r\n\r\n    const dots = Array.from(document.querySelectorAll('.sl-dot'));\r\n\r\n    // 切换功能\r\n    const goToSlide = (index) =\u003e {\r\n      if (index \u003c 0) index = slides.length - 1;\r\n      if (index \u003e= slides.length) index = 0;\r\n\r\n      track.style.transform = `translateX(-${index * 100}%)`;\r\n      currentIndex = index;\r\n\r\n      dots.forEach(dot =\u003e dot.classList.remove('active'));\r\n      if(dots[currentIndex]) dots[currentIndex].classList.add('active');\r\n    };\r\n\r\n    // 按钮事件\r\n    if(nextButton) {\r\n      nextButton.addEventListener('click', (e) =\u003e {\r\n        e.preventDefault(); e.stopPropagation();\r\n        goToSlide(currentIndex + 1);\r\n        resetTimer();\r\n      });\r\n    }\r\n\r\n    if(prevButton) {\r\n      prevButton.addEventListener('click', (e) =\u003e {\r\n        e.preventDefault(); e.stopPropagation();\r\n        goToSlide(currentIndex - 1);\r\n        resetTimer();\r\n      });\r\n    }\r\n\r\n    // 自动播放\r\n    let slideInterval = setInterval(() =\u003e {\r\n      goToSlide(currentIndex + 1);\r\n    }, autoPlayTime);\r\n\r\n    const resetTimer = () =\u003e {\r\n      clearInterval(slideInterval);\r\n      slideInterval = setInterval(() =\u003e {\r\n        goToSlide(currentIndex + 1);\r\n      }, autoPlayTime);\r\n    }\r\n\r\n    // 触摸滑动\r\n    let touchStartX = 0;\r\n    let touchEndX = 0;\r\n\r\n    track.addEventListener('touchstart', e =\u003e {\r\n      touchStartX = e.changedTouches[0].screenX;\r\n    }, {passive: true});\r\n\r\n    track.addEventListener('touchend', e =\u003e {\r\n      touchEndX = e.changedTouches[0].screenX;\r\n      handleSwipe();\r\n    }, {passive: true});\r\n\r\n    function handleSwipe() {\r\n      if (touchEndX \u003c touchStartX - 50) {\r\n        goToSlide(currentIndex + 1);\r\n        resetTimer();\r\n      }\r\n      if (touchEndX \u003e touchStartX + 50) {\r\n        goToSlide(currentIndex - 1);\r\n        resetTimer();\r\n      }\r\n    }\r\n  })();\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764153088811737739e": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- 全局容器设置 --- */\r\n  .fom-infra-section {\r\n    background-color: #f9f9f9;\r\n    padding: 80px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #1a1a1a;\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  .fom-infra-section * {\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  .fom-infra-wrapper {\r\n    max-width: 1400px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  /* --- 标题区域 --- */\r\n  .fom-infra-header {\r\n    text-align: center;\r\n    margin-bottom: 50px;\r\n    max-width: 800px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n\r\n  .fom-infra-title {\r\n    font-size: 36px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n    margin-bottom: 15px;\r\n    color: #000;\r\n    line-height: 1.2;\r\n  }\r\n\r\n  .fom-infra-subtitle {\r\n    font-size: 16px;\r\n    color: #555;\r\n    line-height: 1.6;\r\n  }\r\n\r\n  /* --- 数据网格 (Desktop) --- */\r\n  .fom-infra-grid {\r\n    display: grid;\r\n    /* PC端 3 列 */\r\n    grid-template-columns: repeat(3, 1fr);\r\n    gap: 30px;\r\n  }\r\n\r\n  .fom-infra-card {\r\n    background: #fff;\r\n    /* [优化] 减小内边距，更紧凑 */\r\n    padding: 35px 30px;\r\n    border: 1px solid #eee;\r\n    text-align: left;\r\n    transition: all 0.3s ease;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n\r\n    /* [核心修改] 移除 aspect-ratio: 4/3; 防止大屏下卡片过高 */\r\n    min-height: 180px;\r\n    /* 给一个适中的最小高度即可 */\r\n    height: 100%;\r\n    /* 确保同一行的卡片高度拉伸一致 */\r\n  }\r\n\r\n  .fom-infra-card:hover {\r\n    transform: translateY(-5px);\r\n    /* 稍微减小上浮距离 */\r\n    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);\r\n    border-color: #000;\r\n  }\r\n\r\n  /* 数字行 */\r\n  .fom-stat-row {\r\n    display: flex;\r\n    align-items: baseline;\r\n    margin-bottom: 12px;\r\n    /* 稍微减小间距 */\r\n    flex-wrap: wrap;\r\n  }\r\n\r\n  .fom-stat-number {\r\n    /* [优化] PC端字号从 60px 调小到 52px，更精致 */\r\n    font-size: 52px;\r\n    font-weight: 900;\r\n    line-height: 1;\r\n    color: #1a1a1a;\r\n    letter-spacing: -1px;\r\n    font-variant-numeric: tabular-nums;\r\n  }\r\n\r\n  .fom-stat-unit {\r\n    font-size: 20px;\r\n    /* 稍微调小单位 */\r\n    font-weight: 700;\r\n    color: #5b87c1;\r\n    margin-left: 8px;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  .fom-stat-desc {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #888;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1.5px;\r\n    padding-top: 15px;\r\n    border-top: 1px solid #f0f0f0;\r\n    width: 100%;\r\n  }\r\n\r\n  /* --- 平板端适配 --- */\r\n  @media (max-width: 1024px) {\r\n    .fom-infra-grid {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n\r\n    /* 平板端也不需要强制比例 */\r\n    .fom-infra-card {\r\n      min-height: auto;\r\n      padding: 30px;\r\n    }\r\n  }\r\n\r\n  /* --- 移动端深度优化 (保持你满意的效果不变) --- */\r\n  @media (max-width: 600px) {\r\n    .fom-infra-section {\r\n      padding: 40px 15px;\r\n    }\r\n\r\n    .fom-infra-header {\r\n      margin-bottom: 25px;\r\n    }\r\n\r\n    .fom-infra-title {\r\n      font-size: 24px;\r\n      margin-bottom: 10px;\r\n    }\r\n\r\n    .fom-infra-subtitle {\r\n      font-size: 14px;\r\n      line-height: 1.4;\r\n      display: -webkit-box;\r\n      -webkit-line-clamp: 2;\r\n      -webkit-box-orient: vertical;\r\n      overflow: hidden;\r\n    }\r\n\r\n    /* 强制双列 */\r\n    .fom-infra-grid {\r\n      grid-template-columns: 1fr 1fr;\r\n      gap: 10px;\r\n    }\r\n\r\n    .fom-infra-card {\r\n      padding: 15px 12px;\r\n      min-height: auto;\r\n      justify-content: flex-start;\r\n    }\r\n\r\n    .fom-stat-row {\r\n      margin-bottom: 8px;\r\n      align-items: baseline;\r\n    }\r\n\r\n    .fom-stat-number {\r\n      /* 智能字号 */\r\n      font-size: clamp(22px, 7vw, 32px);\r\n    }\r\n\r\n    .fom-stat-unit {\r\n      font-size: 12px;\r\n      margin-left: 3px;\r\n      color: #5b87c1;\r\n    }\r\n\r\n    .fom-stat-desc {\r\n      font-size: 11px;\r\n      letter-spacing: 0.5px;\r\n      padding-top: 8px;\r\n      line-height: 1.2;\r\n      border-top: 1px solid #f5f5f5;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"fom-infra-section\" id=\"stats-section\"\u003e\r\n  \u003cdiv class=\"fom-infra-wrapper\"\u003e\r\n\r\n    \u003cdiv class=\"fom-infra-header\"\u003e\r\n      \u003cdiv class=\"fom-infra-title\"\u003eOur Manufacturing Infrastructure\u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-subtitle\"\u003e\r\n        Scalable production capabilities backing your global supply chain.\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fom-infra-grid\"\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"30\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Years\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eExperience\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"120\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Countries\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eGlobal Reach\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"7\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003eDays\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eRapid Prototyping\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"112\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Lines\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eProduction Equipment\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"66700\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003eM²\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eSmart Facility\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"5000000\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Yards\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eAnnual Capacity\u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e\r\n\r\n\u003cscript\u003e\r\n  (function() {\r\n    document.addEventListener('DOMContentLoaded', function() {\r\n      // 数字滚动动画逻辑\r\n      const statsSection = document.getElementById('stats-section');\r\n      if (!statsSection) return;\r\n\r\n      const numbers = statsSection.querySelectorAll('.fom-stat-number');\r\n      let hasAnimated = false; \r\n\r\n      const observer = new IntersectionObserver((entries, obs) =\u003e {\r\n        entries.forEach(entry =\u003e {\r\n          if (entry.isIntersecting \u0026\u0026 !hasAnimated) {\r\n            hasAnimated = true; \r\n            runAnimations();\r\n            obs.unobserve(entry.target); \r\n          }\r\n        });\r\n      }, { threshold: 0.1 });\r\n\r\n      observer.observe(statsSection);\r\n\r\n      function runAnimations() {\r\n        numbers.forEach(num =\u003e {\r\n          const targetStr = num.getAttribute('data-target');\r\n          if(!targetStr) return;\r\n          \r\n          const target = parseInt(targetStr, 10); \r\n          const duration = 2000; \r\n          const frameRate = 16; \r\n          const totalFrames = Math.round(duration / frameRate);\r\n          let frame = 0;\r\n\r\n          const updateCount = () =\u003e {\r\n            frame++;\r\n            const progress = 1 - Math.pow(1 - frame / totalFrames, 4);\r\n            const currentVal = Math.round(target * progress);\r\n            \r\n            num.innerText = currentVal.toLocaleString();\r\n            \r\n            if (frame \u003c totalFrames) {\r\n              requestAnimationFrame(updateCount);\r\n            } else {\r\n              num.innerText = target.toLocaleString(); \r\n            }\r\n          };\r\n          updateCount();\r\n        });\r\n      }\r\n    });\r\n  })();\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764295577848ec38144": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- 容器设置 --- */\r\n  .fom-replica-section {\r\n    background-color: #f9f9f9;\r\n    padding: 70px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #000;\r\n    width: 100%;\r\n    box-sizing: border-box;\r\n    border-bottom: 1px solid #f0f0f0;\r\n  }\r\n\r\n  .fom-replica-wrapper {\r\n    max-width: 1600px;\r\n    width: 100%;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    text-align: center;\r\n  }\r\n\r\n  /* --- 第一行：主标题 --- */\r\n  .fom-main-title {\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n    color: #1a1a1a;\r\n    margin-bottom: 40px;\r\n    line-height: 1.2;\r\n    letter-spacing: -0.5px;\r\n    text-align: center;\r\n    width: 100%;\r\n  }\r\n\r\n  /* --- 第二行：横向列表 --- */\r\n  .fom-info-row {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: center;\r\n    gap: 100px; /* PC端保持宽间距 */\r\n    padding: 0;\r\n    margin: 0;\r\n    list-style: none;\r\n    align-items: center;\r\n    width: 100%;\r\n  }\r\n\r\n  .fom-info-item {\r\n    font-size: 16px;\r\n    color: #444;\r\n    display: flex;\r\n    align-items: center; /* 确保圆点和文字垂直居中 */\r\n    line-height: 1.5;\r\n    white-space: nowrap;\r\n  }\r\n\r\n  /* 自定义圆点装饰 */\r\n  .fom-info-item::before {\r\n    content: \"\";\r\n    display: inline-block;\r\n    /* [微调] 稍微调小一点圆点，更精致 */\r\n    min-width: 6px; \r\n    width: 6px;\r\n    height: 6px;\r\n    background-color: #5b87c1;\r\n    border-radius: 50%;\r\n    margin-right: 12px;\r\n    /* 防止圆点被压缩 */\r\n    flex-shrink: 0; \r\n  }\r\n\r\n  .fom-bold {\r\n    font-weight: 950;\r\n    color: #000;\r\n    margin: 0 4px;\r\n  }\r\n\r\n  /* --- 平板端适配 --- */\r\n  @media (max-width: 1200px) {\r\n    .fom-info-row {\r\n      gap: 50px;\r\n    }\r\n  }\r\n\r\n  /* --- 移动端适配 [本次核心修复] --- */\r\n  @media (max-width: 768px) {\r\n    .fom-replica-section {\r\n      padding: 40px 20px;\r\n    }\r\n\r\n    .fom-main-title {\r\n      font-size: 24px;\r\n      margin-bottom: 30px;\r\n    }\r\n\r\n    .fom-info-row {\r\n      flex-direction: column;\r\n      \r\n      /* [核心修改 1] 内部元素向左对齐，而不是居中 */\r\n      align-items: flex-start; \r\n      \r\n      /* [核心修改 2] 容器宽度设为内容自适应，并通过 margin auto 居中 */\r\n      /* 这样做的效果是：列表整体在屏幕中间，但三行文字左侧是对齐的 */\r\n      width: fit-content;\r\n      margin: 0 auto;\r\n      \r\n      gap: 18px; /* 调整间距，稍微紧凑一点 */\r\n    }\r\n\r\n    .fom-info-item {\r\n      font-size: 15px;\r\n      white-space: normal; /* 允许长文字换行 */\r\n      text-align: left; /* 强制文字左对齐 */\r\n      width: 100%;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"fom-replica-section\"\u003e\r\n  \u003cdiv class=\"fom-replica-wrapper\"\u003e\r\n\r\n    \u003cdiv class=\"fom-main-title\"\u003eVertically Integrated Fabric \u0026 Apparel Manufacturer\u003c/div\u003e\r\n\r\n    \u003cul class=\"fom-info-row\"\u003e\r\n      \u003cli class=\"fom-info-item\"\u003e\u003cspan class=\"fom-bold\"\u003e30+ Years\u003c/span\u003e of Industry Experience\u003c/li\u003e\r\n      \u003cli class=\"fom-info-item\"\u003eExporting to \u003cspan class=\"fom-bold\"\u003e120+\u003c/span\u003e Countries\u003c/li\u003e\r\n      \u003cli class=\"fom-info-item\"\u003e\u003cspan class=\"fom-bold\"\u003eOEM/ODM\u003c/span\u003e Services Available\u003c/li\u003e\r\n    \u003c/ul\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "10px",
+            "padding-block-start": "10px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764575133550df8508e": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- [全局容器] --- */\r\n  #fominte-growth-module {\r\n    background-color: #ffffff;\r\n    padding: 80px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #1a1a1a;\r\n    width: 100%;\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  /* 防止 padding 撑破布局 */\r\n  #fominte-growth-module * {\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  .fg-container {\r\n    max-width: 1400px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  /* --- [通用标题] --- */\r\n  .fg-content-section {\r\n    margin-bottom: 100px;\r\n  }\r\n\r\n  .fg-content-section:last-child {\r\n    margin-bottom: 0;\r\n  }\r\n\r\n  .fg-section-title {\r\n    text-align: center;\r\n    font-size: 24px;\r\n    font-weight: 800;\r\n    text-transform: uppercase;\r\n    letter-spacing: 2px;\r\n    display: table;\r\n    margin: 0 auto 50px auto;\r\n    /* PC端保持宽敞间距 */\r\n    color: #000;\r\n    position: relative;\r\n    padding-bottom: 15px;\r\n  }\r\n\r\n  .fg-section-title::after {\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    width: 100%;\r\n    left: 0;\r\n    height: 3px;\r\n    background-color: #5b87c1;\r\n  }\r\n\r\n  /* --- [PART 1: Core Advantages - 4列] --- */\r\n  .fg-grid-4 {\r\n    display: grid;\r\n    grid-template-columns: repeat(4, 1fr);\r\n    gap: 20px;\r\n  }\r\n\r\n  .fg-card {\r\n    background: #fff;\r\n    padding: 35px 25px;\r\n    border: 1px solid #eee;\r\n    display: flex;\r\n    flex-direction: column;\r\n    transition: all 0.3s ease;\r\n    height: 100%;\r\n  }\r\n\r\n  .fg-card:hover {\r\n    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);\r\n    transform: translateY(-5px);\r\n    border-color: #000;\r\n  }\r\n\r\n  .fg-icon {\r\n    width: 40px;\r\n    height: 40px;\r\n    margin-bottom: 20px;\r\n    color: #000;\r\n  }\r\n\r\n  .fg-card h3 {\r\n    font-size: 15px;\r\n    font-weight: 800;\r\n    text-transform: uppercase;\r\n    margin-bottom: 15px;\r\n    letter-spacing: 0.5px;\r\n    color: #000;\r\n    line-height: 1.4;\r\n  }\r\n\r\n  /* 列表样式优化 */\r\n  .fg-list {\r\n    margin: 0;\r\n    padding-left: 18px;\r\n    /* 缩进刚好放下圆点 */\r\n    list-style-type: disc;\r\n    flex-grow: 1;\r\n  }\r\n\r\n  .fg-list li {\r\n    font-size: 13px;\r\n    line-height: 1.6;\r\n    color: #555;\r\n    margin-bottom: 6px;\r\n    padding-left: 0;\r\n  }\r\n\r\n  .fg-card-footer {\r\n    border-top: 1px solid #f0f0f0;\r\n    padding-top: 15px;\r\n    margin-top: 20px;\r\n    font-size: 11px;\r\n    font-weight: 700;\r\n    color: #888;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  /* --- [PART 2: Process - 流程卡片] --- */\r\n  .fg-process-wrapper {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    gap: 20px;\r\n  }\r\n\r\n  .fg-step-card {\r\n    flex: 1;\r\n    background: #fff;\r\n    border: 1px solid #eee;\r\n    transition: all 0.3s ease;\r\n    display: flex;\r\n    flex-direction: column;\r\n    position: relative;\r\n    overflow: hidden;\r\n  }\r\n\r\n  .fg-step-card:hover {\r\n    transform: translateY(-5px);\r\n    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);\r\n    border-color: #ccc;\r\n  }\r\n\r\n  .fg-step-img-box {\r\n    width: 100%;\r\n    height: 150px;\r\n    /* PC端图片高度 */\r\n    overflow: hidden;\r\n    position: relative;\r\n  }\r\n\r\n  .fg-step-img {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n    transition: transform 0.6s ease;\r\n  }\r\n\r\n  .fg-step-card:hover .fg-step-img {\r\n    transform: scale(1.05);\r\n  }\r\n\r\n  .fg-step-content {\r\n    padding: 20px;\r\n    text-align: center;\r\n    position: relative;\r\n  }\r\n\r\n  /* PC端数字圆球 */\r\n  .fg-step-num {\r\n    position: absolute;\r\n    top: -20px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    width: 40px;\r\n    height: 40px;\r\n    background-color: #000;\r\n    color: #fff;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-size: 16px;\r\n    font-weight: 700;\r\n    border: 3px solid #fff;\r\n    z-index: 2;\r\n  }\r\n\r\n  .fg-step-title {\r\n    font-size: 15px;\r\n    font-weight: 800;\r\n    margin-top: 15px;\r\n    margin-bottom: 5px;\r\n    text-transform: uppercase;\r\n    color: #000;\r\n  }\r\n\r\n  .fg-step-desc {\r\n    font-size: 13px;\r\n    color: #666;\r\n    line-height: 1.4;\r\n    margin: 0;\r\n  }\r\n\r\n  /* --- [PART 3: Value-Added Service - 3列] --- */\r\n  .fg-grid-3 {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    gap: 30px;\r\n  }\r\n\r\n  .fg-card.simple {\r\n    background-color: #f8f8f8;\r\n    /* 浅灰底色区分 */\r\n    border: none;\r\n    padding: 40px 30px;\r\n  }\r\n\r\n  .fg-card.simple h3 {\r\n    font-size: 18px;\r\n    /* 稍微大一点的标题 */\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .fg-card.simple p {\r\n    font-size: 14px;\r\n    line-height: 1.7;\r\n    color: #555;\r\n    margin: 0;\r\n  }\r\n\r\n  /* ========================================= */\r\n  /* === 📱 移动端深度优化 (One Screen View) === */\r\n  /* ========================================= */\r\n  @media (max-width: 768px) {\r\n    #fominte-growth-module {\r\n      padding: 50px 15px;\r\n      /* 减少外边距 */\r\n    }\r\n\r\n    .fg-content-section {\r\n      margin-bottom: 60px;\r\n      /* 减少区块间距 */\r\n    }\r\n\r\n    .fg-section-title {\r\n      font-size: 20px;\r\n      /* 缩小标题 */\r\n      margin-bottom: 30px;\r\n      letter-spacing: 1px;\r\n    }\r\n  }\r\n\r\n  @media (max-width: 600px) {\r\n\r\n    /* --- PART 1: Core Advantages (变为2列田字格) --- */\r\n    .fg-grid-4 {\r\n      grid-template-columns: 1fr 1fr;\r\n      /* 强制2列 */\r\n      gap: 8px;\r\n      /* 极窄间距 */\r\n    }\r\n\r\n    .fg-card {\r\n      padding: 15px 12px;\r\n      /* 极致压缩内边距 */\r\n    }\r\n\r\n    .fg-icon {\r\n      width: 28px;\r\n      height: 28px;\r\n      margin-bottom: 12px;\r\n      /* Icon缩小 */\r\n    }\r\n\r\n    .fg-card h3 {\r\n      font-size: 12px;\r\n      /* 标题变小 */\r\n      margin-bottom: 10px;\r\n      min-height: 32px;\r\n      /* 确保2行标题对齐 */\r\n    }\r\n\r\n    .fg-list {\r\n      padding-left: 14px;\r\n    }\r\n\r\n    .fg-list li {\r\n      font-size: 11px;\r\n      /* 列表文字极小化，保证能放下 */\r\n      line-height: 1.3;\r\n      margin-bottom: 4px;\r\n    }\r\n\r\n    /* 手机端隐藏底部小字，保证一屏能放下4个卡片 */\r\n    .fg-card-footer {\r\n      display: none;\r\n    }\r\n\r\n    /* --- PART 2: Process (变为左图右文列表) --- */\r\n    .fg-process-wrapper {\r\n      flex-direction: column;\r\n      gap: 12px;\r\n      /* 卡片间距 */\r\n    }\r\n\r\n    .fg-step-card {\r\n      flex-direction: row;\r\n      /* 横向排列 */\r\n      align-items: center;\r\n      min-height: 80px;\r\n      /* 固定最小高度 */\r\n      border: 1px solid #f0f0f0;\r\n    }\r\n\r\n    .fg-step-img-box {\r\n      width: 90px;\r\n      /* 左侧固定宽度 */\r\n      height: 90px;\r\n      /* 左侧固定高度 */\r\n      flex-shrink: 0;\r\n    }\r\n\r\n    .fg-step-content {\r\n      padding: 10px 15px;\r\n      text-align: left;\r\n      /* 左对齐 */\r\n      display: flex;\r\n      flex-direction: column;\r\n      justify-content: center;\r\n    }\r\n\r\n    /* 改造数字样式：变成小标签 */\r\n    .fg-step-num {\r\n      position: static;\r\n      transform: none;\r\n      width: auto;\r\n      height: auto;\r\n      background: transparent;\r\n      color: #5b87c1;\r\n      /* 蓝色 */\r\n      border: none;\r\n      font-size: 11px;\r\n      justify-content: flex-start;\r\n      margin-bottom: 4px;\r\n      padding: 0;\r\n    }\r\n\r\n    .fg-step-num::after {\r\n      content: \" / STEP\";\r\n      /* 增加后缀增加精致感 */\r\n      opacity: 0.5;\r\n      font-size: 9px;\r\n      margin-left: 4px;\r\n    }\r\n\r\n    .fg-step-title {\r\n      font-size: 14px;\r\n      margin: 0 0 4px 0;\r\n    }\r\n\r\n    .fg-step-desc {\r\n      font-size: 12px;\r\n      line-height: 1.3;\r\n    }\r\n\r\n    /* --- PART 3: Value-Added (紧凑堆叠) --- */\r\n    .fg-grid-3 {\r\n      grid-template-columns: 1fr;\r\n      gap: 10px;\r\n    }\r\n\r\n    .fg-card.simple {\r\n      padding: 25px 20px;\r\n    }\r\n\r\n    .fg-card.simple h3 {\r\n      font-size: 15px;\r\n      margin-bottom: 10px;\r\n    }\r\n\r\n    .fg-card.simple p {\r\n      font-size: 13px;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv id=\"fominte-growth-module\"\u003e\r\n  \u003cdiv class=\"fg-container\"\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eCORE ADVANTAGES\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-grid-4\"\u003e\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M17 18h1\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M12 18h1\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M7 18h1\"\u003e\u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eFactory \u0026 Design\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003e150 Designs/Month\u003c/li\u003e\r\n            \u003cli\u003e5000+ Patterns Lib\u003c/li\u003e\r\n            \u003cli\u003e30+ Years Legacy\u003c/li\u003e\r\n            \u003cli\u003e24/7 Response\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eOEM/ODM Available\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"m9 12 2 2 4-4\"\u003e\u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eCertified Quality\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eISO \u0026 BSCI Cert\u003c/li\u003e\r\n            \u003cli\u003eHigg FEM Compliant\u003c/li\u003e\r\n            \u003cli\u003e100% Pre-ship QC\u003c/li\u003e\r\n            \u003cli\u003e6 Inspection Steps\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eInternational Standards\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003ccircle cx=\"12\" cy=\"12\" r=\"10\"\u003e\u003c/circle\u003e\r\n              \u003cpolyline points=\"12 6 12 12 16 14\"\u003e\u003c/polyline\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eSupply Chain\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003e7-Day Proto\u003c/li\u003e\r\n            \u003cli\u003e3-Day Dispatch\u003c/li\u003e\r\n            \u003cli\u003e20-Day Production\u003c/li\u003e\r\n            \u003cli\u003e30-45 Day Lead Time\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eRapid Turnaround\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"m11 17 2 2a1 1 0 1 0 3-3\"\u003e\u003c/path\u003e\r\n              \u003cpath\r\n                d=\"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-1.42-1.42l.88-.88a5 5 0 0 1 7.07 0l2.12 2.12a3 3 0 0 1 0 4.24l-2.5 2.5a3 3 0 0 1-4.24 0l-2.5-2.5a3 3 0 0 1 0-4.24l2.5-2.5a5 5 0 0 1 7.07 0\"\u003e\r\n              \u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eFlexible Trading\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eFOB / DDP Support\u003c/li\u003e\r\n            \u003cli\u003eFree Sampling\u003c/li\u003e\r\n            \u003cli\u003ePrivate Labeling\u003c/li\u003e\r\n            \u003cli\u003eFull Invoicing\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eCustom Support\u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eCustomization Process\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-process-wrapper\"\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/8dbc090a68fc3ee1a9f043266f7b2a7b.webp?w=2496\u0026h=1664\" alt=\"Inquiry\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e01\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eInquiry\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eProposal within 24h.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/3109c97af1e5cc4653c681f552d2afb2.webp?w=1024\u0026h=633\" alt=\"Sampling\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e02\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eSampling\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003e7-day rapid prototype.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/Factory-Machinery-Real-Shot-Images.webp?w=1968\u0026h=1312\" alt=\"Production\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e03\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eProduction\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eFlexible MOQ \u0026 tracking.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/2bba94754d608af502f47f936904ddfb.webp?w=1920\u0026h=1280\" alt=\"Inspection\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e04\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eInspection\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eRaw material to final QC.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fbd46c13e70e2a70bb32c3a23b30d1d6.webp?w=1554\u0026h=1036\" alt=\"Delivery\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e05\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eDelivery\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eShipping to 120+ countries.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eValue-Added Service\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-grid-3\"\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eDesign \u0026 Development\u003c/h3\u003e\r\n          \u003cp\u003eEmpower your collection with \u003cstrong\u003eglobal trend insights\u003c/strong\u003e. Our team offers designer collaboration\r\n            to translate vision into \u003cstrong\u003eexclusive styles\u003c/strong\u003e.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eFactory Inspection\u003c/h3\u003e\r\n          \u003cp\u003eYour personal account manager accompanies you on \u003cstrong\u003eevery factory audit\u003c/strong\u003e offering real-time\r\n            answers and on-the-spot decisions.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eSupply Chain\u003c/h3\u003e\r\n          \u003cp\u003eOur robust supply chain can meet any customized solutions, \u003cstrong\u003eexpand profit margins\u003c/strong\u003e, and help\r\n            achieve greater returns.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "0px",
+            "padding-block-start": "0px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "60px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764661535022af5aa4d": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cdiv class=\"immersive-slider-container\"\u003e\r\n\r\n  \u003cdiv class=\"immersive-bg-wrapper\"\u003e\r\n    \u003cdiv class=\"immersive-bg active\" id=\"bg-active\"\u003e\u003c/div\u003e\r\n    \u003cdiv class=\"immersive-bg buffer\" id=\"bg-buffer\"\u003e\u003c/div\u003e\r\n  \u003c/div\u003e\r\n\r\n  \u003cdiv class=\"immersive-overlay\"\u003e\u003c/div\u003e\r\n\r\n  \u003cdiv class=\"immersive-content-wrapper\"\u003e\r\n\r\n    \u003cdiv class=\"immersive-text-area\"\u003e\r\n      \u003ch2 id=\"slide-title\" class=\"slide-title\"\u003eLoading...\u003c/h2\u003e\r\n      \u003cp id=\"slide-desc\" class=\"slide-desc\"\u003ePlease wait...\u003c/p\u003e\r\n\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"immersive-cards-nav\" id=\"cards-container\"\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e\r\n\r\n\u003cstyle\u003e\r\n  /* --- 容器设置 (保持不变) --- */\r\n  .immersive-slider-container {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 90vh;\r\n    min-height: 850px;\r\n    max-height: 1080px;\r\n    overflow: hidden;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    background-color: #000;\r\n  }\r\n\r\n  /* --- 背景淡入淡出逻辑 (保持不变) --- */\r\n  .immersive-bg-wrapper {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n  }\r\n\r\n  .immersive-bg {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-size: cover;\r\n    background-position: center;\r\n    transition: opacity 0.8s ease-in-out;\r\n  }\r\n\r\n  .immersive-bg.active {\r\n    opacity: 1;\r\n    z-index: 2;\r\n  }\r\n\r\n  .immersive-bg.buffer {\r\n    opacity: 0;\r\n    z-index: 1;\r\n  }\r\n\r\n  /* --- 遮罩层 (保持不变) --- */\r\n  .immersive-overlay {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%);\r\n    z-index: 3;\r\n    pointer-events: none;\r\n  }\r\n\r\n  /* --- 内容布局 (保持不变) --- */\r\n  .immersive-content-wrapper {\r\n    position: relative;\r\n    z-index: 10;\r\n    max-width: 1600px;\r\n    height: 100%;\r\n    margin: 0 auto;\r\n    padding: 0 60px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n  }\r\n\r\n  /* --- 左侧文字区域 (保持不变) --- */\r\n  .immersive-text-area {\r\n    width: 35%;\r\n    max-width: 550px;\r\n    color: #ffffff;\r\n    opacity: 0;\r\n    animation: initFadeIn 1s ease forwards 0.5s;\r\n  }\r\n\r\n  @keyframes initFadeIn {\r\n    to {\r\n      opacity: 1;\r\n    }\r\n  }\r\n\r\n  /* --- 删除了 slide-counter 相关的 CSS --- */\r\n\r\n  .slide-title {\r\n    color: #ffffff !important;\r\n    font-size: 60px;\r\n    font-weight: 800;\r\n    line-height: 1.1;\r\n    text-transform: uppercase;\r\n    margin-bottom: 25px;\r\n    letter-spacing: -1px;\r\n    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);\r\n  }\r\n\r\n  .slide-desc {\r\n    font-size: 18px;\r\n    line-height: 1.6;\r\n    color: #e0e0e0 !important;\r\n    margin-bottom: 0;\r\n    font-weight: 400;\r\n    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);\r\n    max-width: 90%;\r\n  }\r\n\r\n  /* --- 右侧卡片导航 (保持不变) --- */\r\n  .immersive-cards-nav {\r\n    display: flex;\r\n    gap: 20px;\r\n    width: 60%;\r\n    height: 100%;\r\n    align-items: center;\r\n    justify-content: flex-end;\r\n    padding-right: 20px;\r\n    /* 增加 overflow 允许在极端情况下自适应，防止卡片被压缩 */\r\n    overflow-x: visible;\r\n  }\r\n\r\n  .nav-card {\r\n    position: relative;\r\n    width: 140px;\r\n    height: 250px;\r\n    border-radius: 12px;\r\n    overflow: hidden;\r\n    cursor: pointer;\r\n    transition: all 0.5s ease;\r\n    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);\r\n    border: 1px solid rgba(255, 255, 255, 0.2);\r\n    filter: brightness(0.5);\r\n    /* 防止卡片在增加数量后过度收缩 */\r\n    flex-shrink: 1;\r\n    min-width: 100px;\r\n  }\r\n\r\n  .nav-card-bg {\r\n    width: 100%;\r\n    height: 100%;\r\n    background-size: cover;\r\n    background-position: center;\r\n    transition: transform 0.6s ease;\r\n  }\r\n\r\n  .nav-card.active {\r\n    width: 220px;\r\n    height: 380px;\r\n    border: 2px solid #ffffff;\r\n    filter: brightness(1);\r\n    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);\r\n    z-index: 5;\r\n    /* 激活卡片不收缩 */\r\n    flex-shrink: 0;\r\n  }\r\n\r\n  .nav-card:hover .nav-card-bg {\r\n    transform: scale(1.1);\r\n  }\r\n\r\n  .nav-card-info {\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    padding: 20px;\r\n    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);\r\n    transform: translateY(100%);\r\n    transition: transform 0.4s ease;\r\n  }\r\n\r\n  .nav-card.active .nav-card-info {\r\n    transform: translateY(0);\r\n  }\r\n\r\n  .nav-card-title {\r\n    color: #fff;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  /* --- 数据高亮样式 (保持不变) --- */\r\n  .text-highlight {\r\n    font-size: 1.3em;\r\n    font-weight: 900;\r\n    color: #486599;\r\n    line-height: 1;\r\n    display: inline-block;\r\n    margin-right: 5px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    letter-spacing: -1px;\r\n  }\r\n\r\n  .slide-desc .text-highlight {\r\n    font-size: 1.1em;\r\n    color: #ffffff;\r\n    font-weight: 700;\r\n  }\r\n\r\n  /* 🟡 新增 CTA 按钮样式 */\r\n  .cta-button {\r\n    display: inline-block;\r\n    margin-top: 30px;\r\n    padding: 12px 30px;\r\n    background-color: #ffd700;\r\n    color: #1a1a1a !important;\r\n    font-size: 16px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    border-radius: 4px;\r\n    text-decoration: none;\r\n    transition: background-color 0.3s ease, transform 0.2s ease;\r\n    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);\r\n  }\r\n\r\n  .cta-button:hover {\r\n    background-color: #ffc400;\r\n    transform: translateY(-2px);\r\n  }\r\n\r\n  /* --- 移动端适配 (核心修复区域) --- */\r\n  @media (max-width: 1024px) {\r\n    .immersive-slider-container {\r\n      height: auto;\r\n      min-height: auto;\r\n      padding: 80px 0;\r\n    }\r\n\r\n    .immersive-content-wrapper {\r\n      flex-direction: column;\r\n      align-items: flex-start;\r\n      padding: 0 30px;\r\n    }\r\n\r\n    .immersive-text-area {\r\n      width: 100%;\r\n      margin-bottom: 50px;\r\n    }\r\n\r\n    .slide-title {\r\n      font-size: 42px;\r\n    }\r\n\r\n    /* 🔴 UI 核心修复：解决卡片展示不全问题 (Peek Effect) */\r\n    .immersive-cards-nav {\r\n      width: 100%;\r\n      height: 320px;\r\n      justify-content: flex-start;\r\n      overflow-x: auto;\r\n      /* 关键修改：左侧 padding 保证起始对齐，右侧 padding 设为 0，让卡片边缘溢出 */\r\n      padding: 20px 0 20px 30px;\r\n      gap: 15px;\r\n\r\n      /* 优化：隐藏横向滚动条，让卡片看起来更像一个画廊 */\r\n      scrollbar-width: none;\r\n      /* Firefox 隐藏滚动条 */\r\n      -ms-overflow-style: none;\r\n      /* IE and Edge 隐藏滚动条 */\r\n    }\r\n\r\n    /* 隐藏 Webkit 浏览器的滚动条 */\r\n    .immersive-cards-nav::-webkit-scrollbar {\r\n      display: none;\r\n    }\r\n\r\n    .nav-card {\r\n      width: 120px;\r\n      height: 200px;\r\n      flex-shrink: 0;\r\n    }\r\n\r\n    .nav-card.active {\r\n      width: 160px;\r\n      height: 260px;\r\n    }\r\n\r\n    /* 移动端 CTA 按钮全宽 */\r\n    .cta-button {\r\n      width: 100%;\r\n      text-align: center;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cscript\u003e\r\n  // --- 数据配置 ---\r\n  const slidesData = [\r\n    {\r\n      id: \"01\",\r\n      title: \"\u003cspan class='text-highlight'\u003e30+\u003c/span\u003e YEARS MANUFACTURING EXPERIENCE\",\r\n      desc: \"Our dedicated support team is available around the clock, ensuring seamless communication and rapid response times.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/e4a94e7dd433ae1011f1bd39b9d9baa3.webp?w=2700\u0026h=1669\"\r\n    },\r\n    {\r\n      id: \"02\",\r\n      title: \"\u003cspan class='text-highlight'\u003eECO-FRIENDLY\u003c/span\u003e PRODUCTION\",\r\n      desc: \"Committed to sustainability with \u003cspan class='text-highlight'\u003eRECYCLED\u003c/span\u003e materials and low-carbon manufacturing processes.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/838fae2385d1137151a790a12a010c86.webp?w=2560\u0026h=1440\"\r\n    },\r\n    {\r\n      id: \"03\",\r\n      title: \"\u003cspan class='text-highlight'\u003e100%\u003c/span\u003e INSPECTED QUALITY\",\r\n      desc: \"ISO \u0026 BSCI certified. We mandate a \u003cspan class='text-highlight'\u003e100%\u003c/span\u003e final inspection policy before any shipment leaves our dock.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/Factory-Machinery-Real-Shot-Images.webp?w=1968\u0026h=1312\"\r\n    },\r\n    {\r\n      id: \"04\",\r\n      title: \"\u003cspan class='text-highlight'\u003e100+\u003c/span\u003e LINES EMBROIDERY\",\r\n      desc: \"Delivering intricate mesh, sequin, and crochet designs. Powered by \u003cspan class='text-highlight'\u003e100+\u003c/span\u003e computerized lines for global scale.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/c9f7ad2ebc6f70f5ad315bfa6f3e95d6.webp?w=2400\u0026h=1278\"\r\n    },\r\n    {\r\n      id: \"05\",\r\n      title: \"SHIPPING TO \u003cspan class='text-highlight'\u003e120+\u003c/span\u003e COUNTRIES\",\r\n      desc: \"Seamless logistics handling customs and DDP terms for over \u003cspan class='text-highlight'\u003e120\u003c/span\u003e countries worldwide.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/9c96d0d34385007656ef174f1bdbd9d3.webp?w=1920\u0026h=1280\"\r\n    },\r\n    {\r\n      id: \"06\",\r\n      title: \"\u003cspan class='text-highlight'\u003e66,700㎡\u003c/span\u003e SMART BASE\",\r\n      desc: \"Our \u003cspan class='text-highlight'\u003e66,700㎡\u003c/span\u003e vertically integrated manufacturing base ensures consistency from knitting to finishing.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/707cbfc52785307fea858d3eb5a3d9d4.webp?w=2400\u0026h=1350\"\r\n    }\r\n  ];\r\n\r\n  document.addEventListener('DOMContentLoaded', function() {\r\n    const bgActive = document.getElementById('bg-active');\r\n    const bgBuffer = document.getElementById('bg-buffer');\r\n    const cardsContainer = document.getElementById('cards-container');\r\n    const titleEl = document.getElementById('slide-title');\r\n    const descEl = document.getElementById('slide-desc');\r\n    // 删除了 current-index 和 total-index 的 DOM 引用\r\n    const textArea = document.querySelector('.immersive-text-area');\r\n\r\n    let currentIndex = 0;\r\n    let isAnimating = false;\r\n    let autoPlayInterval; // 自动轮播定时器\r\n\r\n    // (原先初始化 Total Index 的代码已删除)\r\n\r\n    // 2. 初始化第一张图\r\n    const firstSlide = slidesData[0];\r\n    titleEl.innerHTML = firstSlide.title;\r\n    descEl.innerHTML = firstSlide.desc;\r\n    bgActive.style.backgroundImage = `url('${firstSlide.img}')`;\r\n    \r\n    // 文字入场动画\r\n    textArea.style.opacity = '1'; \r\n\r\n    // 3. 渲染卡片\r\n    slidesData.forEach((slide, index) =\u003e {\r\n      const card = document.createElement('div');\r\n      // 这里的逻辑会根据 index 自动渲染全部6张卡片\r\n      card.className = `nav-card ${index === 0 ? 'active' : ''}`;\r\n      \r\n      // 点击事件：切换 + 重置定时器\r\n      card.onclick = () =\u003e {\r\n        if (index !== currentIndex \u0026\u0026 !isAnimating) {\r\n           resetAutoPlay(); // 手动点击后重置计时\r\n           changeSlide(index);\r\n        }\r\n      };\r\n      \r\n      // 提取纯文本标题\r\n      let tempDiv = document.createElement(\"div\");\r\n      tempDiv.innerHTML = slide.title;\r\n      let plainTitle = tempDiv.innerText;\r\n\r\n      card.innerHTML = `\r\n        \u003cdiv class=\"nav-card-bg\" style=\"background-image: url('${slide.img}')\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"nav-card-info\"\u003e\r\n          \u003cdiv class=\"nav-card-title\"\u003e${plainTitle}\u003c/div\u003e\r\n        \u003c/div\u003e\r\n      `;\r\n      cardsContainer.appendChild(card);\r\n    });\r\n\r\n    // 4. 开启自动轮播\r\n    startAutoPlay();\r\n\r\n    function startAutoPlay() {\r\n      // 清除可能存在的旧定时器\r\n      if (autoPlayInterval) clearInterval(autoPlayInterval);\r\n      \r\n      // 设置每3000ms (3秒) 切换一次\r\n      autoPlayInterval = setInterval(() =\u003e {\r\n        let nextIndex = (currentIndex + 1) % slidesData.length;\r\n        changeSlide(nextIndex);\r\n      }, 3000); \r\n    }\r\n\r\n    function resetAutoPlay() {\r\n      // 先停止，再重新开始，避免点击后立马自动切换的冲突\r\n      clearInterval(autoPlayInterval);\r\n      startAutoPlay();\r\n    }\r\n\r\n    // 5. 切换函数\r\n    function changeSlide(index) {\r\n      isAnimating = true;\r\n      const data = slidesData[index];\r\n      const cards = document.querySelectorAll('.nav-card');\r\n\r\n      cards.forEach(c =\u003e c.classList.remove('active'));\r\n      cards[index].classList.add('active');\r\n\r\n      bgBuffer.style.backgroundImage = `url('${data.img}')`;\r\n      bgBuffer.style.zIndex = \"2\";\r\n      bgActive.style.zIndex = \"1\";\r\n      bgBuffer.style.opacity = \"1\";\r\n\r\n      textArea.style.transition = 'opacity 0.3s ease, transform 0.3s ease';\r\n      textArea.style.opacity = '0';\r\n      textArea.style.transform = 'translateY(10px)';\r\n\r\n      setTimeout(() =\u003e {\r\n        // 删除了更新数字的代码 (currIndexEl.innerText = ...)\r\n        titleEl.innerHTML = data.title;\r\n        descEl.innerHTML = data.desc;\r\n        \r\n        textArea.style.opacity = '1';\r\n        textArea.style.transform = 'translateY(0)';\r\n      }, 300);\r\n\r\n      setTimeout(() =\u003e {\r\n        bgActive.style.backgroundImage = `url('${data.img}')`;\r\n        bgActive.style.zIndex = \"2\";\r\n        bgBuffer.style.zIndex = \"1\";\r\n        bgBuffer.style.opacity = \"0\";\r\n        bgBuffer.style.transition = 'none';\r\n        setTimeout(() =\u003e { bgBuffer.style.transition = 'opacity 0.8s ease-in-out'; }, 50);\r\n\r\n        currentIndex = index;\r\n        isAnimating = false;\r\n      }, 800);\r\n    }\r\n  });\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "0px",
+            "padding-top": "0px"
+          },
+          "padding-bottom": "0px",
+          "padding-top": "0px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764827624903225e950": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": "shopline://shop_images/manufacturing-certifications-amfori-bsci-higg-grs.png.png",
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "70px",
+          "padding-block-start": "80px",
+          "padding-inline-end": "30px",
+          "padding-inline-start": "30px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "176482988271608c4fd5": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 30,
+            "left": 40,
+            "lock": true,
+            "right": 40,
+            "top": 30
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 36,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "17648298827175f18553": {
+          "type": "$title",
+          "settings": {
+            "title": "Join us in person",
+            "title_tag_name": "h2"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17648298827175f18553"
+      ],
+      "custom_css": [
+        ".advc-title {font-weight: 600 !important;}"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "176484066569896567c8": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- 容器设置 --- */\r\n  .split-gallery-section {\r\n    width: 100%;\r\n    background-color: #fff;\r\n    padding: 0;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    box-sizing: border-box;\r\n    overflow: hidden;\r\n  }\r\n\r\n  .split-container {\r\n    display: flex;\r\n    width: 100%;\r\n    height: 700px;\r\n    /* PC端高度 */\r\n    max-width: 1920px;\r\n    margin: 0 auto;\r\n    background-color: #fff;\r\n  }\r\n\r\n  /* --- 三大区块布局 --- */\r\n  .side-group.left {\r\n    flex: 1;\r\n    display: flex;\r\n    border-right: 1px solid #fff;\r\n    min-width: 0;\r\n  }\r\n\r\n  .center-text-zone {\r\n    flex: 0 0 380px;\r\n    position: relative;\r\n    background-color: #fff;\r\n    z-index: 10;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    padding: 40px;\r\n    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);\r\n  }\r\n\r\n  .side-group.right {\r\n    flex: 1;\r\n    display: flex;\r\n    border-left: 1px solid #fff;\r\n    min-width: 0;\r\n  }\r\n\r\n  /* --- 动态文案切换逻辑 --- */\r\n  .center-content-wrapper {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 30px;\r\n    right: 30px;\r\n    transform: translateY(-50%);\r\n    transition: all 0.5s ease;\r\n    opacity: 0;\r\n    pointer-events: none;\r\n    visibility: hidden;\r\n    text-align: center;\r\n  }\r\n\r\n  .center-content-wrapper.active {\r\n    opacity: 1;\r\n    visibility: visible;\r\n    transform: translateY(-50%);\r\n    pointer-events: auto;\r\n  }\r\n\r\n  .split-title {\r\n    font-size: 32px;\r\n    font-weight: 800;\r\n    text-transform: uppercase;\r\n    line-height: 1.2;\r\n    margin-bottom: 20px;\r\n    color: #000;\r\n    letter-spacing: 1px;\r\n  }\r\n\r\n  .split-desc {\r\n    font-size: 14px;\r\n    line-height: 1.6;\r\n    color: #666;\r\n    margin-bottom: 30px;\r\n  }\r\n\r\n  /* --- 图片卡片样式 --- */\r\n  .split-card {\r\n    position: relative;\r\n    flex: 1;\r\n    height: 100%;\r\n    transition: flex 0.6s cubic-bezier(0.25, 1, 0.5, 1);\r\n    cursor: pointer;\r\n    overflow: hidden;\r\n    border-right: 1px solid rgba(255, 255, 255, 0.2);\r\n  }\r\n\r\n  .split-card:last-child {\r\n    border-right: none;\r\n  }\r\n\r\n  .split-bg {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-size: cover;\r\n    background-position: center;\r\n    transition: transform 0.6s ease;\r\n  }\r\n\r\n  .split-overlay {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background: rgba(0, 0, 0, 0.35);\r\n    transition: opacity 0.4s ease;\r\n    z-index: 1;\r\n  }\r\n\r\n  .split-card-title {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    white-space: normal;\r\n    width: 90%;\r\n    text-align: center;\r\n    color: #fff;\r\n    font-size: 20px;\r\n    font-weight: 800;\r\n    line-height: 1.1;\r\n    letter-spacing: 1px;\r\n    text-transform: uppercase;\r\n    z-index: 2;\r\n    transition: opacity 0.3s ease;\r\n    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);\r\n  }\r\n\r\n  .split-btn-wrapper {\r\n    position: absolute;\r\n    bottom: 60px;\r\n    left: 0;\r\n    width: 100%;\r\n    text-align: center;\r\n    z-index: 3;\r\n    opacity: 0;\r\n    transform: translateY(20px);\r\n    transition: all 0.4s ease 0.2s;\r\n  }\r\n\r\n  .split-btn {\r\n    display: inline-flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    padding: 12px 32px;\r\n    background: rgba(255, 255, 255, 0.15);\r\n    backdrop-filter: blur(8px);\r\n    -webkit-backdrop-filter: blur(8px);\r\n    border: 1px solid rgba(255, 255, 255, 0.4);\r\n    color: #fff;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n    letter-spacing: 1px;\r\n    text-transform: uppercase;\r\n    text-decoration: none;\r\n    border-radius: 4px;\r\n    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);\r\n    transition: all 0.3s ease;\r\n  }\r\n\r\n  .split-btn:hover {\r\n    background: rgba(255, 255, 255, 0.3);\r\n    border-color: #fff;\r\n    transform: translateY(-2px);\r\n    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);\r\n  }\r\n\r\n  .split-btn:active {\r\n    transform: translateY(0);\r\n    background: rgba(255, 255, 255, 0.4);\r\n  }\r\n\r\n  /* --- 交互动作 (PC) --- */\r\n  .split-card:hover {\r\n    flex: 2.5;\r\n  }\r\n\r\n  .split-card:hover .split-bg {\r\n    transform: scale(1.05);\r\n  }\r\n\r\n  .split-card:hover .split-overlay {\r\n    opacity: 0;\r\n  }\r\n\r\n  .split-card:hover .split-card-title {\r\n    opacity: 0;\r\n  }\r\n\r\n  .split-card:hover .split-btn-wrapper {\r\n    opacity: 1;\r\n    transform: translateY(0);\r\n  }\r\n\r\n  .side-group:hover .split-card:not(:hover) .split-overlay {\r\n    background: rgba(0, 0, 0, 0.6);\r\n  }\r\n\r\n  /* ========================================= */\r\n  /* === 📱 移动端深度优化 (Mobile) === */\r\n  /* ========================================= */\r\n  @media (max-width: 1024px) {\r\n\r\n    /* 1. 容器纵向排列 */\r\n    .split-container {\r\n      flex-direction: column;\r\n      height: auto;\r\n    }\r\n\r\n    /* 2. 文案区：置顶 + 左对齐 */\r\n    .center-text-zone {\r\n      order: 1;\r\n      flex: none;\r\n      width: 100%;\r\n      height: auto;\r\n      padding: 0 25px 30px;\r\n      /* 舒适的边距 */\r\n      text-align: left;\r\n      background-color: #fff;\r\n    }\r\n\r\n    #center-default {\r\n      opacity: 1 !important;\r\n      visibility: visible !important;\r\n      position: relative;\r\n      left: auto !important;\r\n      right: auto !important;\r\n      top: auto !important;\r\n      transform: none;\r\n      width: 100%;\r\n    }\r\n\r\n    #center-fabric,\r\n    #center-apparel,\r\n    .center-text-zone .split-desc[style*=\"font-size: 11px\"] {\r\n      display: none !important;\r\n    }\r\n\r\n    .split-title {\r\n      font-size: 20px;\r\n      line-height: 1.3;\r\n      margin-bottom: 12px;\r\n      padding: 0 10px;\r\n    }\r\n\r\n    .split-desc {\r\n      font-size: 14px;\r\n      line-height: 1.5;\r\n      color: #333;\r\n      margin-bottom: 0;\r\n      margin-top: 10px;\r\n    }\r\n\r\n    /* --- ✨ [核心修改区] 左右分组布局拆分 ✨ --- */\r\n\r\n    /* 左侧 (面料)：改为 1列 (横条堆叠) */\r\n    .side-group.left {\r\n      order: 2;\r\n      flex: none;\r\n      width: 100%;\r\n      display: grid;\r\n      grid-template-columns: 1fr;\r\n      /* 强制单列 */\r\n      gap: 2px;\r\n      /* 图片之间留一点细缝，增加精致感 */\r\n      background: #fff;\r\n      margin-bottom: 2px;\r\n      /* 与下方成衣区分隔 */\r\n    }\r\n\r\n    /* 右侧 (成衣)：保持 2列 (网格) */\r\n    .side-group.right {\r\n      order: 3;\r\n      flex: none;\r\n      width: 100%;\r\n      display: grid;\r\n      grid-template-columns: 1fr 1fr;\r\n      /* 保持双列 */\r\n      gap: 2px;\r\n      background: #fff;\r\n    }\r\n\r\n    /* 小标题装饰 */\r\n    .side-group.left::before,\r\n    .side-group.right::before {\r\n      grid-column: 1 / -1;\r\n      /* 跨越所有列 */\r\n      font-size: 11px;\r\n      font-weight: 700;\r\n      padding: 25px 10px 15px;\r\n      /* 增加一点呼吸感 */\r\n      color: #999;\r\n      letter-spacing: 1px;\r\n      text-align: center;\r\n      text-transform: uppercase;\r\n      background-color: #fff;\r\n    }\r\n\r\n    .side-group.left::before {\r\n      content: \"FABRICS \u0026 TEXTILES\";\r\n    }\r\n\r\n    .side-group.right::before {\r\n      content: \"APPAREL \u0026 COLLECTIONS\";\r\n      /* 成衣区顶部加一点灰条分隔，防止视觉粘连 */\r\n      border-top: 10px solid #f9f9f9;\r\n    }\r\n\r\n    /* 卡片高度调整 */\r\n    .split-card {\r\n      width: 100%;\r\n      height: 220px;\r\n      /* 这个高度对于横条和网格都通用 */\r\n      border: none;\r\n    }\r\n\r\n    /* 移除PC端的 hover 伸缩逻辑 */\r\n    .split-card:hover,\r\n    .split-card:active {\r\n      height: 220px;\r\n      flex: none;\r\n    }\r\n\r\n    .split-card-title {\r\n      opacity: 1 !important;\r\n      font-size: 16px;\r\n      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);\r\n      width: 80%;\r\n    }\r\n\r\n    .split-overlay {\r\n      opacity: 1 !important;\r\n      background: rgba(0, 0, 0, 0.3);\r\n    }\r\n\r\n    .split-btn-wrapper {\r\n      display: none !important;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"split-gallery-section\"\u003e\r\n  \u003cdiv class=\"split-container\"\u003e\r\n\r\n    \u003cdiv class=\"side-group left\" id=\"group-left\"\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/40ba6b466710e784f031a0207a339184.webp?w=1773\u0026h=2364');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eMesh \u0026 Tulle\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/beaded-fabrics\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/2337574f9ab1359ad868b9ded1550871.webp?w=1706\u0026h=1279');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eMachine-made Crochet\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/crochet-home\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/1ba04f5b14006137ef0de326e3047480.webp?w=1400\u0026h=2098');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eSequin \u0026 Novelty\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/fashion-fabrics\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"center-text-zone\"\u003e\r\n      \u003cdiv class=\"center-content-wrapper active\" id=\"center-default\"\u003e\r\n        \u003ch2 class=\"split-title\"\u003e\u003c/h2\u003e\r\n        \u003cp class=\"split-desc\"\u003eDiscover our specialty fabric collections that bring unique texture and detail to your\r\n          designs. Or, leverage our complete garment solutions.\u003c/p\u003e\r\n        \u003cdiv class=\"split-desc\" style=\"font-size: 11px; color:#999;\"\u003e← EMBROIDERY \u0026nbsp;\u0026nbsp;|\u0026nbsp;\u0026nbsp; APPAREL →\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"center-content-wrapper\" id=\"center-fabric\"\u003e\r\n        \u003ch2 class=\"split-title\"\u003eEMBROIDERY\u003cbr\u003eARTISTRY\u003c/h2\u003e\r\n        \u003cp class=\"split-desc\"\u003eExplore our diverse range of base fabrics from delicate tulle to structured mesh.\u003c/p\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"center-content-wrapper\" id=\"center-apparel\"\u003e\r\n        \u003ch2 class=\"split-title\"\u003eREADY\u003cbr\u003eTO WEAR\u003c/h2\u003e\r\n        \u003cp class=\"split-desc\"\u003eFrom faux fur elegance to hand-finished occasion wear.\u003c/p\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"side-group right\" id=\"group-right\"\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/b051960b22c39a362fa089f03d4fde31.webp?w=1280\u0026h=1707');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eMachine-made Crochet Wear\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/crochet-home\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/81c1994448c4c56ad06dd1d574c7ced8.webp?w=1728\u0026h=2304');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eFaux Fur\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/faux-fur-home\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/e9508162bb8084e1c607a935b622ffc8.webp?w=1650\u0026h=2200');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eFleece Outerwear\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/fleece-home\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"split-card\"\u003e\r\n        \u003cdiv class=\"split-bg\"\r\n          style=\"background-image: url('https://img-va.myshopline.com/image/store/1754638002373/e37864c9c624efb3d8a87908ba83257a.webp?w=1280\u0026h=1707');\"\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"split-overlay\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"split-card-title\"\u003eOccasion\u003c/div\u003e\r\n        \u003cdiv class=\"split-btn-wrapper\"\u003e\u003ca href=\"https://fominte.com/pages/fashion-fabrics\" class=\"split-btn\"\u003eVIEW\r\n            DETAILS\u003c/a\u003e\u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e\r\n\r\n\u003cscript\u003e\r\n  document.addEventListener('DOMContentLoaded', function() {\r\n    // 1. 文案切换逻辑 (仅PC)\r\n    if (window.innerWidth \u003e 1024) {\r\n      const groupLeft = document.getElementById('group-left');\r\n      const groupRight = document.getElementById('group-right');\r\n      const splitContainer = document.querySelector('.split-container');\r\n      const centerDefault = document.getElementById('center-default');\r\n      const centerFabric = document.getElementById('center-fabric');\r\n      const centerApparel = document.getElementById('center-apparel');\r\n      const centerZone = document.querySelector('.center-text-zone');\r\n\r\n      function showText(element) {\r\n        if(!element) return;\r\n        [centerDefault, centerFabric, centerApparel].forEach(el =\u003e {\r\n           if(el) el.classList.remove('active');\r\n        });\r\n        element.classList.add('active');\r\n      }\r\n\r\n      if(groupLeft) groupLeft.addEventListener('mouseenter', () =\u003e showText(centerFabric));\r\n      if(groupRight) groupRight.addEventListener('mouseenter', () =\u003e showText(centerApparel));\r\n      if(splitContainer) splitContainer.addEventListener('mouseleave', () =\u003e showText(centerDefault));\r\n      if(centerZone) centerZone.addEventListener('mouseenter', () =\u003e showText(centerDefault));\r\n    }\r\n\r\n    // 2. 全卡片点击逻辑\r\n    const allCards = document.querySelectorAll('.split-card');\r\n    allCards.forEach(card =\u003e {\r\n      card.addEventListener('click', function(e) {\r\n        const link = this.querySelector('a.split-btn');\r\n        if (link \u0026\u0026 e.target !== link) {\r\n          const href = link.getAttribute('href');\r\n          if (href) window.location.href = href;\r\n        }\r\n      });\r\n    });\r\n  });\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "0px",
+            "padding-top": "0px"
+          },
+          "padding-bottom": "0px",
+          "padding-top": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764901399832561cd2d": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cdiv class=\"immersive-slider-container\"\u003e\r\n\r\n  \u003cdiv class=\"immersive-bg-wrapper\"\u003e\r\n    \u003cdiv class=\"immersive-bg active\" id=\"bg-active\"\u003e\u003c/div\u003e\r\n    \u003cdiv class=\"immersive-bg buffer\" id=\"bg-buffer\"\u003e\u003c/div\u003e\r\n  \u003c/div\u003e\r\n\r\n  \u003cdiv class=\"immersive-content-wrapper\"\u003e\r\n\r\n    \u003cdiv class=\"immersive-text-area\"\u003e\r\n      \u003ch2 id=\"slide-title\" class=\"slide-title\"\u003eLoading...\u003c/h2\u003e\r\n      \u003cp id=\"slide-desc\" class=\"slide-desc\"\u003ePlease wait...\u003c/p\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"immersive-cards-nav\" id=\"cards-container\"\u003e\r\n      \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e\r\n\r\n\u003cstyle\u003e\r\n  /* ========================================= */\r\n  /* === 1. 基础容器与背景 (Base Layout) === */\r\n  /* ========================================= */\r\n  .immersive-slider-container {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 90vh; \r\n    min-height: 800px;\r\n    max-height: 1080px;\r\n    overflow: hidden;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    background-color: #111; \r\n  }\r\n\r\n  /* 背景图容器 */\r\n  .immersive-bg-wrapper {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    /* [修改] 移除了 ::after 蒙版代码 */\r\n  }\r\n\r\n  .immersive-bg {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-size: cover;\r\n    background-position: center center;\r\n    /* [修改] 移除 transform，只保留 opacity 过渡，解决卡顿问题 */\r\n    transition: opacity 0.8s ease-in-out; \r\n  }\r\n  \r\n  .immersive-bg.active {\r\n    opacity: 1;\r\n    z-index: 2;\r\n    /* [修改] 移除 scale 放大，保持静态展示 */\r\n    transform: none; \r\n  }\r\n\r\n  .immersive-bg.buffer {\r\n    opacity: 0;\r\n    z-index: 1;\r\n    transform: none;\r\n  }\r\n\r\n  /* ========================================= */\r\n  /* === 2. 内容布局 (Content Layout) === */\r\n  /* ========================================= */\r\n  .immersive-content-wrapper {\r\n    position: relative;\r\n    z-index: 10;\r\n    max-width: 1600px;\r\n    height: 100%;\r\n    margin: 0 auto;\r\n    padding: 0 60px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between; \r\n    pointer-events: none; \r\n  }\r\n\r\n  /* --- 左侧文字区域 --- */\r\n  .immersive-text-area {\r\n    width: 45%;\r\n    max-width: 650px;\r\n    color: #ffffff;\r\n    opacity: 0;\r\n    animation: initFadeIn 1s ease forwards 0.5s;\r\n    pointer-events: auto;\r\n    text-align: left;\r\n  }\r\n\r\n  @keyframes initFadeIn { to { opacity: 1; } }\r\n\r\n  .slide-title {\r\n    color: #ffffff !important;\r\n    font-size: 64px;\r\n    font-weight: 900; \r\n    line-height: 1.05;\r\n    text-transform: uppercase;\r\n    margin-bottom: 25px;\r\n    letter-spacing: -1.5px;\r\n    \r\n    /* [修改] 极大增强文字阴影，因为去掉了蒙版，必须靠阴影把文字和背景隔开 */\r\n    text-shadow: 0 5px 15px rgba(0,0,0,0.8), 0 0 30px rgba(0,0,0,0.5);\r\n  }\r\n\r\n  .slide-desc {\r\n    font-size: 18px;\r\n    line-height: 1.6;\r\n    color: #f0f0f0 !important;\r\n    font-weight: 500;\r\n    max-width: 90%;\r\n    /* [修改] 增强描述文字阴影 */\r\n    text-shadow: 0 2px 8px rgba(0,0,0,0.9);\r\n  }\r\n\r\n  /* 数据高亮样式 */\r\n  .text-highlight {\r\n    color: #8ac5fc; \r\n    font-weight: 900;\r\n    display: inline-block;\r\n    -webkit-text-stroke: 1px rgba(0,0,0,0.5); /* 加深描边 */\r\n    text-shadow: 0 0 15px rgba(0,0,0,0.8); /* 加深阴影 */\r\n  }\r\n\r\n  /* ========================================= */\r\n  /* === 3. 导航卡片 (Cards Navigation) === */\r\n  /* ========================================= */\r\n  .immersive-cards-nav {\r\n    display: flex;\r\n    width: auto;\r\n    height: 100%;\r\n    align-items: flex-end; \r\n    justify-content: flex-end;\r\n    padding-bottom: 60px; \r\n    pointer-events: auto;\r\n  }\r\n\r\n  .nav-card {\r\n    position: relative;\r\n    width: 100px; \r\n    height: 160px;\r\n    border-radius: 8px;\r\n    overflow: hidden;\r\n    cursor: pointer;\r\n    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);\r\n    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5); /* 加深阴影 */\r\n    border: 1px solid rgba(255, 255, 255, 0.4);\r\n    filter: brightness(0.6); \r\n    flex-shrink: 0;\r\n    margin-left: -60px; \r\n    transform-origin: bottom center;\r\n  }\r\n\r\n  .nav-card:first-child { margin-left: 0; }\r\n\r\n  .nav-card-bg {\r\n    width: 100%;\r\n    height: 100%;\r\n    background-size: cover;\r\n    background-position: center;\r\n    transition: transform 0.6s ease;\r\n  }\r\n\r\n  .nav-card.active {\r\n    width: 260px; \r\n    height: 360px; \r\n    border: 2px solid #fff;\r\n    filter: brightness(1);\r\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\r\n    z-index: 100;\r\n    margin-right: 20px; \r\n    margin-left: -20px; \r\n    transform: translateY(-20px);\r\n  }\r\n\r\n  .nav-card:hover:not(.active) {\r\n    transform: translateY(-20px) rotate(-3deg); \r\n    z-index: 90;\r\n    filter: brightness(0.9);\r\n    margin-right: 10px;\r\n  }\r\n  \r\n  .nav-card:hover .nav-card-bg { transform: scale(1.1); }\r\n\r\n  .nav-card-info {\r\n    position: absolute;\r\n    bottom: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    padding: 20px;\r\n    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);\r\n    transform: translateY(100%); \r\n    transition: transform 0.3s ease;\r\n  }\r\n\r\n  .nav-card.active .nav-card-info { transform: translateY(0); }\r\n\r\n  .nav-card-title {\r\n    color: #fff;\r\n    font-size: 14px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 0.5px;\r\n  }\r\n\r\n  /* ========================================= */\r\n  /* === 📱 移动端深度适配 (Mobile Adaptation) === */\r\n  /* ========================================= */\r\n  @media (max-width: 1024px) {\r\n    \r\n    .immersive-slider-container {\r\n      height: 600px; \r\n      min-height: auto;\r\n      max-height: none;\r\n    }\r\n\r\n    /* 移动端也不需要蒙版，直接利用图片暗部和文字阴影 */\r\n\r\n    .immersive-content-wrapper {\r\n      flex-direction: column;\r\n      justify-content: space-between; \r\n      padding: 40px 20px 20px 20px;\r\n      align-items: flex-start;\r\n    }\r\n\r\n    .immersive-text-area {\r\n      width: 100%;\r\n      max-width: 100%;\r\n      margin-top: 20px; \r\n      text-align: left;\r\n    }\r\n\r\n    .slide-title {\r\n      font-size: 36px; \r\n      line-height: 1.1;\r\n      margin-bottom: 15px;\r\n      /* 移动端阴影调整，保证清晰度 */\r\n      text-shadow: 0 2px 10px rgba(0,0,0,1);\r\n    }\r\n\r\n    .slide-desc {\r\n      font-size: 15px;\r\n      line-height: 1.4;\r\n      display: -webkit-box; \r\n      -webkit-line-clamp: 3;\r\n      -webkit-box-orient: vertical;\r\n      overflow: hidden;\r\n      text-shadow: 0 1px 5px rgba(0,0,0,1);\r\n    }\r\n\r\n    .immersive-cards-nav {\r\n      width: 100%; \r\n      height: auto;\r\n      padding-bottom: 10px;\r\n      padding-right: 0;\r\n      justify-content: flex-start;\r\n      align-items: center;\r\n      overflow-x: auto; \r\n      gap: 12px;\r\n      scrollbar-width: none; \r\n      -ms-overflow-style: none;\r\n      padding-left: 5px; \r\n    }\r\n    \r\n    .immersive-cards-nav::-webkit-scrollbar { display: none; }\r\n\r\n    .nav-card {\r\n      margin-left: 0 !important;\r\n      margin-right: 0 !important;\r\n      transform: none !important;\r\n      width: 110px;\r\n      height: 150px;\r\n      border: 1px solid rgba(255,255,255,0.3);\r\n      border-radius: 6px;\r\n      box-shadow: 0 4px 10px rgba(0,0,0,0.5);\r\n      filter: brightness(0.8); /* 稍微调亮一点，因为没有背景蒙版衬托了 */\r\n    }\r\n\r\n    .nav-card.active {\r\n      width: 110px; \r\n      height: 150px;\r\n      border: 2px solid #8ac5fc; \r\n      filter: brightness(1);\r\n      transform: none;\r\n      box-shadow: 0 0 15px rgba(138, 197, 252, 0.4);\r\n    }\r\n\r\n    .nav-card-info {\r\n      padding: 10px;\r\n      transform: translateY(0); \r\n      background: rgba(0,0,0,0.6);\r\n    }\r\n    \r\n    .nav-card-title {\r\n      font-size: 11px;\r\n      white-space: nowrap;\r\n      overflow: hidden;\r\n      text-overflow: ellipsis;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cscript\u003e\r\n  // --- 数据配置 ---\r\n  const slidesData = [\r\n    {\r\n      id: \"01\",\r\n      title: \"\u003cspan class='text-highlight'\u003e30+\u003c/span\u003e YEARS EXPERIENCE\",\r\n      desc: \"Our dedicated support team is available around the clock, ensuring seamless communication since 1990.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/e4a94e7dd433ae1011f1bd39b9d9baa3.webp?w=2700\u0026h=1669\"\r\n    },\r\n    {\r\n      id: \"02\",\r\n      title: \"\u003cspan class='text-highlight'\u003e100+\u003c/span\u003e PROD. LINES\",\r\n      desc: \"Delivering intricate mesh, sequin, and crochet designs. Powered by \u003cspan class='text-highlight'\u003e100+\u003c/span\u003e production lines.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/8b9a3147d466cdc98436b68b3ab72625.webp?w=2558\u0026h=1439\"\r\n    },\r\n    {\r\n      id: \"03\",\r\n      title: \"\u003cspan class='text-highlight'\u003eECO\u003c/span\u003e FRIENDLY\",\r\n      desc: \"Committed to sustainability with \u003cspan class='text-highlight'\u003eRECYCLED\u003c/span\u003e materials and low-carbon processes.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/47aba9c021fd0050dbd416f8c52d29ea.webp?w=1920\u0026h=1020\"\r\n    },\r\n    {\r\n      id: \"04\",\r\n      title: \"\u003cspan class='text-highlight'\u003e100%\u003c/span\u003e INSPECTION\",\r\n      desc: \"ISO \u0026 BSCI certified. We mandate a \u003cspan class='text-highlight'\u003e100%\u003c/span\u003e final inspection policy.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/b3d38b53b88d1df4f02a6fac13342c3e.webp?w=2458\u0026h=1383\"\r\n    },\r\n    {\r\n      id: \"05\",\r\n      title: \"\u003cspan class='text-highlight'\u003e120+\u003c/span\u003e COUNTRIES\",\r\n      desc: \"Seamless logistics handling customs and DDP terms for over \u003cspan class='text-highlight'\u003e120\u003c/span\u003e countries.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/6549cfc8b21e04f750b46196ebeeded1.webp?w=1919\u0026h=1280\"\r\n    },\r\n    {\r\n      id: \"06\",\r\n      title: \"\u003cspan class='text-highlight'\u003e66,700㎡\u003c/span\u003e SMART BASE\",\r\n      desc: \"Our vertically integrated manufacturing base ensures consistency from knitting to finishing.\",\r\n      img: \"https://img-va.myshopline.com/image/store/1754638002373/707cbfc52785307fea858d3eb5a3d9d4.webp?w=2400\u0026h=1350\"\r\n    }\r\n  ];\r\n\r\n  document.addEventListener('DOMContentLoaded', function() {\r\n    const bgActive = document.getElementById('bg-active');\r\n    const bgBuffer = document.getElementById('bg-buffer');\r\n    const cardsContainer = document.getElementById('cards-container');\r\n    const titleEl = document.getElementById('slide-title');\r\n    const descEl = document.getElementById('slide-desc');\r\n    const textArea = document.querySelector('.immersive-text-area');\r\n\r\n    let currentIndex = 0;\r\n    let isAnimating = false;\r\n    let autoPlayInterval;\r\n\r\n    // 初始化\r\n    const firstSlide = slidesData[0];\r\n    titleEl.innerHTML = firstSlide.title;\r\n    descEl.innerHTML = firstSlide.desc;\r\n    bgActive.style.backgroundImage = `url('${firstSlide.img}')`;\r\n    textArea.style.opacity = '1'; \r\n\r\n    // 渲染卡片\r\n    slidesData.forEach((slide, index) =\u003e {\r\n      const card = document.createElement('div');\r\n      card.className = `nav-card ${index === 0 ? 'active' : ''}`;\r\n      \r\n      card.onclick = () =\u003e {\r\n        if (index !== currentIndex \u0026\u0026 !isAnimating) {\r\n           resetAutoPlay();\r\n           changeSlide(index);\r\n           if(window.innerWidth \u003c= 1024) {\r\n             card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });\r\n           }\r\n        }\r\n      };\r\n      \r\n      let tempDiv = document.createElement(\"div\");\r\n      tempDiv.innerHTML = slide.title;\r\n      let plainTitle = tempDiv.innerText.replace('+', ''); \r\n\r\n      card.innerHTML = `\r\n        \u003cdiv class=\"nav-card-bg\" style=\"background-image: url('${slide.img}')\"\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"nav-card-info\"\u003e\r\n          \u003cdiv class=\"nav-card-title\"\u003e${plainTitle}\u003c/div\u003e\r\n        \u003c/div\u003e\r\n      `;\r\n      cardsContainer.appendChild(card);\r\n    });\r\n\r\n    startAutoPlay();\r\n\r\n    function startAutoPlay() {\r\n      if (autoPlayInterval) clearInterval(autoPlayInterval);\r\n      autoPlayInterval = setInterval(() =\u003e {\r\n        let nextIndex = (currentIndex + 1) % slidesData.length;\r\n        changeSlide(nextIndex);\r\n        \r\n        if(window.innerWidth \u003c= 1024) {\r\n          const cards = document.querySelectorAll('.nav-card');\r\n          if(cards[nextIndex]) {\r\n            cards[nextIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });\r\n          }\r\n        }\r\n      }, 5000); \r\n    }\r\n\r\n    function resetAutoPlay() {\r\n      clearInterval(autoPlayInterval);\r\n      startAutoPlay();\r\n    }\r\n\r\n    function changeSlide(index) {\r\n      isAnimating = true;\r\n      const data = slidesData[index];\r\n      const cards = document.querySelectorAll('.nav-card');\r\n\r\n      cards.forEach(c =\u003e c.classList.remove('active'));\r\n      cards[index].classList.add('active');\r\n\r\n      bgBuffer.style.backgroundImage = `url('${data.img}')`;\r\n      bgBuffer.style.zIndex = \"2\";\r\n      bgActive.style.zIndex = \"1\";\r\n      bgBuffer.style.opacity = \"1\";\r\n\r\n      textArea.style.transition = 'opacity 0.3s ease, transform 0.3s ease';\r\n      textArea.style.opacity = '0';\r\n      textArea.style.transform = 'translateY(10px)';\r\n\r\n      setTimeout(() =\u003e {\r\n        titleEl.innerHTML = data.title;\r\n        descEl.innerHTML = data.desc;\r\n        \r\n        textArea.style.opacity = '1';\r\n        textArea.style.transform = 'translateY(0)';\r\n      }, 300);\r\n\r\n      setTimeout(() =\u003e {\r\n        bgActive.style.backgroundImage = `url('${data.img}')`;\r\n        bgActive.style.zIndex = \"2\";\r\n        bgBuffer.style.zIndex = \"1\";\r\n        bgBuffer.style.opacity = \"0\";\r\n        bgBuffer.style.transition = 'none';\r\n        setTimeout(() =\u003e { bgBuffer.style.transition = 'opacity 0.8s ease-in-out'; }, 50);\r\n\r\n        currentIndex = index;\r\n        isAnimating = false;\r\n      }, 800);\r\n    }\r\n  });\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "0px",
+            "padding-top": "0px"
+          },
+          "padding-bottom": "0px",
+          "padding-top": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1764913567052a4deb86": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 20,
+            "lock": false,
+            "right": 20,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 30,
+            "left": 40,
+            "lock": true,
+            "right": 40,
+            "top": 30
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 36,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "1764913567052666c968": {
+          "type": "$title",
+          "settings": {
+            "title": "Detailed product classification",
+            "title_tag_name": "h2"
+          },
+          "blocks": {}
+        },
+        "176491360082499b3fa4": {
+          "type": "$text",
+          "settings": {
+            "description": "Explore Our Craft, Define Your Collection"
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "1764913567052666c968",
+        "176491360082499b3fa4"
+      ],
+      "custom_css": [
+        ".advc-title {font-weight: 600 !important;}"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    }
+  },
+  "order": [
+    "1763954925888988458a",
+    "1764295577848ec38144",
+    "1764661535022af5aa4d",
+    "1764901399832561cd2d",
+    "1764827624903225e950",
+    "1764153088811737739e",
+    "1764913567052a4deb86",
+    "176484066569896567c8",
+    "1764575133550df8508e",
+    "1763696868021abcb338",
+    "176482988271608c4fd5",
+    "17625084523112d02d53",
+    "17637830570888c494df"
+  ]
+}

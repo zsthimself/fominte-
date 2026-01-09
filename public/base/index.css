@@ -1,0 +1,2668 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@media (max-width: 959px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+body {
+  width: 100%;
+  margin: 0;
+  font-family: var(--sort-body-font);
+  font-size: var(--body3-font-size);
+  font-style: var(--sort-body-style);
+  font-weight: var(--sort-body-weight);
+  line-height: var(--sort-body-line-height);
+  letter-spacing: var(--sort-body-letter-spacing);
+}
+body,
+html {
+  color: rgba(var(--color-text));
+  background-color: rgb(var(--color-page-background));
+}
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+dl {
+  margin-block: 0;
+}
+dd {
+  margin-inline-start: 0;
+}
+h1:empty,
+h2:empty,
+h3:empty,
+h4:empty,
+h5:empty,
+h6:empty,
+section:empty,
+article:empty,
+p:empty,
+a:empty,
+ol:empty,
+ul:empty,
+dl:empty,
+summary:empty {
+  display: none;
+}
+a:not([href]) {
+  cursor: not-allowed;
+}
+a:not(.button),
+a:not(.button):hover {
+  color: rgba(var(--color-button-text-link, --color-text), 1);
+  text-decoration: none;
+}
+svg.icon circle,
+svg.icon path {
+  vector-effect: non-scaling-stroke;
+}
+p:first-child {
+  margin-block-start: 0;
+}
+p:last-child {
+  margin-block-end: 0;
+}
+button {
+  color: inherit;
+}
+button:disabled {
+  opacity: 0.3;
+}
+summary {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+:root {
+  --z-index-hover: 1;
+  --z-index-active: 2;
+  --z-index-focus: 3;
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1010;
+  --z-index-fixed: 1020;
+  --z-index-modal: 1030;
+  --z-index-popover: 1040;
+  --z-index-tooltip: 1050;
+  --z-index-toast: 1060;
+}
+:root {
+  --page-padding: 30px;
+}
+@media (max-width: 959px) {
+  :root {
+    --page-padding: 20px;
+  }
+}
+.page-width {
+  width: 100%;
+  max-width: calc(var(--page-padding) * 2 + var(--page-width));
+  padding-inline: var(--page-padding);
+  margin-inline: auto;
+}
+.page-width.page-width--fluid {
+  max-width: 100%;
+}
+.page-width.page-width--thin {
+  max-width: 726px;
+}
+@media (max-width: 959px) {
+  .page-width {
+    max-width: 100%;
+    padding-inline: var(--page-padding);
+  }
+}
+.grid {
+  --column-gap: var(--grid-horizontal-spacing);
+  --row-gap: var(--grid-vertical-spacing);
+
+  display: grid;
+  grid-auto-columns: var(--column-width);
+  grid-auto-flow: column;
+  gap: var(--row-gap) var(--column-gap);
+  width: 100%;
+  overflow-x: auto;
+}
+@media (max-width: 959px) {
+  .grid {
+    --column-gap: calc(var(--grid-horizontal-spacing) / 2);
+    --row-gap: calc(var(--grid-vertical-spacing) / 2);
+    --column-width: calc(
+      (
+          100% - var(--column-gap, 0px) *
+            (var(--mobile-gap-columns, var(--mobile-columns)) - 1)
+        ) /
+        var(--mobile-columns)
+    );
+
+    grid-template-columns: repeat(var(--mobile-columns), var(--column-width));
+    grid-auto-flow: var(--mobile-auto-flow);
+  }
+}
+@media (min-width: 960px) {
+  .grid {
+    --column-width: calc(
+      (
+          100% - var(--column-gap, 0px) *
+            (var(--desktop-gap-columns, var(--desktop-columns)) - 1)
+        ) /
+        var(--desktop-columns)
+    );
+
+    grid-template-columns: repeat(var(--desktop-columns), var(--column-width));
+    grid-auto-flow: var(--desktop-auto-flow);
+  }
+}
+.button,
+.shopline-element-buy-now {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--button-border-thickness) + 9px)
+    calc(var(--button-border-thickness) + 18px);
+  font-family: var(--sort-body-font);
+  font-size: var(--body2-font-size);
+  font-weight: var(--body-bold-font-weight);
+  line-height: var(--sort-body-line-height);
+  color: rgb(var(--color-button-text));
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: var(--sort-body-letter-spacing);
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: rgb(var(--color-button-background));
+  border: none;
+  border-radius: var(--button-border-radius);
+  transition: opacity 150ms ease-in-out;
+
+  --border-opacity: calc(100% - var(--button-border-opacity));
+  --alpha-button-background: 1;
+}
+.button:not(.button--link, .button--icon),
+.shopline-element-buy-now {
+  white-space: nowrap;
+  box-shadow: var(--button-shadow-offset-x) var(--button-shadow-offset-y)
+    var(--button-shadow-blur)
+    rgba(var(--color-shadow), var(--button-shadow-opacity));
+}
+.button:not(.button--link, .button--icon)::after,
+.shopline-element-buy-now::after {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border-radius: var(--button-border-radius);
+  box-shadow:
+    0 0 0 var(--button-border-thickness, 1px)
+      rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 var(--button-border-thickness, 1px)
+      rgba(var(--color-button-background), var(--alpha-button-background));
+  transition: box-shadow var(--duration-short, 0.3s) ease;
+}
+.button:disabled,
+.button.disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+.button:not([disabled], .button--icon):hover,
+.shopline-element-buy-now:hover {
+  background-color: rgba(var(--color-button-background), 0.9);
+}
+.button:not([disabled], .button--icon):hover::after,
+.shopline-element-buy-now:hover::after {
+  box-shadow:
+    0 0 0 calc(var(--button-border-thickness) + 1px)
+      rgba(var(--color-button-text), var(--border-opacity)),
+    0 0 0 calc(var(--button-border-thickness) + 1px)
+      rgba(var(--color-button-background), var(--alpha-button-background));
+}
+.button:not([disabled], .button--icon)::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  content: "";
+}
+.button:not([disabled], .button--icon):active::after {
+  animation: animation-button-press linear 0.6s 1;
+  animation-fill-mode: forwards;
+}
+@keyframes animation-button-press {
+  0% {
+    background-color: rgba(var(--color-button-text), 0.08);
+    background-image: radial-gradient(
+      circle,
+      rgba(var(--color-button-text), 0.08) 1%,
+      transparent 1%
+    );
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-origin: padding-box;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: 50%;
+    background-size: 25000%;
+  }
+}
+.button--secondary {
+  --color-button-background: var(--color-button-secondary-background);
+  --color-button-text: var(--color-button-secondary-text);
+  --border-opacity: var(--button-border-opacity);
+}
+.button--secondary:not(.button--link)::after {
+  box-shadow: 0 0 0 var(--button-border-thickness, 1px)
+    rgba(var(--color-button-secondary-border), var(--button-border-opacity));
+}
+.button--secondary:not(.button--link):active::after {
+  box-shadow:
+    0 0 0 rgb(var(--color-button-secondary-border)),
+    inset var(--button-border-thickness, 1px) 0 0
+      rgba(var(--color-button-secondary-border), var(--button-border-opacity)),
+    inset 0 var(--button-border-thickness, 1px) 0
+      rgba(var(--color-button-secondary-border), var(--button-border-opacity));
+}
+.button--link {
+  --color-button-background: transparent;
+  --color-button-text: rgb(var(--color-text));
+
+  position: relative;
+  padding: 0 1px;
+  text-decoration: underline !important;
+  text-underline-offset: 6px;
+}
+.button__spinner {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin-block-start: -10px;
+  margin-inline-start: -10px;
+  color: rgb(var(--color-button-text));
+}
+.button.loading {
+  color: transparent;
+}
+.button.loading .button__spinner {
+  display: flex;
+  animation: animation-circling linear 1.5s infinite;
+}
+.button--fill {
+  width: 100%;
+}
+.button--icon {
+  position: relative;
+  display: inline-flex;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  transition: transform 300ms;
+}
+@media (min-width: 960px) {
+  .button--icon:hover,
+  .button--icon:focus {
+    transform: scale(1.11);
+  }
+}
+.button--icon::after {
+  display: none;
+}
+.button.button--icon:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+.loading--rotator {
+  display: none;
+}
+.loading .loading--rotator {
+  animation: animation-circling linear 1.5s infinite;
+}
+.loading > .loading--rotator {
+  display: inline-flex;
+}
+.button.loading .loading--rotator {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-block-start: -10px;
+  margin-inline-start: -10px;
+  color: rgb(var(--color-button-text));
+  content: "";
+}
+.field {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-block-end: 20px;
+  font-size: var(--body4-font-size);
+  line-height: var(--sort-body-line-height);
+  color: rgb(var(--color-text));
+  background-color: rgb(var(--color-background));
+  transition: all 300ms;
+}
+@media (max-width: 959px) {
+  .field {
+    margin-block-end: 16px;
+  }
+}
+.field::after {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  content: "";
+  border-color: rgba(var(--color-entry-line), var(--input-border-opacity));
+  border-style: solid;
+  border-width: var(--input-border-thickness);
+  border-radius: var(--input-border-radius);
+  box-shadow: var(--input-shadow-offset-x) var(--input-shadow-offset-y)
+    var(--input-shadow-blur)
+    rgba(var(--color-text), var(--input-shadow-opacity));
+  transition: border-color 300ms;
+}
+.field__inner {
+  position: relative;
+  flex: 1;
+}
+.field__group {
+  display: flex;
+  gap: 16px;
+}
+.field__label {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline: 16px 0;
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: var(--body4-font-size);
+  color: rgb(var(--color-light-text));
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  word-break: break-word;
+  pointer-events: none;
+  transition: transform 300ms ease;
+  transform: translateY(-50%);
+  transform-origin: left top;
+  -webkit-box-orient: vertical;
+}
+.field__input {
+  width: 100%;
+  padding: 20px 16px 6px;
+  font-size: var(--body4-font-size);
+  line-height: var(--sort-body-line-height);
+  color: rgb(var(--color-text));
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+}
+.field__input::placeholder {
+  opacity: 0;
+}
+.field__input::-webkit-search-cancel-button {
+  display: none;
+}
+.field__input:focus ~ .field__label,
+.field__input:not(:placeholder-shown) ~ .field__label,
+.field__input:-webkit-autofill ~ .field__label {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  word-break: normal;
+  white-space: nowrap;
+  transform: scale(0.7) translate(0, -120%);
+  -webkit-box-orient: vertical;
+}
+.field__input:-webkit-autofill,
+.field__input:-webkit-autofill:hover,
+.field__input:-webkit-autofill:focus,
+.field__input:-webkit-autofill:active {
+  box-shadow: 0 0 0 1000px rgb(var(--color-background)) inset !important;
+  -webkit-text-fill-color: rgb(var(--color-text));
+}
+.field__input.textarea {
+  min-height: 100px;
+  padding-block: 0;
+  padding-inline: 16px;
+  margin-block: 20px 6px;
+  resize: none;
+}
+.field__input.textarea + .field__label {
+  inset-block-start: 20px;
+}
+.field__suffix {
+  display: flex;
+  justify-content: center;
+  padding-block: 6px;
+  padding-inline-end: 10px;
+}
+.field__info {
+  display: flex;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.field__info > svg {
+  margin-inline-end: 4px;
+}
+.field__info--error {
+  margin-block: -10px 20px;
+  font-size: var(--body6-font-size);
+  color: rgb(var(--color-error-message));
+}
+.field__info--error:empty {
+  display: none;
+}
+@media (min-width: 960px) {
+  .field__info > svg {
+    margin-inline-end: 8px;
+  }
+}
+.field:hover::after {
+  border-color: rgba(var(--color-text), var(--input-border-opacity));
+  border-width: calc(var(--input-border-thickness) + 1px);
+}
+.field:focus::after,
+.field:focus-within::after {
+  border-color: rgba(var(--color-text), var(--input-border-opacity));
+  border-width: calc(var(--input-border-thickness) + 1px);
+}
+.field--disabled {
+  pointer-events: none;
+}
+.field--disabled::after {
+  background-color: rgb(0 0 0 / 10%);
+  border-color: rgb(0 0 0 / 10%);
+}
+.field--error::after {
+  border-color: rgba(var(--color-error-message), var(--input-border-opacity));
+  border-width: calc(var(--input-border-thickness) + 1px);
+}
+.field--normal .field__input {
+  padding: 13px 16px;
+}
+.field--normal .field__input::placeholder {
+  opacity: 1;
+}
+.field--normal .field__input ~ .field__label,
+.field--normal .field__input:focus ~ .field__label,
+.field--normal .field__input:not(:placeholder-shown) ~ .field__label,
+.field--normal .field__input:-webkit-autofill ~ .field__label {
+  display: none;
+}
+.field-checkbox {
+  position: relative;
+  inset-block-start: 0.2em;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-feature-settings: "tnum";
+  font-variant: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+}
+.field-checkbox input[type="checkbox"] {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  appearance: auto;
+  cursor: pointer;
+  opacity: 0;
+}
+.field-checkbox .checkbox {
+  position: relative;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-collapse: separate;
+  border: 1px solid rgb(var(--color-entry-line));
+  border-radius: 2px;
+  transition: all 0.3s;
+  direction: ltr;
+}
+.field-checkbox .checkbox::after {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 21.5%;
+  display: table;
+  width: 6px;
+  height: 8px;
+  content: " ";
+  border: 2px solid rgb(var(--color-button-text));
+  border-block-start: 0;
+  border-inline-start: 0;
+  opacity: 0;
+  transition:
+    all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6),
+    opacity 0.1s;
+  transform: rotate(45deg) scale(0) translate(-50%, -50%);
+}
+.field-checkbox input[type="checkbox"]:checked + .checkbox {
+  background-color: rgb(var(--color-button-background));
+  border-color: rgb(var(--color-button-background));
+}
+.field-checkbox input[type="checkbox"]:checked + .checkbox::after {
+  position: absolute;
+  display: table;
+  content: " ";
+  border: 2px solid rgb(var(--color-button-text));
+  border-block-start: 0;
+  border-inline-start: 0;
+  opacity: 1;
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+  transform: rotate(45deg) scale(1) translate(-50%, -50%);
+}
+.field select ~ .icon-arrow {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-end: 16px;
+  display: flex;
+  align-items: center;
+  margin-block: auto;
+  margin-inline: auto;
+  pointer-events: none;
+}
+.field-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+.field-switch-slider {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  background-color: rgba(var(--color-text), 0.1);
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.field-switch-slider::before {
+  position: absolute;
+  inset-block-end: 2px;
+  inset-inline-start: 2px;
+  width: 16px;
+  height: 16px;
+  content: "";
+  background-color: rgb(var(--color-page-background));
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.field-switch input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.field-switch input:checked + .field-switch-slider {
+  background-color: rgba(var(--color-text), 1);
+}
+.field-switch input:checked + .field-switch-slider::before {
+  transform: translateX(20px);
+}
+.field-radio {
+  position: relative;
+  margin-inline-end: 8px;
+}
+.field-radio-wrapper {
+  display: inline-flex;
+  align-items: center;
+  margin-inline-end: 20px;
+  cursor: pointer;
+}
+.field-radio-wrapper:last-child {
+  margin-inline-end: 0;
+}
+.field-radio .radio {
+  position: relative;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-collapse: separate;
+  background-color: rgb(var(--color-page-background));
+  border: 1px solid rgb(var(--color-entry-line));
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.field-radio .radio::after {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  width: 16px;
+  height: 16px;
+  margin-block-start: -8px;
+  margin-inline-start: -8px;
+  content: "";
+  background-color: rgb(var(--color-button-background));
+  border-radius: 16px;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+  transform: scale(0);
+}
+.field-radio > input {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  opacity: 0;
+}
+.field-radio > input:checked + .radio {
+  border-color: rgb(var(--color-button-background));
+}
+.field-radio > input:checked + .radio::after {
+  opacity: 1;
+  transform: scale(0.5);
+}
+.form__error-message {
+  margin-block: -10px 20px;
+  font-size: var(--body6-font-size);
+  color: rgb(var(--color-error-message));
+}
+.form__error-message:empty {
+  display: none;
+}
+@media (max-width: 959px) {
+  .form__error-message {
+    margin-block: -8px 16px;
+  }
+}
+@keyframes animation-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animation-fade-in-center {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes animation-zoom-in {
+  0% {
+    opacity: 0;
+    transform: scaleY(0.8);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+@keyframes animation-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes animation-slide-in-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes animation-slide-in-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes animation-slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes animation-slide-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes animation-circling {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+:root {
+  --title0-font-size: calc(var(--sort-title-size) * 3.3333);
+  --title1-font-size: calc(var(--sort-title-size) * 2.3333);
+  --title2-font-size: calc(var(--sort-title-size) * 1.6667);
+  --title3-font-size: calc(var(--sort-title-size) * 1.2);
+  --title4-font-size: calc(var(--sort-title-size) * 1);
+  --title5-font-size: calc(var(--sort-title-size) * 0.8333);
+  --title6-font-size: calc(var(--sort-title-size) * 0.6667);
+  --body1-font-size: calc(var(--sort-body-size) * 1.5714);
+  --body2-font-size: calc(var(--sort-body-size) * 1.2857);
+  --body3-font-size: calc(var(--sort-body-size) * 1.1429);
+  --body4-font-size: calc(var(--sort-body-size) * 1);
+  --body5-font-size: calc(var(--sort-body-size) * 0.9286);
+  --body6-font-size: calc(var(--sort-body-size) * 0.8571);
+}
+@media (max-width: 959px) {
+  :root {
+    --title1-font-size: calc(var(--sort-title-size) * 1);
+    --title2-font-size: calc(var(--sort-title-size) * 0.8333);
+    --title3-font-size: calc(var(--sort-title-size) * 0.7333);
+    --title4-font-size: calc(var(--sort-title-size) * 0.6667);
+    --title5-font-size: calc(var(--sort-title-size) * 0.6);
+    --title6-font-size: calc(var(--sort-title-size) * 0.6);
+    --body1-font-size: calc(var(--sort-body-size) * 1.1429);
+    --body2-font-size: calc(var(--sort-body-size) * 1.0714);
+    --body3-font-size: calc(var(--sort-body-size) * 1);
+    --body4-font-size: calc(var(--sort-body-size) * 0.9286);
+    --body5-font-size: calc(var(--sort-body-size) * 0.8571);
+    --body6-font-size: calc(var(--sort-body-size) * 0.8571);
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title0,
+.title1,
+.title2,
+.title3,
+.title4,
+.title5,
+.title6 {
+  margin-block: 0;
+  font-family: var(--sort-title-font);
+  font-style: var(--sort-title-font-style);
+  font-weight: var(--sort-title-font-weight, 700);
+  line-height: var(--sort-title-line-height);
+  text-transform: var(--sort-title-text-transform);
+  letter-spacing: var(--sort-title-letter-spacing);
+  word-break: break-word;
+}
+.title0 {
+  font-size: var(--title0-font-size);
+}
+h1,
+.title1 {
+  font-size: var(--title1-font-size);
+}
+h2,
+.title2 {
+  font-size: var(--title2-font-size);
+}
+h3,
+.title3 {
+  font-size: var(--title3-font-size);
+}
+h4,
+.title4 {
+  font-size: var(--title4-font-size);
+}
+h5,
+.title5 {
+  font-size: var(--title5-font-size);
+}
+h6,
+.title6 {
+  font-size: var(--title6-font-size);
+}
+.body1,
+.body2,
+.body3,
+.body4,
+.body5,
+.body6,
+.body-font {
+  font-family: var(--sort-body-font);
+  font-weight: var(--sort-body-weight, 400);
+  line-height: var(--sort-body-line-height);
+  letter-spacing: var(--sort-body-letter-spacing);
+  word-break: break-word;
+}
+.body1 {
+  font-size: var(--body1-font-size);
+}
+.body2 {
+  font-size: var(--body2-font-size);
+}
+.body3 {
+  font-size: var(--body3-font-size);
+}
+.body4 {
+  font-size: var(--body4-font-size);
+}
+.body5 {
+  font-size: var(--body5-font-size);
+}
+.body6 {
+  font-size: var(--body6-font-size);
+}
+.title-font-bold {
+  font-weight: var(--sort-title-font-weight) !important;
+}
+.body-font-bold {
+  font-weight: var(--sort-body-weight-bold) !important;
+}
+.text-left {
+  text-align: start;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: end;
+}
+.hidden {
+  display: none !important;
+}
+@media (max-width: 959px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}
+@media (min-width: 960px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+.hidden-empty:empty {
+  display: none;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+.block-full-width {
+  display: block;
+  width: 100%;
+}
+.tag-unstyled {
+  padding: 0;
+  margin: 0;
+}
+.list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.font-bold {
+  font-weight: bold;
+}
+.hover-scale .hover-scale__image {
+  transition: all 0.5s;
+}
+.hover-scale:hover .hover-scale__image {
+  transform: scale(1.05);
+}
+.modal-border-shadow {
+  box-sizing: border-box;
+  border-color: rgba(var(--color-text), var(--modal-border-opacity));
+  border-style: solid;
+  border-width: var(--modal-border-thickness);
+  border-radius: var(--modal-border-radius);
+  box-shadow: var(--modal-shadow-offset-x) var(--modal-shadow-offset-y)
+    var(--modal-shadow-blur)
+    rgba(var(--color-shadow), var(--modal-shadow-opacity));
+}
+.drawer-border-shadow {
+  box-sizing: border-box;
+  filter: drop-shadow(
+    var(--drawer-shadow-offset-x) var(--drawer-shadow-offset-y)
+      var(--drawer-shadow-blur)
+      rgba(var(--color-shadow), var(--drawer-shadow-opacity))
+  );
+  border-color: rgba(var(--color-text), var(--drawer-border-opacity));
+  border-style: solid;
+  border-width: 0 var(--drawer-border-thickness) 0 0;
+}
+.product-card-border-shadow {
+  box-sizing: border-box;
+  overflow: hidden;
+  border-color: rgba(var(--color-text), var(--product-card-border-opacity));
+  border-style: solid;
+  border-width: var(--product-card-border-thickness) !important;
+  border-radius: var(--product-card-border-radius);
+  box-shadow: var(--product-card-shadow-offset-x)
+    var(--product-card-shadow-offset-y) var(--product-card-shadow-blur)
+    rgba(var(--color-shadow), var(--product-card-shadow-opacity));
+}
+.collection-card-border-shadow {
+  box-sizing: border-box;
+  overflow: hidden;
+  border-color: rgba(var(--color-text), var(--collection-card-border-opacity));
+  border-style: solid;
+  border-width: var(--collection-card-border-thickness) !important;
+  border-radius: var(--collection-card-border-radius);
+  box-shadow: var(--collection-card-shadow-offset-x)
+    var(--collection-card-shadow-offset-y) var(--collection-card-shadow-blur)
+    rgba(var(--color-shadow), var(--collection-card-shadow-opacity));
+}
+.article-card-border-shadow {
+  box-sizing: border-box;
+  overflow: hidden;
+  border-color: rgba(var(--color-text), var(--article-card-border-opacity));
+  border-style: solid;
+  border-width: var(--article-card-border-thickness) !important;
+  border-radius: var(--article-card-border-radius);
+  box-shadow: var(--article-card-shadow-offset-x)
+    var(--article-card-shadow-offset-y) var(--article-card-shadow-blur)
+    rgba(var(--color-shadow), var(--article-card-shadow-opacity));
+}
+.pointer-events {
+  pointer-events: none;
+}
+.rte::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.rte ul,
+.rte ol {
+  padding: revert;
+  margin: revert;
+  list-style: revert;
+}
+.rte > p:first-child {
+  margin-block-start: 0;
+}
+.rte > p:last-child {
+  margin-block-end: 0;
+}
+.rte a,
+.rte a:hover {
+  position: relative;
+  padding: 0 1px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+}
+.rte img,
+.rte video {
+  max-width: 100%;
+  height: auto;
+}
+.rte iframe {
+  max-width: 100%;
+}
+.rte p img {
+  vertical-align: bottom;
+}
+.rte table {
+  table-layout: fixed;
+}
+.icon--checkbox {
+  cursor: pointer;
+}
+.icon--checkbox .filled {
+  opacity: 0;
+  fill: rgba(var(--color-text, 61, 56, 25), 1);
+  stroke: rgba(var(--color-text, 61, 56, 25), 1);
+  transition: opacity 0.1s ease;
+}
+.icon--checkbox .checkmark {
+  stroke: rgba(var(--color-button-text, 255, 255, 255), 1);
+  transition: stroke-dashoffset 0.3s ease;
+}
+input:checked ~ .icon--checkbox .filled {
+  opacity: 1;
+}
+input:checked ~ .icon--checkbox .box {
+  stroke: rgba(var(--color-entry-line, 232, 232, 225), 1);
+}
+input:checked ~ .icon--checkbox .checkmark {
+  stroke-dashoffset: 0;
+}
+@layer component {
+  theme-input-number {
+    position: relative;
+    display: inline-flex;
+    width: calc(
+      3 * var(--sort-body-size) + var(--input-border-thickness) * 2 + 30px * 2
+    );
+    color: rgba(var(--color-text));
+    background: rgb(var(--color-background));
+    border-radius: var(--input-border-radius-outset);
+  }
+
+  theme-input-number::before {
+    position: absolute;
+    inset: 0;
+    z-index: var(--z-index-hover);
+    pointer-events: none;
+    content: "";
+    border-radius: var(--input-border-radius-outset);
+    box-shadow: var(--input-shadow-offset-x) var(--input-shadow-offset-y)
+      var(--input-shadow-blur)
+      rgba(var(--color-text), var(--input-shadow-opacity));
+  }
+
+  theme-input-number::after {
+    position: absolute;
+    inset: var(--input-border-thickness);
+    z-index: var(--z-index-hover);
+    pointer-events: none;
+    content: "";
+    border-radius: var(--input-border-radius);
+    box-shadow: 0 0 0 var(--input-border-thickness)
+      rgba(var(--color-text), var(--input-border-opacity));
+    transition: box-shadow 0.2s;
+  }
+  theme-input-number:hover::after {
+    box-shadow: 0 0 0 calc(var(--input-border-thickness) + 1px)
+      rgba(var(--color-text), var(--input-border-opacity));
+  }
+
+  theme-input-number button[name="minus"],
+  theme-input-number button[name="plus"] {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    width: 28px;
+    padding: 0;
+    color: rgb(var(--color-text));
+    background: transparent;
+    border: 0;
+  }
+
+  theme-input-number button[name="minus"]:disabled,
+  theme-input-number button[name="plus"]:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.3;
+  }
+
+  theme-input-number button[name="minus"] .icon,
+  theme-input-number button[name="plus"] .icon {
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+  }
+
+  theme-input-number input[type="number"] {
+    flex: 1 0 0;
+    width: 100%;
+    padding: 0.6em 0;
+    color: currentcolor;
+    text-align: center;
+    appearance: textfield;
+    background: transparent;
+    border: 0;
+    outline-style: none;
+  }
+
+  theme-input-number input[type="number"]::-webkit-outer-spin-button,
+  theme-input-number input[type="number"]::-webkit-inner-spin-button {
+    margin: 0;
+    appearance: none;
+  }
+}
+.country-select {
+  position: relative;
+  display: flex;
+  padding-inline-start: 8px;
+}
+.country-select__dropdown {
+  position: absolute;
+  inset: 0;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  opacity: 0;
+}
+.country-select__trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-inline-start: 16px;
+}
+.country-select__trigger span {
+  padding-inline-end: 4px;
+  color: rgb(var(--color-text));
+}
+.country-select__trigger::before {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  height: 100%;
+  content: " ";
+  border-inline-start: 1px solid rgb(var(--color-entry-line));
+}
+@layer component {
+  theme-show-more:empty {
+    display: none;
+  }
+  theme-show-more:not([open]) [data-more="true"],
+  theme-show-more:not([open]) .view-less {
+    display: none !important;
+  }
+  theme-show-more[open] .view-more {
+    display: none !important;
+  }
+}
+
+/* ===== FAQ Section Start (Layout Updated) ===== */
+
+/* FAQ 整体容器布局 - 全宽优化版 */
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    /* 左右两栏的间距 */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    width: 100%;
+    max-width: none;
+    margin: 60px 0;
+    /* 增加模块外边距 */
+    padding: 60px 8%;
+    /* 增加内边距 */
+    background-color: #fcfaf5;
+    border-radius: 12px;
+    /* 增加圆角 */
+    box-sizing: border-box;
+}
+
+/* 左侧主题导航 (新布局) */
+.faq-topics {
+    flex: 1;
+    /* 左栏占据 1/4 空间 */
+    min-width: 200px;
+}
+
+.faq-topics h3 {
+    font-size: 28px;
+    /* 增加标题字号 */
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* 新的左侧主题导航网格布局 */
+.topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 每行2个格子 */
+    gap: 15px;
+}
+
+/* 每个格子的样式 (无图标优化) */
+.topic-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    /* 改为垂直flex布局，实现居中对齐 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
+    /* 确保格子有足够的高度 */
+}
+
+.topic-item img {
+    height: 40px;
+    /* 控制图标高度 */
+    margin-bottom: 10px;
+    /* 图标和文字的间距 */
+}
+
+/* 鼠标悬停和激活时的动效 */
+.topic-item:hover {
+    border-color: #000;
+}
+
+.topic-item.active {
+    border-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.topic-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    /* 可以根据需要调整字号 */
+    font-weight: 500;
+}
+
+/* 右侧问题区域 (新布局) */
+.faq-questions {
+    flex: 3;
+    /* 右栏占据 3/4 空间 */
+    min-width: 300px;
+    border-left: 1px solid #e0e0e0;
+    /* 在左侧添加一条分割线 */
+    padding-left: 60px;
+    /* 增加左内边距 */
+}
+
+.faq-category h2 {
+    font-size: 32px;
+    /* 增加标题字号 */
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+    /* 增加内容格的高度 */
+}
+
+.faq-question {
+    padding: 20px;
+    /* 增加问题的高度 */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    /* 增加字号 */
+    font-weight: 600;
+    color: #333;
+}
+
+.faq-arrow {
+    font-size: 24px;
+    /* 增加箭头大小 */
+    color: #888;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active .faq-arrow {
+    transform: rotate(90deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+    padding: 0 20px;
+    /* 增加答案的内边距 */
+    color: #555;
+    line-height: 1.7;
+    font-size: 16px;
+    /* 增加字号 */
+}
+
+.faq-answer.active {
+    max-height: 500px;
+    padding: 20px 0 40px;
+    /* 增加答案的高度 */
+}
+
+/* 移动端适配 (新布局) */
+@media (max-width: 768px) {
+    .faq-container {
+        flex-direction: column;
+        /* 主题在上方，问题在下方 */
+        gap: 30px;
+        padding: 40px 5%;
+    }
+
+    .topic-grid {
+        display: flex;
+        /* 在移动端使用flex布局横向滚动 */
+        overflow-x: auto;
+        padding-bottom: 10px;
+    }
+
+    .topic-item {
+        white-space: nowrap;
+        /* 防止文字换行 */
+    }
+
+    .faq-questions {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+/* ===== FAQ Section End ===== */
+/* ===== COMPLETE TIMELINE STYLES ===== */
+
+.custom-timeline-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.timeline-headline {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Style for the timeline description paragraph */
+.timeline-description {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    color: #555;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* Main timeline container */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Center vertical line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #e0e0e0;
+}
+
+/* Each timeline item */
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+/* Staggered layout */
+.timeline-item-left {
+    left: 0;
+}
+
+.timeline-item-right {
+    left: 50%;
+}
+
+/* Center dot */
+.timeline-dot {
+    content: '';
+    position: absolute;
+    top: 25px;
+    width: 14px;
+    height: 14px;
+    background-color: #f08080;
+    /* Dot color */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-item-left .timeline-dot {
+    right: -7px;
+}
+
+.timeline-item-right .timeline-dot {
+    left: -7px;
+}
+
+/* Content card */
+.timeline-content {
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+/* Date/Stage title style */
+.timeline-date {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.timeline-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .timeline::before {
+        left: 15px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 15px;
+    }
+
+    .timeline-item-left,
+    .timeline-item-right {
+        left: 0;
+    }
+
+    .timeline-dot {
+        left: 8px;
+    }
+
+    .timeline-item-left .timeline-dot,
+    .timeline-item-right .timeline-dot {
+        right: auto;
+        left: 8px;
+    }
+
+    .timeline-headline {
+        font-size: 2rem;
+    }
+}
+
+/* ===== TIMELINE STYLES END ===== */
+/* ===== APPLICATION SECTION STYLES ===== */
+.application-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* 左侧内容区 */
+.app-content-area {
+    flex: 2;
+    min-width: 300px;
+    /* --- 修改开始 --- */
+    /* 移除原来的右内边距 */
+    /* padding-right: 40px; */
+
+    /* 增加左内边距和左边框，与左侧图标区隔开 */
+    padding-left: 40px;
+    border-left: 1px solid #eee;
+    /* --- 修改结束 --- */
+}
+
+.app-content-block h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.app-content-block .app-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* 手风琴样式 */
+.accordion-item {
+    border-bottom: 1px solid #eee;
+}
+
+.accordion-header {
+    padding: 22px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.accordion-arrow {
+    font-size: 1.5rem;
+    color: #888;
+    transition: transform 0.3s ease;
+}
+
+.accordion-header.active .accordion-arrow {
+    transform: rotate(90deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.3s ease-out, margin 0.3s ease-out;
+    padding: 0 15px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.accordion-content.active {
+    max-height: 500px;
+    /* Or a larger value if needed */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* 右侧主题导航区 */
+.app-topics-area {
+    flex: 1;
+    min-width: 280px;
+    /* --- 修改开始 --- */
+    /* 移除原来的左边框和左内边距 */
+    /* border-left: 1px solid #eee; */
+    /* padding-left: 40px; */
+    /* --- 修改结束 --- */
+}
+
+.app-topics-area h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.app-topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.app-topic-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-topic-item:hover,
+.app-topic-item.active {
+    border-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.app-topic-item img {
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.app-topic-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* 响应式布局 */
+@media (max-width: 992px) {
+    .application-container {
+        flex-direction: column;
+    }
+
+    .app-topics-area {
+        order: -1;
+        /* 将主题导航移到最上面 */
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .app-content-area {
+        padding-right: 0;
+    }
+}
+
+/* ===== APPLICATION SECTION END ===== */
+/* ======================================== */
+/* == CSS for Core Capabilities Module == */
+/* ======================================== */
+
+/* 新模块的主容器 */
+.capabilities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* 左右两栏的间距 */
+    max-width: 1200px;
+    margin: 50px auto;
+    /* 上下边距50px，并水平居中 */
+    padding: 20px;
+}
+
+/* 左侧主题导航区 */
+.cap-topics-area {
+    flex: 1;
+    /* 占据1份空间 */
+    min-width: 280px;
+}
+
+.cap-topics-area h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cap-topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 每行2个图标 */
+    gap: 15px;
+}
+
+.cap-topic-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px 10px;
+    /* 调整内边距，让内容更舒适 */
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    /* --- 新增样式，实现内部垂直居中 --- */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    /* 给一个最小高度，让格子更均匀 */
+}
+
+.cap-topic-item:hover,
+.cap-topic-item.active {
+    border-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cap-topic-item img {
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.cap-topic-item p {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+/* 右侧内容区 */
+.cap-content-area {
+    flex: 2;
+    /* 占据2份空间，比左侧更宽 */
+    min-width: 300px;
+    padding-left: 40px;
+    /* 与左侧的内边距 */
+    border-left: 1px solid #eee;
+    /* 左侧分割线 */
+}
+
+.cap-content-block h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cap-content-block .cap-description {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* 新增：用于调整手风琴链接的字体大小 */
+.cap-content-area .accordion-header {
+    /* 注意: .accordion-link 是示例, 请确保class名与您的HTML匹配 */
+    font-size: 1rem;
+    /* <-- 在这里调整字体大小 */
+}
+/* ============================================= */
+/* == 调整手风琴展开内容中 P 标签的字体大小 == */
+/* ============================================= */
+.cap-content-area .accordion-content p {
+    font-size: 0.8rem;
+    /* <-- 在这里调整为您想要的字体大小 */
+}
+
+/* 响应式布局：在小屏幕上堆叠 */
+@media (max-width: 992px) {
+    .capabilities-container {
+        flex-direction: column;
+    }
+
+    .cap-topics-area {
+        order: -1;
+        /* 在小屏幕上，图标导航区显示在最上面 */
+    }
+
+    .cap-content-area {
+        border-left: none;
+        padding-left: 0;
+    }
+}
+
+/* ================================================= */
+/* == CSS for Crochet Hub (Optimized Layout)      == */
+/* ================================================= */
+
+/* --- Main Layout --- */
+/* 容器不再有背景色和内边距，变成一个透明的布局工具 */
+.crochet-hub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    /* 加大左右两栏的间距 */
+    max-width: 1200px;
+    /* 限制最大宽度，与您网站主内容区保持一致 */
+    margin: 50px auto;
+    /* 页面中的垂直边距 */
+    /* 移除了 background-color, padding, border-radius */
+}
+
+.topics-area {
+    flex: 1;
+    min-width: 250px;
+    /* 可以适当调整左侧宽度 */
+}
+
+.content-area {
+    flex: 2.5;
+    /* 增加右侧区域的宽度占比，让内容区更舒展 */
+    min-width: 300px;
+    /* 移除了 border-left, 因为不再需要分割线 */
+}
+
+/* --- Left Column: Topics --- */
+.topics-area h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* --- Left Column: Topics (Optimized Style) --- */
+.topic-item {
+    border: 1px solid transparent;
+    /* 默认状态下边框设为透明 */
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    /* 将背景色从 #fff 修改为 transparent */
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
+}
+
+.topic-item:hover {
+    border-color: #e0e0e0;
+    /* 鼠标悬停时显示一个柔和的边框 */
+}
+
+.topic-item.active {
+    border-color: #000;
+    /* 激活时显示黑色边框 */
+    background-color: transparent;
+    /* 确保激活时背景依然是透明的 */
+    box-shadow: none;
+    /* 去掉之前的阴影，让风格更简约 */
+}
+
+.topic-item img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.topic-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* --- Right Column: Content & Accordion --- */
+/* (这部分样式保持不变) */
+.content-block h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content-block>p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #eee;
+}
+
+.accordion-header {
+    padding: 22px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* ... 其他手风琴样式 ... */
+
+/* --- 二级图标网格样式 (补充) --- */
+.sub-topic-icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    /* 自动填充，更灵活 */
+    gap: 20px;
+}
+
+.sub-topic-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
+}
+
+.sub-topic-item:hover,
+.sub-topic-item.active {
+    border-color: #000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sub-topic-item img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.sub-topic-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.my-back-button {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.my-back-button:hover {
+    background-color: #e9e9e9;
+    border-color: #bbbbbb;
+}
+
+/* --- 返回按钮 (Go Back Button) 新的定位和样式 --- */
+.go-back-button {
+    /* 改变定位方式：relative 或 absolute，取决于父容器 */
+    /* 先尝试 relative，如果位置不对，再尝试 absolute */
+    position: relative;
+    top: 0;
+    /* 根据需要调整上下位置 */
+    left: 0;
+    /* 根据需要调整左右位置 */
+
+    z-index: 1000;
+    /* 确保在最顶层 */
+
+    width: 40px;
+    /* 适当调整宽度 */
+    height: 40px;
+    /* 适当调整高度 */
+    border-radius: 50%;
+    /* 保持圆形 */
+
+    background-color: transparent;
+    /* 背景透明 */
+    border: none;
+    /* 无边框 */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.3s ease;
+}
+
+/* 按钮内部的SVG箭头图标的样式 */
+.go-back-button svg {
+    width: 20px;
+    /* 箭头稍小一点，更精致 */
+    height: 20px;
+    /* 箭头稍小一点 */
+    stroke: #000000;
+    /* 箭头颜色 */
+}
+
+/* 鼠标悬停在按钮上时的样式 */
+.go-back-button:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    /* 悬停时淡淡的背景 */
+}
+
+/* 同时在首页 (index) 和购物车页 (cart) 隐藏按钮 */
+body[data-page-type="index"] .go-back-button,
+body[data-page-type="cart"] .go-back-button {
+    display: none !important;
+}
+
+
+/* ========================================================= */
+/* == CSS for Faux Fur Hub (Final Transparent Style)      == */
+/* ========================================================= */
+
+/* --- Main Layout (透明背景) --- */
+.faux-fur-hub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.faux-fur-hub-container .topics-area {
+    flex: 1;
+    min-width: 280px;
+}
+
+.faux-fur-hub-container .content-area {
+    flex: 2.5;
+    min-width: 300px;
+}
+
+/* --- Left Column: Topics (图标区域透明化) --- */
+.faux-fur-hub-container .topics-area h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.faux-fur-hub-container .topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* --- 这是核心修改部分 --- */
+.faux-fur-hub-container .topic-item {
+    border: 1px solid transparent;
+    /* 1. 默认状态下边框设为透明 */
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    /* 2. 核心改动：将背景色改为透明 */
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
+}
+
+.faux-fur-hub-container .topic-item:hover {
+    border-color: #e0e0e0;
+    /* 3. 鼠标悬停时显示一个柔和的边框 */
+}
+
+.faux-fur-hub-container .topic-item.active {
+    border-color: #000;
+    /* 4. 激活时显示黑色边框 */
+    background-color: transparent;
+    /* 确保激活时背景依然是透明的 */
+    box-shadow: none;
+    /* 移除阴影，让风格更简约 */
+}
+
+.faux-fur-hub-container .topic-item img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.faux-fur-hub-container .topic-item p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* --- Right Column: Content & Accordion (样式保持不变) --- */
+.faux-fur-hub-container .content-block h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.faux-fur-hub-container .content-block>p {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.faux-fur-hub-container .accordion-content {
+    font-size: 0.85rem;
+}
+.faux-fur-hub-container .accordion-header {
+    font-size: 0.95rem;
+}
+
+
+
+/* ========================================================= */
+/* == CSS for bead-embroidery-hub-container (Final Transparent Style)      == */
+/* ========================================================= */
+
+/* --- Main Layout (透明背景) --- */
+.bead-embroidery-hub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.bead-embroidery-hub-container .topics-area {
+    flex: 1;
+    min-width: 280px;
+}
+
+.bead-embroidery-hub-container .content-area {
+    flex: 2.5;
+    min-width: 300px;
+}
+
+/* --- Left Column: Topics (图标区域透明化) --- */
+.bead-embroidery-hub-container .topics-area h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.bead-embroidery-hub-container .topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* --- 这是核心修改部分 --- */
+.bead-embroidery-hub-container .topic-item {
+    border: 1px solid transparent;
+    /* 1. 默认状态下边框设为透明 */
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    /* 2. 核心改动：将背景色改为透明 */
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
+}
+
+.bead-embroidery-hub-container .topic-item:hover {
+    border-color: #e0e0e0;
+    /* 3. 鼠标悬停时显示一个柔和的边框 */
+}
+
+.bead-embroidery-hub-container .topic-item.active {
+    border-color: #000;
+    /* 4. 激活时显示黑色边框 */
+    background-color: transparent;
+    /* 确保激活时背景依然是透明的 */
+    box-shadow: none;
+    /* 移除阴影，让风格更简约 */
+}
+
+.bead-embroidery-hub-container .topic-item img {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.bead-embroidery-hub-container .topic-item p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* --- Right Column: Content & Accordion (样式保持不变) --- */
+.bead-embroidery-hub-container .content-block h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.bead-embroidery-hub-container .content-block>p {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* 缩小“珠绣信息中心”模块内手风琴内容的字体 */
+.bead-embroidery-hub-container .accordion-content {
+    font-size: 0.85rem;
+    /* 您可以根据需要调整这个数值，例如 0.85rem 或 14px */
+}
+/* 缩小“珠绣信息中心”模块内手风琴标题的字体 */
+.bead-embroidery-hub-container .accordion-header {
+    font-size: 0.95rem;
+    /* 您可以根据需要调整这个数值，例如 0.95rem */
+}
+/* ========================================================= */
+/* == CSS ADDITIONS for Accordion with Images             == */
+/* ========================================================= */
+
+/* --- Enhanced Accordion Content Layout --- */
+.bead-embroidery-hub-container .accordion-content {
+    /* Use Flexbox for side-by-side layout */
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to stack on smaller screens */
+    gap: 25px;
+    align-items: center;
+    /* Vertically aligns text with the image */
+
+    /* Font size from your existing code */
+    font-size: 0.85rem;
+
+    /* Smooth transition for paddings */
+    transition: all 0.4s ease;
+}
+
+/* --- New container for the image --- */
+.bead-embroidery-hub-container .accordion-media {
+    flex: 1;
+    /* Allows the image to take up available space */
+    min-width: 180px;
+    /* Ensures the image doesn't get too small */
+}
+
+.bead-embroidery-hub-container .accordion-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    /* Softens the corners of the image */
+}
+
+/* --- New container for the text beside the image --- */
+.bead-embroidery-hub-container .accordion-text {
+    flex: 1.5;
+    /* Gives the text a bit more space than the image */
+    min-width: 250px;
+}
+
+/* --- Ensure accordion content without images still looks good --- */
+/* This targets content that only has text inside */
+.bead-embroidery-hub-container .accordion-content p:only-child {
+    width: 100%;
+    /* Allows text-only content to span the full width */
+}
+
+
+
+/* ========================================================= */
+/* == CSS for sherpa-fleece-hub-container (Final Transparent Style)      == */
+/* ========================================================= */
+
+/* --- Main Layout (透明背景) --- */
+.sherpa-fleece-hub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.sherpa-fleece-hub-container .topics-area {
+    flex: 1;
+    min-width: 280px;
+}
+
+.sherpa-fleece-hub-container .content-area {
+    flex: 2.5;
+    min-width: 300px;
+}
+
+/* --- Left Column: Topics (图标区域透明化) --- */
+.sherpa-fleece-hub-container .topics-area h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sherpa-fleece-hub-container .topic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* --- 这是核心修改部分 --- */
+.sherpa-fleece-hub-container .topic-item {
+    border: 1px solid transparent;
+    /* 1. 默认状态下边框设为透明 */
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    /* 2. 核心改动：将背景色改为透明 */
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 120px;
+}
+
+.sherpa-fleece-hub-container .topic-item:hover {
+    border-color: #e0e0e0;
+    /* 3. 鼠标悬停时显示一个柔和的边框 */
+}
+
+.sherpa-fleece-hub-container .topic-item.active {
+    border-color: #000;
+    /* 4. 激活时显示黑色边框 */
+    background-color: transparent;
+    /* 确保激活时背景依然是透明的 */
+    box-shadow: none;
+    /* 移除阴影，让风格更简约 */
+}
+
+.sherpa-fleece-hub-container .topic-item img {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.sherpa-fleece-hub-container .topic-item p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* --- Right Column: Content & Accordion (样式保持不变) --- */
+.sherpa-fleece-hub-container .content-block h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.sherpa-fleece-hub-container .content-block>p {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* 缩小“珠绣信息中心”模块内手风琴内容的字体 */
+.sherpa-fleece-hub-container .accordion-content {
+    font-size: 0.85rem;
+    /* 您可以根据需要调整这个数值，例如 0.85rem 或 14px */
+}
+
+/* 缩小“珠绣信息中心”模块内手风琴标题的字体 */
+.sherpa-fleece-hub-container .accordion-header {
+    font-size: 0.95rem;
+    /* 您可以根据需要调整这个数值，例如 0.95rem */
+}
+
+
+
+
+/* ========================================================= */
+/* == CSS for ALL Horizontal Hub Containers (Unified)     == */
+/* ========================================================= */
+
+/* --- Main Layout (Applied to all 5 sections) --- */
+.fashion-hub-container-horizontal,
+.sherpa-fleece-hub-container-horizontal,
+.bead-embroidery-hub-container-horizontal,
+.faux-fur-hub-container-horizontal,
+.crochet-hub-container-horizontal {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* --- Main Title (Left-aligned for all sections) --- */
+.fashion-hub-container-horizontal .hub-main-title,
+.sherpa-fleece-hub-container-horizontal .hub-main-title,
+.bead-embroidery-hub-container-horizontal .hub-main-title,
+.faux-fur-hub-container-horizontal .hub-main-title,
+.crochet-hub-container-horizontal .hub-main-title {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* --- Top Row: Topics Area (Full width for all) --- */
+.fashion-hub-container-horizontal .topics-area-horizontal,
+.sherpa-fleece-hub-container-horizontal .topics-area-horizontal,
+.bead-embroidery-hub-container-horizontal .topics-area-horizontal,
+.faux-fur-hub-container-horizontal .topics-area-horizontal,
+.crochet-hub-container-horizontal .topics-area-horizontal {
+    width: 100%;
+}
+
+/* --- Top Row: Topic Grid (6 columns for all) --- */
+.fashion-hub-container-horizontal .topic-grid-horizontal,
+.sherpa-fleece-hub-container-horizontal .topic-grid-horizontal,
+.bead-embroidery-hub-container-horizontal .topic-grid-horizontal,
+.faux-fur-hub-container-horizontal .topic-grid-horizontal,
+.crochet-hub-container-horizontal .topic-grid-horizontal {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+/* --- Topic Item Styling (Unified for all) --- */
+.fashion-hub-container-horizontal .topic-item,
+.sherpa-fleece-hub-container-horizontal .topic-item,
+.bead-embroidery-hub-container-horizontal .topic-item,
+.faux-fur-hub-container-horizontal .topic-item,
+.crochet-hub-container-horizontal .topic-item {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 110px;
+}
+
+.fashion-hub-container-horizontal .topic-item:hover,
+.sherpa-fleece-hub-container-horizontal .topic-item:hover,
+.bead-embroidery-hub-container-horizontal .topic-item:hover,
+.faux-fur-hub-container-horizontal .topic-item:hover,
+.crochet-hub-container-horizontal .topic-item:hover {
+    border-color: #e0e0e0;
+    background-color: #f9f9f9;
+}
+
+.fashion-hub-container-horizontal .topic-item.active,
+.sherpa-fleece-hub-container-horizontal .topic-item.active,
+.bead-embroidery-hub-container-horizontal .topic-item.active,
+.faux-fur-hub-container-horizontal .topic-item.active,
+.crochet-hub-container-horizontal .topic-item.active {
+    border-color: #000;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.fashion-hub-container-horizontal .topic-item img,
+.sherpa-fleece-hub-container-horizontal .topic-item img,
+.bead-embroidery-hub-container-horizontal .topic-item img,
+.faux-fur-hub-container-horizontal .topic-item img,
+.crochet-hub-container-horizontal .topic-item img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.fashion-hub-container-horizontal .topic-item p,
+.sherpa-fleece-hub-container-horizontal .topic-item p,
+.bead-embroidery-hub-container-horizontal .topic-item p,
+.faux-fur-hub-container-horizontal .topic-item p,
+.crochet-hub-container-horizontal .topic-item p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* --- Bottom Row: Content Area (Full width for all) --- */
+.fashion-hub-container-horizontal .content-area,
+.sherpa-fleece-hub-container-horizontal .content-area,
+.bead-embroidery-hub-container-horizontal .content-area,
+.faux-fur-hub-container-horizontal .content-area,
+.crochet-hub-container-horizontal .content-area {
+    width: 100%;
+}
+
+/* --- Accordion Content Styling (Unified for all) --- */
+.fashion-hub-container-horizontal .content-block h2,
+.sherpa-fleece-hub-container-horizontal .content-block h2,
+.bead-embroidery-hub-container-horizontal .content-block h2,
+.faux-fur-hub-container-horizontal .content-block h2,
+.crochet-hub-container-horizontal .content-block h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.fashion-hub-container-horizontal .content-block>p,
+.sherpa-fleece-hub-container-horizontal .content-block>p,
+.bead-embroidery-hub-container-horizontal .content-block>p,
+.faux-fur-hub-container-horizontal .content-block>p,
+.crochet-hub-container-horizontal .content-block>p {
+    font-size: 0.8rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.fashion-hub-container-horizontal .accordion-content,
+.sherpa-fleece-hub-container-horizontal .accordion-content,
+.bead-embroidery-hub-container-horizontal .accordion-content,
+.faux-fur-hub-container-horizontal .accordion-content,
+.crochet-hub-container-horizontal .accordion-content {
+    font-size: 0.85rem;
+}
+
+.fashion-hub-container-horizontal .accordion-header,
+.sherpa-fleece-hub-container-horizontal .accordion-header,
+.bead-embroidery-hub-container-horizontal .accordion-header,
+.faux-fur-hub-container-horizontal .accordion-header,
+.crochet-hub-container-horizontal .accordion-header {
+    font-size: 0.95rem;
+}
+
+/* --- Media Queries for Mobile (Unified for all) --- */
+@media (max-width: 768px) {
+
+    .fashion-hub-container-horizontal .topic-grid-horizontal,
+    .sherpa-fleece-hub-container-horizontal .topic-grid-horizontal,
+    .bead-embroidery-hub-container-horizontal .topic-grid-horizontal,
+    .faux-fur-hub-container-horizontal .topic-grid-horizontal,
+    .crochet-hub-container-horizontal .topic-grid-horizontal {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 columns on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+
+    .fashion-hub-container-horizontal .topic-grid-horizontal,
+    .sherpa-fleece-hub-container-horizontal .topic-grid-horizontal,
+    .bead-embroidery-hub-container-horizontal .topic-grid-horizontal,
+    .faux-fur-hub-container-horizontal .topic-grid-horizontal,
+    .crochet-hub-container-horizontal .topic-grid-horizontal {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns on phones */
+    }
+}
+
+
+
+/* === CSS for Product Page Commitment Module === */
+.product-commitment-module {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 40px;
+}
+
+.product-commitment-module h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.product-commitment-module>.commitment-content-area>p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product-commitment-module .accordion-item {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-commitment-module .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.product-commitment-module .accordion-content {
+    font-size: 0.85rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.product-commitment-module .accordion-content ul {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.product-commitment-module .accordion-content li {
+    margin-bottom: 10px;
+}
+
+.product-commitment-module .accordion-arrow {
+    transition: transform 0.4s ease;
+}
+
+.product-commitment-module .accordion-header.active .accordion-arrow {
+    transform: rotate(90deg);
+}
+
+/* --- 在移动设备上隐藏返回按钮 --- */
+/* 当屏幕宽度小于等于 768px 时，应用以下样式 */
+@media (max-width: 768px) {
+    .go-back-button {
+        display: none !important;
+    }
+}

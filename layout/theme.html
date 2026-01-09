@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="{{request.locale.iso_code}}">
+  <head>
+
+
+
+    {{#component "page-head" /}}
+
+    {{#component "theme-css-var" /}}
+    {{#component "stylesheet" src="base/index.css" | asset_url() /}}
+    {{#component "script" src="base/index.js" | asset_url() /}}
+
+    {{#content "header" /}}
+  </head>
+  <body data-page-type="{{request.page_type}}" data-cart-add-type="{{settings.cart_add_type}}">
+    {{#sections "header-group" /}}
+
+    {{#content "layout" /}}
+
+
+    {{#sections "footer-group" /}}
+
+    {{#content "footer" /}}
+
+    {{#if settings.cart_add_type == "drawer" && request.page_type != "cart"}}
+      {{#component "cart/cart-drawer" /}}
+    {{/if}}
+
+    <script>
+      window.shopUrl = "{{request.origin}}";
+      window.routes = {
+        cartAddUrl: "{{routes.cart_add_url}}",
+        cartChangeUrl: "{{routes.cart_change_url}}",
+        cartUpdateUrl: "{{routes.cart_update_url}}",
+        cartUrl: "{{routes.cart_url}}",
+        cartCountUrl: "{{routes.cart_count_url}}",
+        predictiveSearchUrl: "{{routes.predictive_search_url}}",
+        accountUrl: "{{routes.account_url}}",
+        accountLoginUrl: "{{routes.account_login_url}}",
+        addressUrl: "{{routes.address_url}}",
+        cartDiscountCodeApplyUrl: "{{routes.cart_discount_code_apply_url}}",
+        cartDiscountCodeRemoveUrl: "{{routes.cart_discount_code_remove_url}}",
+        addressCountriesUrl: "{{ routes.address_countries_url }}",
+        addressCountryTemplateUrl: "{{ routes.address_country_template_url }}",
+        addressNextUrl: "{{ routes.address_next_url }}",
+      };
+    </script>
+    
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    /**
+     * 函数 1：初始化“主题切换”模块 (通用)
+     * 功能：处理所有一级导航点击，切换右侧主内容块。
+     * 保留自您的原始脚本，功能稳定可靠。
+     */
+    function initializeInteractiveModule(containerSelector, topicItemClass, contentBlockClass) {
+        const container = document.querySelector(containerSelector);
+        if (!container) return;
+
+        const topicItems = container.querySelectorAll(topicItemClass);
+        const contentBlocks = container.querySelectorAll(contentBlockClass);
+
+        topicItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const targetId = item.getAttribute('data-target');
+                const targetBlock = document.getElementById(targetId);
+
+                topicItems.forEach(t => t.classList.remove('active'));
+                item.classList.add('active');
+
+                contentBlocks.forEach(block => {
+                    block.style.display = 'none';
+                });
+
+                if (targetBlock) {
+                    targetBlock.style.display = 'block';
+                }
+            });
+        });
+
+        if (topicItems.length > 0 && contentBlocks.length > 0) {
+            topicItems[0].dispatchEvent(new MouseEvent('click'));
+        }
+    }
+
+    /**
+     * 函数 2：初始化所有“手风琴”效果 (已整合优化)
+     * 功能：统一处理网站上所有手风琴的展开/折叠，带有顺滑的动画效果。
+     * 整合了您原来的 initializeModuleAccordions 和 initializeFaqAccordions。
+     */
+    function initializeAllAccordions() {
+        // 同时选择两种类型的头部，确保兼容所有手风琴
+        const allHeaders = document.querySelectorAll('.accordion-header, .faq-question');
+        
+        allHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const arrow = header.querySelector('.accordion-arrow, .faq-arrow');
+
+                header.classList.toggle('active');
+
+                if (header.classList.contains('active')) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    if(content.classList.contains('faq-answer')) {
+                         content.style.padding = '20px 0 40px'; // 适配FAQ的样式
+                    } else {
+                         content.style.marginTop = '15px';
+                    }
+                    if (arrow) arrow.style.transform = 'rotate(90deg)';
+                } else {
+                    content.style.maxHeight = '0';
+                    content.style.padding = '0 20px';
+                    content.style.marginTop = '0';
+                    if (arrow) arrow.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+    }
+
+    /**
+     * 函数 3：初始化“二级图标菜单” (新增功能)
+     * 功能：处理主内容块内部的图标网格点击，切换至最终内容。
+     */
+    function initializeIconSubNavigation() {
+        const mainContentBlocks = document.querySelectorAll('.content-block');
+
+        mainContentBlocks.forEach(mainBlock => {
+            const iconGrid = mainBlock.querySelector('.sub-topic-icon-grid');
+            const subTopicItems = mainBlock.querySelectorAll('.sub-topic-item');
+            
+            if (!iconGrid) return;
+
+            subTopicItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const targetId = item.getAttribute('data-target');
+                    const targetBlock = mainBlock.querySelector('#' + targetId);
+                    
+                    iconGrid.style.display = 'none';
+                    if (targetBlock) {
+                        targetBlock.style.display = 'block';
+                    }
+                });
+            });
+        });
+    }
+
+    /**
+     * 函数 4：处理URL锚点实现智能跳转 (新增功能)
+     */
+    function handleUrlHash() {
+        const hash = window.location.hash;
+        if (!hash) return;
+        const targetTopic = document.querySelector(`.topic-item[data-target="${hash.substring(1)}"]`);
+        if (targetTopic) {
+            setTimeout(() => { targetTopic.click(); }, 100);
+        }
+    }
+
+  // --- 执行所有初始化函数 ---
+// 按顺序执行，确保页面所有交互功能都被激活
+
+// 1. 初始化所有一级主导航
+// (保留您网站上其他可能存在的旧模块)
+initializeInteractiveModule('.application-container', '.app-topic-item', '.app-content-block');
+initializeInteractiveModule('.capabilities-container', '.cap-topic-item', '.cap-content-block');
+initializeInteractiveModule('.faq-container', '.topic-item', '.faq-category');
+
+// ==========================================================
+// == 激活所有新的横版布局模块 ==
+initializeInteractiveModule('.fashion-hub-container-horizontal', '.topic-item', '.content-block');
+initializeInteractiveModule('.sherpa-fleece-hub-container-horizontal', '.topic-item', '.content-block');
+initializeInteractiveModule('.bead-embroidery-hub-container-horizontal', '.topic-item', '.content-block');
+initializeInteractiveModule('.faux-fur-hub-container-horizontal', '.topic-item', '.content-block');
+initializeInteractiveModule('.crochet-hub-container-horizontal', '.topic-item', '.content-block');
+// ==========================================================
+
+    // 2. 初始化所有二级图标导航
+    initializeIconSubNavigation();
+    
+    // 3. 初始化所有手风琴效果
+    initializeAllAccordions();
+
+    // 4. 处理智能跳转
+    handleUrlHash();
+});
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const backButton = document.getElementById('back-button');
+
+    if (backButton) {
+      backButton.addEventListener('click', function(event) {
+        event.preventDefault(); // 阻止链接的默认跳转行为
+        window.history.back();    // 命令浏览器返回上一个页面
+      });
+    }
+  });
+</script>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // 确保我们用新的ID来查找按钮
+  var backButton = document.getElementById("go-back-button");
+
+  if (backButton) {
+    backButton.addEventListener("click", function(event) {
+      // 这一行至关重要，它阻止了`href="#"`导致的页面刷新/跳转
+      event.preventDefault(); 
+      
+      // 执行返回上一页的动作
+      history.back();
+    });
+  }
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 在此列表中添加所有您希望隐藏返回按钮的页面 handle
+  const pagesToHideButton = [
+    'beaded-fabrics',
+    'fashion-fabrics',
+    'crochet-home',
+    'faux-fur-home',
+    'fleece-home'
+  ]; 
+  
+  const currentPath = window.location.pathname;
+  
+  // 循环检查列表中的每一个 handle
+  for (let i = 0; i < pagesToHideButton.length; i++) {
+    const handle = pagesToHideButton[i];
+    
+    // 检查当前页面的URL路径是否与 '/pages/' + handle 完全匹配
+    if (currentPath === '/pages/' + handle) {
+      const backButton = document.getElementById('go-back-button');
+      if (backButton) {
+        backButton.style.display = 'none';
+        // 找到并隐藏后，就跳出循环
+        break; 
+      }
+    }
+  }
+});
+</script>
+
+<script>
+        window.okkiConfigs = window.okkiConfigs || [];
+        function okkiAdd() { okkiConfigs.push(arguments); };
+        okkiAdd("analytics", { siteId: "461363-23517", gId: "" });
+      </script>
+      <script async src="//tfile.xiaoman.cn/okki/analyze.js?id=461363-23517-"></script>
+
+
+<script src="https://plugin-code.salesmartly.com/js/project_475382_489829_1759226471.js"></script>
+
+
+
+  </body>
+</html>

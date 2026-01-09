@@ -1,0 +1,62 @@
+{{#var class = props.class /}}
+{{#var isLeft = props.isLeft /}}
+{{#var desktop_menu_type = props.desktop_menu_type /}}
+{{#var show_search_entry = props.show_search_entry /}}
+{{#var show_cart_entry = props.show_cart_entry /}}
+{{#var show_user_entry = props.show_user_entry /}}
+{{#var show_locale_picker = props.show_locale_picker /}}
+{{#var show_country_picker = props.show_country_picker /}}
+
+<theme-action-bar class="header-action-bar {{class}}">
+  
+  <a
+    class="header-action-bar__menu button button--icon {{#if desktop_menu_type != "drawer"}}button--hidden-desktop{{/if}}"
+    href="javascript:;"
+    role="button"
+    data-role="header-nav-drawer-switch"
+  >
+    {{#component "icons/menu" /}}
+  </a>
+
+  
+  {{#component "./locale-picker" show_locale_picker=show_locale_picker show_country_picker=show_country_picker /}}
+
+
+{{#if isLeft}}
+  <a href="#" id="go-back-button" class="go-back-button" title="Go Back">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
+  </a>
+{{/if}}
+
+
+
+
+
+  
+  {{#if show_user_entry == true}}
+  <a
+    class="button button--icon button--hidden-mobile {{#if show_user_entry == false}}button--hidden{{/if}}"
+    href="{{#if customer}}{{routes.account_url}}{{#else/}}{{routes.account_login_url}}{{/if}}"
+  >
+    {{#component "icons/user" /}}
+  </a>
+  {{/if}}
+
+{{#if show_search_entry == true}}
+  <a
+    class="header-action-bar__search button button--icon"
+    href="javascript:;"
+    role="button"
+    aria-label="Search"
+    data-role="search-bar-switch"
+  >
+    {{#component "icons/search" /}}
+  </a>
+  {{/if}}
+  
+  {{#if show_cart_entry == true}}
+    <div class="button button--icon">{{#component "cart/cart-bubble" /}}</div>
+  {{/if}}
+</theme-action-bar>

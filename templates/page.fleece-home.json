@@ -1,0 +1,1619 @@
+{
+  "sections": {
+    "1757993662639ba1fd2d": {
+      "type": "shopline://apps/高阶组件库/sections/product-category-list/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "btn_background": "rgba(0,0,0,0)",
+        "btn_border_color": "#000000",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 38,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#000000",
+        "btn_font_family": "Helvetica",
+        "btn_hover_animation": "3",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.2,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 14,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text": "MORE OPTIONAL",
+        "card_border_radius": 0,
+        "card_border_thickness": 0,
+        "card_color": "#fff",
+        "card_style": true,
+        "color_btn_text": "#ffffff",
+        "color_entry_line": "#EAECEC",
+        "color_image_background": "#ffffff",
+        "color_light_text": "#949494",
+        "color_page_background": "#FFFCFA",
+        "color_sale": "#171F2B",
+        "color_tag_background": "#C20000",
+        "color_tag_text": "#ffffff",
+        "color_text": "#29252C",
+        "container_bg_color": "#ffffff",
+        "container_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 20,
+            "lock": true,
+            "right": 20,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "lock": false,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "lock": true,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "edges": "rounded",
+        "grid_horizontal_space": 20,
+        "horizontal_spacing": 2,
+        "image_ratio": "133.33",
+        "image_width": "50%",
+        "mb_layout": 4,
+        "mb_show": true,
+        "mobile_quick_add_btn_layout": "normal",
+        "mobile_quick_add_btn_style": "icon",
+        "pc_cols": 4,
+        "pc_show": true,
+        "product_add_to_cart": false,
+        "product_card_border_color": "#000000",
+        "product_card_border_opacity": 30,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 1,
+        "product_card_shadow_blur": 5,
+        "product_card_shadow_color": "#000000",
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 4,
+        "product_card_shadow_opacity": 0,
+        "product_discount": true,
+        "product_discount_position": "left_bottom",
+        "product_discount_radius": 2,
+        "product_discount_style": "number",
+        "product_fill_type": "contain",
+        "product_grid_image_margin": "0",
+        "product_hover_show_next": false,
+        "product_mobile_title_show": true,
+        "product_price_color": "#1A1C1E",
+        "product_price_letter_spacing": 0,
+        "product_price_m_font_family": "Poppins:500",
+        "product_price_m_font_size": 14,
+        "product_price_m_line_height": 1.6,
+        "product_price_pc_font_family": "Poppins:600",
+        "product_price_pc_font_size": 16,
+        "product_price_pc_line_height": 1.6,
+        "product_title_color": "#000000",
+        "product_title_font_family": "Poppins:400",
+        "product_title_letter_spacing": 0,
+        "product_title_m_font_size": 12,
+        "product_title_m_line_height": 1.6,
+        "product_title_pc_font_size": 12,
+        "product_title_pc_line_height": 1.4,
+        "product_title_show_type": "display_up_to_1_rows",
+        "product_underlined_price_color": "#000000",
+        "product_underlined_price_letter_spacing": 0,
+        "product_underlined_price_m_font_family": "Poppins:500",
+        "product_underlined_price_m_font_size": 12,
+        "product_underlined_price_m_line_height": 1.6,
+        "product_underlined_price_pc_font_family": "Poppins:600",
+        "product_underlined_price_pc_font_size": 16,
+        "product_underlined_price_pc_line_height": 1.6,
+        "products_num": 4,
+        "quick_add_btn_background": "#000000",
+        "quick_add_btn_font_color": "#FFFFFF",
+        "show_touch": false,
+        "slice_in_pc": true,
+        "soldOut_color_tag_background": "#ffffff",
+        "soldOut_color_tag_text": "#000000",
+        "sticky": true,
+        "superscript_decimals": false,
+        "tab_button_bg_color": "#ffffff",
+        "tab_button_text_color": "#000000",
+        "tab_color": "#000000",
+        "tab_style": "underline",
+        "tab_text_align": "center",
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": -75,
+        "title_line_height": 1,
+        "title_m_font_size": 14,
+        "title_pc_font_size": 22,
+        "vertical_spacing": 9
+      },
+      "disabled": false,
+      "blocks": {
+        "17579936626401ce8d5a": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "12271927259505004411163055",
+            "title": "fleece jacket"
+          },
+          "blocks": {}
+        },
+        "17579936626401e38055": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "12271927503800228102683055",
+            "title": "fleece hoodie"
+          },
+          "blocks": {}
+        },
+        "175799366264022249d5": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "12271927295599339147393055",
+            "title": "fleece vest"
+          },
+          "blocks": {}
+        },
+        "17579936626405eb4efa": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "12271927276010429986503055",
+            "title": "fleece coat"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17579936626401ce8d5a",
+        "17579936626405eb4efa",
+        "17579936626401e38055",
+        "175799366264022249d5"
+      ],
+      "custom_css": [
+        ".advc-tabs-control__item {margin-left: 60px; margin-right: 60px; padding: 0 !important;}",
+        " /* 控制分类标题的文字样式 */.advc-tag-display__tag-title {font-size: 14px !important; /* 【字体变小】根据需要修改这个数值 */ letter-spacing: 1.3px !important;}",
+        ".advc-product-item-price {display: none !important;}"
+      ],
+      "name": "t:sections.product-category-list.presets_0.name"
+    },
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- 全局容器设置 --- */\r\n  .fom-infra-section {\r\n    background-color: #f9f9f9;\r\n    padding: 80px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #1a1a1a;\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  .fom-infra-section * {\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  .fom-infra-wrapper {\r\n    max-width: 1400px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  /* --- 标题区域 --- */\r\n  .fom-infra-header {\r\n    text-align: center;\r\n    margin-bottom: 50px;\r\n    max-width: 800px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n\r\n  .fom-infra-title {\r\n    font-size: 24px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1px;\r\n    margin-bottom: 15px;\r\n    color: #000;\r\n    line-height: 1.2;\r\n  }\r\n\r\n  .fom-infra-subtitle {\r\n    font-size: 16px;\r\n    color: #555;\r\n    line-height: 1.6;\r\n  }\r\n\r\n  /* --- 数据网格 (Desktop) --- */\r\n  .fom-infra-grid {\r\n    display: grid;\r\n    /* PC端 3 列 */\r\n    grid-template-columns: repeat(3, 1fr);\r\n    gap: 30px;\r\n  }\r\n\r\n  .fom-infra-card {\r\n    background: #fff;\r\n    /* [优化] 减小内边距，更紧凑 */\r\n    padding: 35px 30px;\r\n    border: 1px solid #eee;\r\n    text-align: left;\r\n    transition: all 0.3s ease;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n\r\n    /* [核心修改] 移除 aspect-ratio: 4/3; 防止大屏下卡片过高 */\r\n    min-height: 180px;\r\n    /* 给一个适中的最小高度即可 */\r\n    height: 100%;\r\n    /* 确保同一行的卡片高度拉伸一致 */\r\n  }\r\n\r\n  .fom-infra-card:hover {\r\n    transform: translateY(-5px);\r\n    /* 稍微减小上浮距离 */\r\n    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);\r\n    border-color: #000;\r\n  }\r\n\r\n  /* 数字行 */\r\n  .fom-stat-row {\r\n    display: flex;\r\n    align-items: baseline;\r\n    margin-bottom: 12px;\r\n    /* 稍微减小间距 */\r\n    flex-wrap: wrap;\r\n  }\r\n\r\n  .fom-stat-number {\r\n    /* [优化] PC端字号从 60px 调小到 52px，更精致 */\r\n    font-size: 52px;\r\n    font-weight: 900;\r\n    line-height: 1;\r\n    color: #1a1a1a;\r\n    letter-spacing: -1px;\r\n    font-variant-numeric: tabular-nums;\r\n  }\r\n\r\n  .fom-stat-unit {\r\n    font-size: 20px;\r\n    /* 稍微调小单位 */\r\n    font-weight: 700;\r\n    color: #5b87c1;\r\n    margin-left: 8px;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  .fom-stat-desc {\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    color: #888;\r\n    text-transform: uppercase;\r\n    letter-spacing: 1.5px;\r\n    padding-top: 15px;\r\n    border-top: 1px solid #f0f0f0;\r\n    width: 100%;\r\n  }\r\n\r\n  /* --- 平板端适配 --- */\r\n  @media (max-width: 1024px) {\r\n    .fom-infra-grid {\r\n      grid-template-columns: repeat(2, 1fr);\r\n    }\r\n\r\n    /* 平板端也不需要强制比例 */\r\n    .fom-infra-card {\r\n      min-height: auto;\r\n      padding: 30px;\r\n    }\r\n  }\r\n\r\n  /* --- 移动端深度优化 (保持你满意的效果不变) --- */\r\n  @media (max-width: 600px) {\r\n    .fom-infra-section {\r\n      padding: 40px 15px;\r\n    }\r\n\r\n    .fom-infra-header {\r\n      margin-bottom: 25px;\r\n    }\r\n\r\n    .fom-infra-title {\r\n      font-size: 24px;\r\n      margin-bottom: 10px;\r\n    }\r\n\r\n    .fom-infra-subtitle {\r\n      font-size: 14px;\r\n      line-height: 1.4;\r\n      display: -webkit-box;\r\n      -webkit-line-clamp: 2;\r\n      -webkit-box-orient: vertical;\r\n      overflow: hidden;\r\n    }\r\n\r\n    /* 强制双列 */\r\n    .fom-infra-grid {\r\n      grid-template-columns: 1fr 1fr;\r\n      gap: 10px;\r\n    }\r\n\r\n    .fom-infra-card {\r\n      padding: 15px 12px;\r\n      min-height: auto;\r\n      justify-content: flex-start;\r\n    }\r\n\r\n    .fom-stat-row {\r\n      margin-bottom: 8px;\r\n      align-items: baseline;\r\n    }\r\n\r\n    .fom-stat-number {\r\n      /* 智能字号 */\r\n      font-size: clamp(22px, 7vw, 32px);\r\n    }\r\n\r\n    .fom-stat-unit {\r\n      font-size: 12px;\r\n      margin-left: 3px;\r\n      color: #5b87c1;\r\n    }\r\n\r\n    .fom-stat-desc {\r\n      font-size: 11px;\r\n      letter-spacing: 0.5px;\r\n      padding-top: 8px;\r\n      line-height: 1.2;\r\n      border-top: 1px solid #f5f5f5;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv class=\"fom-infra-section\" id=\"stats-section\"\u003e\r\n  \u003cdiv class=\"fom-infra-wrapper\"\u003e\r\n\r\n    \u003cdiv class=\"fom-infra-header\"\u003e\r\n      \u003cdiv class=\"fom-infra-title\"\u003eOur Manufacturing Infrastructure\u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-subtitle\"\u003e\r\n        Scalable production capabilities backing your global supply chain.\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fom-infra-grid\"\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"30\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Years\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eExperience\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"120\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Countries\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eGlobal Reach\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"7\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003eDays\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eRapid Prototyping\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"112\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Lines\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eProduction Equipment\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"66700\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003eM²\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eSmart Facility\u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"fom-infra-card\"\u003e\r\n        \u003cdiv class=\"fom-stat-row\"\u003e\r\n          \u003cspan class=\"fom-stat-number\" data-target=\"5000000\"\u003e0\u003c/span\u003e\r\n          \u003cspan class=\"fom-stat-unit\"\u003e+ Yards\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fom-stat-desc\"\u003eAnnual Capacity\u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e\r\n\r\n\u003cscript\u003e\r\n  (function() {\r\n    document.addEventListener('DOMContentLoaded', function() {\r\n      // 数字滚动动画逻辑\r\n      const statsSection = document.getElementById('stats-section');\r\n      if (!statsSection) return;\r\n\r\n      const numbers = statsSection.querySelectorAll('.fom-stat-number');\r\n      let hasAnimated = false; \r\n\r\n      const observer = new IntersectionObserver((entries, obs) =\u003e {\r\n        entries.forEach(entry =\u003e {\r\n          if (entry.isIntersecting \u0026\u0026 !hasAnimated) {\r\n            hasAnimated = true; \r\n            runAnimations();\r\n            obs.unobserve(entry.target); \r\n          }\r\n        });\r\n      }, { threshold: 0.1 });\r\n\r\n      observer.observe(statsSection);\r\n\r\n      function runAnimations() {\r\n        numbers.forEach(num =\u003e {\r\n          const targetStr = num.getAttribute('data-target');\r\n          if(!targetStr) return;\r\n          \r\n          const target = parseInt(targetStr, 10); \r\n          const duration = 2000; \r\n          const frameRate = 16; \r\n          const totalFrames = Math.round(duration / frameRate);\r\n          let frame = 0;\r\n\r\n          const updateCount = () =\u003e {\r\n            frame++;\r\n            const progress = 1 - Math.pow(1 - frame / totalFrames, 4);\r\n            const currentVal = Math.round(target * progress);\r\n            \r\n            num.innerText = currentVal.toLocaleString();\r\n            \r\n            if (frame \u003c totalFrames) {\r\n              requestAnimationFrame(updateCount);\r\n            } else {\r\n              num.innerText = target.toLocaleString(); \r\n            }\r\n          };\r\n          updateCount();\r\n        });\r\n      }\r\n    });\r\n  })();\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "0px",
+            "padding-block-start": "0px",
+            "padding-inline-start": "0px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 900,
+        "style": "bars"
+      },
+      "disabled": true,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Helvetica",
+            "body_letter_spacing": 25,
+            "body_line_height": 1.6,
+            "body_m_font_size": 12,
+            "body_pc_font_size": 13,
+            "btn_background": "rgba(0,0,0,0)",
+            "btn_border_color": "rgba(0,0,0,0)",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 0.8,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 60,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": "shopline://shop_images/fleece-clothing--banner.webp",
+            "link": "shopline://collections/12272114553049191637063055",
+            "link_text": "ALL PRODUCTS",
+            "link_text_2": "",
+            "overlay_opacity": 0,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "With cloud-like textures and lightweight warmth, we create an intimate shelter for the body, exploring the connection between function and feeling.",
+            "text_align": "vertical-bottom horizontal-center",
+            "title": "",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Helvetica",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 26,
+            "title_pc_font_size": 30,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": ""
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "175885361767154e75d9": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 20,
+            "lock": false,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 40,
+            "lock": false,
+            "right": 40,
+            "top": 100
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 25,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "1758853617672ec2651d": {
+          "type": "$title",
+          "settings": {
+            "title": "EXTRA INFO",
+            "title_tag_name": "h2"
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758853617672ec2651d"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "17588838687567edf640": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": false,
+      "blocks": {
+        "1758883868757bf5c80a": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/large-inquiry-image-with-text-box/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "button_text": "Request a Sample Swatch",
+            "image": "shopline://shop_images/banner14_7195492163446121956.png",
+            "image_height": "750",
+            "image_mobile": "shopline://shop_images/banner14_7195492163446121956.png",
+            "image_select": "center_center",
+            "inquiry_form_id": "7145979743782840053",
+            "mobile_height": "510px",
+            "parallax": true,
+            "sub_title": "",
+            "text": "\u003cp style=\"line-height: 1.4;\"\u003eOur Sherpa fleece is engineered for an exceptionally soft hand-feel, perfect for creating the premium hoodies, pullovers, and linings your customers will love.\u003c/p\u003e",
+            "text_border": false,
+            "text_position": "right",
+            "title": "Unparalleled Softness \u0026 Comfort"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758883868757bf5c80a"
+      ]
+    },
+    "17589553382513a56f21": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 50,
+        "body_line_height": 1,
+        "body_m_font_size": 12,
+        "body_pc_font_size": 14,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "lock": false,
+            "right": 40,
+            "top": 10
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 50,
+        "title_line_height": 1,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 22,
+        "title_scale_ani": false
+      },
+      "disabled": true,
+      "blocks": {
+        "175895533825199a40bc": {
+          "type": "$title",
+          "settings": {
+            "title": "FLEECE",
+            "title_tag_name": "h2"
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "175895533825199a40bc"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "17589553495865b98a09": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 10,
+            "left": 20,
+            "lock": false,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "lock": false,
+            "right": 40,
+            "top": 100
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 25,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "175895534958652abd11": {
+          "type": "$button",
+          "settings": {
+            "button_text": "Optional button",
+            "jump_link": ""
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "175895534958696b84cd": {
+          "type": "$text",
+          "settings": {
+            "description": "A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers."
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758955349586f99d5d9": {
+          "type": "$title",
+          "settings": {
+            "title": "view our products",
+            "title_tag_name": "h2"
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758955349586f99d5d9",
+        "175895534958696b84cd",
+        "175895534958652abd11"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "1758955366482849fbf6": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 10,
+            "left": 20,
+            "lock": false,
+            "right": 20,
+            "top": 20
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "lock": false,
+            "right": 40,
+            "top": 120
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 25,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "1758955366482af17010": {
+          "type": "$title",
+          "settings": {
+            "title": "Get A Free Consultation",
+            "title_tag_name": "h2"
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758955366482af17010"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "175896265763406f2df5": {
+      "type": "shopline://apps/高阶组件库/sections/text-columns-with-images/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "best_mobile_style": false,
+        "body_font_color": "#ffffff",
+        "body_font_family": "Helvetica",
+        "body_letter_spacing": 50,
+        "body_line_height": 1.2,
+        "body_m_font_size": 12,
+        "body_pc_font_size": 12,
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#000000",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 14,
+        "btn_pc_font_size": 16,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "arrow-link",
+        "container_bg_color": "#486699",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 20,
+            "left": 0,
+            "lock": false,
+            "right": 0,
+            "top": 20
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 0,
+            "lock": true,
+            "right": 0,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "lock": true,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "enable_pause": true,
+        "enable_scroll": true,
+        "image_ratio": "auto",
+        "image_width": "100%",
+        "mb_horizontal_spacing": 10,
+        "mb_scroll_interval": 20,
+        "mb_show": true,
+        "mb_vertical_spacing": 16,
+        "md_cols": "1",
+        "pc_cols": 2,
+        "pc_horizontal_spacing": 40,
+        "pc_scroll_interval": 20,
+        "pc_show": true,
+        "pc_vertical_spacing": 30,
+        "scroll_direction": "right_to_left",
+        "show_block_bg": false,
+        "show_touch": true,
+        "sub_title_font_color": "#ffffff",
+        "sub_title_font_family": "Helvetica",
+        "sub_title_letter_spacing": 25,
+        "sub_title_line_height": 1,
+        "sub_title_m_font_size": 13,
+        "sub_title_pc_font_size": 16,
+        "text_align": "left",
+        "title": "",
+        "title_align": "left",
+        "title_font_color": "#000000",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 12,
+        "title_pc_font_size": 22
+      },
+      "disabled": false,
+      "blocks": {
+        "175896265763684c3199": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "\u003cspan class=\"citation-81 citation-end-81\"\u003eWe wanted to create a statement bomber jacket and Fominte's Printed Sherpa was the perfect canvas\u003c/span\u003e. The print quality is fantastic, with vibrant colors that don't fade. \u003cspan class=\"citation-80 citation-end-80\"\u003eTheir ability to bring our complex patterns to life on such a textural fabric opened up new creative possibilities for us\u003c/span\u003e.",
+            "image": {},
+            "jump_link": "",
+            "title": "Isabella Garcia（Creative Director）"
+          },
+          "blocks": {}
+        },
+        "175896265763698de716": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "\u003cspan class=\"citation-83 citation-end-83\"\u003eFominte’s Bonded Sherpa has streamlined our production for our trucker jackets\u003c/span\u003e. Having the fleece already bonded to the outer fabric saves us a significant manufacturing step. \u003cspan class=\"citation-82 citation-end-82\"\u003eThe final material has great structure and the built-in warmth is a key selling point\u003c/span\u003e.",
+            "image": {},
+            "jump_link": "",
+            "title": "David Lee（Head of Production）"
+          },
+          "blocks": {}
+        },
+        "1758962657636f1f1efc": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "\u003cspan class=\"citation-86 citation-end-86\"\u003eOur brand is built on comfort, and Fominte's Classic Sherpa is exceptionally soft\u003c/span\u003e. \u003cspan class=\"citation-85 citation-end-85\"\u003eWhat's crucial for us is that it maintains that luxurious feel wash after wash, thanks to its high anti-pilling rating\u003c/span\u003e. \u003cspan class=\"citation-84 citation-end-84\"\u003eIt’s perfect for the premium hoodies and pullovers our customers love\u003c/span\u003e.",
+            "image": {},
+            "jump_link": "",
+            "title": "Chloe Kim（Designer）"
+          },
+          "blocks": {}
+        },
+        "1758962657636fba2184": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "\u003cspan class=\"citation-88 citation-end-88\"\u003eThe technical specs on Fominte's Sherpa are what sold us. The Level 4 anti-pilling rating holds up after extensive testing, and the anti-static finish is a feature our customers appreciate\u003c/span\u003e. \u003cspan class=\"citation-87 citation-end-87\"\u003eIt’s a truly high-performance fleece that we trust for our vests and jacket linings\u003c/span\u003e",
+            "image": {},
+            "jump_link": "",
+            "title": "Michael Larson（Materials Manager）"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758962657636fba2184",
+        "1758962657636f1f1efc",
+        "175896265763698de716",
+        "175896265763684c3199"
+      ],
+      "custom_css": [
+        ".advc-auto-scroll {--auto-scroll-pc_scroll_interval: 50s !important;}"
+      ],
+      "name": "t:sections.text-columns-with-images.presets_0.name"
+    },
+    "175921312470397e6b88": {
+      "type": "shopline://apps/高阶组件库/sections/cta/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "bg_image": {},
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_align": "bottom",
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "container_bg_color": "",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 10,
+            "left": 20,
+            "lock": false,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "lock": false,
+            "right": 40,
+            "top": 120
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "mb_show": true,
+        "pc_show": true,
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_color_gradient": "",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 16,
+        "title_pc_font_size": 25,
+        "title_scale_ani": false
+      },
+      "disabled": false,
+      "blocks": {
+        "17592131247045145918": {
+          "type": "$title",
+          "settings": {
+            "title": "customer testimonials",
+            "title_tag_name": "h2"
+          },
+          "disabled": false,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17592131247045145918"
+      ],
+      "name": "t:sections.cta.presets_0.name"
+    },
+    "176041272106557ce348": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cdiv class=\"sherpa-fleece-hub-container-horizontal\"\u003e\r\n\r\n  \u003ch3 class=\"hub-main-title\"\u003eSherpa Fleece\u003c/h3\u003e\r\n\r\n  \u003cdiv class=\"topics-area-horizontal\"\u003e\r\n    \u003cdiv class=\"topic-grid-horizontal\"\u003e\r\n      \u003cdiv class=\"topic-item active\" data-target=\"sf-capabilities\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/5b02d263d52e4602bd91e4f2be35276d.png?w=309\u0026h=290\" alt=\"Core Capabilities Icon\" /\u003e\r\n        \u003cp\u003eCore Capabilities\u003c/p\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"topic-item\" data-target=\"sf-applications\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/336c79c5c5324ddc8692c598a84ad675.png?w=254\u0026h=251\" alt=\"Applications Icon\" /\u003e\r\n        \u003cp\u003eApplications\u003c/p\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"topic-item\" data-target=\"sf-customization\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fe12767a5510455cb2072d067016e99a.png?w=304\u0026h=263\" alt=\"Customization Icon\" /\u003e\r\n        \u003cp\u003eCustomization\u003c/p\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"topic-item\" data-target=\"sf-care\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/5ddefbbe835849df809d3b323ca5e453.png?w=261\u0026h=272\" alt=\"Care Instructions Icon\" /\u003e\r\n        \u003cp\u003eCare Instructions\u003c/p\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"topic-item\" data-target=\"sf-faq\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/c99d2ffe01aa4c96a86222095227b4a7.png?w=287\u0026h=229\" alt=\"FAQ Icon\" /\u003e\r\n        \u003cp\u003eFAQ\u003c/p\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"topic-item\" data-target=\"sf-commitment\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fa2f8d29a56e90c4e924175686273dde.png?w=370\u0026h=293\" alt=\"Our Commitment Icon\" /\u003e\r\n        \u003cp\u003eOur Commitment\u003c/p\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n  \u003c/div\u003e\r\n\r\n  \u003cdiv class=\"content-area\"\u003e\r\n\r\n    \u003cdiv id=\"sf-capabilities\" class=\"content-block\" style=\"display: block;\"\u003e\r\n      \u003ch2\u003eOur Core Capabilities\u003c/h2\u003e\r\n      \u003cp\u003eA stable and reliable supply chain is the cornerstone of your business. We have established a vertically\r\n        integrated production base, integrating R\u0026D, production, and innovation to ensure dependable results.\u003c/p\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eStrong Production Capabilities\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003e\u003cstrong\u003eScale \u0026 Capacity:\u003c/strong\u003e Our advanced fleece production lines grant us a powerful annual\r\n            capacity, ensuring we can confidently deliver orders of any scale—from specialized custom batches to\r\n            large-scale production runs for global brands.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eVertical Integration:\u003c/strong\u003e Our control over the entire industrial chain—from fiber selection,\r\n            knitting, and finishing to the final product—means we can guarantee stable quality and predictable delivery\r\n            times from the source.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eGlobal Delivery \u0026 Trust\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eTrusted by clients in over 120 countries, our extensive experience in international trade guarantees you a\r\n            smooth and dependable partnership. Our Sherpa fleece is a passport to global fashion and performance\r\n            markets, and we have a proven track record of meeting diverse international standards.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eTechnology \u0026 Innovation\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eOur facilities are equipped with state-of-the-art knitting machines, napping equipment, and finishing\r\n            lines. This allows us to produce Sherpa fleece with superior softness, a consistent Level 4 anti-pilling\r\n            finish, and integrated anti-static properties. Our on-site R\u0026D team also enables rapid prototyping and the\r\n            development of innovative new materials.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eSustainable \u0026 Ethical Practices\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eOur commitment is a pledge to product excellence, environmental stewardship, and ethical practices. We are\r\n            certified by ISO 9001, BSCI, GRS, and SGS. We commit to the ethical treatment of workers (BSCI) and using\r\n            100% verified recycled materials for our Recycled Sherpa line (GRS).\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv id=\"sf-applications\" class=\"content-block\" style=\"display: none;\"\u003e\r\n      \u003ch2\u003eSherpa Fleece Applications\u003c/h2\u003e\r\n      \u003cp\u003eOur Sherpa fleece is engineered to excel, serving as either a high-performance lining or a visually striking\r\n        primary fabric.\u003c/p\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eCoats\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cdiv class=\"accordion-media\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/b86c836a85b4ecae98a92fe389a8846e.png?w=2000\u0026h=1333\" alt=\"Stylish Sherpa Fleece Coats\" /\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"accordion-text\"\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe Full-Sherpa Statement:\u003c/strong\u003e Create bold, on-trend outerwear by using our Classic or\r\n              Printed Sherpa as the main body fabric for cozy, fashion-forward statement coats.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe High-Performance Lining:\u003c/strong\u003e Elevate any coat with the superior warmth of a Sherpa\r\n              fleece lining, perfect for wool, canvas, or technical outerwear.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eBonded Fabric Solutions:\u003c/strong\u003e Streamline production with our Bonded Sherpa, which serves as\r\n              both the exterior and the integrated lining.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eJackets\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cdiv class=\"accordion-media\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/eb8851801a739754ff1329167decf40c.png?w=2000\u0026h=1500\" alt=\"Warm Sherpa Fleece Jackets\" /\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"accordion-text\"\u003e\r\n            \u003cp\u003eOur fleece provides the ideal combination of lightweight warmth, durability, and style for multi-season\r\n              jackets.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe Timeless Aviator \u0026 Trucker:\u003c/strong\u003e Craft iconic styles with our Bonded Sherpa, perfect for\r\n              timeless aviator, trucker, and workwear-inspired jackets.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe Fashion-Forward Piece:\u003c/strong\u003e Use our Printed Sherpa to create eye-catching bomber jackets\r\n              and unique zip-ups.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eSustainable \u0026 Ready:\u003c/strong\u003e Leverage our 100% Recycled Sherpa to build your next eco-conscious\r\n              jacket collection.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eVests\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cdiv class=\"accordion-media\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/283e010b20ba29c4ca4c96ed9f3f5085.png?w=2496\u0026h=1664\" alt=\"Cozy Sherpa Fleece Vests\" /\u003e\u003c/div\u003e\r\n          \u003cdiv class=\"accordion-text\"\u003e\r\n            \u003cp\u003eA vest or gilet is the ultimate layering piece. Our fleece provides an excellent warmth-to-weight ratio\r\n              for transitional weather and active lifestyles.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe Outdoor Gilet:\u003c/strong\u003e Use our Classic or Bonded Sherpa to create functional,\r\n              outdoor-inspired vests that provide core insulation with a full range of motion.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe Cozy Interior:\u003c/strong\u003e Enhance any vest by using our Classic Sherpa as a soft, comfortable\r\n              lining for a layer of unexpected luxury.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eSweatshirts\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cdiv class=\"accordion-media\"\u003e\u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/cc8954f0ef106271ccf2119fa7ae1679.png?w=2000\u0026h=1333\" alt=\"Comfortable Sherpa Fleece Sweatshirts\" /\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"accordion-text\"\u003e\r\n            \u003cp\u003eElevate the classic sweatshirt to a premium garment. Our fleece is key to creating incredibly soft pieces\r\n              for the loungewear and casualwear markets.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eThe Ultimate Cozy Pullover:\u003c/strong\u003e Craft the perfect half-zip, hoodie, or pullover using our\r\n              Classic Sherpa, with a high anti-pilling rating to ensure it looks great wash after wash.\u003c/p\u003e\r\n            \u003cp\u003e\u003cstrong\u003eStyle \u0026 Structure:\u003c/strong\u003e Use our Printed Sherpa for unique graphic sweatshirts or choose\r\n              Bonded Sherpa for more structured, polished silhouettes.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv id=\"sf-customization\" class=\"content-block\" style=\"display: none;\"\u003e\r\n      \u003ch2\u003eCustomization - Sherpa Fleece\u003c/h2\u003e\r\n      \u003cp\u003eOur integrated R\u0026D and production capabilities allow for deep customization. We collaborate with you to\r\n        engineer the perfect material for your specific requirements.\u003c/p\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eOur Customization Capabilities\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003e\u003cstrong\u003eCustom Color \u0026 Print:\u003c/strong\u003e We offer precise Pantone color matching and advanced printing for\r\n            complex, high-fidelity patterns.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eWeight \u0026 Performance Tuning:\u003c/strong\u003e Control the exact warmth and feel by specifying the weight\r\n            (GSM), and fine-tune characteristics like the anti-static finish.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eCustom Bonding Solutions:\u003c/strong\u003e We can bond our fleece to a wide range of fabrics—including\r\n            suede, cotton, and various knits—to develop innovative materials.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eFinished Garment (OEM) Solutions:\u003c/strong\u003e Provide us with your tech packs, and we can manufacture\r\n            fully-customized coats, jackets, and sweatshirts, complete with your private labels.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eCustomization Process\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eOur structured process includes: \u003cstrong\u003eConsultation \u0026 Quote\u003c/strong\u003e, where we discuss your concept and\r\n            provide a quote/MOQ; \u003cstrong\u003eSampling\u003c/strong\u003e, with a typical lead time of one week;\r\n            \u003cstrong\u003eSample Approval\u003c/strong\u003e, where we ship the sample for your feedback; and\r\n            \u003cstrong\u003eBulk Production\u003c/strong\u003e upon approval.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eDesign Confidentiality\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eAbsolutely. We treat all custom projects with strict confidentiality. Your design is your intellectual\r\n            property, and we will never disclose or sell your exclusive patterns to any third party.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv id=\"sf-care\" class=\"content-block\" style=\"display: none;\"\u003e\r\n      \u003ch2\u003eMaintaining Peak Softness \u0026 Performance\u003c/h2\u003e\r\n      \u003cp\u003eTo preserve its signature softness, high-performance anti-pilling surface, and insulating properties, proper\r\n        care is essential. Following these instructions will ensure the longevity of the garment.\u003c/p\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eWashing Instructions\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003e\u003cstrong\u003eMachine Washing (Recommended):\u003c/strong\u003e Turn the garment inside out, use a gentle cycle with cold\r\n            water, and a small amount of mild liquid detergent. Avoid fabric softeners. Wash with other soft garments.\r\n          \u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eHand Washing:\u003c/strong\u003e Submerge in cold water with mild detergent, gently squeeze the suds through\r\n            the fabric, and rinse thoroughly with clean, cold water. Avoid aggressive rubbing.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eDrying Instructions\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003e\u003cstrong\u003eAir Drying (Strongly Recommended):\u003c/strong\u003e Lay the garment flat on a clean towel or hang it on a\r\n            clothesline away from direct sunlight to preserve its texture.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eTumble Drying (Use with Caution):\u003c/strong\u003e Use the lowest possible heat setting, such as \"Tumble\r\n            Dry Low\" or an \"Air Fluff\" (no heat) cycle. Do not use dryer sheets and remove the garment promptly.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eWhat to Avoid\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eTo prevent permanent damage, please strictly avoid the following: Do Not Use High Heat, Do Not Bleach, Do\r\n            Not Iron, Do Not Use Fabric Softener, and Do Not Dry Clean.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eStorage\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eEnsure the garment is completely clean and dry before storing. Store in a well-ventilated, dry place away\r\n            from direct sunlight. Folding neatly is acceptable; if hanging, use a supportive hanger.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv id=\"sf-faq\" class=\"content-block\" style=\"display: none;\"\u003e\r\n      \u003ch2\u003eFrequently Asked Questions\u003c/h2\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eWhat makes your Sherpa fleece a high-quality\r\n          choice?\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eOur fleece stands out due to its superior technical specifications: exceptional softness, a certified Level\r\n            4 anti-pilling rating for long-lasting appearance, and anti-static treatment for enhanced comfort.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eWhat exactly is \"Bonded Sherpa\"?\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eBonded Sherpa is an innovative textile we create by permanently fusing our fleece to another fabric (like\r\n            suede or cotton). This creates a single, versatile material with a finished interior and exterior, providing\r\n            enhanced structure and warmth while streamlining production.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eIs your Recycled Sherpa comparable in\r\n          quality?\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eAbsolutely. Our Recycled Sherpa is made from 100% GRS-certified recycled polyester and is engineered to\r\n            meet the exact same high-performance standards as our conventional fleece, including softness, durability,\r\n            and color vibrancy.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eWhat is your MOQ?\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eOur MOQ is flexible. It is generally lower for in-stock fabrics and higher for custom-developed fabrics\r\n            (colors, prints, bonding) and finished OEM garments. Please contact our sales team for a specific quote.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eDo you ship to my country?\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eYes. 100% of our products are exported, and we have experience shipping to over 120 countries worldwide.\r\n            Our logistics team can arrange reliable shipping to your location.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eStill Have Questions?\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eIf you couldn't find the answer you were looking for, or wish to discuss your project in greater detail,\r\n            please do not hesitate to reach out. Our dedicated team is ready to assist you. Contact us directly at:\r\n            Stephen@fominte.com\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv id=\"sf-commitment\" class=\"content-block\" style=\"display: none;\"\u003e\r\n      \u003ch2\u003eOur Commitment\u003c/h2\u003e\r\n      \u003cp\u003eOur promise is woven into every fiber we produce. We are committed to delivering unparalleled quality,\r\n        innovative design, and a partnership you can trust through measurable standards.\u003c/p\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eCommitment to Speed \u0026 Efficiency\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eWe understand that speed-to-market is critical for your success. Our streamlined process ensures your\r\n            vision becomes a reality, fast.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eRapid Sampling:\u003c/strong\u003e We pledge to deliver satisfactory custom samples for your approval within\r\n            \u003cstrong\u003e7 working days\u003c/strong\u003e.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eReliable Delivery:\u003c/strong\u003e Once approved, we guarantee that standard bulk orders will be ready for\r\n            shipment within \u003cstrong\u003e30 days\u003c/strong\u003e. This predictability allows you to plan your collections with\r\n            confidence.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eCommitment to Responsive Service\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eClear and timely communication is the foundation of a great partnership. Our dedicated team is always\r\n            accessible, ensuring your questions are answered and your project never loses momentum.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eOnline Inquiries:\u003c/strong\u003e For messages received via our online chat during business hours, we\r\n            commit to a response time of under \u003cstrong\u003e2 hours\u003c/strong\u003e.\u003c/p\u003e\r\n          \u003cp\u003e\u003cstrong\u003eEmail Correspondence:\u003c/strong\u003e All email inquiries will receive a comprehensive reply within\r\n            \u003cstrong\u003e24 hours\u003c/strong\u003e.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n      \u003cdiv class=\"accordion-item\"\u003e\r\n        \u003cdiv class=\"accordion-header\"\u003eCommitment to Quality \u0026 Partnership\u003cspan class=\"accordion-arrow\"\u003e\u0026gt;\u003c/span\u003e\u003c/div\u003e\r\n        \u003cdiv class=\"accordion-content\"\u003e\r\n          \u003cp\u003eBeyond speed and service, our ultimate commitment is to the integrity of our product and the strength of\r\n            our relationship. We stand behind every yard of fabric, ensuring it meets global standards and your highest\r\n            expectations. We are more than a supplier; we are a dedicated partner in your success, committed to design\r\n            confidentiality and ethical practices.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "0px",
+            "padding-block-start": "0px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1760507319665dfb7a13": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": "shopline://shop_images/manufacturing-certifications-amfori-bsci-higg-grs.png.png",
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "70px",
+          "padding-block-start": "100px",
+          "padding-inline-end": "30px",
+          "padding-inline-start": "30px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "1760522874321cb9457b": {
+      "type": "rich-text",
+      "settings": {
+        "background_image": "shopline://shop_images/微信图片_20251014152603_12_8.jpg",
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "center",
+            "column-gap": "14px",
+            "flex-direction": "column",
+            "flex-wrap": "nowrap",
+            "justify-content": "center",
+            "row-gap": "14px"
+          },
+          "align-items": "center",
+          "column-gap": "28px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "28px"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "24px",
+            "padding-block-start": "24px",
+            "padding-inline-end": "20px",
+            "padding-inline-start": "20px"
+          },
+          "padding-block-end": "70px",
+          "padding-block-start": "100px",
+          "padding-inline-end": "30px",
+          "padding-inline-start": "30px"
+        }
+      },
+      "disabled": true,
+      "blocks": {},
+      "name": "t:sections.rich_text.presets.presets_0.name"
+    },
+    "17611132822330b35c5b": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n  /* --- [全局容器] --- */\r\n  #fominte-growth-module {\r\n    background-color: #ffffff;\r\n    padding: 80px 20px;\r\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\r\n    color: #1a1a1a;\r\n    width: 100%;\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  /* 防止 padding 撑破布局 */\r\n  #fominte-growth-module * {\r\n    box-sizing: border-box;\r\n  }\r\n\r\n  .fg-container {\r\n    max-width: 1400px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n  /* --- [通用标题] --- */\r\n  .fg-content-section {\r\n    margin-bottom: 100px;\r\n  }\r\n\r\n  .fg-content-section:last-child {\r\n    margin-bottom: 0;\r\n  }\r\n\r\n  .fg-section-title {\r\n    text-align: center;\r\n    font-size: 24px;\r\n    font-weight: 800;\r\n    text-transform: uppercase;\r\n    letter-spacing: 2px;\r\n    display: table;\r\n    margin: 0 auto 50px auto;\r\n    /* PC端保持宽敞间距 */\r\n    color: #000;\r\n    position: relative;\r\n    padding-bottom: 15px;\r\n  }\r\n\r\n  .fg-section-title::after {\r\n    content: '';\r\n    position: absolute;\r\n    bottom: 0;\r\n    width: 100%;\r\n    left: 0;\r\n    height: 3px;\r\n    background-color: #5b87c1;\r\n  }\r\n\r\n  /* --- [PART 1: Core Advantages - 4列] --- */\r\n  .fg-grid-4 {\r\n    display: grid;\r\n    grid-template-columns: repeat(4, 1fr);\r\n    gap: 20px;\r\n  }\r\n\r\n  .fg-card {\r\n    background: #fff;\r\n    padding: 35px 25px;\r\n    border: 1px solid #eee;\r\n    display: flex;\r\n    flex-direction: column;\r\n    transition: all 0.3s ease;\r\n    height: 100%;\r\n  }\r\n\r\n  .fg-card:hover {\r\n    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);\r\n    transform: translateY(-5px);\r\n    border-color: #000;\r\n  }\r\n\r\n  .fg-icon {\r\n    width: 40px;\r\n    height: 40px;\r\n    margin-bottom: 20px;\r\n    color: #000;\r\n  }\r\n\r\n  .fg-card h3 {\r\n    font-size: 15px;\r\n    font-weight: 800;\r\n    text-transform: uppercase;\r\n    margin-bottom: 15px;\r\n    letter-spacing: 0.5px;\r\n    color: #000;\r\n    line-height: 1.4;\r\n  }\r\n\r\n  /* 列表样式优化 */\r\n  .fg-list {\r\n    margin: 0;\r\n    padding-left: 18px;\r\n    /* 缩进刚好放下圆点 */\r\n    list-style-type: disc;\r\n    flex-grow: 1;\r\n  }\r\n\r\n  .fg-list li {\r\n    font-size: 13px;\r\n    line-height: 1.6;\r\n    color: #555;\r\n    margin-bottom: 6px;\r\n    padding-left: 0;\r\n  }\r\n\r\n  .fg-card-footer {\r\n    border-top: 1px solid #f0f0f0;\r\n    padding-top: 15px;\r\n    margin-top: 20px;\r\n    font-size: 11px;\r\n    font-weight: 700;\r\n    color: #888;\r\n    text-transform: uppercase;\r\n  }\r\n\r\n  /* --- [PART 2: Process - 流程卡片] --- */\r\n  .fg-process-wrapper {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    gap: 20px;\r\n  }\r\n\r\n  .fg-step-card {\r\n    flex: 1;\r\n    background: #fff;\r\n    border: 1px solid #eee;\r\n    transition: all 0.3s ease;\r\n    display: flex;\r\n    flex-direction: column;\r\n    position: relative;\r\n    overflow: hidden;\r\n  }\r\n\r\n  .fg-step-card:hover {\r\n    transform: translateY(-5px);\r\n    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);\r\n    border-color: #ccc;\r\n  }\r\n\r\n  .fg-step-img-box {\r\n    width: 100%;\r\n    height: 150px;\r\n    /* PC端图片高度 */\r\n    overflow: hidden;\r\n    position: relative;\r\n  }\r\n\r\n  .fg-step-img {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n    transition: transform 0.6s ease;\r\n  }\r\n\r\n  .fg-step-card:hover .fg-step-img {\r\n    transform: scale(1.05);\r\n  }\r\n\r\n  .fg-step-content {\r\n    padding: 20px;\r\n    text-align: center;\r\n    position: relative;\r\n  }\r\n\r\n  /* PC端数字圆球 */\r\n  .fg-step-num {\r\n    position: absolute;\r\n    top: -20px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    width: 40px;\r\n    height: 40px;\r\n    background-color: #000;\r\n    color: #fff;\r\n    border-radius: 50%;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-size: 16px;\r\n    font-weight: 700;\r\n    border: 3px solid #fff;\r\n    z-index: 2;\r\n  }\r\n\r\n  .fg-step-title {\r\n    font-size: 15px;\r\n    font-weight: 800;\r\n    margin-top: 15px;\r\n    margin-bottom: 5px;\r\n    text-transform: uppercase;\r\n    color: #000;\r\n  }\r\n\r\n  .fg-step-desc {\r\n    font-size: 13px;\r\n    color: #666;\r\n    line-height: 1.4;\r\n    margin: 0;\r\n  }\r\n\r\n  /* --- [PART 3: Value-Added Service - 3列] --- */\r\n  .fg-grid-3 {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n    gap: 30px;\r\n  }\r\n\r\n  .fg-card.simple {\r\n    background-color: #f8f8f8;\r\n    /* 浅灰底色区分 */\r\n    border: none;\r\n    padding: 40px 30px;\r\n  }\r\n\r\n  .fg-card.simple h3 {\r\n    font-size: 18px;\r\n    /* 稍微大一点的标题 */\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .fg-card.simple p {\r\n    font-size: 14px;\r\n    line-height: 1.7;\r\n    color: #555;\r\n    margin: 0;\r\n  }\r\n\r\n  /* ========================================= */\r\n  /* === 📱 移动端深度优化 (One Screen View) === */\r\n  /* ========================================= */\r\n  @media (max-width: 768px) {\r\n    #fominte-growth-module {\r\n      padding: 50px 15px;\r\n      /* 减少外边距 */\r\n    }\r\n\r\n    .fg-content-section {\r\n      margin-bottom: 60px;\r\n      /* 减少区块间距 */\r\n    }\r\n\r\n    .fg-section-title {\r\n      font-size: 20px;\r\n      /* 缩小标题 */\r\n      margin-bottom: 30px;\r\n      letter-spacing: 1px;\r\n    }\r\n  }\r\n\r\n  @media (max-width: 600px) {\r\n\r\n    /* --- PART 1: Core Advantages (变为2列田字格) --- */\r\n    .fg-grid-4 {\r\n      grid-template-columns: 1fr 1fr;\r\n      /* 强制2列 */\r\n      gap: 8px;\r\n      /* 极窄间距 */\r\n    }\r\n\r\n    .fg-card {\r\n      padding: 15px 12px;\r\n      /* 极致压缩内边距 */\r\n    }\r\n\r\n    .fg-icon {\r\n      width: 28px;\r\n      height: 28px;\r\n      margin-bottom: 12px;\r\n      /* Icon缩小 */\r\n    }\r\n\r\n    .fg-card h3 {\r\n      font-size: 12px;\r\n      /* 标题变小 */\r\n      margin-bottom: 10px;\r\n      min-height: 32px;\r\n      /* 确保2行标题对齐 */\r\n    }\r\n\r\n    .fg-list {\r\n      padding-left: 14px;\r\n    }\r\n\r\n    .fg-list li {\r\n      font-size: 11px;\r\n      /* 列表文字极小化，保证能放下 */\r\n      line-height: 1.3;\r\n      margin-bottom: 4px;\r\n    }\r\n\r\n    /* 手机端隐藏底部小字，保证一屏能放下4个卡片 */\r\n    .fg-card-footer {\r\n      display: none;\r\n    }\r\n\r\n    /* --- PART 2: Process (变为左图右文列表) --- */\r\n    .fg-process-wrapper {\r\n      flex-direction: column;\r\n      gap: 12px;\r\n      /* 卡片间距 */\r\n    }\r\n\r\n    .fg-step-card {\r\n      flex-direction: row;\r\n      /* 横向排列 */\r\n      align-items: center;\r\n      min-height: 80px;\r\n      /* 固定最小高度 */\r\n      border: 1px solid #f0f0f0;\r\n    }\r\n\r\n    .fg-step-img-box {\r\n      width: 90px;\r\n      /* 左侧固定宽度 */\r\n      height: 90px;\r\n      /* 左侧固定高度 */\r\n      flex-shrink: 0;\r\n    }\r\n\r\n    .fg-step-content {\r\n      padding: 10px 15px;\r\n      text-align: left;\r\n      /* 左对齐 */\r\n      display: flex;\r\n      flex-direction: column;\r\n      justify-content: center;\r\n    }\r\n\r\n    /* 改造数字样式：变成小标签 */\r\n    .fg-step-num {\r\n      position: static;\r\n      transform: none;\r\n      width: auto;\r\n      height: auto;\r\n      background: transparent;\r\n      color: #5b87c1;\r\n      /* 蓝色 */\r\n      border: none;\r\n      font-size: 11px;\r\n      justify-content: flex-start;\r\n      margin-bottom: 4px;\r\n      padding: 0;\r\n    }\r\n\r\n    .fg-step-num::after {\r\n      content: \" / STEP\";\r\n      /* 增加后缀增加精致感 */\r\n      opacity: 0.5;\r\n      font-size: 9px;\r\n      margin-left: 4px;\r\n    }\r\n\r\n    .fg-step-title {\r\n      font-size: 14px;\r\n      margin: 0 0 4px 0;\r\n    }\r\n\r\n    .fg-step-desc {\r\n      font-size: 12px;\r\n      line-height: 1.3;\r\n    }\r\n\r\n    /* --- PART 3: Value-Added (紧凑堆叠) --- */\r\n    .fg-grid-3 {\r\n      grid-template-columns: 1fr;\r\n      gap: 10px;\r\n    }\r\n\r\n    .fg-card.simple {\r\n      padding: 25px 20px;\r\n    }\r\n\r\n    .fg-card.simple h3 {\r\n      font-size: 15px;\r\n      margin-bottom: 10px;\r\n    }\r\n\r\n    .fg-card.simple p {\r\n      font-size: 13px;\r\n    }\r\n  }\r\n\u003c/style\u003e\r\n\r\n\u003cdiv id=\"fominte-growth-module\"\u003e\r\n  \u003cdiv class=\"fg-container\"\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eCORE ADVANTAGES\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-grid-4\"\u003e\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M17 18h1\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M12 18h1\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"M7 18h1\"\u003e\u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eFactory \u0026 Design\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003e150 Designs/Month\u003c/li\u003e\r\n            \u003cli\u003e5000+ Patterns Lib\u003c/li\u003e\r\n            \u003cli\u003e30+ Years Legacy\u003c/li\u003e\r\n            \u003cli\u003e24/7 Response\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eOEM/ODM Available\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"\u003e\u003c/path\u003e\r\n              \u003cpath d=\"m9 12 2 2 4-4\"\u003e\u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eCertified Quality\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eISO \u0026 BSCI Cert\u003c/li\u003e\r\n            \u003cli\u003eHigg FEM Compliant\u003c/li\u003e\r\n            \u003cli\u003e100% Pre-ship QC\u003c/li\u003e\r\n            \u003cli\u003e6 Inspection Steps\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eInternational Standards\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003ccircle cx=\"12\" cy=\"12\" r=\"10\"\u003e\u003c/circle\u003e\r\n              \u003cpolyline points=\"12 6 12 12 16 14\"\u003e\u003c/polyline\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eSupply Chain\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003e7-Day Proto\u003c/li\u003e\r\n            \u003cli\u003e3-Day Dispatch\u003c/li\u003e\r\n            \u003cli\u003e20-Day Production\u003c/li\u003e\r\n            \u003cli\u003e30-45 Day Lead Time\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eRapid Turnaround\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-card\"\u003e\r\n          \u003cdiv class=\"fg-icon\"\u003e\r\n            \u003csvg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\u003e\r\n              \u003cpath d=\"m11 17 2 2a1 1 0 1 0 3-3\"\u003e\u003c/path\u003e\r\n              \u003cpath\r\n                d=\"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-1.42-1.42l.88-.88a5 5 0 0 1 7.07 0l2.12 2.12a3 3 0 0 1 0 4.24l-2.5 2.5a3 3 0 0 1-4.24 0l-2.5-2.5a3 3 0 0 1 0-4.24l2.5-2.5a5 5 0 0 1 7.07 0\"\u003e\r\n              \u003c/path\u003e\r\n            \u003c/svg\u003e\r\n          \u003c/div\u003e\r\n          \u003ch3\u003eFlexible Trading\u003c/h3\u003e\r\n          \u003cul class=\"fg-list\"\u003e\r\n            \u003cli\u003eFOB / DDP Support\u003c/li\u003e\r\n            \u003cli\u003eFree Sampling\u003c/li\u003e\r\n            \u003cli\u003ePrivate Labeling\u003c/li\u003e\r\n            \u003cli\u003eFull Invoicing\u003c/li\u003e\r\n          \u003c/ul\u003e\r\n          \u003cdiv class=\"fg-card-footer\"\u003eCustom Support\u003c/div\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eCustomization Process\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-process-wrapper\"\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/8dbc090a68fc3ee1a9f043266f7b2a7b.webp?w=2496\u0026h=1664\" alt=\"Inquiry\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e01\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eInquiry\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eProposal within 24h.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/3109c97af1e5cc4653c681f552d2afb2.webp?w=1024\u0026h=633\" alt=\"Sampling\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e02\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eSampling\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003e7-day rapid prototype.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/Factory-Machinery-Real-Shot-Images.webp?w=1968\u0026h=1312\" alt=\"Production\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e03\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eProduction\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eFlexible MOQ \u0026 tracking.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/2bba94754d608af502f47f936904ddfb.webp?w=1920\u0026h=1280\" alt=\"Inspection\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e04\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eInspection\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eRaw material to final QC.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"fg-step-card\"\u003e\r\n          \u003cdiv class=\"fg-step-img-box\"\u003e\r\n            \u003cimg src=\"https://img-va.myshopline.com/image/store/1754638002373/fbd46c13e70e2a70bb32c3a23b30d1d6.webp?w=1554\u0026h=1036\" alt=\"Delivery\" class=\"fg-step-img\"\u003e\r\n          \u003c/div\u003e\r\n          \u003cdiv class=\"fg-step-content\"\u003e\r\n            \u003cdiv class=\"fg-step-num\"\u003e05\u003c/div\u003e\r\n            \u003ch4 class=\"fg-step-title\"\u003eDelivery\u003c/h4\u003e\r\n            \u003cp class=\"fg-step-desc\"\u003eShipping to 120+ countries.\u003c/p\u003e\r\n          \u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n    \u003cdiv class=\"fg-content-section\"\u003e\r\n      \u003cdiv class=\"fg-section-title\"\u003eValue-Added Service\u003c/div\u003e\r\n\r\n      \u003cdiv class=\"fg-grid-3\"\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eDesign \u0026 Development\u003c/h3\u003e\r\n          \u003cp\u003eEmpower your collection with \u003cstrong\u003eglobal trend insights\u003c/strong\u003e. Our team offers designer collaboration\r\n            to translate vision into \u003cstrong\u003eexclusive styles\u003c/strong\u003e.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eFactory Inspection\u003c/h3\u003e\r\n          \u003cp\u003eYour personal account manager accompanies you on \u003cstrong\u003eevery factory audit\u003c/strong\u003e offering real-time\r\n            answers and on-the-spot decisions.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\"fg-card simple\"\u003e\r\n          \u003ch3\u003eSupply Chain\u003c/h3\u003e\r\n          \u003cp\u003eOur robust supply chain can meet any customized solutions, \u003cstrong\u003eexpand profit margins\u003c/strong\u003e, and help\r\n            achieve greater returns.\u003c/p\u003e\r\n        \u003c/div\u003e\r\n      \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\r\n  \u003c/div\u003e\r\n\u003c/div\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "30px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "30px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "100%"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1762249921171029deec": {
+      "type": "shopline://apps/高阶组件库/sections/text-columns-with-images/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "best_mobile_style": true,
+        "body_font_color": "#ffffff",
+        "body_font_family": "Helvetica",
+        "body_letter_spacing": 50,
+        "body_line_height": 1.2,
+        "body_m_font_size": 12,
+        "body_pc_font_size": 12,
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#000000",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 14,
+        "btn_pc_font_size": 16,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "arrow-link",
+        "container_bg_color": "#ffffff",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 20,
+            "left": 0,
+            "lock": false,
+            "right": 0,
+            "top": 20
+          },
+          "pc": {
+            "bottom": 30,
+            "left": 0,
+            "lock": true,
+            "right": 0,
+            "top": 30
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "lock": true,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1920,
+        "enable_pause": true,
+        "enable_scroll": true,
+        "image_ratio": "auto",
+        "image_width": "100%",
+        "mb_horizontal_spacing": 10,
+        "mb_scroll_interval": 20,
+        "mb_show": true,
+        "mb_vertical_spacing": 16,
+        "md_cols": "2",
+        "pc_cols": 6,
+        "pc_horizontal_spacing": 40,
+        "pc_scroll_interval": 20,
+        "pc_show": true,
+        "pc_vertical_spacing": 30,
+        "scroll_direction": "right_to_left",
+        "show_block_bg": false,
+        "show_touch": true,
+        "sub_title_font_color": "#ffffff",
+        "sub_title_font_family": "Helvetica",
+        "sub_title_letter_spacing": 25,
+        "sub_title_line_height": 1,
+        "sub_title_m_font_size": 13,
+        "sub_title_pc_font_size": 16,
+        "text_align": "left",
+        "title": "",
+        "title_align": "left",
+        "title_font_color": "#000000",
+        "title_font_family": "Helvetica",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 12,
+        "title_pc_font_size": 22
+      },
+      "disabled": false,
+      "blocks": {
+        "176224992117150ecf49": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "",
+            "image": "shopline://shop_images/FOMINTE独立站素材 (3)_7246446217638464510.png",
+            "jump_link": "",
+            "title": ""
+          },
+          "blocks": {}
+        },
+        "17622499211715537378": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "",
+            "image": "shopline://shop_images/FOMINTE独立站素材 (2)_7246446022603315566.png",
+            "jump_link": "",
+            "title": ""
+          },
+          "blocks": {}
+        },
+        "17622499211719f459e1": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "",
+            "image": "shopline://shop_images/FOMINTE独立站素材 (4)_7246447192562473486.png",
+            "jump_link": "",
+            "title": ""
+          },
+          "blocks": {}
+        },
+        "1762249921171e808d20": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "",
+            "image": "shopline://shop_images/FOMINTE独立站素材 (1)_7246445834262290660.png",
+            "jump_link": "",
+            "title": ""
+          },
+          "blocks": {}
+        },
+        "176225003149977ff36f": {
+          "type": "$item",
+          "settings": {
+            "button_text": "",
+            "description": "",
+            "image": "shopline://shop_images/FOMINTE独立站素材 (5)_7246447539766958503.png",
+            "title": ""
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "176225003149977ff36f",
+        "1762249921171e808d20",
+        "17622499211715537378",
+        "176224992117150ecf49",
+        "17622499211719f459e1"
+      ],
+      "custom_css": [
+        ".advc-auto-scroll {--auto-scroll-pc_scroll_interval: 50s !important;}"
+      ],
+      "name": "t:sections.text-columns-with-images.presets_0.name"
+    },
+    "1766543312616b4d9d57": {
+      "type": "shopline://apps/高阶组件库/sections/featured-carousel/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mb_image_height": "auto",
+        "mobile_pagination_type": "touch",
+        "pagination_type": "left_right_arrow",
+        "pc_image_height": "full",
+        "scroll_parallax": false,
+        "transition_effect": "dynamic_switch"
+      },
+      "disabled": false,
+      "blocks": {
+        "1766543312616437aae8": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 14,
+            "body_pc_font_size": 16,
+            "btn_background1": "#ffffff",
+            "btn_background2": "#ffffff",
+            "btn_border_color1": "#ffffff",
+            "btn_border_color2": "#ffffff",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color1": "#1c1d1d",
+            "btn_font_color2": "#1c1d1d",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style1": "primary",
+            "btn_style2": "primary",
+            "button_text1": "",
+            "button_text2": "",
+            "jump_link1": "",
+            "jump_link2": "",
+            "mb_body": "",
+            "mb_image": {},
+            "mb_image_area": "center",
+            "mb_mask": "10",
+            "mb_sub_title": "",
+            "mb_text_position": "bottom",
+            "mb_title": "Custom Polar \u0026 Sherpa Fleece Jacket Factory",
+            "mb_title_tag_name": "h1",
+            "pc_body": "",
+            "pc_image": "shopline://shop_images/fleece-clothing--banner.webp",
+            "pc_image_area": "center",
+            "pc_mask": 10,
+            "pc_sub_title": "",
+            "pc_text_position": "bottom",
+            "pc_title": "Custom Polar \u0026 Sherpa Fleece Jacket Factory",
+            "pc_title_tag_name": "h1",
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "title_font_color": "#ffffff",
+            "title_font_family": "Helvetica",
+            "title_letter_spacing": 0,
+            "title_line_height": 1.2,
+            "title_m_font_size": 12,
+            "title_pc_font_size": 25
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1766543312616437aae8"
+      ],
+      "custom_css": [],
+      "name": "t:sections.featured-carousel.presets_0.name"
+    },
+    "17665647639499e71789": {
+      "type": "shopline://apps/高阶组件库/sections/text-with-video/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "background_position": "center",
+        "body_font_color": "#000000",
+        "body_font_family": "Montserrat:400",
+        "body_letter_spacing": 0,
+        "body_line_height": 1.6,
+        "body_m_font_size": 14,
+        "body_pc_font_size": 16,
+        "btn_background": "#ffffff",
+        "btn_border_color": "#ffffff",
+        "btn_border_opacity": 20,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#000000",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 10,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 2,
+        "btn_shadow_opacity": 20,
+        "btn_style": "primary",
+        "container_bg_color": "#ffffff",
+        "container_bg_color_gradient": "",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "container_max_width": 1420,
+        "content_bg_color": "#FFFFFF",
+        "content_bg_color_gradient": "",
+        "content_border_color": "#000000",
+        "content_border_opacity": 100,
+        "content_border_radius": 0,
+        "content_border_thickness": 0,
+        "content_shadow_blur": 5,
+        "content_shadow_color": "#000000",
+        "content_shadow_offset_x": 0,
+        "content_shadow_offset_y": 4,
+        "content_shadow_opacity": 0,
+        "cover": "shopline://shop_images/f8868464f850264a8cd12765e185f3a6.png",
+        "loop": false,
+        "mb_show": true,
+        "mb_text_align": "left",
+        "pc_show": true,
+        "pc_text_align": "left",
+        "quiet": true,
+        "ratio": "16:9",
+        "show_divider": false,
+        "sl_video": {},
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1.2,
+        "title_m_font_size": 24,
+        "title_pc_font_size": 36,
+        "video_border_color": "#000000",
+        "video_border_opacity": 100,
+        "video_border_radius": 0,
+        "video_border_thickness": 0,
+        "video_position": "left",
+        "video_shadow_blur": 5,
+        "video_shadow_color": "#000000",
+        "video_shadow_offset_x": 0,
+        "video_shadow_offset_y": 4,
+        "video_shadow_opacity": 0,
+        "video_url": "https://www.youtube.com/watch?v=W1FBns08mhE"
+      },
+      "disabled": false,
+      "blocks": {
+        "17665647639501271154": {
+          "type": "$title",
+          "settings": {
+            "title": "Redefine Winter Comfort with Style"
+          },
+          "blocks": {}
+        },
+        "176656476395046d04fc": {
+          "type": "$text",
+          "settings": {
+            "text": "Discover our latest collection of premium Sherpa fleece outerwear. Blending cozy warmth with trending Aztec and geometric patterns, Fominte delivers ready-to-wear jackets that transition seamlessly from urban streets to outdoor escapes. Experience the ultimate soft-touch texture designed for the modern lifestyle."
+          },
+          "blocks": {}
+        },
+        "1766564763950d43bfa1": {
+          "type": "$button",
+          "settings": {
+            "button_text": "Explore the Collection",
+            "jump_link": "shopline://collections/12272114553049191637063055"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17665647639501271154",
+        "176656476395046d04fc",
+        "1766564763950d43bfa1"
+      ],
+      "name": "t:sections.text-with-video.presets_0.name"
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "17589553382513a56f21",
+    "1766543312616b4d9d57",
+    "1758193339453d1d183f",
+    "1760507319665dfb7a13",
+    "17665647639499e71789",
+    "17589553495865b98a09",
+    "1757993662639ba1fd2d",
+    "175799437238726f3419",
+    "17611132822330b35c5b",
+    "175885361767154e75d9",
+    "176041272106557ce348",
+    "175921312470397e6b88",
+    "175896265763406f2df5",
+    "1762249921171029deec",
+    "1758955366482849fbf6",
+    "17588838687567edf640",
+    "1760522874321cb9457b"
+  ]
+}

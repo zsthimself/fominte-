@@ -1,0 +1,842 @@
+{{!-- ============================================
+pSEO 动态模板切换
+当商品包含 custom.application 元字段时显示 B2B Landing Page
+否则保持原有电商商品详情页布局
+============================================ --}}
+
+{{!-- 获取 pSEO 相关元字段 --}}
+{{#var pseo_application = product | get_metafield("custom", "application") /}}
+{{#var pseo_scene_image = product | get_metafield("custom", "scene_image") /}}
+{{#var pseo_pain_point = product | get_metafield("custom", "pain_point") /}}
+{{#var pseo_material_spec = product | get_metafield("custom", "material_spec") /}}
+{{#var pseo_trust_badge = product | get_metafield("custom", "trust_badge") /}}
+{{#var pseo_faq = product | get_metafield("custom", "faq") /}}
+{{#var pseo_seo_title = product | get_metafield("custom", "seo_title") /}}
+{{#var pseo_target_industry = product | get_metafield("custom", "target_industry") /}}
+
+{{#if pseo_application}}
+{{!-- ========== B2B Landing Page 布局 ========== --}}
+
+{{!-- 内嵌 CSS 样式（因 Shopline 不支持添加新 CSS 文件） --}}
+<style>
+  /* ========== Hero Banner Section ========== */
+  .pseo-hero {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  }
+
+  .pseo-hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    z-index: 1;
+  }
+
+  .pseo-hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%);
+    z-index: 2;
+  }
+
+  .pseo-hero__content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 900px;
+    padding: 40px 20px;
+    color: #ffffff;
+  }
+
+  .pseo-hero__application {
+    display: inline-block;
+    padding: 8px 24px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .pseo-hero__title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .pseo-hero__subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+
+  .pseo-hero__cta {
+    display: inline-block;
+    padding: 16px 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+  }
+
+  .pseo-hero__cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 30px rgba(102, 126, 234, 0.6);
+  }
+
+  /* ========== Section Common ========== */
+  .pseo-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .pseo-section-title {
+    text-align: center;
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1a1a2e;
+  }
+
+  /* ========== Pain Points ========== */
+  .pseo-pain-points {
+    padding: 80px 20px;
+    background: #f8f9fa;
+  }
+
+  .pseo-pain-points__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+
+  .pseo-pain-point-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef;
+  }
+
+  .pseo-pain-point-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  }
+
+  .pseo-pain-point-card__icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .pseo-pain-point-card__text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #6c757d;
+  }
+
+  /* ========== Material Specs ========== */
+  .pseo-material-specs {
+    padding: 80px 20px;
+    background: #ffffff;
+  }
+
+  .pseo-material-specs__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .pseo-material-specs__text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #495057;
+    white-space: pre-line;
+  }
+
+  .pseo-material-specs__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .pseo-material-specs__gallery img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+
+  /* ========== Product Gallery ========== */
+  .pseo-product-gallery {
+    padding: 80px 20px;
+    background: #ffffff;
+  }
+
+  .pseo-product-gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .pseo-product-gallery__item img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    aspect-ratio: 1;
+    transition: transform 0.3s ease;
+  }
+
+  .pseo-product-gallery__item:hover img {
+    transform: scale(1.03);
+  }
+
+  /* ========== Trust Badges ========== */
+  .pseo-trust-badges {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #ffffff;
+  }
+
+  .pseo-trust-badges .pseo-section-title {
+    color: #ffffff;
+  }
+
+  .pseo-trust-badges__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .pseo-trust-badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .pseo-trust-badge__icon {
+    font-size: 24px;
+  }
+
+  .pseo-trust-badge__text {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  /* ========== Inquiry Form ========== */
+  .pseo-inquiry-section {
+    padding: 80px 20px;
+    background: #f8f9fa;
+  }
+
+  .pseo-inquiry-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .pseo-inquiry-container .field__input {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 15px 18px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+
+  .pseo-inquiry-container .field__input:focus {
+    border-color: #667eea;
+    outline: none;
+  }
+
+  .pseo-inquiry-container .field {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .pseo-inquiry-container .field__label {
+    display: none;
+  }
+
+  .pseo-inquiry-container .field__group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .pseo-inquiry-container .button {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .pseo-inquiry-container .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(102, 126, 234, 0.4);
+  }
+
+  /* ========== FAQ Section ========== */
+  .pseo-faq-section {
+    padding: 80px 20px;
+    background: #ffffff;
+  }
+
+  .pseo-faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .pseo-faq-item {
+    border-bottom: 1px solid #e9ecef;
+    padding: 25px 0;
+  }
+
+  .pseo-faq-item:last-child {
+    border-bottom: none;
+  }
+
+  .pseo-faq-question {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .pseo-faq-question::before {
+    content: "Q";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 28px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .pseo-faq-answer {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #6c757d;
+    padding-left: 40px;
+  }
+
+  /* ========== Industry Tag ========== */
+  .pseo-industry-tag {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(102, 126, 234, 0.1);
+    color: #667eea;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  /* ========== Responsive ========== */
+  @media (max-width: 768px) {
+    .pseo-hero {
+      min-height: 60vh;
+    }
+
+    .pseo-pain-points,
+    .pseo-material-specs,
+    .pseo-inquiry-section,
+    .pseo-product-gallery {
+      padding: 50px 15px;
+    }
+
+    .pseo-material-specs__content {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+
+    .pseo-inquiry-container {
+      padding: 30px 20px;
+    }
+
+    .pseo-inquiry-container .field__group {
+      grid-template-columns: 1fr;
+    }
+
+    .pseo-trust-badges__grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+
+{{!-- Hero Banner Section --}}
+<section class="pseo-hero">
+  {{!-- 尝试获取 scene_image：文件类型元字段可能有多种结构 --}}
+  {{#if pseo_scene_image.value.src}}
+  <img class="pseo-hero__background" src="{{pseo_scene_image.value.src}}"
+    alt="{{pseo_application.value}} - {{product.title}}" loading="eager" />
+  {{#else/}}
+  {{#if pseo_scene_image.value.url}}
+  <img class="pseo-hero__background" src="{{pseo_scene_image.value.url}}"
+    alt="{{pseo_application.value}} - {{product.title}}" loading="eager" />
+  {{#else/}}
+  {{#if pseo_scene_image.value}}
+  <img class="pseo-hero__background" src="{{pseo_scene_image.value}}"
+    alt="{{pseo_application.value}} - {{product.title}}" loading="eager" />
+  {{#else/}}
+  {{#if product.featured_media}}
+  <img class="pseo-hero__background" src="{{product.featured_media.preview_image.src}}" alt="{{product.title}}"
+    loading="eager" />
+  {{/if}}
+  {{/if}}
+  {{/if}}
+  {{/if}}
+  <div class="pseo-hero__overlay"></div>
+  <div class="pseo-hero__content">
+    <span class="pseo-hero__application">{{pseo_application.value}}</span>
+    {{!-- 优先使用 SEO 标题，否则使用商品标题 --}}
+    {{#if pseo_seo_title}}
+    <h1 class="pseo-hero__title">{{pseo_seo_title.value}}</h1>
+    {{#else/}}
+    <h1 class="pseo-hero__title">{{product.title}}</h1>
+    {{/if}}
+    {{!-- Description removed from Hero as per user request --}}
+    {{#if pseo_target_industry}}
+    <span class="pseo-industry-tag">{{pseo_target_industry.value}}</span>
+    {{/if}}
+    <a href="#pseo-inquiry" class="pseo-hero__cta">Get Free Quote</a>
+  </div>
+</section>
+
+{{!-- Detailed Description Section --}}
+<section class="pseo-description-section">
+  <div class="pseo-section-container">
+    <h2 class="pseo-section-title">Product Details</h2>
+    <div class="pseo-description-content">
+      {{{product.description}}}
+    </div>
+  </div>
+</section>
+
+<style>
+  .pseo-description-section {
+    padding: 60px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .pseo-description-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  .pseo-description-content h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #1a1a2e;
+  }
+
+  .pseo-description-content h3 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+
+  .pseo-description-content p {
+    margin-bottom: 20px;
+  }
+
+  .pseo-description-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .pseo-description-content li {
+    margin-bottom: 10px;
+  }
+</style>
+
+{{!-- Pain Points Section (用 || 分割多卡片展示) --}}
+{{#if pseo_pain_point}}
+<section class="pseo-pain-points">
+  <div class="pseo-section-container">
+    <h2 class="pseo-section-title">Why Choose This Fabric for {{pseo_application.value}}?</h2>
+    <div class="pseo-pain-points__grid">
+      {{#var pain_items = pseo_pain_point.value | split("||") /}}
+      {{#for item in pain_items}}
+      {{#if item | trim() | size() > 0}}
+      <div class="pseo-pain-point-card">
+        <div class="pseo-pain-point-card__icon">✓</div>
+        <p class="pseo-pain-point-card__text">{{item | trim()}}</p>
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Material Specifications Section --}}
+{{#if pseo_material_spec}}
+<section class="pseo-material-specs">
+  <div class="pseo-section-container">
+    <h2 class="pseo-section-title">Material Specifications</h2>
+    <div class="pseo-material-specs__content">
+      <div class="pseo-material-specs__info">
+        <p class="pseo-material-specs__text">{{pseo_material_spec.value}}</p>
+      </div>
+      <div class="pseo-material-specs__gallery">
+        {{#for media in product.media}}
+        {{#if forloop.index <= 4}} <div class="pseo-product-gallery__item">
+          <img src="{{media.preview_image.src}}" alt="{{product.title}} - Image {{forloop.index}}" loading="lazy" />
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Product Gallery Section --}}
+<section class="pseo-product-gallery">
+  <div class="pseo-section-container">
+    <h2 class="pseo-section-title">Product Gallery</h2>
+    <div class="pseo-product-gallery__grid">
+      {{#for media in product.media}}
+      <div class="pseo-product-gallery__item">
+        <img src="{{media.preview_image.src}}" alt="{{product.title}} - Gallery {{forloop.index}}" loading="lazy" />
+      </div>
+      {{/for}}
+    </div>
+  </div>
+</section>
+
+{{!-- Trust Badges Section (用 || 分割多徽章展示) --}}
+{{#if pseo_trust_badge}}
+<section class="pseo-trust-badges">
+  <div class="pseo-section-container">
+    <div class="pseo-trust-badges__grid">
+      {{#var badge_items = pseo_trust_badge.value | split("||") /}}
+      {{#for badge in badge_items}}
+      {{#if badge | trim() | size() > 0}}
+      <div class="pseo-trust-badge">
+        <span class="pseo-trust-badge__icon">✓</span>
+        <span class="pseo-trust-badge__text">{{badge | trim()}}</span>
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Inquiry Form Section --}}
+<section class="pseo-inquiry-section" id="pseo-inquiry">
+  <div class="pseo-section-container">
+    <h2 class="pseo-section-title">Request a Free Consultation</h2>
+    <div class="pseo-inquiry-container">
+      <theme-contact-form class="contact-form">
+        {{#contact_form}}
+        {{#if form.posted_successfully}}
+        {{#component "tips-card/tips-card" type="success" text="Thank you! We will contact you shortly." /}}
+        {{/if}}
+
+        {{#if form.errors.messages}}
+        {{#component "tips-card/tips-card" type="error" text=form.errors.messages /}}
+        {{/if}}
+
+        {{!-- 隐藏字段：记录来源产品和应用场景 --}}
+        <input type="hidden" name="contact[product_title]" value="{{product.title}}" />
+        <input type="hidden" name="contact[product_url]" value="{{request.origin | append(product.url)}}" />
+        <input type="hidden" name="contact[application]" value="{{pseo_application.value}}" />
+
+        <div class="field__group">
+          <label class="field">
+            <input class="field__input" autocomplete="name" type="text" name="contact[name]" value="{{form.name}}"
+              placeholder="Your Name *" required />
+          </label>
+
+          <label class="field">
+            <input class="field__input" autocomplete="organization" type="text" name="contact[company]"
+              placeholder="Company Name" />
+          </label>
+        </div>
+
+        <div class="field__group">
+          <label class="field">
+            <input class="field__input" autocomplete="email" type="email" name="contact[email]" value="{{form.email}}"
+              placeholder="Email Address *" required />
+          </label>
+
+          <label class="field">
+            <input type="tel" class="field__input" autocomplete="tel" name="contact[phone]" pattern="[0-9\-]*"
+              value="{{form.phone}}" placeholder="Phone Number" />
+          </label>
+        </div>
+
+        <label class="field">
+          <input type="text" class="field__input" name="contact[quantity]"
+            placeholder="Estimated Quantity (yards/meters)" />
+        </label>
+
+        <label class="field">
+          <textarea rows="5" class="field__input textarea" name="contact[comment]"
+            placeholder="Tell us about your project requirements...">{{form.body}}</textarea>
+        </label>
+
+        <div class="contact-form__button">
+          <button type="submit" class="button">
+            Submit Inquiry
+          </button>
+        </div>
+        {{/contact_form}}
+      </theme-contact-form>
+    </div>
+  </div>
+</section>
+
+{{!-- FAQ Section (用 || 分割多个QA，内部用 Q:/A: 标记) --}}
+{{#if pseo_faq}}
+<section class="pseo-faq-section">
+  <div class="pseo-section-container">
+    <h2 class="pseo-section-title">Frequently Asked Questions</h2>
+    <div class="pseo-faq-list">
+      {{!-- FAQ 格式：每个问答用 || 分隔，内容格式 Q: xxx A: yyy --}}
+      {{#var faq_blocks = pseo_faq.value | split("||") /}}
+      {{#for block in faq_blocks}}
+      {{#if block | trim() | size() > 0}}
+      <div class="pseo-faq-item">
+        <div class="pseo-faq-question">{{block | trim()}}</div>
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- pSEO 优化的结构化数据 --}}
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      {{#if pseo_seo_title}}
+        "name": "{{pseo_seo_title.value}}",
+      {{#else/}}
+        "name": "{{pseo_application.value}} Fabric - {{product.title}}",
+      {{/if}}
+      "url": "{{{request.origin | append(product.url)}}}",
+      {{#if pseo_scene_image}}
+        "image": ["{{{pseo_scene_image.value}}}"],
+      {{#else/}}
+        {{#if product.featured_media}}
+          "image": ["{{{product.featured_media.preview_image.src}}}"],
+        {{/if}}
+      {{/if}}
+      "description": {{{product.description | strip_html() | json()}}},
+      "category": "{{pseo_application.value}}",
+      {{#if pseo_target_industry}}
+        "industry": "{{pseo_target_industry.value}}",
+      {{/if}}
+      {{#if pseo_material_spec}}
+        "material": "{{pseo_material_spec.value}}",
+      {{/if}}
+      "brand": {
+        "@type": "Brand",
+        "name": "{{product.vendor}}"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "{{localization.country.currency.iso_code}}",
+        "availability": "http://schema.org/InStock",
+        "offerCount": "{{product | get_variants() | size()}}",
+        "lowPrice": "{{product.price_min | divided_by(100, integer=false)}}",
+        "highPrice": "{{product.price_max | divided_by(100, integer=false)}}"
+      }
+    }
+  </script>
+
+{{#else/}}
+{{!-- ========== 原有电商商品详情页布局 ========== --}}
+{{#capture content}}
+{{#blocks}}
+{{#if forblock.type == "$product-media" || forblock.type == "$product-media-group"}}
+{{#block order=forblock.index /}}
+{{/if}}
+{{/blocks}}
+{{#blocks}}
+{{#if forblock.type == "$product-info"}}
+{{#block order=forblock.index /}}
+{{/if}}
+{{/blocks}}
+{{/capture}}
+
+{{#component "product/detail" product=product can_update_url=true content=content section_type="main-product" /}}
+
+{{#var seo_variants = product | get_variants() /}}
+{{#var seo_media /}}
+
+{{~#if product.selected_or_first_available_variant.featured_media}}
+{{#set seo_media = product.selected_or_first_available_variant.featured_media /}}
+{{~#else/}}
+{{#set seo_media = product.featured_media /}}
+{{~/if}}
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      "name": "{{product.title}}",
+      "url": "{{{request.origin | append(product.url)}}}",
+      {{#if seo_media}}
+        "image": [
+          "{{{seo_media.preview_image.src}}}"
+        ],
+      {{/if}}
+      "description": {{{product.description | strip_html() | json()}}},
+      {{#if product.selected_or_first_available_variant.sku}}
+        "sku": "{{product.selected_or_first_available_variant.sku}}",
+      {{/if}}
+      "brand": {
+        "@type": "Brand",
+        "name": "{{product.vendor}}"
+      },
+      "offers": [
+        {{#for variant in seo_variants}}
+          {
+            "@type" : "Offer",
+            {{#if variant.sku}}
+              "sku": "{{variant.sku}}",
+            {{/if}}
+            {{#if variant.barcode | size() == 12}}
+              "gtin12": "{{variant.barcode}}",
+            {{/if}}
+            {{#if variant.barcode | size() == 13}}
+              "gtin13": "{{variant.barcode}}",
+            {{/if}}
+            {{#if variant.barcode | size() == 14}}
+              "gtin14": "{{variant.barcode}}",
+            {{/if}}
+            "availability" : "http://schema.org/{{#if variant.available}}InStock{{#else/}}OutOfStock{{/if}}",
+            "price" : "{{variant.price | divided_by(100, integer=false)}}",
+            "priceCurrency" : "{{localization.country.currency.iso_code}}",
+            "url": "{{{request.origin | append(variant.url)}}}"
+          }{{#if !forloop.last}},{{/if}}
+        {{/for}}
+      ]
+    }
+  </script>
+{{/if}}
+
+{{#schema}}
+{
+"name": "t:sections.main_product.name",
+"settings": [
+{
+"type": "color_scheme",
+"id": "color_scheme",
+"label": "t:sections.main_product.settings.color_scheme.label",
+"default": "scheme-1"
+},
+{
+"type": "style.layout",
+"id": "layout",
+"label": "t:sections.main_product.settings.layout.label",
+"default": {
+"flex-direction": "row",
+"flex-wrap": "nowrap",
+"row-gap": "60px",
+"column-gap": "60px",
+"@media (--mobile)": {
+"flex-direction": "column",
+"row-gap": "20px",
+"column-gap": "20px"
+}
+}
+},
+{
+"type": "style.spacing",
+"id": "spacing",
+"label": "t:sections.main_product.settings.spacing.label",
+"default": {
+"padding-block-start": "60px",
+"padding-block-end": "60px",
+"@media (--mobile)": {
+"padding-block-start": "20px",
+"padding-block-end": "20px"
+}
+}
+}
+],
+"blocks": [
+{
+"type": "$product-media-group",
+"limit": 1
+},
+{
+"type": "$product-info",
+"limit": 1
+}
+]
+}
+{{/schema}}
