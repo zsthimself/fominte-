@@ -2,6 +2,8 @@
 service_account.json
 *.pem
 *.key
+.env
+.env.*
 
 # 系统文件
 .DS_Store
@@ -11,5 +13,6 @@ Thumbs.db
 .idea/
 .vscode/
 
-# 依赖
+# 依赖 (非常重要！)
 node_modules/
+
