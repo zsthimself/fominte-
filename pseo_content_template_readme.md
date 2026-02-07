@@ -8,28 +8,28 @@
 
 ## CSV 字段说明
 
-| 字段名 | 说明 | 必填 | 格式要求 |
-|--------|------|------|----------|
-| `Handle` | URL 友好的产品标识 | ✅ | 小写字母、数字、连字符 |
-| `Title` | 产品标题 | ✅ | 包含关键词 |
-| `Body (HTML)` | 产品描述 | ✅ | HTML 格式 |
-| `Vendor` | 供应商/品牌 | ✅ | FOMINTE |
-| `Type` | 产品类型 | ✅ | 如 Lace Fabric |
-| `Tags` | 标签 | - | 逗号分隔 |
-| `Published` | 发布状态 | ✅ | TRUE/FALSE |
+| 字段名        | 说明               | 必填 | 格式要求               |
+| ------------- | ------------------ | ---- | ---------------------- |
+| `Handle`      | URL 友好的产品标识 | ✅   | 小写字母、数字、连字符 |
+| `Title`       | 产品标题           | ✅   | 包含关键词             |
+| `Body (HTML)` | 产品描述           | ✅   | HTML 格式              |
+| `Vendor`      | 供应商/品牌        | ✅   | FOMINTE                |
+| `Type`        | 产品类型           | ✅   | 如 Lace Fabric         |
+| `Tags`        | 标签               | -    | 逗号分隔               |
+| `Published`   | 发布状态           | ✅   | TRUE/FALSE             |
 
 ### pSEO 元字段
 
-| 元字段 | 说明 | 分隔符 |
-|--------|------|--------|
-| `custom.application` | 应用场景（触发 pSEO 模板） | 单值 |
-| `custom.seo_title` | SEO 优化标题 | 单值 |
-| `custom.target_industry` | 目标行业 | 单值 |
-| `custom.scene_image` | Hero 区域背景图 URL | 单值 |
-| `custom.material_spec` | 材质规格 | `||` 分隔多项 |
-| `custom.trust_badge` | 信任徽章 | `||` 分隔多项 |
-| `custom.pain_point` | 痛点/优势描述 | `||` 分隔多项 |
-| `custom.faq` | FAQ 问答 | `||` 分隔多条 |
+| 元字段                   | 说明                       | 分隔符 |
+| ------------------------ | -------------------------- | ------ | --- | ---------- |
+| `custom.application`     | 应用场景（触发 pSEO 模板） | 单值   |
+| `custom.seo_title`       | SEO 优化标题               | 单值   |
+| `custom.target_industry` | 目标行业                   | 单值   |
+| `custom.scene_image`     | Hero 区域背景图 URL        | 单值   |
+| `custom.material_spec`   | 材质规格                   | `      |     | ` 分隔多项 |
+| `custom.trust_badge`     | 信任徽章                   | `      |     | ` 分隔多项 |
+| `custom.pain_point`      | 痛点/优势描述              | `      |     | ` 分隔多项 |
+| `custom.faq`             | FAQ 问答                   | `      |     | ` 分隔多条 |
 
 ---
 
@@ -38,16 +38,19 @@
 模板使用 `||` 作为多项内容分隔符：
 
 ### Pain Points 示例
+
 ```
 ✨ Hand-sewn beading with <0.1% bead loss||🎨 Custom color matching in 7 days||⚡ Low MOQ 50 yards
 ```
 
 ### Trust Badges 示例
+
 ```
 Oeko-Tex Standard 100||ISO 9001 Certified||BSCI Audited||30+ Years Export
 ```
 
 ### FAQ 示例
+
 ```
 Q: What is the MOQ? A: 50 yards for stock, 100 yards for custom.||Q: Lead time? A: 25-40 days.
 ```
@@ -81,11 +84,9 @@ Q: What is the MOQ? A: 50 yards for stock, 100 yards for custom.||Q: Lead time? 
 
 ## 注意事项
 
-> [!IMPORTANT]
-> `custom.application` 字段是触发 pSEO 模板的关键，必须填写才能显示 B2B Landing Page 布局。
+> [!IMPORTANT] > `custom.application` 字段是触发 pSEO 模板的关键，必须填写才能显示 B2B Landing Page 布局。
 
 > [!TIP]
 > 使用 Emoji 图标 (✨🎨⚡🌍) 可以让 Pain Points 更加醒目吸引人。
 
-> [!WARNING]
-> `scene_image` 需要替换为实际的图片 URL，当前为占位符地址。
+> [!WARNING] > `scene_image` 需要替换为实际的图片 URL，当前为占位符地址。

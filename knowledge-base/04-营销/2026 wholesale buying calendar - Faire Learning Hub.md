@@ -8,31 +8,31 @@ Using global Faire search data from 2025, this 2026 wholesale buying calendar sh
 
 This calendar is informed by aggregated global search activity on Faire, which reflects when retailers are actively planning and sourcing inventory.
 
--   Start month shows when demand begins to rise meaningfully
--   Acceleration period highlights the months when search activity increases most rapidly; this is when core wholesale orders are typically placed
--   Peak month indicates when buying activity is highest
+- Start month shows when demand begins to rise meaningfully
+- Acceleration period highlights the months when search activity increases most rapidly; this is when core wholesale orders are typically placed
+- Peak month indicates when buying activity is highest
 
-Use the start month to anchor initial assortment planning, the acceleration period to place core orders, and the peak month to guide reorders rather than first buys. The goal is not to buy everything early, but to shift your first commitments earlier in the curve, when selection is broader and competition is lower. 
+Use the start month to anchor initial assortment planning, the acceleration period to place core orders, and the peak month to guide reorders rather than first buys. The goal is not to buy everything early, but to shift your first commitments earlier in the curve, when selection is broader and competition is lower.
 
 **Key takeaways for 2026 buying**
 
--   Most wholesale demand starts earlier than the selling moment, often by several months
--   The steepest competition occurs after acceleration begins, not at the peak
--   Overlapping seasons (spring/Easter, fall/Halloween) benefit from bundled planning
--   Markets differ meaningfully in peak timing, making local calendars essential
+- Most wholesale demand starts earlier than the selling moment, often by several months
+- The steepest competition occurs after acceleration begins, not at the peak
+- Overlapping seasons (spring/Easter, fall/Halloween) benefit from bundled planning
+- Markets differ meaningfully in peak timing, making local calendars essential
 
 ### Global wholesale buying trends: What the data shows for 2026
 
 Across markets, one pattern is clear: Retailer demand starts earlier than most selling moments and accelerates faster than many retailers expect.
 
-Here’s how it plays out across the year. 
+Here’s how it plays out across the year.
 
 #### Valentine’s Day: Early signals, sharp January spike
 
--   Start: October
--   Acceleration period: November–January
--   Peak: January
--   Estimated annual search volume: 88,000
+- Start: October
+- Acceleration period: November–January
+- Peak: January
+- Estimated annual search volume: 88,000
 
 Globally, Valentine’s Day demand begins quietly in the fall, then accelerates dramatically during the holidays. In 2024, global Valentine’s searches grew from 3,614 in November to 25,567 in December, a 7x increase in one month. Demand rose again in January 2025, reaching a peak of 48,411 searches.
 
@@ -42,8 +42,8 @@ What this means for you: Retailers who place initial Valentine’s orders before
 
 #### Easter and spring: Overlapping buying demand, shared planning window
 
--   Easter start: December | Acceleration period: January–March | Peak: March | Volume: 72,000
--   Spring start: November | Acceleration period: December–February | Peak: February | Volume: 61,000
+- Easter start: December | Acceleration period: January–March | Peak: March | Volume: 72,000
+- Spring start: November | Acceleration period: December–February | Peak: February | Volume: 61,000
 
 Easter and spring buying overlap heavily, both in timing and intent. Globally, Easter searches climbed from 953 in November to over 13,000 by January, then peaked in March at over 23,000 searches. Spring followed a similar curve, building steadily through winter and peaking earlier, in February.
 
@@ -53,10 +53,10 @@ What this means for you: Bundling spring and Easter buying into a single early-y
 
 #### Mother’s Day: One of the longest planning curves
 
--   Start: January
--   Acceleration period: February–April
--   Peak: April
--   Estimated global search volume: 43,000
+- Start: January
+- Acceleration period: February–April
+- Peak: April
+- Estimated global search volume: 43,000
 
 Mother’s Day demand builds gradually rather than spiking suddenly. Global searches grew from 608 in December to 2,848 in January, then continued climbing through early spring, peaking in April at 21,481 searches.
 
@@ -66,10 +66,10 @@ What this means for you: Early assortment building paired with targeted spring r
 
 #### Summer: Gradual build, extended reorders
 
--   Start: January
--   Acceleration: February–May
--   Peak: May
--   Estimated global search volume: 84,000
+- Start: January
+- Acceleration: February–May
+- Peak: May
+- Estimated global search volume: 84,000
 
 Summer demand begins earlier than many retailers expect and builds gradually through late winter and spring. Globally, searches increased by about 40% from January to February, then continued rising month over month, more than doubling overall between January and March before peaking in May at 14,924 searches. Unlike sharper holiday spikes, summer demand remains active through June and July as retailers continue reordering in-season.
 
@@ -77,8 +77,8 @@ What this means for you: Summer rewards early core planning followed by flexible
 
 #### Fall and Halloween: Fast acceleration in late summer
 
--   Fall start: May | Acceleration: June–August | Peak: August | Volume: 130,000
--   Halloween start: May | Acceleration: July–September | Peak: September | Volume: 88,000
+- Fall start: May | Acceleration: June–August | Peak: August | Volume: 130,000
+- Halloween start: May | Acceleration: July–September | Peak: September | Volume: 88,000
 
 Fall demand begins building in early summer, especially for home and transitional categories. Halloween demand builds all summer, then intensifies quickly heading into peak season: Global searches jump from 4,462 in June to 14,684 in July (more than 3x), before rising again through August and peaking in September at 26,114.
 
@@ -86,10 +86,10 @@ What this means: Late summer is a critical inflection point. Retailers who wait 
 
 #### Christmas and holiday: The earliest and biggest buying moments
 
--   Start: May
--   Acceleration: August–November
--   Peak: November
--   Estimated global search volume: 294,000
+- Start: May
+- Acceleration: August–November
+- Peak: November
+- Estimated global search volume: 294,000
 
 The holiday season drives more demand than any other moment on the calendar, and it consistently starts earlier than many retailers expect. In 2025, global holiday searches grew from 4,676 in May to 27,931 by August, then more than doubled again by October, reaching 74,369 searches.
 
@@ -105,9 +105,9 @@ While global demand follows a consistent seasonal rhythm, the timing and intensi
 
 Christmas demand in the UK starts earlier and reaches a larger overall scale than in other European markets.
 
--   Christmas volume: 24,000
--   Starts: June
--   Peak: October
+- Christmas volume: 24,000
+- Starts: June
+- Peak: October
 
 UK holiday searches begin building in early summer and intensify quickly heading into fall. Demand is already elevated by September and peaks in October, making September and October the most competitive wholesale buying months of the year.
 
@@ -117,9 +117,9 @@ UK holiday searches begin building in early summer and intensify quickly heading
 
 French demand builds more gradually and peaks later.
 
--   Noël (Christmas) volume: 5,000
--   Start: June
--   Peak: November
+- Noël (Christmas) volume: 5,000
+- Start: June
+- Peak: November
 
 Rather than spiking sharply in early fall, French searches continue building through October and peak in November. This extended curve offers retailers slightly more flexibility, but still rewards those who finalize holiday assortments before November, when demand is at its highest.
 
@@ -129,9 +129,9 @@ Rather than spiking sharply in early fall, French searches continue building thr
 
 Germany shows more concentrated demand patterns, with shorter planning windows and earlier peaks.
 
--   Weihnachten (Christmas) volume: 5,000
--   Start: May
--   Peak: September
+- Weihnachten (Christmas) volume: 5,000
+- Start: May
+- Peak: September
 
 Holiday demand in Germany builds earlier in the year and peaks by September, earlier than in neighboring markets. Retailers tend to plan decisively, placing orders well ahead of peak season rather than spreading buying across the fall.
 
@@ -141,10 +141,10 @@ Holiday demand in Germany builds earlier in the year and peaks by September, ear
 
 Canadian wholesale demand is driven by clearly defined holiday peaks, with buying activity concentrated into short windows rather than building gradually across the year.
 
--   Valentine’s Day: Estimated search volume of 2,500, starting in November and peaking in January
--   Summer: Estimated search volume of 2,500, starting in December and peaking in June
--   Halloween: Estimated search volume of 500, starting in June and peaking in September
--   Christmas: Estimated search volume of 10,000, starting in June and peaking in October
+- Valentine’s Day: Estimated search volume of 2,500, starting in November and peaking in January
+- Summer: Estimated search volume of 2,500, starting in December and peaking in June
+- Halloween: Estimated search volume of 500, starting in June and peaking in September
+- Christmas: Estimated search volume of 10,000, starting in June and peaking in October
 
 Across major holidays, Canadian demand tends to concentrate into one or two peak months, making early planning important, particularly for holiday inventory, where demand peaks before November.
 
@@ -152,11 +152,11 @@ Across major holidays, Canadian demand tends to concentrate into one or two peak
 
 ### Plan your 2026 wholesale buying with Faire
 
-The most successful retailers buy during the ramp-up rather than waiting for the peak. By combining early planning with Faire tools like Ready to ship, free returns, and Net 60 terms, retailers can commit to core assortments earlier in the buying curve while preserving flexibility. 
+The most successful retailers buy during the ramp-up rather than waiting for the peak. By combining early planning with Faire tools like Ready to ship, free returns, and Net 60 terms, retailers can commit to core assortments earlier in the buying curve while preserving flexibility.
 
--   Ready to ship reduces lead-time stressors by allowing inventory to ship immediately
--   Free returns lower the risk of making early bets
--   Net 60 helps manage cash flow when placing larger or earlier orders
+- Ready to ship reduces lead-time stressors by allowing inventory to ship immediately
+- Free returns lower the risk of making early bets
+- Net 60 helps manage cash flow when placing larger or earlier orders
 
 This is all designed to make it easier to buy ahead of peak demand without overcommitting.
 

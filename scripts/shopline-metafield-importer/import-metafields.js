@@ -29,7 +29,7 @@ envContent.split('\n').forEach(line => {
 const CONFIG = {
     storeDomain: env.SHOPLINE_STORE_DOMAIN || 'fominte.myshopline.com',
     accessToken: env.SHOPLINE_ACCESS_TOKEN,
-    csvPath: path.join(process.cwd(), '..', '..', 'data', 'pseo-new-products.csv'),
+    csvPath: path.join(process.cwd(), 'test_import_fixed.csv'),
     metafieldVersion: 'v20241201',
     productVersion: 'v20230901',
     fileApiVersion: 'v20241201'
@@ -37,6 +37,7 @@ const CONFIG = {
 
 // 元字段映射
 const METAFIELD_MAPPING = {
+    // pSEO 元字段
     'custom.application': { namespace: 'custom', key: 'application', type: 'single_line_text_field' },
     'custom.seo_title': { namespace: 'custom', key: 'seo_title', type: 'single_line_text_field' },
     'custom.target_industry': { namespace: 'custom', key: 'target_industry', type: 'single_line_text_field' },
@@ -44,8 +45,16 @@ const METAFIELD_MAPPING = {
     'custom.material_spec': { namespace: 'custom', key: 'material_spec', type: 'single_line_text_field' },
     'custom.trust_badge': { namespace: 'custom', key: 'trust_badge', type: 'single_line_text_field' },
     'custom.pain_point': { namespace: 'custom', key: 'pain_point', type: 'multi_line_text_field' },
-    'custom.faq': { namespace: 'custom', key: 'faq', type: 'multi_line_text_field' }
+    'custom.faq': { namespace: 'custom', key: 'faq', type: 'multi_line_text_field' },
+    
+    // 新产品元字段
+    'my_fields.key_info': { namespace: 'my_fields', key: 'key_info', type: 'multi_line_text_field' },
+    'my_fields.selling_points': { namespace: 'my_fields', key: 'selling_points', type: 'multi_line_text_field' },
+    'my_fields.Craftsmanship_Quality': { namespace: 'my_fields', key: 'Craftsmanship_Quality', type: 'multi_line_text_field' },
+    'my_fields.OEM': { namespace: 'my_fields', key: 'OEM', type: 'multi_line_text_field' },
+    'my_fields.Our_Process': { namespace: 'my_fields', key: 'Our_Process', type: 'multi_line_text_field' }
 };
+
 
 // 图片上传缓存（避免重复上传相同 URL）
 const uploadedImageCache = new Map();
