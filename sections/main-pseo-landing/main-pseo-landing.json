@@ -1,0 +1,312 @@
+{
+  "name": "pSEO Landing Page",
+  "class": "main-pseo-landing",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Hero Section"
+    },
+    {
+      "type": "text",
+      "id": "hero_title",
+      "label": "Hero Title",
+      "default": "Premium Fabric for Your Industry",
+      "info": "Main H1 title, include primary keyword"
+    },
+    {
+      "type": "textarea",
+      "id": "hero_subtitle",
+      "label": "Hero Subtitle",
+      "default": "Trusted by 200+ brands worldwide. MOQ 500 yards, OEKO-TEX certified.",
+      "info": "Value proposition and key differentiators"
+    },
+    {
+      "type": "text",
+      "id": "cta_primary_text",
+      "label": "Primary CTA Button",
+      "default": "Request Free Samples"
+    },
+    {
+      "type": "text",
+      "id": "cta_secondary_text",
+      "label": "Secondary CTA Button",
+      "default": "View Full Guide"
+    },
+    
+    {
+      "type": "header",
+      "content": "Pain Points Section"
+    },
+    {
+      "type": "text",
+      "id": "pain_points_title",
+      "label": "Section Title",
+      "default": "Why Choose This Fabric?"
+    },
+    {
+      "type": "textarea",
+      "id": "pain_points",
+      "label": "Pain Points (separated by ||)",
+      "default": "⚡ MOQ 500 yards (industry lowest)||🌍 Ships to 80+ countries||✨ 15+ years OEM experience||🎨 2000+ design options",
+      "info": "Each point separated by ||. Use emoji + quantified benefit"
+    },
+    
+    {
+      "type": "header",
+      "content": "Scenario Guide Section"
+    },
+    {
+      "type": "checkbox",
+      "id": "scenario_guide_enabled",
+      "label": "Enable Scenario Guide",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "scenario_guide_title",
+      "label": "Section Title",
+      "default": "Product Guide: Which Type for Your Needs?"
+    },
+    {
+      "type": "textarea",
+      "id": "scenario_guide_intro",
+      "label": "Intro Text (optional)",
+      "info": "Brief introduction before the use cases"
+    },
+    
+    {
+      "type": "header",
+      "content": "Decision Framework Section"
+    },
+    {
+      "type": "checkbox",
+      "id": "decision_framework_enabled",
+      "label": "Enable Decision Framework",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "decision_framework_title",
+      "label": "Section Title",
+      "default": "When to Use This Product"
+    },
+    {
+      "type": "textarea",
+      "id": "use_when",
+      "label": "Use When (separated by ||)",
+      "default": "You need structured bodice support||Creating overlay or sleeve details||Achieving vintage aesthetic||Working with sheer designs||Client requests heirloom quality",
+      "info": "Scenarios when this product is ideal"
+    },
+    {
+      "type": "textarea",
+      "id": "avoid_when",
+      "label": "Avoid When (separated by ||)",
+      "default": "Budget is under $8/yard||Design is ultra-minimalist||Timeline doesn't allow testing||Working in extreme heat conditions",
+      "info": "Scenarios when alternatives are better"
+    },
+    
+    {
+      "type": "header",
+      "content": "Common Mistakes Section"
+    },
+    {
+      "type": "checkbox",
+      "id": "common_mistakes_enabled",
+      "label": "Enable Common Mistakes",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "common_mistakes_title",
+      "label": "Section Title",
+      "default": "Top Mistakes to Avoid"
+    },
+    
+    {
+      "type": "header",
+      "content": "FAQ Section"
+    },
+    {
+      "type": "text",
+      "id": "faq_title",
+      "label": "Section Title",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "textarea",
+      "id": "faq",
+      "label": "FAQ Items",
+      "default": "Q: What is the MOQ???A: 500 yards per design for stock colors, 2000 yards for custom dyeing||Q: What certifications do you have???A: OEKO-TEX Standard 100 and GRS certified for all our fabrics||Q: What is your lead time???A: 15-20 days for stock colors, 25-30 days for custom dyeing",
+      "info": "Format: Q: Question??A: Answer. Separate items with ||. Use ?? to separate Q and A (to avoid conflict with || in answers)"
+    },
+    
+    {
+      "type": "header",
+      "content": "Trust Badges Section"
+    },
+    {
+      "type": "text",
+      "id": "trust_badges_title",
+      "label": "Section Title",
+      "default": "Quality Certifications"
+    },
+    {
+      "type": "text",
+      "id": "trust_badges",
+      "label": "Badges (separated by ||)",
+      "default": "OEKO-TEX Standard 100||GRS Recycled||ISO 9001:2015||15+ Years Factory||200+ Brands Served"
+    },
+    
+    {
+      "type": "header",
+      "content": "Final CTA Section"
+    },
+    {
+      "type": "text",
+      "id": "final_cta_title",
+      "label": "CTA Title",
+      "default": "Ready to Source Your Fabric?"
+    },
+    {
+      "type": "textarea",
+      "id": "final_cta_subtitle",
+      "label": "CTA Subtitle",
+      "default": "Request free samples or schedule a consultation with our fabric specialist team."
+    },
+    {
+      "type": "url",
+      "id": "final_cta_link",
+      "label": "CTA Button Link",
+      "default": "/pages/contact"
+    },
+    {
+      "type": "text",
+      "id": "final_cta_button_text",
+      "label": "CTA Button Text",
+      "default": "Request Free Samples"
+    }
+  ],
+  
+  "blocks": [
+    {
+      "type": "scenario_item",
+      "name": "Scenario Use Case",
+      "settings": [
+        {
+          "type": "text",
+          "id": "use_case",
+          "label": "Use Case Title",
+          "default": "For Structured Bodice",
+          "info": "Example: For Wedding Gown Bodice, For Evening Dress Overlay"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "This fabric provides natural support without requiring heavy boning.",
+          "info": "Explain why this use case is suitable"
+        },
+        {
+          "type": "text",
+          "id": "recommendation",
+          "label": "Recommended Product Type",
+          "default": "Guipure or rigid Chantilly lace",
+          "info": "Specific product recommendation for this use case"
+        },
+        {
+          "type": "url",
+          "id": "product_link",
+          "label": "Product Link (optional)",
+          "info": "Link to relevant product collection or specific product"
+        }
+      ]
+    },
+    
+    {
+      "type": "mistake_item",
+      "name": "Common Mistake",
+      "settings": [
+        {
+          "type": "text",
+          "id": "mistake",
+          "label": "Mistake Title",
+          "default": "Ordering Without Wash Testing",
+          "info": "Common mistake buyers make"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Many designers skip pre-production wash testing to save time, only to discover shrinkage or color bleeding issues later.",
+          "info": "Explain the consequences"
+        },
+        {
+          "type": "textarea",
+          "id": "solution",
+          "label": "Solution",
+          "default": "Always request lab dip + wash report before bulk orders. We provide complimentary wash testing for orders over 1000 yards.",
+          "info": "How to avoid this mistake"
+        }
+      ]
+    }
+  ],
+  
+  "presets": [
+    {
+      "name": "pSEO Landing Page",
+      "category": "Custom",
+      "settings": {
+        "hero_title": "Premium Fabric for Your Industry",
+        "hero_subtitle": "Trusted by 200+ brands worldwide.",
+        "cta_primary_text": "Request Free Samples",
+        "cta_secondary_text": "View Full Guide",
+        "pain_points_title": "Why Choose This Fabric?",
+        "pain_points": "⚡ Industry-leading MOQ||🌍 Global shipping||✨ Certified quality||🎨 Custom options",
+        "scenario_guide_enabled": true,
+        "scenario_guide_title": "Product Guide",
+        "decision_framework_enabled": true,
+        "decision_framework_title": "When to Use This Product",
+        "use_when": "You need premium quality||Fast turnaround required||Custom specifications needed",
+        "avoid_when": "Budget constraints||Standard requirements only",
+        "common_mistakes_enabled": true,
+        "common_mistakes_title": "Common Mistakes to Avoid",
+        "faq_title": "Frequently Asked Questions",
+        "faq": "Q: What is the MOQ???A: Contact us for specific requirements",
+        "trust_badges_title": "Quality Certifications",
+        "trust_badges": "OEKO-TEX||ISO 9001||15+ Years",
+        "final_cta_title": "Ready to Get Started?",
+        "final_cta_subtitle": "Contact us today for free samples and consultation.",
+        "final_cta_link": "/pages/contact",
+        "final_cta_button_text": "Request Samples"
+      },
+      "blocks": {
+        "scenario_1": {
+          "type": "scenario_item",
+          "settings": {
+            "use_case": "For Premium Applications",
+            "description": "Ideal for high-end projects requiring superior quality.",
+            "recommendation": "Our premium line products",
+            "product_link": ""
+          }
+        },
+        "scenario_2": {
+          "type": "scenario_item",
+          "settings": {
+            "use_case": "For Standard Projects",
+            "description": "Cost-effective solution for everyday needs.",
+            "recommendation": "Our standard collection",
+            "product_link": ""
+          }
+        },
+        "mistake_1": {
+          "type": "mistake_item",
+          "settings": {
+            "mistake": "Not Ordering Samples",
+            "description": "Proceeding without testing samples first.",
+            "solution": "Always request samples before bulk orders."
+          }
+        }
+      }
+    }
+  ]
+}

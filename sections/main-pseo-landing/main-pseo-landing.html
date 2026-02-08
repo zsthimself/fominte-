@@ -1,0 +1,256 @@
+{{!-- pSEO Landing Page 模板 - 完整版（匹配示例设计） --}}
+
+{{!-- Internal CSS Styles --}}
+<style>
+.pseo-page * { margin: 0; padding: 0; box-sizing: border-box; }
+.pseo-page { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #2c3e50; }
+.pseo-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* Hero Section */
+.pseo-hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center; }
+.pseo-hero h1 { font-size: 2.5rem; margin-bottom: 20px; font-weight: 700; }
+.pseo-hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px; opacity: 0.95; }
+.pseo-cta-buttons { display: flex; gap: 20px; justify-content: center; margin-top: 30px; flex-wrap: wrap; }
+.pseo-btn { padding: 14px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; display: inline-block; transition: all 0.3s; }
+.pseo-btn-primary { background: white; color: #667eea; }
+.pseo-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+.pseo-btn-secondary { background: rgba(255,255,255,0.2); color: white; border: 2px solid white; }
+.pseo-btn-secondary:hover { background: rgba(255,255,255,0.3); }
+
+/* Section Styles */
+.pseo-section { padding: 60px 20px; }
+.pseo-section h2 { font-size: 2rem; margin-bottom: 30px; color: #2c3e50; text-align: center; }
+.pseo-section h3 { font-size: 1.4rem; margin: 25px 0 15px; color: #34495e; }
+
+/* Pain Points */
+.pseo-pain-points { background: #f8f9fa; }
+.pseo-pain-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 30px; }
+.pseo-pain-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+.pseo-pain-card .icon { font-size: 2.5rem; margin-bottom: 15px; }
+.pseo-pain-card p { color: #7f8c8d; font-size: 0.95rem; line-height: 1.6; }
+
+/* Scenario Guide */
+.pseo-scenario-guide { background: white; }
+.pseo-use-case-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 30px; }
+.pseo-use-case-card { border: 2px solid #e0e0e0; border-radius: 10px; padding: 25px; transition: all 0.3s; }
+.pseo-use-case-card:hover { border-color: #667eea; box-shadow: 0 8px 20px rgba(102,126,234,0.15); }
+.pseo-use-case-card h3 { color: #667eea; font-size: 1.2rem; margin-bottom: 15px; }
+.pseo-use-case-card p { margin-bottom: 10px; line-height: 1.6; }
+.pseo-use-case-card strong { color: #2c3e50; }
+
+/* Decision Framework */
+.pseo-decision { background: #f8f9fa; }
+.pseo-decision-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; }
+.pseo-decision-box { background: white; padding: 30px; border-radius: 12px; }
+.pseo-decision-box.use { border-left: 4px solid #27ae60; }
+.pseo-decision-box.avoid { border-left: 4px solid: #e74c3c; }
+.pseo-decision-box h3 { margin-bottom: 20px; font-size: 1.3rem; }
+.pseo-decision-box ul { list-style: none; }
+.pseo-decision-box li { padding: 10px 0 10px 30px; position: relative; line-height: 1.6; }
+.pseo-decision-box.use li:before { content: "✅"; position: absolute; left: 0; }
+.pseo-decision-box.avoid li:before { content: "❌"; position: absolute; left: 0; }
+
+/* Common Mistakes */
+.pseo-mistakes { background: white; }
+.pseo-mistake-item { background: #fff3cd; border-left: 4px solid #ffc107; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+.pseo-mistake-item h3 { color: #856404; margin-bottom: 10px; font-size: 1.1rem; }
+.pseo-mistake-item p { color: #856404; line-height: 1.6; }
+.pseo-solution { background: #d4edda; border-left: 4px solid #28a745; padding: 15px; margin-top: 15px; border-radius: 6px; }
+.pseo-solution strong { color: #155724; }
+
+/* FAQ */
+.pseo-faq { background: #f8f9fa; }
+.pseo-faq-item { background: white; padding: 25px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+.pseo-faq-item h3 { color: #2c3e50; font-size: 1.2rem; margin-bottom: 10px; }
+.pseo-faq-item p { color: #555; line-height: 1.8; }
+
+/* Trust Badges */
+.pseo-trust { background: white; text-align: center; }
+.pseo-badges-grid { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 30px; }
+.pseo-badge { padding: 20px; background: #f8f9fa; border-radius: 10px; min-width: 150px; }
+.pseo-badge strong { display: block; color: #667eea; font-size: 1.1rem; margin-bottom: 5px; }
+
+/* Final CTA */
+.pseo-final-cta { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 80px 20px; }
+.pseo-final-cta h2 { color: white; margin-bottom: 20px; font-size: 2.4rem; }
+.pseo-final-cta p { font-size: 1.1rem; margin-bottom: 30px; opacity: 0.95; max-width: 800px; margin-left: auto; margin-right: auto; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pseo-hero h1 { font-size: 1.8rem; }
+  .pseo-decision-grid { grid-template-columns: 1fr; }
+  .pseo-cta-buttons { flex-direction: column; }
+}
+</style>
+
+<div class="pseo-page">
+  
+  {{!-- Hero Section --}}
+  <section class="pseo-hero">
+    <div class="pseo-container">
+      <h1>{{page.metafields.custom.pseo_hero_title}}</h1>
+      <p>{{page.metafields.custom.pseo_hero_subtitle}}</p>
+      <div class="pseo-cta-buttons">
+        <a href="#contact" class="pseo-btn pseo-btn-primary">{{page.metafields.custom.pseo_cta_primary}}</a>
+        <a href="#guide" class="pseo-btn pseo-btn-secondary">{{page.metafields.custom.pseo_cta_secondary}}</a>
+      </div>
+    </div>
+  </section>
+
+  {{!-- Pain Points --}}
+  {{#if page.metafields.custom.pseo_pain_points}}
+  <section class="pseo-section pseo-pain-points">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_pain_title}}</h2>
+      <div class="pseo-pain-grid">
+        {{#var pain_items = page.metafields.custom.pseo_pain_points | split("||") /}}
+        {{#for item in pain_items}}
+        <div class="pseo-pain-card">
+          <div class="icon">✓</div>
+          <p>{{item}}</p>
+        </div>
+        {{/for}}
+      </div>
+    </div>
+  </section>
+  {{/if}}
+
+  {{!-- Scenario Guide --}}
+  {{#if page.metafields.custom.pseo_guide_enabled}}
+  <section class="pseo-section pseo-scenario-guide" id="guide">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_guide_title}}</h2>
+      {{#if page.metafields.custom.pseo_guide_intro}}
+      <p style="text-align: center; max-width: 800px; margin: 0 auto 30px;">{{page.metafields.custom.pseo_guide_intro}}</p>
+      {{/if}}
+      
+      {{#if page.metafields.custom.pseo_scenarios}}
+      <div class="pseo-use-case-grid">
+        {{#var scenarios = page.metafields.custom.pseo_scenarios | split("||") /}}
+        {{#for scenario in scenarios}}
+        {{#var parts = scenario | split("??") /}}
+        {{#if parts | size() >= 2}}
+        <div class="pseo-use-case-card">
+          <h3>{{parts[0]}}</h3>
+          <p>{{parts[1]}}</p>
+          {{#if parts | size() >= 3}}
+          <p><strong>Recommended:</strong> {{parts[2]}}</p>
+          {{/if}}
+        </div>
+        {{/if}}
+        {{/for}}
+      </div>
+      {{/if}}
+    </div>
+  </section>
+  {{/if}}
+
+  {{!-- Decision Framework --}}
+  {{#if page.metafields.custom.pseo_decision_enabled}}
+  <section class="pseo-section pseo-decision">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_decision_title}}</h2>
+      <div class="pseo-decision-grid">
+        <div class="pseo-decision-box use">
+          <h3>✅ Use When:</h3>
+          <ul>
+            {{#var use_items = page.metafields.custom.pseo_use_when | split("||") /}}
+            {{#for item in use_items}}
+            <li>{{item}}</li>
+            {{/for}}
+          </ul>
+        </div>
+        <div class="pseo-decision-box avoid">
+          <h3>❌ Avoid When:</h3>
+          <ul>
+            {{#var avoid_items = page.metafields.custom.pseo_avoid_when | split("||") /}}
+            {{#for item in avoid_items}}
+            <li>{{item}}</li>
+            {{/for}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{/if}}
+
+  {{!-- Common Mistakes --}}
+  {{#if page.metafields.custom.pseo_mistakes}}
+  <section class="pseo-section pseo-mistakes">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_mistakes_title}}</h2>
+      {{#var mistakes = page.metafields.custom.pseo_mistakes | split("||") /}}
+      {{#for mistake in mistakes}}
+      {{#var parts = mistake | split("??") /}}
+      {{#if parts | size() >= 2}}
+      <div class="pseo-mistake-item">
+        <h3>❌ {{parts[0]}}</h3>
+        <p>{{parts[1]}}</p>
+        {{#if parts | size() >= 3}}
+        <div class="pseo-solution">
+          <strong>✅ Solution:</strong> {{parts[2]}}
+        </div>
+        {{/if}}
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </section>
+  {{/if}}
+
+  {{!-- FAQ --}}
+  {{#if page.metafields.custom.pseo_faq}}
+  <section class="pseo-section pseo-faq">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_faq_title}}</h2>
+      <div style="max-width: 800px; margin: 0 auto;">
+        {{#var faq_items = page.metafields.custom.pseo_faq | split("||") /}}
+        {{#for item in faq_items}}
+        {{#var qa = item | split("??") /}}
+        {{#if qa | size() >= 2}}
+        <div class="pseo-faq-item">
+          <h3>{{qa[0]}}</h3>
+          <p>{{qa[1]}}</p>
+        </div>
+        {{/if}}
+        {{/for}}
+      </div>
+    </div>
+  </section>
+  {{/if}}
+
+  {{!-- Trust Badges --}}
+  {{#if page.metafields.custom.pseo_badges}}
+  <section class="pseo-section pseo-trust">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_badges_title}}</h2>
+      <div class="pseo-badges-grid">
+        {{#var badges = page.metafields.custom.pseo_badges | split("||") /}}
+        {{#for badge in badges}}
+        {{#var parts = badge | split("??") /}}
+        <div class="pseo-badge">
+          {{#if parts | size() >= 2}}
+          <strong>{{parts[0]}}</strong>
+          <p>{{parts[1]}}</p>
+          {{else}}
+          <strong>{{badge}}</strong>
+          {{/if}}
+        </div>
+        {{/for}}
+      </div>
+    </div>
+  </section>
+  {{/if}}
+
+  {{!-- Final CTA --}}
+  <section class="pseo-final-cta" id="contact">
+    <div class="pseo-container">
+      <h2>{{page.metafields.custom.pseo_final_title}}</h2>
+      <p>{{page.metafields.custom.pseo_final_subtitle}}</p>
+      <div class="pseo-cta-buttons">
+        <a href="{{page.metafields.custom.pseo_final_link}}" class="pseo-btn pseo-btn-primary">{{page.metafields.custom.pseo_final_button}}</a>
+      </div>
+    </div>
+  </section>
+
+</div>

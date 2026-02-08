@@ -1,0 +1,260 @@
+这个问题问得**非常到位**，而且你这个目标已经不是“能不能显示”，而是**系统架构层面的选择**了 👍  
+我直接给你一个**不绕弯的结论**，然后把实现路径拆清楚。
+
+___
+
+## 先给结论（很重要）
+
+👉 **是的，用「自定义模板字段」不仅可以实现你这个 PSEO 工作流，而且在 SHOPLINE 上它反而是「更可落地、更稳定」的一条路。**
+
+更关键的一句：
+
+> **SHOPLINE 的「博客自定义模板字段」是可以通过 API 批量写入的，且比 Blog Metafield 更“前端友好”。**
+
+所以你原先设想的这条链路👇  
+**完全成立，只是需要换一个“承载层”。**
+
+___
+
+## 你原本的理想 PSEO 架构（我复述一遍，确保我们对齐）
+
+你的设想是：
+
+1.  维护一个 **关键词库**
+    
+2.  AI 分析关键词意图（HowTo / Comparison / List / FAQ / Guide）
+    
+3.  根据「模块规划」生成结构化内容
+    
+    -   article\_intro
+        
+    -   use\_when
+        
+    -   avoid\_when
+        
+    -   faq\_items
+        
+    -   comparison\_table
+        
+    -   conclusion
+        
+4.  **不拼 HTML**
+    
+5.  通过 API 批量写入
+    
+6.  前端模板自动装配
+    
+7.  形成规模化 PSEO 博客
+    
+
+👉 这是一个**标准 PSEO 系统设计**，方向完全正确。
+
+___
+
+## 为什么「Blog Metafield」在 SHOPLINE 上反而是坑
+
+你已经踩到了关键雷点，我帮你总结成一句话：
+
+> **Blog Metafield 在 SHOPLINE 更像是「数据仓库」，不是「渲染层接口」。**
+
+它的问题不是 API，而是：
+
+-   ❌ 不保证暴露到 article 对象
+    
+-   ❌ 不保证可在 Liquid 使用
+    
+-   ❌ 主题侧不统一
+    
+-   ❌ 博客资源是“二等公民”
+    
+
+所以它 **适合 App / 分析 / 内部逻辑**  
+但 **不适合 PSEO 内容装配**
+
+___
+
+## 那「自定义模板字段」到底是什么？（关键认知转变）
+
+你现在要把它理解成👇
+
+> **自定义模板字段 = 可被 API 写入的结构化内容字段 + 默认注入到 article 对象**
+
+换句话说：
+
+-   它不是“只能手填的 UI 字段”
+    
+-   它是 **SHOPLINE 官方主题层认可的数据接口**
+    
+
+___
+
+## 🧩 用自定义模板字段做 PSEO 的「正确架构」
+
+我给你一套**实战级架构图（文字版）**：
+
+```
+<div><p>vbnet</p><p><code id="code-lang-vbnet">关键词库
+   ↓
+AI 意图识别
+   ↓
+模块选择（HowTo / FAQ / Compare / List）
+   ↓
+AI 生成模块化内容（JSON）
+   ↓
+API 写入 article.custom.*
+   ↓
+主题模板自动组装
+   ↓
+搜索引擎抓取</code></p></div>
+```
+
+___
+
+## ✅ 重点问题：API 能不能写入「自定义模板字段」？
+
+### 答案：**能，而且是官方支持的**
+
+在 API 层，自定义模板字段本质上就是：
+
+```
+<div><p>json</p><p><code id="code-lang-json">{
+  "custom": {
+    "article_intro": "...",
+    "faq_items": "...",
+    "use_when": "...",
+    "comparison_table": "..."
+  }
+}</code></p></div>
+```
+
+你只是把：
+
+-   ❌ 写入 `metafields`
+    
+-   ✅ 改成写入 `custom`
+    
+
+___
+
+## 🧪 真实可用的写入示例（逻辑示意）
+
+```
+<div><p>json</p><p><code id="code-lang-json">{
+  "title": "How to Choose Lace for Wedding Dress",
+  "custom": {
+    "article_intro": "Choosing the right lace fabric...",
+    "use_when": "Use Chantilly lace when...",
+    "faq_items": "Q: MOQ?\nA: 500 yards...",
+    "article_conclusion": "In summary..."
+  }
+}</code></p></div>
+```
+
+👉 前端直接：
+
+```
+<div><p>hbs</p><p><code id="code-lang-hbs">{{article.custom.article_intro}}
+{{article.custom.faq_items}}</code></p></div>
+```
+
+**无需 .value，无需 namespace**
+
+___
+
+## 🔥 为什么这条路更适合你做 PSEO？
+
+### 1️⃣ 前端 100% 可控
+
+不用赌 `article.metafields` 会不会暴露
+
+___
+
+### 2️⃣ AI 输出结构更干净
+
+AI 输出 JSON → 直接映射字段  
+不用拼 Liquid / HTML
+
+___
+
+### 3️⃣ 模板可“模块开关化”
+
+```
+<div><p>hbs</p><p><code id="code-lang-hbs">{{#if article.custom.faq_items}}
+  {{&gt; faq-module}}
+{{/if}}</code></p></div>
+```
+
+👉 每篇文章天然差异化  
+👉 非常利于 PSEO
+
+___
+
+### 4️⃣ Schema / SEO 极其好做
+
+```
+<div><p>hbs</p><p><code id="code-lang-hbs">&lt;script type="application/ld+json"&gt;
+{
+  "@type": "FAQPage",
+  "mainEntity": {{article.custom.faq_items | faq_schema}}
+}
+&lt;/script&gt;</code></p></div>
+```
+
+___
+
+## ⚠️ 需要注意的 3 个现实限制（但都能接受）
+
+### ❗ 1️⃣ 字段数量上限
+
+自定义模板字段不是无限的  
+👉 但对 PSEO 来说完全够
+
+___
+
+### ❗ 2️⃣ 字段类型偏文本
+
+但你现在本来就是 text / multiline  
+👉 正合适
+
+___
+
+### ❗ 3️⃣ 必须“固定字段结构”
+
+但这正是 PSEO 的优势
+
+___
+
+## 🏁 给你一个架构级建议（真心的）
+
+> **在 SHOPLINE 上：  
+> PSEO 博客 = 自定义模板字段 + 模块化模板  
+> 不要用 Blog Metafield 作为渲染源**
+
+你现在这个项目已经明显是：
+
+-   批量
+    
+-   自动化
+    
+-   SEO 导向
+    
+
+👉 **选稳定比选“理论优雅”更重要**
+
+___
+
+## 如果你愿意，我可以下一步直接帮你：
+
+1️⃣ 设计一套 **PSEO 博客字段 Schema（最终版）**  
+（HowTo / Comparison / List / Info / Review）
+
+2️⃣ 帮你定义 **AI 输出 JSON 模板**
+
+3️⃣ 给你一套 **main-article 自动装配模板代码**
+
+4️⃣ 顺手帮你做 **Schema.org 输出**
+
+你这个问题已经不是“能不能”，而是  
+👉 **“怎么把它做成一套能规模化跑 10k 篇的系统”**
+
+要不要我直接给你一个「PSEO 博客系统蓝图」？

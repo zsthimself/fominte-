@@ -1,0 +1,197 @@
+{{!-- pSEO Landing Page 模板（精简版） --}}
+
+<style>
+  .pseo-container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  
+  /* Hero */
+  .pseo-hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 20px; text-align: center; }
+  .pseo-hero h1 { font-size: 2.5rem; margin-bottom: 20px; font-weight: 700; }
+  .pseo-hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px; opacity: 0.95; }
+  .pseo-btn { padding: 14px 32px; border-radius: 8px; font-weight: 600; text-decoration: none; display: inline-block; margin: 10px; }
+  .pseo-btn-primary { background: white; color: #667eea; }
+  .pseo-btn-secondary { background: rgba(255,255,255,0.2); color: white; border: 2px solid white; }
+  
+  /* Section */
+  .pseo-section { padding: 60px 20px; }
+  .pseo-section-title { text-align: center; font-size: 2rem; font-weight: 700; margin-bottom: 60px; color: #2c3e50; }
+  
+  /* Pain Points */
+  .pseo-pain-points { background: #f8f9fa; }
+  .pseo-pain-points-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+  .pseo-pain-point-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+  .pseo-pain-point-card .icon { font-size: 2.5rem; margin-bottom: 15px; }
+  
+  /* Scenario Guide */
+  .pseo-scenario-guide { background: white; }
+  .pseo-use-case-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+  .pseo-use-case-card { border: 2px solid #e0e0e0; border-radius: 10px; padding: 25px; }
+  .pseo-use-case-card h3 { color: #667eea; font-size: 1.2rem; margin-bottom: 15px; }
+  .pseo-use-case-card a { color: #667eea; font-weight: 600; text-decoration: none; }
+  
+  /* Decision Framework */
+  .pseo-decision-framework { background: #f8f9fa; }
+  .pseo-decision-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .pseo-decision-box { background: white; padding: 30px; border-radius: 12px; }
+  .pseo-decision-box.use { border-left: 4px solid #27ae60; }
+  .pseo-decision-box.avoid { border-left: 4px solid #e74c3c; }
+  .pseo-decision-box ul { list-style: none; padding: 0; }
+  .pseo-decision-box li { padding: 10px 0 10px 30px; position: relative; }
+  .pseo-decision-box.use li:before { content: "✅"; position: absolute; left: 0; }
+  .pseo-decision-box.avoid li:before { content: "❌"; position: absolute; left: 0; }
+  
+  /* FAQ */
+  .pseo-faq-section { background: #f8f9fa; }
+  .pseo-faq-list { max-width: 800px; margin: 0 auto; }
+  .pseo-faq-item { background: white; padding: 25px; margin-bottom: 15px; border-radius: 10px; }
+  .pseo-faq-item h3 { color: #2c3e50; font-size: 1.2rem; margin-bottom: 10px; }
+  
+  /* Trust Badges */
+  .pseo-trust-badges { background: white; text-align: center; }
+  .pseo-badges-grid { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+  .pseo-badge { padding: 20px; background: #f8f9fa; border-radius: 10px; min-width: 150px; }
+  
+  /* CTA */
+  .pseo-cta-section { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 80px 20px; }
+  
+  @media (max-width: 768px) {
+    .pseo-decision-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+{{!-- Hero --}}
+<section class="pseo-hero">
+  <div class="pseo-container">
+    <h1>{{section.settings.hero_title}}</h1>
+    <p>{{section.settings.hero_subtitle}}</p>
+    <div>
+      <a href="#contact" class="pseo-btn pseo-btn-primary">{{section.settings.cta_primary_text}}</a>
+      <a href="#guide" class="pseo-btn pseo-btn-secondary">{{section.settings.cta_secondary_text}}</a>
+    </div>
+  </div>
+</section>
+
+{{!-- Pain Points --}}
+{{#if section.settings.pain_points}}
+<section class="pseo-section pseo-pain-points">
+  <div class="pseo-container">
+    <h2 class="pseo-section-title">{{section.settings.pain_points_title}}</h2>
+    <div class="pseo-pain-points-grid">
+      {{#var pain_items = section.settings.pain_points | split("||") /}}
+      {{#for item in pain_items}}
+      <div class="pseo-pain-point-card">
+        <div class="icon">✓</div>
+        <p>{{item}}</p>
+      </div>
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Scenario Guide --}}
+{{#if section.settings.scenario_guide_enabled}}
+<section class="pseo-section pseo-scenario-guide" id="guide">
+  <div class="pseo-container">
+    <h2 class="pseo-section-title">{{section.settings.scenario_guide_title}}</h2>
+    {{#if section.settings.scenario_guide_intro}}
+    <p style="text-align: center; margin-bottom: 40px;">{{section.settings.scenario_guide_intro}}</p>
+    {{/if}}
+    
+    <div class="pseo-use-case-grid">
+      {{#for block in section.blocks}}
+      {{#if block.type == 'scenario_item'}}
+      <div class="pseo-use-case-card">
+        <h3>{{block.settings.use_case}}</h3>
+        <p>{{block.settings.description}}</p>
+        {{#if block.settings.recommendation}}
+        <p><strong>Recommended:</strong> {{block.settings.recommendation}}</p>
+        {{/if}}
+        {{#if block.settings.product_link}}
+        <a href="{{block.settings.product_link}}">View Products →</a>
+        {{/if}}
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Decision Framework --}}
+{{#if section.settings.decision_framework_enabled}}
+<section class="pseo-section pseo-decision-framework">
+  <div class="pseo-container">
+    <h2 class="pseo-section-title">{{section.settings.decision_framework_title}}</h2>
+    <div class="pseo-decision-grid">
+      <div class="pseo-decision-box use">
+        <h3>✅ Use When:</h3>
+        <ul>
+          {{#var use_items = section.settings.use_when | split("||") /}}
+          {{#for item in use_items}}
+          <li>{{item}}</li>
+          {{/for}}
+        </ul>
+      </div>
+      
+      <div class="pseo-decision-box avoid">
+        <h3>❌ Avoid When:</h3>
+        <ul>
+          {{#var avoid_items = section.settings.avoid_when | split("||") /}}
+          {{#for item in avoid_items}}
+          <li>{{item}}</li>
+          {{/for}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- FAQ --}}
+{{#if section.settings.faq}}
+<section class="pseo-section pseo-faq-section">
+  <div class="pseo-container">
+    <h2 class="pseo-section-title">{{section.settings.faq_title}}</h2>
+    <div class="pseo-faq-list">
+      {{#var faq_items = section.settings.faq | split("||") /}}
+      {{#for item in faq_items}}
+      {{#var qa = item | split("??") /}}
+      {{#if qa | size() >= 2}}
+      <div class="pseo-faq-item">
+        <h3>{{qa[0]}}</h3>
+        <p>{{qa[1]}}</p>
+      </div>
+      {{/if}}
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Trust Badges --}}
+{{#if section.settings.trust_badges}}
+<section class="pseo-section pseo-trust-badges">
+  <div class="pseo-container">
+    <h2 class="pseo-section-title">{{section.settings.trust_badges_title}}</h2>
+    <div class="pseo-badges-grid">
+      {{#var badge_items = section.settings.trust_badges | split("||") /}}
+      {{#for badge in badge_items}}
+      <div class="pseo-badge">
+        <strong>{{badge}}</strong>
+      </div>
+      {{/for}}
+    </div>
+  </div>
+</section>
+{{/if}}
+
+{{!-- Final CTA --}}
+<section class="pseo-cta-section" id="contact">
+  <div class="pseo-container">
+    <h2>{{section.settings.final_cta_title}}</h2>
+    <p>{{section.settings.final_cta_subtitle}}</p>
+    <a href="{{section.settings.final_cta_link}}" class="pseo-btn pseo-btn-primary">
+      {{section.settings.final_cta_button_text}}
+    </a>
+  </div>
+</section>

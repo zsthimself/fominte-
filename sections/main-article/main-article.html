@@ -1,43 +1,618 @@
-{{#component "stylesheet" src="./main-article.css" | asset_url() /}}
+﻿{{#component "stylesheet" src="./main-article.css" | asset_url() /}}
+
+{{!-- ========== 获取博客元字段 ========== --}}
+{{#var reading_time = article | get_metafield("custom", "reading_time") /}}
+{{#var article_type = article | get_metafield("custom", "article_type") /}}
+{{#var article_intro = article | get_metafield("custom", "article_intro") /}}
+{{#var concept_explanation = article | get_metafield("custom", "concept_explanation") /}}
+{{#var step_by_step_tutorials = article | get_metafield("custom", "step_by_step_tutorials") /}}
+{{#var scenario_matrix = article | get_metafield("custom", "scenario_matrix") /}}
+{{#var common_mistakes = article | get_metafield("custom", "common_mistakes") /}}
+{{#var faq_items = article | get_metafield("custom", "faq_items") /}}
+{{#var comparison_table = article | get_metafield("custom", "comparison_table") /}}
+{{#var article_conclusion = article | get_metafield("custom", "article_conclusion") /}}
+
+<style>
+  /* ========== 博客文章样式系统 ========== */
+  :root {
+    --blog-color-primary: #3D3819;
+    --blog-color-secondary: #726C4A;
+    --blog-color-accent: #C9A962;
+    --blog-color-background: #ffffff;
+    --blog-color-light-bg: #F9F9F9;
+    --blog-color-border: #E5E5E5;
+    --blog-color-text: #2c2c2c;
+    --blog-color-text-light: #6B6B6B;
+    
+    --blog-spacing-xs: 8px;
+    --blog-spacing-sm: 16px;
+    --blog-spacing-md: 28px;
+    --blog-spacing-lg: 48px;
+    --blog-spacing-xl: 64px;
+    
+    --blog-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  .blog-article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--blog-spacing-xl) var(--blog-spacing-md);
+    font-family: var(--blog-font-family);
+    color: var(--blog-color-text);
+    line-height: 1.8;
+  }
+
+  /* 文章头部元信息 */
+  .blog-article__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--blog-spacing-sm);
+    margin-bottom: var(--blog-spacing-md);
+    font-size: 0.9rem;
+    color: var(--blog-color-text-light);
+  }
+
+  .blog-article__meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--blog-spacing-xs);
+  }
+
+  .blog-article__tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--blog-color-light-bg);
+    color: var(--blog-color-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+  }
+
+  /* 文章简介 */
+  .blog-article__intro {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--blog-color-text);
+    margin-bottom: var(--blog-spacing-lg);
+    padding: var(--blog-spacing-md);
+    background: var(--blog-color-light-bg);
+    border-left: 4px solid var(--blog-color-accent);
+    border-radius: 4px;
+  }
+
+  /* 场景决策矩阵模块 */
+  .blog-scenarios {
+    margin: var(--blog-spacing-xl) 0;
+  }
+
+  .blog-scenarios h2 {
+    color: var(--blog-color-primary);
+    font-size: 1.6rem;
+    margin-bottom: var(--blog-spacing-lg);
+    font-weight: 600;
+  }
+
+  .blog-scenario-item {
+    margin-bottom: var(--blog-spacing-xl);
+  }
+
+  .scenario-method {
+    color: var(--blog-color-primary);
+    font-size: 1.3rem;
+    margin-bottom: var(--blog-spacing-md);
+    font-weight: 600;
+    border-bottom: 2px solid var(--blog-color-accent);
+    padding-bottom: var(--blog-spacing-xs);
+  }
+
+  .scenario-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--blog-spacing-md);
+  }
+
+  .scenario-box {
+    padding: var(--blog-spacing-md);
+    border-radius: 8px;
+    background: var(--blog-color-background);
+    border: 2px solid;
+  }
+
+  .scenario-box--use {
+    border-color: #10b981;
+    background: #f0fdf4;
+  }
+
+  .scenario-box--avoid {
+    border-color: #f59e0b;
+    background: #fffbeb;
+  }
+
+  .scenario-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: var(--blog-spacing-sm);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .scenario-box--use .scenario-title {
+    color: #059669;
+  }
+
+  .scenario-box--avoid .scenario-title {
+    color: #d97706;
+  }
+
+  .scenario-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .scenario-list li {
+    padding: var(--blog-spacing-xs) 0;
+    padding-left: var(--blog-spacing-md);
+    position: relative;
+    line-height: 1.6;
+  }
+
+  .scenario-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+
+  .scenario-box--use .scenario-list li::before {
+    color: #10b981;
+  }
+
+  .scenario-box--avoid .scenario-list li::before {
+    color: #f59e0b;
+  }
+
+  /* FAQ 模块 */
+  .blog-faq {
+    margin: var(--blog-spacing-xl) 0;
+    padding: var(--blog-spacing-lg);
+    background: var(--blog-color-light-bg);
+    border-radius: 8px;
+  }
+
+  .blog-faq__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: var(--blog-spacing-md);
+    color: var(--blog-color-primary);
+  }
+
+  .blog-faq__item {
+    margin-bottom: var(--blog-spacing-md);
+    padding-bottom: var(--blog-spacing-md);
+    border-bottom: 1px solid var(--blog-color-border);
+  }
+
+  .blog-faq__item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .blog-faq__question {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--blog-color-primary);
+    margin-bottom: var(--blog-spacing-xs);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--blog-spacing-sm);
+  }
+
+  .blog-faq__question::before {
+    content: "Q:";
+    color: var(--blog-color-accent);
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+
+  .blog-faq__answer {
+    color: var(--blog-color-text);
+    line-height: 1.7;
+    padding-left: calc(var(--blog-spacing-sm) + 20px);
+  }
+
+  /* 结论区域 */
+  .blog-conclusion {
+    margin-top: var(--blog-spacing-xl);
+    padding: var(--blog-spacing-lg);
+    background: var(--blog-color-primary);
+    color: #ffffff;
+    border-radius: 8px;
+  }
+
+  .blog-conclusion__title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: var(--blog-spacing-sm);
+    color: var(--blog-color-accent);
+  }
+
+  .blog-conclusion__text {
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  /* ========== 新增模块样式 ========== */
+  
+  /* 概念解释模块 */
+  .blog-concept {
+    margin: var(--blog-spacing-xl) 0;
+    padding: var(--blog-spacing-lg);
+    background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+    border-left: 4px solid var(--blog-color-primary);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .blog-concept h2 {
+    color: var(--blog-color-primary);
+    font-size: 1.5rem;
+    margin-bottom: var(--blog-spacing-md);
+    font-weight: 600;
+  }
+
+  .blog-concept__content {
+    line-height: 1.8;
+    color: var(--blog-color-text);
+  }
+
+  /* 操作步骤模块 */
+  .blog-tutorials {
+    margin: var(--blog-spacing-xl) 0;
+  }
+
+  .blog-tutorials h2 {
+    color: var(--blog-color-primary);
+    font-size: 1.6rem;
+    margin-bottom: var(--blog-spacing-lg);
+    font-weight: 600;
+  }
+
+  .blog-tutorial {
+    margin-bottom: var(--blog-spacing-lg);
+    padding: var(--blog-spacing-md);
+    border: 1px solid var(--blog-color-border);
+    border-radius: 8px;
+    background: var(--blog-color-background);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .blog-tutorial:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .blog-tutorial h3 {
+    color: var(--blog-color-primary);
+    font-size: 1.2rem;
+    margin-bottom: var(--blog-spacing-sm);
+    font-weight: 600;
+  }
+
+  .tutorial-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--blog-spacing-md);
+    font-size: 0.9rem;
+    color: var(--blog-color-text-light);
+    margin-bottom: var(--blog-spacing-md);
+    padding-bottom: var(--blog-spacing-sm);
+    border-bottom: 1px solid var(--blog-color-border);
+  }
+
+  .tutorial-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .tutorial-steps {
+    line-height: 1.8;
+    white-space: pre-line;
+    color: var(--blog-color-text);
+  }
+
+  .tutorial-notes {
+    margin-top: var(--blog-spacing-md);
+    padding: var(--blog-spacing-sm) var(--blog-spacing-md);
+    background: #fff3cd;
+    border-left: 3px solid #f59e0b;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #856404;
+  }
+
+  /* 常见错误模块 */
+  .blog-mistakes {
+    margin: var(--blog-spacing-xl) 0;
+    counter-reset: mistake-counter;
+  }
+
+  .blog-mistakes h2 {
+    color: var(--blog-color-primary);
+    font-size: 1.6rem;
+    margin-bottom: var(--blog-spacing-lg);
+    font-weight: 600;
+  }
+
+  .blog-mistake {
+    margin-bottom: var(--blog-spacing-md);
+    padding: var(--blog-spacing-md);
+    background: var(--blog-color-light-bg);
+    border-radius: 8px;
+    border: 1px solid var(--blog-color-border);
+    counter-increment: mistake-counter;
+  }
+
+  .mistake-title {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--blog-spacing-sm);
+    margin-bottom: var(--blog-spacing-sm);
+  }
+
+  .mistake-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    background: var(--blog-color-accent);
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+
+  .mistake-number::before {
+    content: counter(mistake-counter);
+  }
+
+  .mistake-title strong {
+    color: var(--blog-color-primary);
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+
+  .mistake-consequence {
+    padding-left: 44px;
+    margin-bottom: var(--blog-spacing-xs);
+    color: #dc2626;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .mistake-solution {
+    padding-left: 44px;
+    color: #059669;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* 响应式 */
+  @media (max-width: 768px) {
+    .blog-article {
+      padding: var(--blog-spacing-lg) var(--blog-spacing-sm);
+    }
+
+    .scenario-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .blog-faq {
+      padding: var(--blog-spacing-md);
+    }
+
+    .blog-conclusion {
+      padding: var(--blog-spacing-md);
+    }
+  }
+</style>
 
 <div class="main-article-container color-{{section.settings.color_scheme.id}}">
   <div class="main-article page-width">
     <div class="{{section.settings | class_list()}}">
-      {{#content "blocks" /}}
+      
+      <article class="blog-article">
+        
+        {{!-- 文章元信息 --}}
+        {{#if reading_time}}
+        <div class="blog-article__meta">
+          {{#if article_type}}
+            <span class="blog-article__tag">{{article_type.value}}</span>
+          {{/if}}
+          <span class="blog-article__meta-item">
+            <span>📖</span>
+            <span>{{reading_time.value}}</span>
+          </span>
+          {{#if article.author}}
+            <span class="blog-article__meta-item">
+              <span>✍️</span>
+              <span>{{article.author}}</span>
+            </span>
+          {{/if}}
+        </div>
+        {{/if}}
+
+        {{!-- 文章简介 --}}
+        {{#if article_intro}}
+        <div class="blog-article__intro">
+          {{article_intro.value}}
+        </div>
+        {{/if}}
+
+        {{!-- 概念解释模块 --}}
+        {{#if concept_explanation}}
+        <section class="blog-concept">
+          <h2>What It Really Means</h2>
+          <div class="blog-concept__content">
+            {{concept_explanation.value}}
+          </div>
+        </section>
+        {{/if}}
+
+        {{!-- 主要内容（不含评论） --}}
+        <div class="blog-article__content">
+          {{#content "blocks" only="$title,$info,$cover_image,$content,$share,$button_back" /}}
+        </div>
+
+        {{!-- 操作步骤教程模块 --}}
+        {{#if step_by_step_tutorials}}
+        <section class="blog-tutorials">
+          <h2>Step-by-Step Guide</h2>
+          {{#var tutorials = step_by_step_tutorials.value | split("||") /}}
+          {{#for tutorial in tutorials}}
+            {{#if tutorial | trim() | size() > 0}}
+              {{#var parts = tutorial | split("??") /}}
+              {{#if parts.length >= 4}}
+              <div class="blog-tutorial">
+                <h3>{{parts[0] | trim()}}</h3>
+                <div class="tutorial-meta">
+                  <span>📦 <strong>Materials:</strong> {{parts[1] | trim()}}</span>
+                  <span>⏱️ <strong>Time:</strong> {{parts[2] | trim()}}</span>
+                </div>
+                <div class="tutorial-steps">
+                  {{parts[3] | trim()}}
+                </div>
+                {{#if parts.length >= 5}}
+                <div class="tutorial-notes">
+                  ⚠️ <strong>Important Notes:</strong> {{parts[4] | trim()}}
+                </div>
+                {{/if}}
+              </div>
+              {{/if}}
+            {{/if}}
+          {{/for}}
+        </section>
+        {{/if}}
+
+        {{!-- 场景决策矩阵模块 --}}
+        {{#if scenario_matrix}}
+        <section class="blog-scenarios">
+          <h2>When to Use & Avoid</h2>
+          {{#var scenarios = scenario_matrix.value | split("||") /}}
+          {{#for scenario in scenarios}}
+            {{#if scenario | trim() | size() > 0}}
+              {{#var parts = scenario | split("??") /}}
+              {{#if parts.length >= 3}}
+              <div class="blog-scenario-item">
+                <h3 class="scenario-method">{{parts[0] | trim()}}</h3>
+                <div class="scenario-grid">
+                  {{!-- Use When --}}
+                  <div class="scenario-box scenario-box--use">
+                    <h4 class="scenario-title">✅ Use When</h4>
+                    <ul class="scenario-list">
+                      {{#var use_items = parts[1] | split("|") /}}
+                      {{#for item in use_items}}
+                        {{#if item | trim() | size() > 0}}
+                          <li>{{item | trim()}}</li>
+                        {{/if}}
+                      {{/for}}
+                    </ul>
+                  </div>
+                  {{!-- Avoid When --}}
+                  <div class="scenario-box scenario-box--avoid">
+                    <h4 class="scenario-title">⚠️ Avoid When</h4>
+                    <ul class="scenario-list">
+                      {{#var avoid_items = parts[2] | split("|") /}}
+                      {{#for item in avoid_items}}
+                        {{#if item | trim() | size() > 0}}
+                          <li>{{item | trim()}}</li>
+                        {{/if}}
+                      {{/for}}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {{/if}}
+            {{/if}}
+          {{/for}}
+        </section>
+        {{/if}}
+
+        {{!-- 常见错误模块 --}}
+        {{#if common_mistakes}}
+        <section class="blog-mistakes">
+          <h2>⚡ Common Mistakes to Avoid</h2>
+          {{#var mistakes = common_mistakes.value | split("||") /}}
+          {{#for mistake in mistakes}}
+            {{#if mistake | trim() | size() > 0}}
+              {{#var parts = mistake | split("??") /}}
+              {{#if parts.length >= 3}}
+              <div class="blog-mistake">
+                <div class="mistake-title">
+                  <span class="mistake-number"></span>
+                  <strong>{{parts[0] | trim()}}</strong>
+                </div>
+                <div class="mistake-consequence">
+                  ❌ <strong>Consequence:</strong> {{parts[1] | trim()}}
+                </div>
+                <div class="mistake-solution">
+                  ✅ <strong>Solution:</strong> {{parts[2] | trim()}}
+                </div>
+              </div>
+              {{/if}}
+            {{/if}}\n          {{/for}}
+        </section>
+        {{/if}}
+
+        {{!-- FAQ 模块 --}}
+        {{#if faq_items}}
+        <section class="blog-faq">
+          <h2 class="blog-faq__title">Everything You Need to Know</h2>
+          {{#var faqs = faq_items.value | split("||") /}}
+          {{#for faq in faqs}}
+            {{#if faq | trim() | size() > 0}}
+              {{#var qa_parts = faq | split("???") /}}
+              {{#if qa_parts.length >= 2}}
+              <div class="blog-faq__item">
+                <div class="blog-faq__question">
+                  <span>{{qa_parts[0] | trim()}}</span>
+                </div>
+                <div class="blog-faq__answer">
+                  {{qa_parts[1] | trim()}}
+                </div>
+              </div>
+              {{/if}}
+            {{/if}}
+          {{/for}}
+        </section>
+        {{/if}}
+
+        {{!-- 结论 --}}
+        {{#if article_conclusion}}
+        <section class="blog-conclusion">
+          <h3 class="blog-conclusion__title">Conclusion</h3>
+          <div class="blog-conclusion__text">
+            {{article_conclusion.value}}
+          </div>
+        </section>
+        {{/if}}
+
+        {{!-- 评论区（单独渲染在最后） --}}
+        <div class="blog-article__comments">
+          {{#content "blocks" only="$comment" /}}
+        </div>
+
+      </article>
+
     </div>
   </div>
 </div>
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Article",
-    "articleBody": {{{article.content | strip_html() | json()}}},
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{{request.origin | append(article.url)}}}"
-    },
-    "headline": "{{article.title}}",
-    {{#if article.excerpt}}
-      "description": {{{article.excerpt | strip_html() | json()}}},
-    {{/if}}
-    {{#if article.image.src}}
-      "image": [
-        "{{{article.image.src}}}"
-      ],
-    {{/if}}
-    "datePublished": "{{article.published_at | date(format=`%Y-%m-%dT%H:%M:%SZ`)}}",
-    "dateCreated": "{{article.created_at | date(format=`%Y-%m-%dT%H:%M:%SZ`)}}",
-    "author": {
-      "@type": "Person",
-      "name": "{{article.author}}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{shop.name}}"
-    }
-  }
-</script>
 
 {{#schema}}
 {
@@ -48,23 +623,6 @@
       "id": "color_scheme",
       "label": "t:sections.main_article.settings.color_scheme.label",
       "default": "scheme-1"
-    },
-    {
-      "type": "style.spacing",
-      "id": "spacing",
-      "label": "t:sections.main_article.settings.spacing.label",
-      "default": {
-        "padding-block-start": "40px",
-        "padding-inline-start": "250px",
-        "padding-block-end": "80px",
-        "padding-inline-end": "250px",
-        "@media (--mobile)": {
-          "padding-block-start": "40px",
-          "padding-inline-start": "20px",
-          "padding-block-end": "40px",
-          "padding-inline-end": "20px"
-        }
-      }
     }
   ],
   "blocks": [

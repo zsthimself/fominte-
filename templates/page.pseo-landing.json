@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main-pseo-landing": {
+      "type": "main-pseo-landing"
+    }
+  },
+  "order": [
+    "main-pseo-landing"
+  ]
+}

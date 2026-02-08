@@ -1,0 +1,164 @@
+{{#component "stylesheet" src="./main-article.css" | asset_url() /}}
+
+{{!-- ========== 获取博客元字段 ========== --}}
+{{#var reading_time = article | get_metafield("custom", "reading_time") /}}
+{{#var article_type = article | get_metafield("custom", "article_type") /}}
+{{#var article_intro = article | get_metafield("custom", "article_intro") /}}
+{{#var use_when = article | get_metafield("custom", "use_when") /}}
+{{#var avoid_when = article | get_metafield("custom", "avoid_when") /}}
+{{#var faq_items = article | get_metafield("custom", "faq_items") /}}
+{{#var article_conclusion = article | get_metafield("custom", "article_conclusion") /}}
+
+<div class="main-article-container color-{{section.settings.color_scheme.id}}">
+  <div class="main-article page-width">
+    <div class="{{section.settings | class_list()}}">
+      
+      <article class="blog-article" style="max-width: 800px; margin: 0 auto; padding: 40px 20px;">
+        
+        {{!-- 文章元信息 --}}
+        {{#if reading_time}}
+        <div style="display: flex; gap: 16px; margin-bottom: 24px; font-size: 0.9rem; color: #6B6B6B;">
+          {{#if article_type}}
+            <span style="padding: 4px 12px; background: #F9F9F9; border-radius: 4px;">{{article_type.value}}</span>
+          {{/if}}
+          <span>📖 {{reading_time.value}}</span>
+          {{#if article.author}}
+            <span>✍️ {{article.author}}</span>
+          {{/if}}
+        </div>
+        {{/if}}
+
+        {{!-- 文章简介 --}}
+        {{#if article_intro}}
+        <div style="font-size: 1.15rem; margin-bottom: 40px; padding: 24px; background: #F9F9F9; border-left: 4px solid #C9A962; border-radius: 4px;">
+          {{article_intro.value}}
+        </div>
+        {{/if}}
+
+        {{!-- 主要内容 --}}
+        <div class="blog-article__content">
+          {{#content "blocks" /}}
+        </div>
+
+        {{!-- 使用场景 / 避免场景 --}}
+        {{#if use_when}}
+        {{#if avoid_when}}
+        <section style="margin: 40px 0;">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+            
+            <div style="padding: 24px; border: 1px solid #E5E5E5; border-left: 4px solid #10b981; border-radius: 8px;">
+              <h3 style="font-size: 1.1rem; margin-bottom: 16px;">✅ 适用场景</h3>
+              <ul style="list-style: none; padding: 0;">
+                {{#var when_items = use_when.value | split("||") /}}
+                {{#for item in when_items}}
+                  {{#if item | trim() | size() > 0}}
+                    <li style="padding: 8px 0 8px 24px; position: relative;">
+                      <span style="position: absolute; left: 0; color: #C9A962;">•</span>
+                      {{item | trim()}}
+                    </li>
+                  {{/if}}
+                {{/for}}
+              </ul>
+            </div>
+
+            <div style="padding: 24px; border: 1px solid #E5E5E5; border-left: 4px solid #f59e0b; border-radius: 8px;">
+              <h3 style="font-size: 1.1rem; margin-bottom: 16px;">⚠️ 避免场景</h3>
+              <ul style="list-style: none; padding: 0;">
+                {{#var avoid_items = avoid_when.value | split("||") /}}
+                {{#for item in avoid_items}}
+                  {{#if item | trim() | size() > 0}}
+                    <li style="padding: 8px 0 8px 24px; position: relative;">
+                      <span style="position: absolute; left: 0; color: #C9A962;">•</span>
+                      {{item | trim()}}
+                    </li>
+                  {{/if}}
+                {{/for}}
+              </ul>
+            </div>
+          </div>
+        </section>
+        {{/if}}
+        {{/if}}
+
+        {{!-- FAQ 模块 --}}
+        {{#if faq_items}}
+        <section style="margin: 40px 0; padding: 40px; background: #F9F9F9; border-radius: 8px;">
+          <h2 style="font-size: 1.5rem; margin-bottom: 24px;">常见问题</h2>
+          {{#var faqs = faq_items.value | split("||") /}}
+          {{#for faq in faqs}}
+            {{#if faq | trim() | size() > 0}}
+              {{#var qa_parts = faq | split("???") /}}
+              {{#if qa_parts.length >= 2}}
+              <div style="margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid #E5E5E5;">
+                <div style="font-weight: 600; margin-bottom: 8px; color: #3D3819;">
+                  <span style="color: #C9A962;">Q:</span> {{qa_parts.[0] | trim()}}
+                </div>
+                <div style="padding-left: 32px; color: #2c2c2c;">
+                  {{qa_parts.[1] | trim()}}
+                </div>
+              </div>
+              {{/if}}
+            {{/if}}
+          {{/for}}
+        </section>
+        {{/if}}
+
+        {{!-- 结论 --}}
+        {{#if article_conclusion}}
+        <section style="margin-top: 40px; padding: 40px; background: #3D3819; color: #ffffff; border-radius: 8px;">
+          <h3 style="font-size: 1.3rem; margin-bottom: 16px; color: #C9A962;">总结</h3>
+          <div style="line-height: 1.8; color: rgba(255, 255, 255, 0.9);">
+            {{article_conclusion.value}}
+          </div>
+        </section>
+        {{/if}}
+
+      </article>
+
+    </div>
+  </div>
+</div>
+
+{{#schema}}
+{
+  "name": "t:sections.main_article.name",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.main_article.settings.color_scheme.label",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "$title",
+      "limit": 1
+    },
+    {
+      "type": "$info",
+      "limit": 1
+    },
+    {
+      "type": "$cover_image",
+      "limit": 1
+    },
+    {
+      "type": "$content",
+      "limit": 1
+    },
+    {
+      "type": "$share",
+      "limit": 1
+    },
+    {
+      "type": "$button_back",
+      "limit": 1
+    },
+    {
+      "type": "$comment",
+      "limit": 1
+    }
+  ]
+}
+{{/schema}}
