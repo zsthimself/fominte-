@@ -62,7 +62,7 @@ async function createBlogArticle(articleData) {
       digest: articleData.digest || '',
       author: articleData.author || 'Stephen Chen',
       published: articleData.published !== false,
-      template_name: articleData.template_name || 'templates/blogs/detail.json'
+      template_name: articleData.template_name || 'article.pseo'
     }
   });
   

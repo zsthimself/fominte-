@@ -226,8 +226,67 @@ POST /admin/openapi/v20251201/store/blogs/{blog_collection_id}/articles/{article
 3. **API 版本**：使用 `v20251201`（稳定版）
 4. **CLI 推送**：语法 `parts.[0]` 改为 `parts[0]`
 5. **权限要求**：需要 `read_blogs` 和 `write_blogs` 权限
+6. **模板名称**：pSEO 文章使用 `article.pseo` 模板
+
+---
+
+## 📈 开发进度
+
+| 阶段                  | 状态   | 说明                                 |
+| --------------------- | ------ | ------------------------------------ |
+| ✅ 元字段 Schema 设计 | 完成   | 2026-02-09                           |
+| ✅ 前端模板开发       | 完成   | `main-article.html` 支持所有模块渲染 |
+| ✅ pSEO 模板配置      | 完成   | `article.pseo.json` 禁用系统组件     |
+| ✅ 样式优化           | 完成   | 字号 20px、换行修复、作者头像        |
+| ✅ 开发文档           | 完成   | `shopline-dev-guide.md` 踩坑指南     |
+| 🔄 API 脚本测试       | 进行中 | 需配置 Access Token                  |
+| ⏳ 批量生成流程       | 待开始 | 依赖 API 测试通过                    |
+
+---
+
+## 🔧 API 测试前置条件
+
+### 1. 获取 Access Token
+
+在 Shopline 后台创建私有应用：
+
+```
+设置 → 应用管理 → 创建私有应用 → 获取 Access Token
+```
+
+**所需权限**：
+
+- `read_blogs` - 读取博客
+- `write_blogs` - 写入博客
+
+### 2. 获取 Blog Collection ID
+
+访问 Shopline REST API 获取博客列表：
+
+```bash
+GET https://fominte.myshopline.com/admin/openapi/v20251201/store/blogs.json
+```
+
+### 3. 配置 .env 文件
+
+在 `scripts/` 目录创建 `.env` 文件：
+
+```
+SHOPLINE_STORE_DOMAIN=fominte.myshopline.com
+SHOPLINE_ACCESS_TOKEN=your_access_token
+SHOPLINE_BLOG_COLLECTION_ID=your_blog_collection_id
+```
+
+### 4. 运行测试
+
+```bash
+cd e:\Bottle1\.agent\skills\shopline-pseo-blog\scripts
+npm install dotenv
+node create-pseo-blog.js ../examples/example-blog-data.json
+```
 
 ---
 
 **创建时间**：2026-02-09  
+**最后更新**：2026-02-09  
 **维护者**：Fominte 技术团队
