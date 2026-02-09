@@ -8,37 +8,43 @@
         "main-article__button_back": {
           "type": "$button_back",
           "settings": {},
+          "disabled": true,
           "blocks": {}
         },
         "main-article__comment": {
           "type": "$comment",
           "settings": {},
-          "disabled": false,
+          "disabled": true,
           "blocks": {}
         },
         "main-article__content": {
           "type": "$content",
           "settings": {},
+          "disabled": true,
           "blocks": {}
         },
         "main-article__cover_image": {
           "type": "$cover_image",
           "settings": {},
+          "disabled": true,
           "blocks": {}
         },
         "main-article__info": {
           "type": "$info",
           "settings": {},
+          "disabled": true,
           "blocks": {}
         },
         "main-article__share": {
           "type": "$share",
           "settings": {},
+          "disabled": true,
           "blocks": {}
         },
         "main-article__title": {
           "type": "$title",
           "settings": {},
+          "disabled": true,
           "blocks": {}
         }
       },

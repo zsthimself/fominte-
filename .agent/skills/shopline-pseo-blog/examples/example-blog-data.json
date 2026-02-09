@@ -1,0 +1,27 @@
+{
+  "blog_article": {
+    "title": "How to Choose Lace for Wedding Dress: Complete Sourcing Guide",
+    "handle": "how-to-choose-lace-wedding-dress-sourcing-guide",
+    "digest": "A comprehensive guide for bridal designers on sourcing quality lace fabrics from wholesale suppliers.",
+    "author": "Stephen Chen",
+    "published": true,
+    "content_html": "<p>Main body content from the editor...</p>"
+  },
+  "metafields": {
+    "reading_time": "8 min read",
+    "article_type": "how-to",
+    "article_intro": "Choosing the right lace for your wedding dress is crucial for achieving the perfect look. This comprehensive guide will walk you through everything you need to know about sourcing lace fabric from wholesale suppliers.",
+    "concept_explanation": "Lace fabric for bridal wear comes in various types, each with distinct characteristics. Understanding these differences is essential before approaching suppliers. The main categories include Chantilly (soft, romantic), Guipure (structured, bold), and Alençon (delicate, traditional).",
+    "step_by_step_tutorials": "Identify Your Design Style??Mood boards, fabric samples??30 minutes??1. Review your design sketches 2. Determine dress silhouette (A-line, mermaid, ball gown) 3. Match lace weight to design requirements??Consider both aesthetic and structural needs||Select Base Fabric Type??Lace swatches from 3+ suppliers??1 hour??1. Request samples in target weight 2. Test drape on dress form 3. Evaluate stretch vs. stability??Rigid lace for bodice, soft lace for skirts||Request Sample Swatches??A4 samples, color cards, lighting booth??2 hours??1. Compare colors under natural and artificial light 2. Check pattern repeat 3. Evaluate edge finishing??Always test with your base fabric underneath",
+    "scenario_matrix": "Chantilly Lace??Romantic/bohemian designs|Flowing overlays|Soft, ethereal look??Structured bodices|Heavy embellishment|Budget under $12/yard||Guipure Lace??Modern geometric designs|Statement sleeves|Structured bodices??Flowing skirts|Sheer overlays|Traditional bridal look||Alençon Lace??Classic/traditional gowns|Heirloom pieces|High-end couture??Contemporary designs|Budget-conscious projects|Quick turnaround needs",
+    "common_mistakes": "Skipping pre-wash test??Lace shrinks after cleaning, ruining finished gowns??Always pre-wash samples and calculate shrinkage rate before cutting||Ignoring pattern repeat??Mismatched motifs at seams look unprofessional??Order extra yardage (15-20%) for pattern matching||Choosing based on photos only??Screen colors differ significantly from actual fabric??Always request physical samples before bulk ordering",
+    "faq_items": "What's the typical MOQ for bridal lace???Most wholesale suppliers require 500-1000 yards per design/color. Premium suppliers may accept 300 yards for custom colors with a 20-30% price premium.||How long does custom lace production take???Standard timeline: 15-20 days for sampling, 30-45 days for bulk production, plus 10-15 days for shipping. Plan 3-4 months ahead.||Can I request custom colors???Yes, most suppliers offer custom dyeing for orders above MOQ. Provide Pantone codes for accurate matching. Setup fees typically $500-2000.||How do I verify lace quality???Request physical samples and check: thread density, pattern symmetry, edge finishing, color consistency, and stretch recovery.",
+    "article_conclusion": "Sourcing the perfect lace for wedding dresses requires balancing quality, budget, and timeline. By following this systematic approach and working with reputable suppliers, you can ensure your bridal collection features beautiful, high-quality lace that meets both your design vision and business requirements.",
+    "author_bio": "Stephen Chen is the Head of Brand & Strategy at Fominte, specializing in premium lace and textile manufacturing for bridal and eveningwear. With over 15 years of industry experience, he helps designers and boutiques worldwide source the perfect materials for their collections."
+  },
+  "api_config": {
+    "blog_collection_id": "YOUR_BLOG_COLLECTION_ID",
+    "api_version": "v20251201",
+    "namespace": "custom"
+  }
+}

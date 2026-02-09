@@ -11,6 +11,9 @@
 {{#var faq_items = article | get_metafield("custom", "faq_items") /}}
 {{#var comparison_table = article | get_metafield("custom", "comparison_table") /}}
 {{#var article_conclusion = article | get_metafield("custom", "article_conclusion") /}}
+{{#var author_bio = article | get_metafield("custom", "author_bio") /}}
+{{#var author_avatar = article | get_metafield("custom", "author_avatar") /}}
+
 
 <style>
   /* ========== 博客文章样式系统 ========== */
@@ -40,6 +43,7 @@
     font-family: var(--blog-font-family);
     color: var(--blog-color-text);
     line-height: 1.8;
+    font-size: 20px; /* 增大基础字号 */
   }
 
   /* 文章头部元信息 */
@@ -403,6 +407,94 @@
     line-height: 1.6;
   }
 
+  /* ========== 新增：Header / Footer / 作者卡片 ========== */
+  
+  /* 头部区域 */
+  .blog-header {
+    margin-bottom: var(--blog-spacing-lg);
+  }
+
+  /* 底部区域 */
+  .blog-footer {
+    margin-top: var(--blog-spacing-xl);
+    padding-top: var(--blog-spacing-lg);
+    border-top: 1px solid var(--blog-color-border);
+  }
+
+  /* 作者卡片 */
+  .blog-author-card {
+    display: flex;
+    align-items: center;
+    gap: var(--blog-spacing-md);
+    padding: var(--blog-spacing-md);
+    margin-bottom: var(--blog-spacing-lg);
+    background: var(--blog-color-light-bg);
+    border-radius: 8px;
+  }
+
+  .blog-author-card__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--blog-color-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .blog-author-card__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .blog-author-card__info {
+    flex: 1;
+  }
+
+  .blog-author-card__name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--blog-color-primary);
+    margin-bottom: 4px;
+  }
+
+  .blog-author-card__bio {
+    font-size: 0.95rem;
+    color: var(--blog-color-text-light);
+    line-height: 1.5;
+  }
+
+  /* 分享区域 */
+  .blog-share {
+    margin-bottom: var(--blog-spacing-lg);
+  }
+
+  /* 评论区域 */
+  .blog-comments {
+    margin-top: var(--blog-spacing-md);
+  }
+
+  /* ========== pSEO 专用样式 ========== */
+  .pseo-header {
+    margin-bottom: var(--blog-spacing-lg);
+    padding-bottom: var(--blog-spacing-md);
+    border-bottom: 1px solid var(--blog-color-border);
+  }
+
+  .pseo-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--blog-color-primary);
+    line-height: 1.3;
+    margin-bottom: var(--blog-spacing-sm);
+  }
+
   /* 响应式 */
   @media (max-width: 768px) {
     .blog-article {
@@ -420,6 +512,21 @@
     .blog-conclusion {
       padding: var(--blog-spacing-md);
     }
+
+    .blog-author-card {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .blog-author-card__avatar {
+      width: 56px;
+      height: 56px;
+      font-size: 1.3rem;
+    }
+
+    .pseo-title {
+      font-size: 1.6rem;
+    }
   }
 </style>
 
@@ -429,31 +536,38 @@
       
       <article class="blog-article">
         
-        {{!-- 文章元信息 --}}
-        {{#if reading_time}}
-        <div class="blog-article__meta">
-          {{#if article_type}}
-            <span class="blog-article__tag">{{article_type.value}}</span>
-          {{/if}}
-          <span class="blog-article__meta-item">
-            <span>📖</span>
-            <span>{{reading_time.value}}</span>
-          </span>
-          {{#if article.author}}
-            <span class="blog-article__meta-item">
-              <span>✍️</span>
-              <span>{{article.author}}</span>
-            </span>
-          {{/if}}
-        </div>
-        {{/if}}
+        {{!-- 渲染系统组件（默认模板用） --}}
+        {{#content "blocks" /}}
+        
+        {{!-- ========== pSEO 元字段模块（仅当有 article_intro 时渲染） ========== --}}
+        {{#if article_intro}}
+        
+        {{!-- pSEO 自定义标题区域 --}}
+        <header class="pseo-header">
+          <h1 class="pseo-title">{{article.title}}</h1>
+          <div class="blog-article__meta">
+            {{#if article_type}}
+              <span class="blog-article__tag">{{article_type.value}}</span>
+            {{/if}}
+            {{#if reading_time}}
+              <span class="blog-article__meta-item">
+                <span>📖</span>
+                <span>{{reading_time.value}}</span>
+              </span>
+            {{/if}}
+            {{#if article.author}}
+              <span class="blog-article__meta-item">
+                <span>✍️</span>
+                <span>{{article.author}}</span>
+              </span>
+            {{/if}}
+          </div>
+        </header>
 
         {{!-- 文章简介 --}}
-        {{#if article_intro}}
         <div class="blog-article__intro">
           {{article_intro.value}}
         </div>
-        {{/if}}
 
         {{!-- 概念解释模块 --}}
         {{#if concept_explanation}}
@@ -465,11 +579,6 @@
         </section>
         {{/if}}
 
-        {{!-- 主要内容（不含评论） --}}
-        <div class="blog-article__content">
-          {{#content "blocks" only="$title,$info,$cover_image,$content,$share,$button_back" /}}
-        </div>
-
         {{!-- 操作步骤教程模块 --}}
         {{#if step_by_step_tutorials}}
         <section class="blog-tutorials">
@@ -478,17 +587,21 @@
           {{#for tutorial in tutorials}}
             {{#if tutorial | trim() | size() > 0}}
               {{#var parts = tutorial | split("??") /}}
-              {{#if parts.length >= 4}}
+              {{#if (parts | size()) >= 2}}
               <div class="blog-tutorial">
                 <h3>{{parts[0] | trim()}}</h3>
+                {{#if (parts | size()) >= 3}}
                 <div class="tutorial-meta">
                   <span>📦 <strong>Materials:</strong> {{parts[1] | trim()}}</span>
                   <span>⏱️ <strong>Time:</strong> {{parts[2] | trim()}}</span>
                 </div>
+                {{/if}}
+                {{#if (parts | size()) >= 4}}
                 <div class="tutorial-steps">
                   {{parts[3] | trim()}}
                 </div>
-                {{#if parts.length >= 5}}
+                {{/if}}
+                {{#if (parts | size()) >= 5}}
                 <div class="tutorial-notes">
                   ⚠️ <strong>Important Notes:</strong> {{parts[4] | trim()}}
                 </div>
@@ -508,11 +621,10 @@
           {{#for scenario in scenarios}}
             {{#if scenario | trim() | size() > 0}}
               {{#var parts = scenario | split("??") /}}
-              {{#if parts.length >= 3}}
+              {{#if (parts | size()) >= 2}}
               <div class="blog-scenario-item">
                 <h3 class="scenario-method">{{parts[0] | trim()}}</h3>
                 <div class="scenario-grid">
-                  {{!-- Use When --}}
                   <div class="scenario-box scenario-box--use">
                     <h4 class="scenario-title">✅ Use When</h4>
                     <ul class="scenario-list">
@@ -524,7 +636,7 @@
                       {{/for}}
                     </ul>
                   </div>
-                  {{!-- Avoid When --}}
+                  {{#if (parts | size()) >= 3}}
                   <div class="scenario-box scenario-box--avoid">
                     <h4 class="scenario-title">⚠️ Avoid When</h4>
                     <ul class="scenario-list">
@@ -536,6 +648,7 @@
                       {{/for}}
                     </ul>
                   </div>
+                  {{/if}}
                 </div>
               </div>
               {{/if}}
@@ -552,7 +665,7 @@
           {{#for mistake in mistakes}}
             {{#if mistake | trim() | size() > 0}}
               {{#var parts = mistake | split("??") /}}
-              {{#if parts.length >= 3}}
+              {{#if (parts | size()) >= 2}}
               <div class="blog-mistake">
                 <div class="mistake-title">
                   <span class="mistake-number"></span>
@@ -561,12 +674,15 @@
                 <div class="mistake-consequence">
                   ❌ <strong>Consequence:</strong> {{parts[1] | trim()}}
                 </div>
+                {{#if (parts | size()) >= 3}}
                 <div class="mistake-solution">
                   ✅ <strong>Solution:</strong> {{parts[2] | trim()}}
                 </div>
+                {{/if}}
               </div>
               {{/if}}
-            {{/if}}\n          {{/for}}
+            {{/if}}
+          {{/for}}
         </section>
         {{/if}}
 
@@ -578,7 +694,7 @@
           {{#for faq in faqs}}
             {{#if faq | trim() | size() > 0}}
               {{#var qa_parts = faq | split("???") /}}
-              {{#if qa_parts.length >= 2}}
+              {{#if (qa_parts | size()) >= 2}}
               <div class="blog-faq__item">
                 <div class="blog-faq__question">
                   <span>{{qa_parts[0] | trim()}}</span>
@@ -603,16 +719,43 @@
         </section>
         {{/if}}
 
-        {{!-- 评论区（单独渲染在最后） --}}
-        <div class="blog-article__comments">
-          {{#content "blocks" only="$comment" /}}
+        {{!-- 作者卡片 --}}
+        {{#if article.author}}
+        <div class="blog-author-card">
+          <div class="blog-author-card__avatar">
+            <img src="https://img-va.myshopline.com/image/store/1754638002373/--49.webp" alt="{{article.author}}" />
+          </div>
+          <div class="blog-author-card__info">
+            <div class="blog-author-card__name">{{article.author}}</div>
+            <div class="blog-author-card__bio">
+              {{#if author_bio}}
+                {{author_bio.value}}
+              {{else}}
+                Head of Brand & Strategy at Fominte
+              {{/if}}
+            </div>
+          </div>
         </div>
+        {{/if}}
+
+        {{/if}}
+        {{!-- /pSEO 元字段模块结束 --}}
 
       </article>
 
     </div>
   </div>
 </div>
+
+{{!-- JavaScript: 处理步骤中的 \n 换行 --}}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 处理教程步骤中的换行
+  document.querySelectorAll('.tutorial-steps').forEach(function(el) {
+    el.innerHTML = el.innerHTML.replace(/\\n/g, '<br>');
+  });
+});
+</script>
 
 {{#schema}}
 {
@@ -657,3 +800,5 @@
   ]
 }
 {{/schema}}
+
+

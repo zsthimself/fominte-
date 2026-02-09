@@ -1,0 +1,623 @@
+{
+  "sections": {
+    "175798659809935caf32": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": {
+          "@media (--mobile)": {
+            "align-items": "flex-start",
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "40px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "40px"
+        },
+        "size": {},
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "24px",
+            "padding-top": "24px"
+          },
+          "padding-bottom": "60px",
+          "padding-top": "60px"
+        }
+      },
+      "disabled": true,
+      "blocks": {
+        "175798659810126f41c4": {
+          "type": "heading-with-link/heading-with-link",
+          "settings": {
+            "link_text": "View more",
+            "text": "Shop by category",
+            "text_size": "title2"
+          },
+          "blocks": {}
+        },
+        "1757986598101c7e9b6a": {
+          "type": "$list",
+          "settings": {},
+          "blocks": {
+            "17579865981011780810": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "1757986598101357da6c": {
+                  "type": "collection/image",
+                  "settings": {},
+                  "blocks": {
+                    "1757986598101022bc81": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101022bc81"
+                  ]
+                },
+                "1757986598101e347e3c": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "1757986598101357da6c",
+                "1757986598101e347e3c"
+              ]
+            },
+            "1757986598101c55b090": {
+              "type": "collection/card",
+              "settings": {},
+              "blocks": {
+                "17579865981015cd0fd7": {
+                  "type": "collection/image",
+                  "settings": {
+                    "aspect_ratio": "4/3"
+                  },
+                  "blocks": {
+                    "1757986598101a6d73f8": {
+                      "type": "collection/title",
+                      "settings": {},
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "1757986598101a6d73f8"
+                  ]
+                },
+                "17579865981019bd9b27": {
+                  "type": "collection/title",
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "17579865981015cd0fd7",
+                "17579865981019bd9b27"
+              ]
+            }
+          },
+          "block_order": [
+            "1757986598101c55b090",
+            "17579865981011780810"
+          ]
+        }
+      },
+      "block_order": [
+        "175798659810126f41c4",
+        "1757986598101c7e9b6a"
+      ],
+      "name": "t:sections.collection_list.presets.presets_0.name"
+    },
+    "1757993662639ba1fd2d": {
+      "type": "shopline://apps/高阶组件库/sections/product-category-list/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "btn_background": "#111111",
+        "btn_border_color": "#111111",
+        "btn_border_opacity": 100,
+        "btn_border_radius": 0,
+        "btn_border_thickness": 1,
+        "btn_font_color": "#FFFFFF",
+        "btn_font_family": "Montserrat:500",
+        "btn_hover_animation": "1",
+        "btn_letter_spacing": 0,
+        "btn_line_height": 1.6,
+        "btn_m_font_size": 12,
+        "btn_pc_font_size": 13,
+        "btn_shadow_blur": 5,
+        "btn_shadow_color": "#000000",
+        "btn_shadow_offset_x": 0,
+        "btn_shadow_offset_y": 4,
+        "btn_shadow_opacity": 0,
+        "btn_style": "primary",
+        "button_text": "Optional Button",
+        "card_border_radius": 0,
+        "card_border_thickness": 0,
+        "card_color": "#fff",
+        "card_style": true,
+        "color_btn_text": "#ffffff",
+        "color_entry_line": "#EAECEC",
+        "color_image_background": "#ffffff",
+        "color_light_text": "#949494",
+        "color_page_background": "#FFFCFA",
+        "color_sale": "#171F2B",
+        "color_tag_background": "#C20000",
+        "color_tag_text": "#ffffff",
+        "color_text": "#29252C",
+        "container_bg_color": "#F4F7FB",
+        "container_config": {
+          "mobile": {
+            "bottom": 40,
+            "left": 20,
+            "right": 20,
+            "top": 40
+          },
+          "pc": {
+            "bottom": 60,
+            "left": 40,
+            "right": 40,
+            "top": 60
+          }
+        },
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 20,
+            "left": 40,
+            "right": 40,
+            "top": 20
+          }
+        },
+        "container_max_width": 1420,
+        "edges": "rounded",
+        "grid_horizontal_space": 20,
+        "horizontal_spacing": 40,
+        "image_ratio": "100",
+        "image_width": "50%",
+        "mb_layout": 4,
+        "mb_show": true,
+        "mobile_quick_add_btn_layout": "normal",
+        "mobile_quick_add_btn_style": "icon",
+        "pc_cols": 4,
+        "pc_show": true,
+        "product_add_to_cart": true,
+        "product_card_border_color": "#000000",
+        "product_card_border_opacity": 10,
+        "product_card_border_radius": 0,
+        "product_card_border_thickness": 0,
+        "product_card_shadow_blur": 5,
+        "product_card_shadow_color": "#000000",
+        "product_card_shadow_offset_x": 0,
+        "product_card_shadow_offset_y": 4,
+        "product_card_shadow_opacity": 0,
+        "product_discount": true,
+        "product_discount_position": "left_bottom",
+        "product_discount_radius": 2,
+        "product_discount_style": "number",
+        "product_fill_type": "contain",
+        "product_grid_image_margin": "0",
+        "product_hover_show_next": false,
+        "product_mobile_title_show": true,
+        "product_price_color": "#1A1C1E",
+        "product_price_letter_spacing": 0,
+        "product_price_m_font_family": "Poppins:500",
+        "product_price_m_font_size": 14,
+        "product_price_m_line_height": 1.6,
+        "product_price_pc_font_family": "Poppins:600",
+        "product_price_pc_font_size": 16,
+        "product_price_pc_line_height": 1.6,
+        "product_title_color": "#000000",
+        "product_title_font_family": "Poppins:400",
+        "product_title_letter_spacing": 0,
+        "product_title_m_font_size": 12,
+        "product_title_m_line_height": 1.6,
+        "product_title_pc_font_size": 14,
+        "product_title_pc_line_height": 1.6,
+        "product_title_show_type": "full_display",
+        "product_underlined_price_color": "#000000",
+        "product_underlined_price_letter_spacing": 0,
+        "product_underlined_price_m_font_family": "Poppins:500",
+        "product_underlined_price_m_font_size": 12,
+        "product_underlined_price_m_line_height": 1.6,
+        "product_underlined_price_pc_font_family": "Poppins:600",
+        "product_underlined_price_pc_font_size": 16,
+        "product_underlined_price_pc_line_height": 1.6,
+        "products_num": 4,
+        "quick_add_btn_background": "#000000",
+        "quick_add_btn_font_color": "#FFFFFF",
+        "show_touch": false,
+        "slice_in_pc": true,
+        "soldOut_color_tag_background": "#ffffff",
+        "soldOut_color_tag_text": "#000000",
+        "sticky": true,
+        "superscript_decimals": false,
+        "tab_button_bg_color": "#ffffff",
+        "tab_button_text_color": "#000000",
+        "tab_color": "#000000",
+        "tab_style": "underline",
+        "tab_text_align": "center",
+        "text_align": "center",
+        "title_font_color": "#000000",
+        "title_font_family": "Poppins:600",
+        "title_letter_spacing": 0,
+        "title_line_height": 1,
+        "title_m_font_size": 19,
+        "title_pc_font_size": 22,
+        "vertical_spacing": 20
+      },
+      "disabled": true,
+      "blocks": {
+        "17579936626401ce8d5a": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Floral Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626401e38055": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Boho \u0026 Paisley Crochet"
+          },
+          "blocks": {}
+        },
+        "175799366264022249d5": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Modern \u0026 Abstract Crochet"
+          },
+          "blocks": {}
+        },
+        "17579936626405eb4efa": {
+          "type": "$product-list",
+          "settings": {
+            "category_id": "",
+            "title": "Geometric Crochet"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "17579936626401ce8d5a",
+        "17579936626405eb4efa",
+        "17579936626401e38055",
+        "175799366264022249d5"
+      ],
+      "name": "t:sections.product-category-list.presets_0.name"
+    },
+    "175799437238726f3419": {
+      "type": "custom-html",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "html": "\u003cstyle\u003e\r\n    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900\u0026family=DM+Sans:wght@400;500;700\u0026display=swap');\r\n\r\n    /* CSS Variables - Editorial/Data Journalism Theme */\r\n    .fominte-planner {\r\n        --color-bg-primary: #0a0e1a;\r\n        --color-bg-secondary: #151b2e;\r\n        --color-bg-card: #1a2332;\r\n        --color-accent-gold: #d4af37;\r\n        --color-accent-light: #f0e6d2;\r\n        --color-text-primary: #e8e8e8;\r\n        --color-text-secondary: #a8b2c1;\r\n        --color-text-muted: #6b7689;\r\n        --color-border: #2d3748;\r\n        --color-success: #10b981;\r\n        --color-warning: #f59e0b;\r\n        --color-error: #ef4444;\r\n\r\n        --font-display: 'Playfair Display', serif;\r\n        --font-body: 'DM Sans', sans-serif;\r\n\r\n        --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);\r\n        --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);\r\n        --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6);\r\n\r\n        font-family: var(--font-body);\r\n        color: var(--color-text-primary);\r\n        line-height: 1.7;\r\n        margin: 0 auto;\r\n        max-width: 1400px;\r\n        background: var(--color-bg-primary);\r\n        padding: 20px;\r\n    }\r\n\r\n    .fominte-planner * {\r\n        box-sizing: border-box;\r\n    }\r\n\r\n    /* Container */\r\n    .fominte-planner .tool-container {\r\n        background: var(--color-bg-secondary);\r\n        border-radius: 24px;\r\n        overflow: hidden;\r\n        box-shadow: var(--shadow-lg);\r\n        border: 1px solid var(--color-border);\r\n        animation: containerFadeIn 0.8s ease-out;\r\n    }\r\n\r\n    @keyframes containerFadeIn {\r\n        from {\r\n            opacity: 0;\r\n            transform: translateY(20px);\r\n        }\r\n\r\n        to {\r\n            opacity: 1;\r\n            transform: translateY(0);\r\n        }\r\n    }\r\n\r\n    /* Header - Bold Editorial Style */\r\n    .fominte-planner .tool-header {\r\n        background: linear-gradient(135deg, #1a2332 0%, #0a0e1a 100%);\r\n        padding: 80px 50px;\r\n        text-align: center;\r\n        position: relative;\r\n        border-bottom: 3px solid var(--color-accent-gold);\r\n        overflow: hidden;\r\n    }\r\n\r\n    .fominte-planner .tool-header::before {\r\n        content: '';\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        right: 0;\r\n        height: 2px;\r\n        background: linear-gradient(90deg, transparent, var(--color-accent-gold), transparent);\r\n    }\r\n\r\n    .fominte-planner .tool-header h1 {\r\n        font-family: var(--font-display);\r\n        font-size: 3.5em;\r\n        font-weight: 900;\r\n        margin: 0 0 15px 0;\r\n        letter-spacing: -0.02em;\r\n        background: linear-gradient(135deg, var(--color-accent-light), var(--color-accent-gold));\r\n        -webkit-background-clip: text;\r\n        -webkit-text-fill-color: transparent;\r\n        background-clip: text;\r\n        animation: titleSlideIn 0.8s ease-out 0.2s both;\r\n    }\r\n\r\n    @keyframes titleSlideIn {\r\n        from {\r\n            opacity: 0;\r\n            transform: translateY(-20px);\r\n        }\r\n\r\n        to {\r\n            opacity: 1;\r\n            transform: translateY(0);\r\n        }\r\n    }\r\n\r\n    .fominte-planner .tool-header p {\r\n        font-size: 1.2em;\r\n        color: var(--color-text-secondary);\r\n        font-weight: 500;\r\n        letter-spacing: 0.02em;\r\n        animation: titleSlideIn 0.8s ease-out 0.4s both;\r\n    }\r\n\r\n    .fominte-planner .brand-credit {\r\n        margin-top: 25px;\r\n        font-size: 0.85em;\r\n        color: var(--color-text-muted);\r\n        text-transform: uppercase;\r\n        letter-spacing: 0.1em;\r\n        animation: titleSlideIn 0.8s ease-out 0.6s both;\r\n    }\r\n\r\n    /* Content Area */\r\n    .fominte-planner .tool-content {\r\n        padding: 60px 50px;\r\n    }\r\n\r\n    .fominte-planner .section {\r\n        margin-bottom: 70px;\r\n        animation: sectionFadeIn 0.6s ease-out both;\r\n    }\r\n\r\n    .fominte-planner .section:nth-child(1) {\r\n        animation-delay: 0.1s;\r\n    }\r\n\r\n    .fominte-planner .section:nth-child(2) {\r\n        animation-delay: 0.2s;\r\n    }\r\n\r\n    .fominte-planner .section:nth-child(3) {\r\n        animation-delay: 0.3s;\r\n    }\r\n\r\n    @keyframes sectionFadeIn {\r\n        from {\r\n            opacity: 0;\r\n            transform: translateY(15px);\r\n        }\r\n\r\n        to {\r\n            opacity: 1;\r\n            transform: translateY(0);\r\n        }\r\n    }\r\n\r\n    /* Section Titles - Editorial Style */\r\n    .fominte-planner .section-title {\r\n        font-family: var(--font-display);\r\n        font-size: 2.2em;\r\n        font-weight: 700;\r\n        color: var(--color-accent-light);\r\n        margin-bottom: 30px;\r\n        display: flex;\r\n        align-items: center;\r\n        gap: 15px;\r\n        position: relative;\r\n        padding-bottom: 15px;\r\n    }\r\n\r\n    .fominte-planner .section-title::after {\r\n        content: '';\r\n        position: absolute;\r\n        bottom: 0;\r\n        left: 0;\r\n        width: 80px;\r\n        height: 3px;\r\n        background: var(--color-accent-gold);\r\n    }\r\n\r\n    .fominte-planner .section-title::before {\r\n        display: none;\r\n    }\r\n\r\n    /* Calculator - Premium Card Style */\r\n    .fominte-planner .calculator {\r\n        background: var(--color-bg-card);\r\n        padding: 40px;\r\n        border-radius: 16px;\r\n        border: 1px solid var(--color-border);\r\n        box-shadow: var(--shadow-md);\r\n        transition: all 0.3s ease;\r\n    }\r\n\r\n    .fominte-planner .calculator:hover {\r\n        box-shadow: var(--shadow-lg);\r\n        border-color: var(--color-accent-gold);\r\n    }\r\n\r\n    .fominte-planner .input-group {\r\n        margin-bottom: 30px;\r\n    }\r\n\r\n    .fominte-planner .input-group label {\r\n        display: block;\r\n        font-weight: 600;\r\n        margin-bottom: 12px;\r\n        color: var(--color-accent-light);\r\n        text-transform: uppercase;\r\n        font-size: 0.85em;\r\n        letter-spacing: 0.08em;\r\n    }\r\n\r\n    .fominte-planner select,\r\n    .fominte-planner input[type=\"date\"] {\r\n        width: 100%;\r\n        padding: 15px 20px;\r\n        background: var(--color-bg-secondary);\r\n        border: 2px solid var(--color-border);\r\n        border-radius: 10px;\r\n        font-size: 1em;\r\n        color: var(--color-text-primary);\r\n        font-family: var(--font-body);\r\n        transition: all 0.3s ease;\r\n    }\r\n\r\n    .fominte-planner select:focus,\r\n    .fominte-planner input[type=\"date\"]:focus {\r\n        outline: none;\r\n        border-color: var(--color-accent-gold);\r\n        background: var(--color-bg-primary);\r\n        box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);\r\n    }\r\n\r\n    .fominte-planner select:hover,\r\n    .fominte-planner input[type=\"date\"]:hover {\r\n        border-color: var(--color-accent-gold);\r\n    }\r\n\r\n    /* Result Panel - Data Journalism Style */\r\n    .fominte-planner .result {\r\n        background: linear-gradient(135deg, var(--color-bg-card), var(--color-bg-primary));\r\n        padding: 35px;\r\n        border-radius: 12px;\r\n        margin-top: 30px;\r\n        border-left: 5px solid var(--color-accent-gold);\r\n        box-shadow: var(--shadow-md);\r\n        display: none;\r\n    }\r\n\r\n    .fominte-planner .result.show {\r\n        display: block;\r\n        animation: resultReveal 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);\r\n    }\r\n\r\n    @keyframes resultReveal {\r\n        from {\r\n            opacity: 0;\r\n            transform: scale(0.95) translateY(-10px);\r\n        }\r\n\r\n        to {\r\n            opacity: 1;\r\n            transform: scale(1) translateY(0);\r\n        }\r\n    }\r\n\r\n    .fominte-planner .result h3 {\r\n        font-family: var(--font-display);\r\n        color: var(--color-accent-gold);\r\n        margin: 0 0 25px 0;\r\n        font-size: 1.6em;\r\n        font-weight: 700;\r\n    }\r\n\r\n    .fominte-planner .result-item {\r\n        margin: 15px 0;\r\n        padding: 18px;\r\n        background: rgba(255, 255, 255, 0.03);\r\n        border-radius: 8px;\r\n        border-left: 3px solid var(--color-border);\r\n        transition: all 0.3s ease;\r\n    }\r\n\r\n    .fominte-planner .result-item:hover {\r\n        background: rgba(255, 255, 255, 0.05);\r\n        border-left-color: var(--color-accent-gold);\r\n        transform: translateX(5px);\r\n    }\r\n\r\n    .fominte-planner .result-label {\r\n        font-weight: 600;\r\n        color: var(--color-text-secondary);\r\n        text-transform: uppercase;\r\n        font-size: 0.75em;\r\n        letter-spacing: 0.1em;\r\n        display: block;\r\n        margin-bottom: 6px;\r\n    }\r\n\r\n    .fominte-planner .result-value {\r\n        color: var(--color-text-primary);\r\n        font-size: 1.15em;\r\n        font-weight: 500;\r\n    }\r\n\r\n    /* Alert Styles - Refined */\r\n    .fominte-planner .alert {\r\n        padding: 20px;\r\n        border-radius: 10px;\r\n        margin-top: 20px;\r\n        font-weight: 500;\r\n        border-left: 4px solid;\r\n    }\r\n\r\n    .fominte-planner .alert-success {\r\n        background: rgba(16, 185, 129, 0.15);\r\n        color: #6ee7b7;\r\n        border-left-color: var(--color-success);\r\n    }\r\n\r\n    .fominte-planner .alert-warning {\r\n        background: rgba(245, 158, 11, 0.15);\r\n        color: #fbbf24;\r\n        border-left-color: var(--color-warning);\r\n    }\r\n\r\n    .fominte-planner .alert-danger {\r\n        background: rgba(239, 68, 68, 0.15);\r\n        color: #fca5a5;\r\n        border-left-color: var(--color-error);\r\n    }\r\n\r\n    /* Timeline - Data Visualization Style */\r\n    .fominte-planner .timeline {\r\n        display: grid;\r\n        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));\r\n        gap: 20px;\r\n        margin-top: 40px;\r\n    }\r\n\r\n    .fominte-planner .timeline-item {\r\n        background: var(--color-bg-card);\r\n        padding: 25px 20px;\r\n        border-radius: 12px;\r\n        text-align: center;\r\n        border: 1px solid var(--color-border);\r\n        position: relative;\r\n        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);\r\n        min-height: 200px;\r\n        display: flex;\r\n        flex-direction: column;\r\n        justify-content: space-between;\r\n        overflow: hidden;\r\n    }\r\n\r\n    .fominte-planner .timeline-item::before {\r\n        content: '';\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        right: 0;\r\n        height: 4px;\r\n        background: var(--color-border);\r\n        transition: all 0.3s ease;\r\n    }\r\n\r\n    .fominte-planner .timeline-item:hover {\r\n        transform: translateY(-8px) scale(1.02);\r\n        box-shadow: var(--shadow-lg);\r\n        border-color: var(--color-accent-gold);\r\n    }\r\n\r\n    .fominte-planner .timeline-item.optimal::before {\r\n        background: var(--color-success);\r\n    }\r\n\r\n    .fominte-planner .timeline-item.competitive::before {\r\n        background: var(--color-warning);\r\n    }\r\n\r\n    .fominte-planner .timeline-item.optimal {\r\n        background: linear-gradient(135deg, rgba(16, 185, 129, 0.08), var(--color-bg-card));\r\n        border-color: rgba(16, 185, 129, 0.3);\r\n    }\r\n\r\n    .fominte-planner .timeline-item.competitive {\r\n        background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), var(--color-bg-card));\r\n        border-color: rgba(245, 158, 11, 0.3);\r\n    }\r\n\r\n    .fominte-planner .timeline-month {\r\n        font-family: var(--font-display);\r\n        font-weight: 700;\r\n        font-size: 1.3em;\r\n        color: var(--color-accent-light);\r\n        margin-bottom: 10px;\r\n        letter-spacing: -0.01em;\r\n    }\r\n\r\n    .fominte-planner .timeline-searches {\r\n        font-size: 2em;\r\n        color: var(--color-accent-gold);\r\n        font-weight: 700;\r\n        margin: 12px 0;\r\n        font-family: var(--font-display);\r\n    }\r\n\r\n    .fominte-planner .timeline-phase {\r\n        font-size: 0.7em;\r\n        padding: 6px 12px;\r\n        border-radius: 20px;\r\n        display: inline-block;\r\n        margin-top: 8px;\r\n        text-transform: uppercase;\r\n        letter-spacing: 0.08em;\r\n        font-weight: 600;\r\n    }\r\n\r\n    .fominte-planner .phase-start {\r\n        background: rgba(168, 178, 193, 0.2);\r\n        color: var(--color-text-secondary);\r\n    }\r\n\r\n    .fominte-planner .phase-acceleration {\r\n        background: rgba(16, 185, 129, 0.2);\r\n        color: #6ee7b7;\r\n    }\r\n\r\n    .fominte-planner .phase-peak {\r\n        background: rgba(245, 158, 11, 0.2);\r\n        color: #fbbf24;\r\n    }\r\n\r\n    /* Product Cards - Magazine Editorial Style */\r\n    .fominte-planner .products {\r\n        display: grid;\r\n        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\r\n        gap: 30px;\r\n    }\r\n\r\n    .fominte-planner .product-card {\r\n        background: var(--color-bg-card);\r\n        border: 1px solid var(--color-border);\r\n        border-radius: 16px;\r\n        padding: 35px;\r\n        transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);\r\n        position: relative;\r\n        overflow: hidden;\r\n    }\r\n\r\n    .fominte-planner .product-card::before {\r\n        content: '';\r\n        position: absolute;\r\n        top: 0;\r\n        left: 0;\r\n        width: 100%;\r\n        height: 5px;\r\n        background: linear-gradient(90deg, var(--color-accent-gold), transparent);\r\n        transform: scaleX(0);\r\n        transition: transform 0.4s ease;\r\n        transform-origin: left;\r\n    }\r\n\r\n    .fominte-planner .product-card:hover::before {\r\n        transform: scaleX(1);\r\n    }\r\n\r\n    .fominte-planner .product-card:hover {\r\n        border-color: var(--color-accent-gold);\r\n        box-shadow: var(--shadow-lg);\r\n        transform: translateY(-5px);\r\n    }\r\n\r\n    .fominte-planner .product-card h3 {\r\n        font-family: var(--font-display);\r\n        color: var(--color-accent-light);\r\n        margin: 0 0 15px 0;\r\n        font-size: 1.6em;\r\n        font-weight: 700;\r\n        letter-spacing: -0.01em;\r\n    }\r\n\r\n    .fominte-planner .product-tag {\r\n        display: inline-block;\r\n        background: rgba(212, 175, 55, 0.15);\r\n        color: var(--color-accent-gold);\r\n        padding: 6px 14px;\r\n        border-radius: 20px;\r\n        font-size: 0.8em;\r\n        margin-right: 8px;\r\n        margin-bottom: 12px;\r\n        border: 1px solid rgba(212, 175, 55, 0.3);\r\n        font-weight: 600;\r\n        text-transform: uppercase;\r\n        letter-spacing: 0.05em;\r\n    }\r\n\r\n    .fominte-planner .product-description {\r\n        color: var(--color-text-secondary);\r\n        line-height: 1.8;\r\n        margin: 20px 0;\r\n    }\r\n\r\n    /* Info Box - Highlight */\r\n    .fominte-planner .info-box {\r\n        margin-top: 40px;\r\n        padding: 30px;\r\n        background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));\r\n        border-radius: 12px;\r\n        border-left: 5px solid var(--color-accent-gold);\r\n        box-shadow: var(--shadow-sm);\r\n    }\r\n\r\n    .fominte-planner .info-box strong {\r\n        color: var(--color-accent-gold);\r\n        font-size: 1.1em;\r\n    }\r\n\r\n    /* CTA Section - Bold Statement */\r\n    .fominte-planner .cta-section {\r\n        background: linear-gradient(135deg, var(--color-bg-card), var(--color-bg-primary));\r\n        color: var(--color-text-primary);\r\n        padding: 60px 50px;\r\n        border-radius: 20px;\r\n        text-align: center;\r\n        margin-top: 60px;\r\n        border: 2px solid var(--color-accent-gold);\r\n        box-shadow: var(--shadow-lg);\r\n        position: relative;\r\n        overflow: hidden;\r\n    }\r\n\r\n    .fominte-planner .cta-section::before {\r\n        content: '';\r\n        position: absolute;\r\n        inset: -2px;\r\n        background: linear-gradient(45deg, var(--color-accent-gold), transparent, var(--color-accent-gold));\r\n        border-radius: 20px;\r\n        z-index: -1;\r\n        opacity: 0.3;\r\n        animation: ctaGlow 3s ease-in-out infinite;\r\n    }\r\n\r\n    @keyframes ctaGlow {\r\n\r\n        0%,\r\n        100% {\r\n            opacity: 0.3;\r\n        }\r\n\r\n        50% {\r\n            opacity: 0.6;\r\n        }\r\n    }\r\n\r\n    .fominte-planner .cta-section h2 {\r\n        font-family: var(--font-display);\r\n        font-size: 2.5em;\r\n        margin: 0 0 20px 0;\r\n        color: var(--color-accent-light);\r\n        font-weight: 700;\r\n    }\r\n\r\n    .fominte-planner .cta-section p {\r\n        font-size: 1.15em;\r\n        margin: 0 0 30px 0;\r\n        color: var(--color-text-secondary);\r\n    }\r\n\r\n    .fominte-planner .cta-button {\r\n        display: inline-block;\r\n        background: var(--color-accent-gold);\r\n        color: var(--color-bg-primary);\r\n        padding: 16px 40px;\r\n        border-radius: 30px;\r\n        text-decoration: none;\r\n        font-weight: 700;\r\n        font-size: 1.05em;\r\n        text-transform: uppercase;\r\n        letter-spacing: 0.05em;\r\n        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);\r\n        box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);\r\n        border: none;\r\n        cursor: pointer;\r\n    }\r\n\r\n    .fominte-planner .cta-button:hover {\r\n        transform: translateY(-3px) scale(1.05);\r\n        box-shadow: 0 12px 30px rgba(212, 175, 55, 0.5);\r\n        background: var(--color-accent-light);\r\n    }\r\n\r\n    /* Responsive Design */\r\n    @media (max-width: 768px) {\r\n        .fominte-planner {\r\n            padding: 10px;\r\n        }\r\n\r\n        .fominte-planner .tool-header {\r\n            padding: 50px 30px;\r\n        }\r\n\r\n        .fominte-planner .tool-header h1 {\r\n            font-size: 2.2em;\r\n        }\r\n\r\n        .fominte-planner .tool-content {\r\n            padding: 30px 20px;\r\n        }\r\n\r\n        .fominte-planner .section-title {\r\n            font-size: 1.8em;\r\n        }\r\n\r\n        .fominte-planner .calculator {\r\n            padding: 25px;\r\n        }\r\n\r\n        .fominte-planner .timeline {\r\n            grid-template-columns: 1fr;\r\n        }\r\n\r\n        .fominte-planner .products {\r\n            grid-template-columns: 1fr;\r\n        }\r\n\r\n        .fominte-planner .cta-section {\r\n            padding: 40px 25px;\r\n        }\r\n\r\n        .fominte-planner .cta-section h2 {\r\n            font-size: 1.8em;\r\n        }\r\n    }\r\n\r\n    /* Subtle Grain Texture */\r\n    .fominte-planner .tool-container::after {\r\n        content: '';\r\n        position: absolute;\r\n        inset: 0;\r\n        background-image: url(\"data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E\");\r\n        pointer-events: none;\r\n        mix-blend-mode: overlay;\r\n    }\r\n\u003c/style\u003e\r\n\u003cdiv class=\"fominte-planner\"\u003e\r\n    \u003cdiv class=\"tool-container\"\u003e\r\n        \u003cdiv class=\"tool-header\"\u003e\r\n            \u003ch1\u003eSpring Fabric Planning Calculator\u003c/h1\u003e\r\n            \u003cp\u003eYour Strategic Procurement Timeline for 2026\u003c/p\u003e\r\n            \u003cdiv class=\"brand-credit\"\u003ePowered by Fominte · Data from Faire Global Wholesale Platform\u003c/div\u003e\r\n        \u003c/div\u003e\r\n\r\n        \u003cdiv class=\"tool-content\"\u003e\r\n            \u003c!-- Calculator Section --\u003e\r\n            \u003csection class=\"section\"\u003e\r\n                \u003ch2 class=\"section-title\"\u003eCalculate Your Order Window\u003c/h2\u003e\r\n                \u003cdiv class=\"calculator\"\u003e\r\n                    \u003cdiv class=\"input-group\"\u003e\r\n                        \u003clabel for=\"fominte-occasion\"\u003eRetail Occasion\u003c/label\u003e\r\n                        \u003cselect id=\"fominte-occasion\" onchange=\"fominteCalculate()\"\u003e\r\n                            \u003coption value=\"\"\u003eSelect your occasion...\u003c/option\u003e\r\n                            \u003coption value=\"spring-wedding\"\u003eSpring Weddings (Mar-May)\u003c/option\u003e\r\n                            \u003coption value=\"mothers-day\"\u003eMother's Day Dresses (May)\u003c/option\u003e\r\n                            \u003coption value=\"graduation\"\u003eGraduation Season (May-Jun)\u003c/option\u003e\r\n                            \u003coption value=\"summer-formal\"\u003eSummer Formal (Jun-Aug)\u003c/option\u003e\r\n                        \u003c/select\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"input-group\"\u003e\r\n                        \u003clabel for=\"fominte-date\"\u003eIn-Store Target Date\u003c/label\u003e\r\n                        \u003cinput type=\"date\" id=\"fominte-date\" onchange=\"fominteCalculate()\" min=\"2026-03-01\" max=\"2026-08-31\" lang=\"en-US\"\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv id=\"fominte-result\" class=\"result\"\u003e\r\n                        \u003ch3\u003eYour Planning Timeline\u003c/h3\u003e\r\n                        \u003cdiv id=\"fominte-result-content\"\u003e\u003c/div\u003e\r\n                    \u003c/div\u003e\r\n                \u003c/div\u003e\r\n            \u003c/section\u003e\r\n\r\n            \u003c!-- Faire Data Timeline --\u003e\r\n            \u003csection class=\"section\"\u003e\r\n                \u003ch2 class=\"section-title\"\u003eMarket Demand Analysis\u003c/h2\u003e\r\n                \u003cp style=\"color: var(--color-text-secondary); margin-bottom: 30px; font-size: 1.05em;\"\u003eBased on Faire\r\n                    2025 wholesale search data — understanding market timing gives you competitive advantage.\u003c/p\u003e\r\n\r\n                \u003cdiv class=\"timeline\"\u003e\r\n                    \u003cdiv class=\"timeline-item\"\u003e\r\n                        \u003cdiv class=\"timeline-month\"\u003eNovember\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-searches\"\u003e7K\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-phase phase-start\"\u003eStart\u003c/div\u003e\r\n                        \u003cp style=\"margin-top: 12px; font-size: 0.85em; color: var(--color-text-muted);\"\u003ePlanning Phase\r\n                        \u003c/p\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"timeline-item optimal\"\u003e\r\n                        \u003cdiv class=\"timeline-month\"\u003eDecember\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-searches\"\u003e17K\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-phase phase-acceleration\"\u003eOptimal\u003c/div\u003e\r\n                        \u003cp style=\"margin-top: 12px; font-size: 0.85em; color: #6ee7b7; font-weight: 600;\"\u003eBest Window\r\n                            Begins\u003c/p\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"timeline-item optimal\"\u003e\r\n                        \u003cdiv class=\"timeline-month\"\u003eJanuary\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-searches\"\u003e35K\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-phase phase-acceleration\"\u003ePrime\u003c/div\u003e\r\n                        \u003cp style=\"margin-top: 12px; font-size: 0.85em; color: #6ee7b7; font-weight: 600;\"\u003ePeak Selection\r\n                        \u003c/p\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"timeline-item competitive\"\u003e\r\n                        \u003cdiv class=\"timeline-month\"\u003eFebruary\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-searches\"\u003e76K\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-phase phase-peak\"\u003ePeak\u003c/div\u003e\r\n                        \u003cp style=\"margin-top: 12px; font-size: 0.85em; color: #fbbf24; font-weight: 600;\"\u003eHigh\r\n                            Competition\u003c/p\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"timeline-item competitive\"\u003e\r\n                        \u003cdiv class=\"timeline-month\"\u003eMarch\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-searches\"\u003e75K\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-phase phase-peak\"\u003ePeak\u003c/div\u003e\r\n                        \u003cp style=\"margin-top: 12px; font-size: 0.85em; color: #fbbf24; font-weight: 600;\"\u003eRestock Only\r\n                        \u003c/p\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"timeline-item\"\u003e\r\n                        \u003cdiv class=\"timeline-month\"\u003eApril\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-searches\"\u003e63K\u003c/div\u003e\r\n                        \u003cdiv class=\"timeline-phase phase-peak\"\u003eMother's Day\u003c/div\u003e\r\n                        \u003cp style=\"margin-top: 12px; font-size: 0.85em; color: var(--color-text-muted);\"\u003eLate for Spring\r\n                        \u003c/p\u003e\r\n                    \u003c/div\u003e\r\n                \u003c/div\u003e\r\n\r\n                \u003cdiv class=\"info-box\"\u003e\r\n                    \u003cstrong\u003eStrategic Insight:\u003c/strong\u003e December-January represents the optimal procurement window for\r\n                    BOTH spring weddings AND Mother's Day. Bundling these orders can reduce total landed costs by an\r\n                    average of 18% compared to separate February/March purchases.\r\n                \u003c/div\u003e\r\n            \u003c/section\u003e\r\n\r\n            \u003c!-- Product Recommendations --\u003e\r\n            \u003csection class=\"section\"\u003e\r\n                \u003ch2 class=\"section-title\"\u003eFabric Recommendations\u003c/h2\u003e\r\n                \u003cdiv class=\"products\"\u003e\r\n                    \u003cdiv class=\"product-card\"\u003e\r\n                        \u003ch3\u003eBridal Mesh Embroidery\u003c/h3\u003e\r\n                        \u003cdiv\u003e\r\n                            \u003cspan class=\"product-tag\"\u003eSpring Weddings\u003c/span\u003e\r\n                            \u003cspan class=\"product-tag\"\u003e4-6 Weeks\u003c/span\u003e\r\n                        \u003c/div\u003e\r\n                        \u003cp class=\"product-description\"\u003eStructured fabric engineered to hold beading and appliqué. Ideal\r\n                            for bridal gowns and formal evening wear. Available in ivory, white, and champagne\r\n                            colorways.\u003c/p\u003e\r\n                        \u003cstrong style=\"color: var(--color-accent-gold);\"\u003eTarget Segment:\u003c/strong\u003e\r\n                        \u003cspan style=\"color: var(--color-text-secondary);\"\u003e Dedicated bridal retailers\u003c/span\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"product-card\"\u003e\r\n                        \u003ch3\u003eCrochet Lace\u003c/h3\u003e\r\n                        \u003cdiv\u003e\r\n                            \u003cspan class=\"product-tag\"\u003eMother's Day\u003c/span\u003e\r\n                            \u003cspan class=\"product-tag\"\u003eBundling Opportunity\u003c/span\u003e\r\n                        \u003c/div\u003e\r\n                        \u003cp class=\"product-description\"\u003eLightweight construction with exceptional drape characteristics.\r\n                            Perfect for cocktail dresses and romantic overlays. Pastel palette optimized for spring\r\n                            season demand.\u003c/p\u003e\r\n                        \u003cstrong style=\"color: var(--color-accent-gold);\"\u003eTarget Segment:\u003c/strong\u003e\r\n                        \u003cspan style=\"color: var(--color-text-secondary);\"\u003e Contemporary boutiques\u003c/span\u003e\r\n                    \u003c/div\u003e\r\n\r\n                    \u003cdiv class=\"product-card\"\u003e\r\n                        \u003ch3\u003eFashion Embroidery\u003c/h3\u003e\r\n                        \u003cdiv\u003e\r\n                            \u003cspan class=\"product-tag\"\u003eVersatile\u003c/span\u003e\r\n                            \u003cspan class=\"product-tag\"\u003e3-5 Weeks\u003c/span\u003e\r\n                        \u003c/div\u003e\r\n                        \u003cp class=\"product-description\"\u003eSeasonal floral motifs with cross-occasion versatility spanning\r\n                            weddings, Mother's Day, and graduation. Neutral colorways minimize inventory risk while\r\n                            maintaining aesthetic appeal.\u003c/p\u003e\r\n                        \u003cstrong style=\"color: var(--color-accent-gold);\"\u003eTarget Segment:\u003c/strong\u003e\r\n                        \u003cspan style=\"color: var(--color-text-secondary);\"\u003e Multi-demographic retailers\u003c/span\u003e\r\n                    \u003c/div\u003e\r\n                \u003c/div\u003e\r\n            \u003c/section\u003e\r\n\r\n            \u003c!-- CTA Section --\u003e\r\n            \u003cdiv class=\"cta-section\"\u003e\r\n                \u003ch2\u003eReady to Optimize Your Procurement?\u003c/h2\u003e\r\n                \u003cp\u003eOur team provides personalized advisory on fabric selection, timing strategies, and inventory\r\n                    planning.\u003c/p\u003e\r\n                \u003ca href=\"mailto:info@fominte.com\" class=\"cta-button\"\u003eContact Our Team\u003c/a\u003e\r\n                \u003cp style=\"margin-top: 25px; font-size: 0.9em; color: var(--color-text-muted);\"\u003eResponse time: Within 24\r\n                    hours · info@fominte.com\u003c/p\u003e\r\n            \u003c/div\u003e\r\n        \u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e\r\n\u003cscript\u003e\r\n    function fominteCalculate() {\r\n    const occasion = document.getElementById('fominte-occasion').value;\r\n    const inStoreDate = document.getElementById('fominte-date').value;\r\n    const resultDiv = document.getElementById('fominte-result');\r\n    const resultContent = document.getElementById('fominte-result-content');\r\n    \r\n    if (!occasion || !inStoreDate) {\r\n        resultDiv.classList.remove('show');\r\n        return;\r\n    }\r\n    \r\n    const occasionData = {\r\n        'spring-wedding': {\r\n            name: 'Spring Weddings',\r\n            fabricType: 'Mesh Embroidery, Crochet Lace',\r\n            leadTimeWeeks: 5,\r\n            optimalWindow: 'December - February',\r\n            peakMonth: 'February',\r\n            bundling: 'Combine with Mother\\'s Day orders for 18% cost savings'\r\n        },\r\n        'mothers-day': {\r\n            name: 'Mother\\'s Day Dresses',\r\n            fabricType: 'Crochet Lace, Fashion Embroidery',\r\n            leadTimeWeeks: 5,\r\n            optimalWindow: 'January - March',\r\n            peakMonth: 'March-April',\r\n            bundling: 'Bundle with Spring Wedding orders (Dec-Jan window)'\r\n        },\r\n        'graduation': {\r\n            name: 'Graduation Season',\r\n            fabricType: 'Fashion Embroidery',\r\n            leadTimeWeeks: 4,\r\n            optimalWindow: 'February - April',\r\n            peakMonth: 'April',\r\n            bundling: 'Focus on neutral colorways (ivory, champagne)'\r\n        },\r\n        'summer-formal': {\r\n            name: 'Summer Formal',\r\n            fabricType: 'Fashion Embroidery, Lightweight Lace',\r\n            leadTimeWeeks: 4,\r\n            optimalWindow: 'March - May',\r\n            peakMonth: 'May',\r\n            bundling: 'Specify lightweight fabrications for warm weather'\r\n        }\r\n    };\r\n    \r\n    const data = occasionData[occasion];\r\n    const inStore = new Date(inStoreDate);\r\n    const orderBy = new Date(inStore);\r\n    orderBy.setDate(orderBy.getDate() - (data.leadTimeWeeks * 7));\r\n    \r\n    const today = new Date();\r\n    const daysUntilDeadline = Math.floor((orderBy - today) / (1000 * 60 * 60 * 24));\r\n    \r\n    let alertClass = 'alert-success';\r\n    let alertMessage = 'You\\'re within the optimal procurement window.';\r\n    \r\n    if (daysUntilDeadline \u003c 0) {\r\n        alertClass = 'alert-danger';\r\n        alertMessage = 'This timeline is compressed. Immediate contact with suppliers recommended for ready-to-ship inventory.';\r\n    } else if (daysUntilDeadline \u003c 14) {\r\n        alertClass = 'alert-warning';\r\n        alertMessage = 'Approaching deadline. Quick action recommended to secure preferred selection.';\r\n    }\r\n    \r\n    resultContent.innerHTML = `\r\n        \u003cdiv class=\"result-item\"\u003e\r\n            \u003cspan class=\"result-label\"\u003eSelected Occasion\u003c/span\u003e\u003cbr\u003e\r\n            \u003cspan class=\"result-value\"\u003e${data.name}\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \r\n        \u003cdiv class=\"result-item\"\u003e\r\n            \u003cspan class=\"result-label\"\u003eRecommended Fabrication\u003c/span\u003e\u003cbr\u003e\r\n            \u003cspan class=\"result-value\"\u003e${data.fabricType}\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \r\n        \u003cdiv class=\"result-item\"\u003e\r\n            \u003cspan class=\"result-label\"\u003eTarget In-Store Date\u003c/span\u003e\u003cbr\u003e\r\n            \u003cspan class=\"result-value\"\u003e${inStore.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \r\n        \u003cdiv class=\"result-item\" style=\"background: rgba(212, 175, 55, 0.1); border-left-color: var(--color-accent-gold);\"\u003e\r\n            \u003cspan class=\"result-label\"\u003eCritical Order Deadline\u003c/span\u003e\u003cbr\u003e\r\n            \u003cspan class=\"result-value\" style=\"font-size: 1.4em; color: var(--color-accent-gold); font-weight: 700; font-family: var(--font-display);\"\u003e${orderBy.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}\u003c/span\u003e\r\n            \u003cp style=\"margin-top: 8px; font-size: 0.9em; color: var(--color-text-muted);\"\u003eBased on ${data.leadTimeWeeks}-week production + shipping lead time\u003c/p\u003e\r\n        \u003c/div\u003e\r\n        \r\n        \u003cdiv class=\"result-item\"\u003e\r\n            \u003cspan class=\"result-label\"\u003eGeneral Optimal Window\u003c/span\u003e\u003cbr\u003e\r\n            \u003cspan class=\"result-value\"\u003e${data.optimalWindow}\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \r\n        \u003cdiv class=\"result-item\"\u003e\r\n            \u003cspan class=\"result-label\"\u003eStrategic Recommendation\u003c/span\u003e\u003cbr\u003e\r\n            \u003cspan class=\"result-value\"\u003e${data.bundling}\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \r\n        \u003cdiv class=\"alert ${alertClass}\"\u003e\r\n            \u003cstrong\u003e${alertMessage}\u003c/strong\u003e\r\n            ${daysUntilDeadline \u003e= 0 ? `\u003cbr\u003e\u003cspan style=\"font-size: 0.95em; opacity: 0.9;\"\u003e${daysUntilDeadline} days remaining until recommended order deadline\u003c/span\u003e` : ''}\r\n        \u003c/div\u003e\r\n    `;\r\n    \r\n    resultDiv.classList.add('show');\r\n    resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });\r\n}\r\n\u003c/script\u003e",
+        "layout": {
+          "@media (--mobile)": {
+            "column-gap": "20px",
+            "row-gap": "20px"
+          },
+          "align-items": "center",
+          "column-gap": "20px",
+          "flex-direction": "column",
+          "flex-wrap": "nowrap",
+          "justify-content": "center",
+          "row-gap": "20px"
+        },
+        "size": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-block-end": "40px",
+            "padding-block-start": "40px"
+          },
+          "padding-block-end": "0px",
+          "padding-block-start": "0px",
+          "padding-inline-start": "0px"
+        }
+      },
+      "disabled": false,
+      "blocks": {},
+      "custom_css": [
+        "/* 将这段CSS代码添加到\u003cstyle\u003e标签内 */.explore-collection-wrapper {/* ... 您原有的样式保持不变 ... */ width: 100vw; /* 设置宽度为屏幕宽度的100% */ position: relative; left: 50%; transform: translateX(-50%);}"
+      ],
+      "name": "t:sections.custom_html.presets.presets_0.name"
+    },
+    "1758193339453d1d183f": {
+      "type": "shopline://apps/高阶组件库/sections/video-slideshow/01405986-ae6f-4fcc-adaa-2a21f14efc9f",
+      "settings": {
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "container_margin_config": {
+          "mobile": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          },
+          "pc": {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        },
+        "mobile_height": 500,
+        "padding_bottom": 30,
+        "padding_top": 30,
+        "section_height": 650,
+        "style": "bars"
+      },
+      "disabled": true,
+      "blocks": {
+        "175819333945528af6db": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        },
+        "1758193339455cc0fc07": {
+          "type": "$video",
+          "settings": {
+            "background_position": "center",
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#111111",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": "1",
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "cover": {},
+            "link": "",
+            "link_text": "",
+            "link_text_2": "",
+            "overlay_opacity": 21,
+            "quiet": true,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "",
+            "text_align": "vertical-center horizontal-center",
+            "title": "OUR CERTIFICATIONS",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70,
+            "top_subheading": "",
+            "url": "https://cdn-files.myshopline.com/video/store/1754638002373/FOMINTE.mp4?w=1920\u0026h=1080\u0026d=2.745\u0026fromFileSelect=1\u0026poster=https%3A%2F%2Fimg-va.myshopline.com%2Fimage%2Fstore%2F1754638002373%2Ffa24a32e01124f179cd4636b673dbc2b.png%3Fw%3D1920%26h%3D1080"
+          },
+          "disabled": false,
+          "blocks": {}
+        },
+        "1758193339455dbbcba1": {
+          "type": "$image",
+          "settings": {
+            "body_font_color": "#ffffff",
+            "body_font_family": "Montserrat:400",
+            "body_letter_spacing": 0,
+            "body_line_height": 1.6,
+            "body_m_font_size": 18,
+            "body_pc_font_size": 20,
+            "btn_background": "#111111",
+            "btn_border_color": "#000000",
+            "btn_border_opacity": 100,
+            "btn_border_radius": 0,
+            "btn_border_thickness": 1,
+            "btn_font_color": "#FFFFFF",
+            "btn_font_family": "Montserrat:500",
+            "btn_hover_animation": 1,
+            "btn_letter_spacing": 0,
+            "btn_line_height": 1.6,
+            "btn_m_font_size": 12,
+            "btn_pc_font_size": 13,
+            "btn_shadow_blur": 5,
+            "btn_shadow_color": "#000000",
+            "btn_shadow_offset_x": 0,
+            "btn_shadow_offset_y": 4,
+            "btn_shadow_opacity": 0,
+            "btn_style": "primary",
+            "color_accent": "rgba(125, 111, 81, 1)",
+            "focal_point": "center center",
+            "image": {},
+            "image_mobile": {},
+            "link_text": "Get Free Samples",
+            "link_text_2": "",
+            "overlay_opacity": 10,
+            "show_text_shadow": true,
+            "sub_title_font_color": "#ffffff",
+            "sub_title_font_family": "Montserrat:400",
+            "sub_title_letter_spacing": 300,
+            "sub_title_line_height": 1.6,
+            "sub_title_m_font_size": 14,
+            "sub_title_pc_font_size": 16,
+            "subheading": "And optional subtext",
+            "text_align": "vertical-center horizontal-center",
+            "title": "Two Line\nTitle Slide",
+            "title_font_color": "#ffffff",
+            "title_font_family": "Poppins:600",
+            "title_letter_spacing": 0,
+            "title_line_height": 1,
+            "title_m_font_size": 40,
+            "title_pc_font_size": 80,
+            "title_size": 70
+          },
+          "disabled": true,
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758193339455cc0fc07",
+        "1758193339455dbbcba1",
+        "175819333945528af6db"
+      ],
+      "name": "t:sections.video-slideshow.presets_0.name"
+    },
+    "17585048508830348227": {
+      "type": "apps",
+      "settings": {
+        "sync_margins_with_theme": true
+      },
+      "disabled": true,
+      "blocks": {
+        "1758504850883750b9a8": {
+          "type": "shopline://apps/B2B \u0026 Wholesale Solution/blocks/inquiry-form/bfff4d4c-b743-4512-b67b-beba0a03efe5",
+          "settings": {
+            "background_color": "#EDECE7",
+            "background_image": "",
+            "button_text": "Send Inquiry",
+            "form_background_color": "",
+            "form_btn_background_color": "",
+            "form_btn_border_style": "",
+            "form_btn_text_color": "",
+            "form_input_background_color": "",
+            "form_input_border_color": "",
+            "form_input_border_style": "",
+            "form_layout": "right",
+            "form_title": "Get A Free Consultation",
+            "icon1": "logistics",
+            "icon2": "customer",
+            "icon3": "pay",
+            "icon4": "package",
+            "icon_layout": "one_col",
+            "image1": "shopline://shop_images/灯泡_7183616335049399490.svg",
+            "image2": "shopline://shop_images/剪刀_7183616406453233112.svg",
+            "image3": "shopline://shop_images/24gf-lock2_7183616855361201633.svg",
+            "image4": "shopline://shop_images/汇总统计_7183616642911312042.svg",
+            "inquiry_form_id": "",
+            "logo_color": "#000000",
+            "logo_declaration_color": "#000000",
+            "logo_declaration_description": "",
+            "logo_declaration_title": "Your Partner in Production",
+            "sub_title1": "Our technical team is ready to discuss your design, recommend materials, and optimize for production efficiency.",
+            "sub_title2": "We provide A4 swatches and sample yardage. Bring your vision to life before committing to bulk production.",
+            "sub_title3": "Your custom designs are your intellectual property. We guarantee strict Confidentiality and exclusivity.",
+            "sub_title4": "From boutique orders to large-scale manufacturing, our facility is equipped to handle your volume needs.",
+            "title1": "Expcrt Consultation",
+            "title2": "Prototypes \u0026Sampling",
+            "title3": "NDA \u0026 Design Confidentiality",
+            "title4": "Scalable Production Capacity"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "1758504850883750b9a8"
+      ]
+    },
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "spacing": {
+          "@media (--mobile)": {
+            "padding-bottom": "40px",
+            "padding-left": "0",
+            "padding-right": "0",
+            "padding-top": "40px"
+          },
+          "padding-bottom": "80px",
+          "padding-left": "210px",
+          "padding-right": "210px",
+          "padding-top": "80px"
+        }
+      },
+      "disabled": true,
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main-page",
+    "1758193339453d1d183f",
+    "175798659809935caf32",
+    "1757993662639ba1fd2d",
+    "175799437238726f3419",
+    "17585048508830348227"
+  ]
+}

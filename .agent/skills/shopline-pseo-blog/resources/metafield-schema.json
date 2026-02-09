@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Shopline pSEO Blog Metafields Schema",
+  "description": "定义 pSEO 博客系统所有元字段的结构和格式",
+  "type": "object",
+  "properties": {
+    "reading_time": {
+      "type": "string",
+      "description": "阅读时间",
+      "metafield_type": "single_line_text_field",
+      "examples": ["8 min read", "5 min read"]
+    },
+    "article_type": {
+      "type": "string",
+      "description": "文章类型",
+      "metafield_type": "single_line_text_field",
+      "enum": ["how-to", "guide", "comparison", "tutorial", "educational"]
+    },
+    "article_intro": {
+      "type": "string",
+      "description": "文章摘要/简介",
+      "metafield_type": "multi_line_text_field",
+      "maxLength": 500
+    },
+    "concept_explanation": {
+      "type": "string",
+      "description": "概念解释模块",
+      "metafield_type": "multi_line_text_field"
+    },
+    "step_by_step_tutorials": {
+      "type": "string",
+      "description": "操作步骤教程",
+      "metafield_type": "multi_line_text_field",
+      "format": "标题??材料??时间??步骤??注意事项||...",
+      "separator": {
+        "items": "||",
+        "fields": "??"
+      }
+    },
+    "scenario_matrix": {
+      "type": "string",
+      "description": "场景决策矩阵（Use When / Avoid When）",
+      "metafield_type": "multi_line_text_field",
+      "format": "方法名??适用场景1|场景2|场景3??避免场景1|场景2||...",
+      "separator": {
+        "items": "||",
+        "fields": "??",
+        "sub_list": "|"
+      }
+    },
+    "common_mistakes": {
+      "type": "string",
+      "description": "常见错误模块",
+      "metafield_type": "multi_line_text_field",
+      "format": "错误描述??后果??解决方案||...",
+      "separator": {
+        "items": "||",
+        "fields": "??"
+      }
+    },
+    "faq_items": {
+      "type": "string",
+      "description": "FAQ 问答模块",
+      "metafield_type": "multi_line_text_field",
+      "format": "问题???答案||问题???答案",
+      "separator": {
+        "items": "||",
+        "qa": "???"
+      }
+    },
+    "article_conclusion": {
+      "type": "string",
+      "description": "结论段落",
+      "metafield_type": "multi_line_text_field"
+    },
+    "author_bio": {
+      "type": "string",
+      "description": "作者简介",
+      "metafield_type": "multi_line_text_field"
+    }
+  },
+  "required": [
+    "reading_time",
+    "article_intro"
+  ],
+  "namespace": "custom",
+  "api_endpoint": "/admin/openapi/v20251201/store/blogs/{blog_collection_id}/articles/{article_id}/metafields.json"
+}
